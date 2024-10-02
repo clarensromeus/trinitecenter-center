@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Trinite",
+    "name": "Trinité",
     "slug": "Trinite",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -19,7 +19,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.clarensromeus.Trinite"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +32,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "550ca1b2-3b57-4fae-8e14-239d6b324941"
+      }
     }
   }
 }
