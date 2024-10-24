@@ -9,7 +9,7 @@ import ConstraintDialog from "../constraintDialog";
 
 function Lotto4() {
   const [inputs, setInputs] = useState<LotteryInputDropdown[]>(
-    Array(12).fill({ number: "", option: "", amount: "" })
+    Array(18).fill({ number: "", option: "", amount: "" })
   );
   const [loading, setLoading] = React.useState(false);
   const [visible, setVisible] = React.useState<boolean>(false);

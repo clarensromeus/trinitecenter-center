@@ -36,6 +36,7 @@ export default function Homelayourt() {
   const [message, setMessage] = React.useState<string>("");
   const [visibleMessage, setVisibleMessage] = React.useState<boolean>(false);
   const [isEl, setEl] = React.useState<boolean>(false);
+  const [isError, setError] = React.useState<boolean>(false);
   const {
     Borlette,
     Lotto3,
@@ -74,6 +75,7 @@ export default function Homelayourt() {
 
   const Jwe = async () => {
     try {
+      setError(false);
       const Today = today(getLocalTimeZone());
       const time = now(getLocalTimeZone());
       const calendarDate = new CalendarDateTime(
@@ -206,11 +208,15 @@ export default function Homelayourt() {
             "FICHE",
             JSON.stringify({ isCreated: true })
           );
+        } else {
+          setMessage("Gen yon ti problèm koneksyon, verifye data ou");
+          setLoading(false);
         }
-        setLoading(false);
       }
     } catch (error) {
       setLoading(false);
+      setMessage("Gen yon ti problèm koneksyon, verifye data ou");
+      setError(true);
       throw new Error(`${error}`);
     }
   };

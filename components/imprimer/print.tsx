@@ -17,8 +17,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[0].numero +
-        "      " +
+        printInfo[0].numero.padEnd(6) +
+        "  " +
         printInfo[0].option.charAt(0) +
         "     " +
         printInfo[0].montant +
@@ -33,8 +33,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[0].numero +
-        "      " +
+        printInfo[0].numero.padEnd(6) +
+        "  " +
         printInfo[0].option.charAt(0) +
         "     " +
         printInfo[0].montant +
@@ -48,8 +48,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[1].numero +
-        "      " +
+        printInfo[1].numero.padEnd(6) +
+        "  " +
         printInfo[1].option.charAt(0) +
         "     " +
         printInfo[1].montant +
@@ -64,8 +64,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[0].numero +
-        "      " +
+        printInfo[0].numero.padEnd(6) +
+        "  " +
         printInfo[0].option.charAt(0) +
         "     " +
         printInfo[0].montant +
@@ -79,8 +79,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[1].numero +
-        "      " +
+        printInfo[1].numero.padEnd(6) +
+        "  " +
         printInfo[1].option.charAt(0) +
         "     " +
         printInfo[1].montant +
@@ -94,8 +94,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[2].numero +
-        "      " +
+        printInfo[2].numero.padEnd(6) +
+        "  " +
         printInfo[2].option.charAt(0) +
         "     " +
         printInfo[2].montant +
@@ -110,8 +110,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[0].numero +
-        "      " +
+        printInfo[0].numero.padEnd(6) +
+        "  " +
         printInfo[0].option.charAt(0) +
         "     " +
         printInfo[0].montant +
@@ -125,8 +125,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[1].numero +
-        "      " +
+        printInfo[1].numero.padEnd(6) +
+        "  " +
         printInfo[1].option.charAt(0) +
         "     " +
         printInfo[1].montant +
@@ -140,8 +140,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[2].numero +
-        "      " +
+        printInfo[2].numero.padEnd(6) +
+        "  " +
         printInfo[2].option.charAt(0) +
         "     " +
         printInfo[2].montant +
@@ -155,8 +155,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[3].numero +
-        "      " +
+        printInfo[3].numero.padEnd(6) +
+        "  " +
         printInfo[3].option.charAt(0) +
         "     " +
         printInfo[3].montant +
@@ -171,8 +171,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[0].numero +
-        "      " +
+        printInfo[0].numero.padEnd(6) +
+        "  " +
         printInfo[0].option.charAt(0) +
         "     " +
         printInfo[0].montant +
@@ -186,8 +186,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[1].numero +
-        "      " +
+        printInfo[1].numero.padEnd(6) +
+        "  " +
         printInfo[1].option.charAt(0) +
         "     " +
         printInfo[1].montant +
@@ -201,8 +201,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[2].numero +
-        "      " +
+        printInfo[2].numero.padEnd(6) +
+        "  " +
         printInfo[2].option.charAt(0) +
         "     " +
         printInfo[2].montant +
@@ -216,8 +216,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[3].numero +
-        "      " +
+        printInfo[3].numero.padEnd(6) +
+        "  " +
         printInfo[3].option.charAt(0) +
         "     " +
         printInfo[3].montant +
@@ -231,8 +231,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[4].numero +
-        "      " +
+        printInfo[4].numero.padEnd(6) +
+        "  " +
         printInfo[4].option.charAt(0) +
         "     " +
         printInfo[4].montant +
@@ -247,8 +247,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[0].numero +
-        "      " +
+        printInfo[0].numero.padEnd(6) +
+        "  " +
         printInfo[0].option.charAt(0) +
         "     " +
         printInfo[0].montant +
@@ -262,8 +262,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[1].numero +
-        "      " +
+        printInfo[1].numero.padEnd(6) +
+        "  " +
         printInfo[1].option.charAt(0) +
         "     " +
         printInfo[1].montant +
@@ -277,8 +277,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[2].numero +
-        "      " +
+        printInfo[2].numero.padEnd(6) +
+        "  " +
         printInfo[2].option.charAt(0) +
         "     " +
         printInfo[2].montant +
@@ -292,8 +292,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[3].numero +
-        "      " +
+        printInfo[3].numero.padEnd(6) +
+        "  " +
         printInfo[3].option.charAt(0) +
         "     " +
         printInfo[3].montant +
@@ -307,8 +307,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[4].numero +
-        "      " +
+        printInfo[4].numero.padEnd(6) +
+        "  " +
         printInfo[4].option.charAt(0) +
         "     " +
         printInfo[4].montant +
@@ -322,8 +322,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[5].numero +
-        "      " +
+        printInfo[5].numero.padEnd(6) +
+        "  " +
         printInfo[5].option.charAt(0) +
         "     " +
         printInfo[5].montant +
@@ -338,8 +338,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[0].numero +
-        "      " +
+        printInfo[0].numero.padEnd(6) +
+        "  " +
         printInfo[0].option.charAt(0) +
         "     " +
         printInfo[0].montant +
@@ -353,8 +353,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[1].numero +
-        "      " +
+        printInfo[1].numero.padEnd(6) +
+        "  " +
         printInfo[1].option.charAt(0) +
         "     " +
         printInfo[1].montant +
@@ -368,8 +368,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[2].numero +
-        "      " +
+        printInfo[2].numero.padEnd(6) +
+        "  " +
         printInfo[2].option.charAt(0) +
         "     " +
         printInfo[2].montant +
@@ -383,8 +383,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[3].numero +
-        "      " +
+        printInfo[3].numero.padEnd(6) +
+        "  " +
         printInfo[3].option.charAt(0) +
         "     " +
         printInfo[3].montant +
@@ -398,8 +398,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[4].numero +
-        "      " +
+        printInfo[4].numero.padEnd(6) +
+        "  " +
         printInfo[4].option.charAt(0) +
         "     " +
         printInfo[4].montant +
@@ -413,8 +413,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[5].numero +
-        "      " +
+        printInfo[5].numero.padEnd(6) +
+        "  " +
         printInfo[5].option.charAt(0) +
         "     " +
         printInfo[5].montant +
@@ -428,8 +428,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[6].numero +
-        "      " +
+        printInfo[6].numero.padEnd(6) +
+        "  " +
         printInfo[6].option.charAt(0) +
         "     " +
         printInfo[6].montant +
@@ -444,8 +444,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[0].numero +
-        "      " +
+        printInfo[0].numero.padEnd(6) +
+        "  " +
         printInfo[0].option.charAt(0) +
         "     " +
         printInfo[0].montant +
@@ -459,8 +459,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[1].numero +
-        "      " +
+        printInfo[1].numero.padEnd(6) +
+        "  " +
         printInfo[1].option.charAt(0) +
         "     " +
         printInfo[1].montant +
@@ -474,8 +474,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[2].numero +
-        "      " +
+        printInfo[2].numero.padEnd(6) +
+        "  " +
         printInfo[2].option.charAt(0) +
         "     " +
         printInfo[2].montant +
@@ -489,8 +489,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[3].numero +
-        "      " +
+        printInfo[3].numero.padEnd(6) +
+        "  " +
         printInfo[3].option.charAt(0) +
         "     " +
         printInfo[3].montant +
@@ -504,8 +504,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[4].numero +
-        "      " +
+        printInfo[4].numero.padEnd(6) +
+        "  " +
         printInfo[4].option.charAt(0) +
         "     " +
         printInfo[4].montant +
@@ -519,8 +519,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[5].numero +
-        "      " +
+        printInfo[5].numero.padEnd(6) +
+        "  " +
         printInfo[5].option.charAt(0) +
         "     " +
         printInfo[5].montant +
@@ -534,8 +534,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[6].numero +
-        "      " +
+        printInfo[6].numero.padEnd(6) +
+        "  " +
         printInfo[6].option.charAt(0) +
         "     " +
         printInfo[6].montant +
@@ -549,8 +549,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[7].numero +
-        "      " +
+        printInfo[7].numero.padEnd(6) +
+        "  " +
         printInfo[7].option.charAt(0) +
         "     " +
         printInfo[7].montant +
@@ -565,8 +565,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[0].numero +
-        "      " +
+        printInfo[0].numero.padEnd(6) +
+        "  " +
         printInfo[0].option.charAt(0) +
         "     " +
         printInfo[0].montant +
@@ -580,8 +580,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[1].numero +
-        "      " +
+        printInfo[1].numero.padEnd(6) +
+        "  " +
         printInfo[1].option.charAt(0) +
         "     " +
         printInfo[1].montant +
@@ -595,8 +595,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[2].numero +
-        "      " +
+        printInfo[2].numero.padEnd(6) +
+        "  " +
         printInfo[2].option.charAt(0) +
         "     " +
         printInfo[2].montant +
@@ -610,8 +610,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[3].numero +
-        "      " +
+        printInfo[3].numero.padEnd(6) +
+        "  " +
         printInfo[3].option.charAt(0) +
         "     " +
         printInfo[3].montant +
@@ -625,8 +625,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[4].numero +
-        "      " +
+        printInfo[4].numero.padEnd(6) +
+        "  " +
         printInfo[4].option.charAt(0) +
         "     " +
         printInfo[4].montant +
@@ -640,8 +640,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[5].numero +
-        "      " +
+        printInfo[5].numero.padEnd(6) +
+        "  " +
         printInfo[5].option.charAt(0) +
         "     " +
         printInfo[5].montant +
@@ -655,8 +655,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[6].numero +
-        "      " +
+        printInfo[6].numero.padEnd(6) +
+        "  " +
         printInfo[6].option.charAt(0) +
         "     " +
         printInfo[6].montant +
@@ -670,8 +670,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[7].numero +
-        "      " +
+        printInfo[7].numero.padEnd(6) +
+        "  " +
         printInfo[7].option.charAt(0) +
         "     " +
         printInfo[7].montant +
@@ -685,8 +685,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[8].numero +
-        "      " +
+        printInfo[8].numero.padEnd(6) +
+        "  " +
         printInfo[8].option.charAt(0) +
         "     " +
         printInfo[8].montant +
@@ -701,8 +701,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[0].numero +
-        "      " +
+        printInfo[0].numero.padEnd(6) +
+        "  " +
         printInfo[0].option.charAt(0) +
         "     " +
         printInfo[0].montant +
@@ -716,8 +716,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[1].numero +
-        "      " +
+        printInfo[1].numero.padEnd(6) +
+        "  " +
         printInfo[1].option.charAt(0) +
         "     " +
         printInfo[1].montant +
@@ -731,8 +731,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[2].numero +
-        "      " +
+        printInfo[2].numero.padEnd(6) +
+        "  " +
         printInfo[2].option.charAt(0) +
         "     " +
         printInfo[2].montant +
@@ -746,8 +746,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[3].numero +
-        "      " +
+        printInfo[3].numero.padEnd(6) +
+        "  " +
         printInfo[3].option.charAt(0) +
         "     " +
         printInfo[3].montant +
@@ -761,8 +761,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[4].numero +
-        "      " +
+        printInfo[4].numero.padEnd(6) +
+        "  " +
         printInfo[4].option.charAt(0) +
         "     " +
         printInfo[4].montant +
@@ -776,8 +776,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[5].numero +
-        "      " +
+        printInfo[5].numero.padEnd(6) +
+        "  " +
         printInfo[5].option.charAt(0) +
         "     " +
         printInfo[5].montant +
@@ -791,8 +791,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[6].numero +
-        "      " +
+        printInfo[6].numero.padEnd(6) +
+        "  " +
         printInfo[6].option.charAt(0) +
         "     " +
         printInfo[6].montant +
@@ -806,8 +806,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[7].numero +
-        "      " +
+        printInfo[7].numero.padEnd(6) +
+        "  " +
         printInfo[7].option.charAt(0) +
         "     " +
         printInfo[7].montant +
@@ -821,8 +821,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[8].numero +
-        "      " +
+        printInfo[8].numero.padEnd(6) +
+        "  " +
         printInfo[8].option.charAt(0) +
         "     " +
         printInfo[8].montant +
@@ -836,8 +836,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[9].numero +
-        "      " +
+        printInfo[9].numero.padEnd(6) +
+        "  " +
         printInfo[9].option.charAt(0) +
         "     " +
         printInfo[9].montant +
@@ -852,8 +852,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[0].numero +
-        "      " +
+        printInfo[0].numero.padEnd(6) +
+        "  " +
         printInfo[0].option.charAt(0) +
         "     " +
         printInfo[0].montant +
@@ -867,8 +867,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[1].numero +
-        "      " +
+        printInfo[1].numero.padEnd(6) +
+        "  " +
         printInfo[1].option.charAt(0) +
         "     " +
         printInfo[1].montant +
@@ -882,8 +882,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[2].numero +
-        "      " +
+        printInfo[2].numero.padEnd(6) +
+        "  " +
         printInfo[2].option.charAt(0) +
         "     " +
         printInfo[2].montant +
@@ -897,8 +897,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[3].numero +
-        "      " +
+        printInfo[3].numero.padEnd(6) +
+        "  " +
         printInfo[3].option.charAt(0) +
         "     " +
         printInfo[3].montant +
@@ -912,8 +912,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[4].numero +
-        "      " +
+        printInfo[4].numero.padEnd(6) +
+        "  " +
         printInfo[4].option.charAt(0) +
         "     " +
         printInfo[4].montant +
@@ -927,8 +927,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[5].numero +
-        "      " +
+        printInfo[5].numero.padEnd(6) +
+        "  " +
         printInfo[5].option.charAt(0) +
         "     " +
         printInfo[5].montant +
@@ -942,8 +942,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[6].numero +
-        "      " +
+        printInfo[6].numero.padEnd(6) +
+        "  " +
         printInfo[6].option.charAt(0) +
         "     " +
         printInfo[6].montant +
@@ -957,8 +957,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[7].numero +
-        "      " +
+        printInfo[7].numero.padEnd(6) +
+        "  " +
         printInfo[7].option.charAt(0) +
         "     " +
         printInfo[7].montant +
@@ -972,8 +972,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[8].numero +
-        "      " +
+        printInfo[8].numero.padEnd(6) +
+        "  " +
         printInfo[8].option.charAt(0) +
         "     " +
         printInfo[8].montant +
@@ -987,8 +987,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[9].numero +
-        "      " +
+        printInfo[9].numero.padEnd(6) +
+        "  " +
         printInfo[9].option.charAt(0) +
         "     " +
         printInfo[9].montant +
@@ -1002,8 +1002,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[10].numero +
-        "      " +
+        printInfo[10].numero.padEnd(6) +
+        "  " +
         printInfo[10].option.charAt(0) +
         "     " +
         printInfo[10].montant +
@@ -1018,8 +1018,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[0].numero +
-        "      " +
+        printInfo[0].numero.padEnd(6) +
+        "  " +
         printInfo[0].option.charAt(0) +
         "     " +
         printInfo[0].montant +
@@ -1033,8 +1033,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[1].numero +
-        "      " +
+        printInfo[1].numero.padEnd(6) +
+        "  " +
         printInfo[1].option.charAt(0) +
         "     " +
         printInfo[1].montant +
@@ -1048,8 +1048,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[2].numero +
-        "      " +
+        printInfo[2].numero.padEnd(6) +
+        "  " +
         printInfo[2].option.charAt(0) +
         "     " +
         printInfo[2].montant +
@@ -1063,8 +1063,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[3].numero +
-        "      " +
+        printInfo[3].numero.padEnd(6) +
+        "  " +
         printInfo[3].option.charAt(0) +
         "     " +
         printInfo[3].montant +
@@ -1078,8 +1078,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[4].numero +
-        "      " +
+        printInfo[4].numero.padEnd(6) +
+        "  " +
         printInfo[4].option.charAt(0) +
         "     " +
         printInfo[4].montant +
@@ -1093,8 +1093,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[5].numero +
-        "      " +
+        printInfo[5].numero.padEnd(6) +
+        "  " +
         printInfo[5].option.charAt(0) +
         "     " +
         printInfo[5].montant +
@@ -1108,8 +1108,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[6].numero +
-        "      " +
+        printInfo[6].numero.padEnd(6) +
+        "  " +
         printInfo[6].option.charAt(0) +
         "     " +
         printInfo[6].montant +
@@ -1123,8 +1123,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[7].numero +
-        "      " +
+        printInfo[7].numero.padEnd(6) +
+        "  " +
         printInfo[7].option.charAt(0) +
         "     " +
         printInfo[7].montant +
@@ -1138,8 +1138,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[8].numero +
-        "      " +
+        printInfo[8].numero.padEnd(6) +
+        "  " +
         printInfo[8].option.charAt(0) +
         "     " +
         printInfo[8].montant +
@@ -1153,8 +1153,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[9].numero +
-        "      " +
+        printInfo[9].numero.padEnd(6) +
+        "  " +
         printInfo[9].option.charAt(0) +
         "     " +
         printInfo[9].montant +
@@ -1168,8 +1168,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[10].numero +
-        "      " +
+        printInfo[10].numero.padEnd(6) +
+        "  " +
         printInfo[10].option.charAt(0) +
         "     " +
         printInfo[10].montant +
@@ -1183,8 +1183,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[11].numero +
-        "      " +
+        printInfo[11].numero.padEnd(6) +
+        "  " +
         printInfo[11].option.charAt(0) +
         "     " +
         printInfo[11].montant +
@@ -1199,8 +1199,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[0].numero +
-        "      " +
+        printInfo[0].numero.padEnd(6) +
+        "  " +
         printInfo[0].option.charAt(0) +
         "     " +
         printInfo[0].montant +
@@ -1214,8 +1214,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[1].numero +
-        "      " +
+        printInfo[1].numero.padEnd(6) +
+        "  " +
         printInfo[1].option.charAt(0) +
         "     " +
         printInfo[1].montant +
@@ -1229,8 +1229,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[2].numero +
-        "      " +
+        printInfo[2].numero.padEnd(6) +
+        "  " +
         printInfo[2].option.charAt(0) +
         "     " +
         printInfo[2].montant +
@@ -1244,8 +1244,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[3].numero +
-        "      " +
+        printInfo[3].numero.padEnd(6) +
+        "  " +
         printInfo[3].option.charAt(0) +
         "     " +
         printInfo[3].montant +
@@ -1259,8 +1259,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[4].numero +
-        "      " +
+        printInfo[4].numero.padEnd(6) +
+        "  " +
         printInfo[4].option.charAt(0) +
         "     " +
         printInfo[4].montant +
@@ -1274,8 +1274,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[5].numero +
-        "      " +
+        printInfo[5].numero.padEnd(6) +
+        "  " +
         printInfo[5].option.charAt(0) +
         "     " +
         printInfo[5].montant +
@@ -1289,8 +1289,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[6].numero +
-        "      " +
+        printInfo[6].numero.padEnd(6) +
+        "  " +
         printInfo[6].option.charAt(0) +
         "     " +
         printInfo[6].montant +
@@ -1304,8 +1304,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[7].numero +
-        "      " +
+        printInfo[7].numero.padEnd(6) +
+        "  " +
         printInfo[7].option.charAt(0) +
         "     " +
         printInfo[7].montant +
@@ -1319,8 +1319,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[8].numero +
-        "      " +
+        printInfo[8].numero.padEnd(6) +
+        "  " +
         printInfo[8].option.charAt(0) +
         "     " +
         printInfo[8].montant +
@@ -1334,8 +1334,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[9].numero +
-        "      " +
+        printInfo[9].numero.padEnd(6) +
+        "  " +
         printInfo[9].option.charAt(0) +
         "     " +
         printInfo[9].montant +
@@ -1349,8 +1349,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[10].numero +
-        "      " +
+        printInfo[10].numero.padEnd(6) +
+        "  " +
         printInfo[10].option.charAt(0) +
         "     " +
         printInfo[10].montant +
@@ -1364,8 +1364,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[11].numero +
-        "      " +
+        printInfo[11].numero.padEnd(6) +
+        "  " +
         printInfo[11].option.charAt(0) +
         "     " +
         printInfo[11].montant +
@@ -1379,8 +1379,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[12].numero +
-        "      " +
+        printInfo[12].numero.padEnd(6) +
+        "  " +
         printInfo[12].option.charAt(0) +
         "     " +
         printInfo[12].montant +
@@ -1395,8 +1395,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[0].numero +
-        "      " +
+        printInfo[0].numero.padEnd(6) +
+        "  " +
         printInfo[0].option.charAt(0) +
         "     " +
         printInfo[0].montant +
@@ -1410,8 +1410,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[1].numero +
-        "      " +
+        printInfo[1].numero.padEnd(6) +
+        "  " +
         printInfo[1].option.charAt(0) +
         "     " +
         printInfo[1].montant +
@@ -1425,8 +1425,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[2].numero +
-        "      " +
+        printInfo[2].numero.padEnd(6) +
+        "  " +
         printInfo[2].option.charAt(0) +
         "     " +
         printInfo[2].montant +
@@ -1440,8 +1440,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[3].numero +
-        "      " +
+        printInfo[3].numero.padEnd(6) +
+        "  " +
         printInfo[3].option.charAt(0) +
         "     " +
         printInfo[3].montant +
@@ -1455,8 +1455,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[4].numero +
-        "      " +
+        printInfo[4].numero.padEnd(6) +
+        "  " +
         printInfo[4].option.charAt(0) +
         "     " +
         printInfo[4].montant +
@@ -1470,8 +1470,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[5].numero +
-        "      " +
+        printInfo[5].numero.padEnd(6) +
+        "  " +
         printInfo[5].option.charAt(0) +
         "     " +
         printInfo[5].montant +
@@ -1485,8 +1485,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[6].numero +
-        "      " +
+        printInfo[6].numero.padEnd(6) +
+        "  " +
         printInfo[6].option.charAt(0) +
         "     " +
         printInfo[6].montant +
@@ -1500,8 +1500,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[7].numero +
-        "      " +
+        printInfo[7].numero.padEnd(6) +
+        "  " +
         printInfo[7].option.charAt(0) +
         "     " +
         printInfo[7].montant +
@@ -1515,8 +1515,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[8].numero +
-        "      " +
+        printInfo[8].numero.padEnd(6) +
+        "  " +
         printInfo[8].option.charAt(0) +
         "     " +
         printInfo[8].montant +
@@ -1530,8 +1530,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[9].numero +
-        "      " +
+        printInfo[9].numero.padEnd(6) +
+        "  " +
         printInfo[9].option.charAt(0) +
         "     " +
         printInfo[9].montant +
@@ -1545,8 +1545,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[10].numero +
-        "      " +
+        printInfo[10].numero.padEnd(6) +
+        "  " +
         printInfo[10].option.charAt(0) +
         "     " +
         printInfo[10].montant +
@@ -1560,8 +1560,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[11].numero +
-        "      " +
+        printInfo[11].numero.padEnd(6) +
+        "  " +
         printInfo[11].option.charAt(0) +
         "     " +
         printInfo[11].montant +
@@ -1575,8 +1575,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[12].numero +
-        "      " +
+        printInfo[12].numero.padEnd(6) +
+        "  " +
         printInfo[12].option.charAt(0) +
         "     " +
         printInfo[12].montant +
@@ -1590,8 +1590,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[13].numero +
-        "      " +
+        printInfo[13].numero.padEnd(6) +
+        "  " +
         printInfo[13].option.charAt(0) +
         "     " +
         printInfo[13].montant +
@@ -1606,8 +1606,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[0].numero +
-        "      " +
+        printInfo[0].numero.padEnd(6) +
+        "  " +
         printInfo[0].option.charAt(0) +
         "     " +
         printInfo[0].montant +
@@ -1621,8 +1621,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[1].numero +
-        "      " +
+        printInfo[1].numero.padEnd(6) +
+        "  " +
         printInfo[1].option.charAt(0) +
         "     " +
         printInfo[1].montant +
@@ -1636,8 +1636,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[2].numero +
-        "      " +
+        printInfo[2].numero.padEnd(6) +
+        "  " +
         printInfo[2].option.charAt(0) +
         "     " +
         printInfo[2].montant +
@@ -1651,8 +1651,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[3].numero +
-        "      " +
+        printInfo[3].numero.padEnd(6) +
+        "  " +
         printInfo[3].option.charAt(0) +
         "     " +
         printInfo[3].montant +
@@ -1666,8 +1666,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[4].numero +
-        "      " +
+        printInfo[4].numero.padEnd(6) +
+        "  " +
         printInfo[4].option.charAt(0) +
         "     " +
         printInfo[4].montant +
@@ -1681,8 +1681,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[5].numero +
-        "      " +
+        printInfo[5].numero.padEnd(6) +
+        "  " +
         printInfo[5].option.charAt(0) +
         "     " +
         printInfo[5].montant +
@@ -1696,8 +1696,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[6].numero +
-        "      " +
+        printInfo[6].numero.padEnd(6) +
+        "  " +
         printInfo[6].option.charAt(0) +
         "     " +
         printInfo[6].montant +
@@ -1711,8 +1711,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[7].numero +
-        "      " +
+        printInfo[7].numero.padEnd(6) +
+        "  " +
         printInfo[7].option.charAt(0) +
         "     " +
         printInfo[7].montant +
@@ -1726,8 +1726,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[8].numero +
-        "      " +
+        printInfo[8].numero.padEnd(6) +
+        "  " +
         printInfo[8].option.charAt(0) +
         "     " +
         printInfo[8].montant +
@@ -1741,8 +1741,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[9].numero +
-        "      " +
+        printInfo[9].numero.padEnd(6) +
+        "  " +
         printInfo[9].option.charAt(0) +
         "     " +
         printInfo[9].montant +
@@ -1756,8 +1756,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[10].numero +
-        "      " +
+        printInfo[10].numero.padEnd(6) +
+        "  " +
         printInfo[10].option.charAt(0) +
         "     " +
         printInfo[10].montant +
@@ -1771,8 +1771,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[11].numero +
-        "      " +
+        printInfo[11].numero.padEnd(6) +
+        "  " +
         printInfo[11].option.charAt(0) +
         "     " +
         printInfo[11].montant +
@@ -1786,8 +1786,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[12].numero +
-        "      " +
+        printInfo[12].numero.padEnd(6) +
+        "  " +
         printInfo[12].option.charAt(0) +
         "     " +
         printInfo[12].montant +
@@ -1801,8 +1801,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[13].numero +
-        "      " +
+        printInfo[13].numero.padEnd(6) +
+        "  " +
         printInfo[13].option.charAt(0) +
         "     " +
         printInfo[13].montant +
@@ -1816,8 +1816,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[14].numero +
-        "      " +
+        printInfo[14].numero.padEnd(6) +
+        "  " +
         printInfo[14].option.charAt(0) +
         "     " +
         printInfo[14].montant +
@@ -1832,8 +1832,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[0].numero +
-        "      " +
+        printInfo[0].numero.padEnd(6) +
+        "  " +
         printInfo[0].option.charAt(0) +
         "     " +
         printInfo[0].montant +
@@ -1847,8 +1847,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[1].numero +
-        "      " +
+        printInfo[1].numero.padEnd(6) +
+        "  " +
         printInfo[1].option.charAt(0) +
         "     " +
         printInfo[1].montant +
@@ -1862,8 +1862,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[2].numero +
-        "      " +
+        printInfo[2].numero.padEnd(6) +
+        "  " +
         printInfo[2].option.charAt(0) +
         "     " +
         printInfo[2].montant +
@@ -1877,8 +1877,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[3].numero +
-        "      " +
+        printInfo[3].numero.padEnd(6) +
+        "  " +
         printInfo[3].option.charAt(0) +
         "     " +
         printInfo[3].montant +
@@ -1892,8 +1892,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[4].numero +
-        "      " +
+        printInfo[4].numero.padEnd(6) +
+        "  " +
         printInfo[4].option.charAt(0) +
         "     " +
         printInfo[4].montant +
@@ -1907,8 +1907,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[5].numero +
-        "      " +
+        printInfo[5].numero.padEnd(6) +
+        "  " +
         printInfo[5].option.charAt(0) +
         "     " +
         printInfo[5].montant +
@@ -1922,8 +1922,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[6].numero +
-        "      " +
+        printInfo[6].numero.padEnd(6) +
+        "  " +
         printInfo[6].option.charAt(0) +
         "     " +
         printInfo[6].montant +
@@ -1937,8 +1937,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[7].numero +
-        "      " +
+        printInfo[7].numero.padEnd(6) +
+        "  " +
         printInfo[7].option.charAt(0) +
         "     " +
         printInfo[7].montant +
@@ -1952,8 +1952,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[8].numero +
-        "      " +
+        printInfo[8].numero.padEnd(6) +
+        "  " +
         printInfo[8].option.charAt(0) +
         "     " +
         printInfo[8].montant +
@@ -1967,8 +1967,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[9].numero +
-        "      " +
+        printInfo[9].numero.padEnd(6) +
+        "  " +
         printInfo[9].option.charAt(0) +
         "     " +
         printInfo[9].montant +
@@ -1982,8 +1982,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[10].numero +
-        "      " +
+        printInfo[10].numero.padEnd(6) +
+        "  " +
         printInfo[10].option.charAt(0) +
         "     " +
         printInfo[10].montant +
@@ -1997,8 +1997,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[11].numero +
-        "      " +
+        printInfo[11].numero.padEnd(6) +
+        "  " +
         printInfo[11].option.charAt(0) +
         "     " +
         printInfo[11].montant +
@@ -2012,8 +2012,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[12].numero +
-        "      " +
+        printInfo[12].numero.padEnd(6) +
+        "  " +
         printInfo[12].option.charAt(0) +
         "     " +
         printInfo[12].montant +
@@ -2027,8 +2027,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[13].numero +
-        "      " +
+        printInfo[13].numero.padEnd(6) +
+        "  " +
         printInfo[13].option.charAt(0) +
         "     " +
         printInfo[13].montant +
@@ -2042,8 +2042,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[14].numero +
-        "      " +
+        printInfo[14].numero.padEnd(6) +
+        "  " +
         printInfo[14].option.charAt(0) +
         "     " +
         printInfo[14].montant +
@@ -2057,8 +2057,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[15].numero +
-        "      " +
+        printInfo[15].numero.padEnd(6) +
+        "  " +
         printInfo[15].option.charAt(0) +
         "     " +
         printInfo[15].montant +
@@ -2073,8 +2073,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[0].numero +
-        "      " +
+        printInfo[0].numero.padEnd(6) +
+        "  " +
         printInfo[0].option.charAt(0) +
         "     " +
         printInfo[0].montant +
@@ -2088,8 +2088,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[1].numero +
-        "      " +
+        printInfo[1].numero.padEnd(6) +
+        "  " +
         printInfo[1].option.charAt(0) +
         "     " +
         printInfo[1].montant +
@@ -2103,8 +2103,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[2].numero +
-        "      " +
+        printInfo[2].numero.padEnd(6) +
+        "  " +
         printInfo[2].option.charAt(0) +
         "     " +
         printInfo[2].montant +
@@ -2118,8 +2118,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[3].numero +
-        "      " +
+        printInfo[3].numero.padEnd(6) +
+        "  " +
         printInfo[3].option.charAt(0) +
         "     " +
         printInfo[3].montant +
@@ -2133,8 +2133,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[4].numero +
-        "      " +
+        printInfo[4].numero.padEnd(6) +
+        "  " +
         printInfo[4].option.charAt(0) +
         "     " +
         printInfo[4].montant +
@@ -2148,8 +2148,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[5].numero +
-        "      " +
+        printInfo[5].numero.padEnd(6) +
+        "  " +
         printInfo[5].option.charAt(0) +
         "     " +
         printInfo[5].montant +
@@ -2163,8 +2163,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[6].numero +
-        "      " +
+        printInfo[6].numero.padEnd(6) +
+        "  " +
         printInfo[6].option.charAt(0) +
         "     " +
         printInfo[6].montant +
@@ -2178,8 +2178,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[7].numero +
-        "      " +
+        printInfo[7].numero.padEnd(6) +
+        "  " +
         printInfo[7].option.charAt(0) +
         "     " +
         printInfo[7].montant +
@@ -2193,8 +2193,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[8].numero +
-        "      " +
+        printInfo[8].numero.padEnd(6) +
+        "  " +
         printInfo[8].option.charAt(0) +
         "     " +
         printInfo[8].montant +
@@ -2208,8 +2208,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[9].numero +
-        "      " +
+        printInfo[9].numero.padEnd(6) +
+        "  " +
         printInfo[9].option.charAt(0) +
         "     " +
         printInfo[9].montant +
@@ -2223,8 +2223,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[10].numero +
-        "      " +
+        printInfo[10].numero.padEnd(6) +
+        "  " +
         printInfo[10].option.charAt(0) +
         "     " +
         printInfo[10].montant +
@@ -2238,8 +2238,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[11].numero +
-        "      " +
+        printInfo[11].numero.padEnd(6) +
+        "  " +
         printInfo[11].option.charAt(0) +
         "     " +
         printInfo[11].montant +
@@ -2253,8 +2253,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[12].numero +
-        "      " +
+        printInfo[12].numero.padEnd(6) +
+        "  " +
         printInfo[12].option.charAt(0) +
         "     " +
         printInfo[12].montant +
@@ -2268,8 +2268,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[13].numero +
-        "      " +
+        printInfo[13].numero.padEnd(6) +
+        "  " +
         printInfo[13].option.charAt(0) +
         "     " +
         printInfo[13].montant +
@@ -2283,8 +2283,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[14].numero +
-        "      " +
+        printInfo[14].numero.padEnd(6) +
+        "  " +
         printInfo[14].option.charAt(0) +
         "     " +
         printInfo[14].montant +
@@ -2298,8 +2298,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[15].numero +
-        "      " +
+        printInfo[15].numero.padEnd(6) +
+        "  " +
         printInfo[15].option.charAt(0) +
         "     " +
         printInfo[15].montant +
@@ -2313,8 +2313,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[16].numero +
-        "      " +
+        printInfo[16].numero.padEnd(6) +
+        "  " +
         printInfo[16].option.charAt(0) +
         "     " +
         printInfo[16].montant +
@@ -2329,8 +2329,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[0].numero +
-        "      " +
+        printInfo[0].numero.padEnd(6) +
+        "  " +
         printInfo[0].option.charAt(0) +
         "     " +
         printInfo[0].montant +
@@ -2344,8 +2344,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[1].numero +
-        "      " +
+        printInfo[1].numero.padEnd(6) +
+        "  " +
         printInfo[1].option.charAt(0) +
         "     " +
         printInfo[1].montant +
@@ -2359,8 +2359,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[2].numero +
-        "      " +
+        printInfo[2].numero.padEnd(6) +
+        "  " +
         printInfo[2].option.charAt(0) +
         "     " +
         printInfo[2].montant +
@@ -2374,8 +2374,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[3].numero +
-        "      " +
+        printInfo[3].numero.padEnd(6) +
+        "  " +
         printInfo[3].option.charAt(0) +
         "     " +
         printInfo[3].montant +
@@ -2389,8 +2389,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[4].numero +
-        "      " +
+        printInfo[4].numero.padEnd(6) +
+        "  " +
         printInfo[4].option.charAt(0) +
         "     " +
         printInfo[4].montant +
@@ -2404,8 +2404,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[5].numero +
-        "      " +
+        printInfo[5].numero.padEnd(6) +
+        "  " +
         printInfo[5].option.charAt(0) +
         "     " +
         printInfo[5].montant +
@@ -2419,8 +2419,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[6].numero +
-        "      " +
+        printInfo[6].numero.padEnd(6) +
+        "  " +
         printInfo[6].option.charAt(0) +
         "     " +
         printInfo[6].montant +
@@ -2434,8 +2434,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[7].numero +
-        "      " +
+        printInfo[7].numero.padEnd(6) +
+        "  " +
         printInfo[7].option.charAt(0) +
         "     " +
         printInfo[7].montant +
@@ -2449,8 +2449,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[8].numero +
-        "      " +
+        printInfo[8].numero.padEnd(6) +
+        "  " +
         printInfo[8].option.charAt(0) +
         "     " +
         printInfo[8].montant +
@@ -2464,8 +2464,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[9].numero +
-        "      " +
+        printInfo[9].numero.padEnd(6) +
+        "  " +
         printInfo[9].option.charAt(0) +
         "     " +
         printInfo[9].montant +
@@ -2479,8 +2479,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[10].numero +
-        "      " +
+        printInfo[10].numero.padEnd(6) +
+        "  " +
         printInfo[10].option.charAt(0) +
         "     " +
         printInfo[10].montant +
@@ -2494,8 +2494,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[11].numero +
-        "      " +
+        printInfo[11].numero.padEnd(6) +
+        "  " +
         printInfo[11].option.charAt(0) +
         "     " +
         printInfo[11].montant +
@@ -2509,8 +2509,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[12].numero +
-        "      " +
+        printInfo[12].numero.padEnd(6) +
+        "  " +
         printInfo[12].option.charAt(0) +
         "     " +
         printInfo[12].montant +
@@ -2524,8 +2524,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[13].numero +
-        "      " +
+        printInfo[13].numero.padEnd(6) +
+        "  " +
         printInfo[13].option.charAt(0) +
         "     " +
         printInfo[13].montant +
@@ -2539,8 +2539,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[14].numero +
-        "      " +
+        printInfo[14].numero.padEnd(6) +
+        "  " +
         printInfo[14].option.charAt(0) +
         "     " +
         printInfo[14].montant +
@@ -2554,8 +2554,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[15].numero +
-        "      " +
+        printInfo[15].numero.padEnd(6) +
+        "  " +
         printInfo[15].option.charAt(0) +
         "     " +
         printInfo[15].montant +
@@ -2569,8 +2569,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[16].numero +
-        "      " +
+        printInfo[16].numero.padEnd(6) +
+        "  " +
         printInfo[16].option.charAt(0) +
         "     " +
         printInfo[16].montant +
@@ -2584,8 +2584,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[17].numero +
-        "      " +
+        printInfo[17].numero.padEnd(6) +
+        "  " +
         printInfo[17].option.charAt(0) +
         "     " +
         printInfo[17].montant +
@@ -2600,8 +2600,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[0].numero +
-        "      " +
+        printInfo[0].numero.padEnd(6) +
+        "  " +
         printInfo[0].option.charAt(0) +
         "     " +
         printInfo[0].montant +
@@ -2615,8 +2615,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[1].numero +
-        "      " +
+        printInfo[1].numero.padEnd(6) +
+        "  " +
         printInfo[1].option.charAt(0) +
         "     " +
         printInfo[1].montant +
@@ -2630,8 +2630,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[2].numero +
-        "      " +
+        printInfo[2].numero.padEnd(6) +
+        "  " +
         printInfo[2].option.charAt(0) +
         "     " +
         printInfo[2].montant +
@@ -2645,8 +2645,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[3].numero +
-        "      " +
+        printInfo[3].numero.padEnd(6) +
+        "  " +
         printInfo[3].option.charAt(0) +
         "     " +
         printInfo[3].montant +
@@ -2660,8 +2660,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[4].numero +
-        "      " +
+        printInfo[4].numero.padEnd(6) +
+        "  " +
         printInfo[4].option.charAt(0) +
         "     " +
         printInfo[4].montant +
@@ -2675,8 +2675,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[5].numero +
-        "      " +
+        printInfo[5].numero.padEnd(6) +
+        "  " +
         printInfo[5].option.charAt(0) +
         "     " +
         printInfo[5].montant +
@@ -2690,8 +2690,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[6].numero +
-        "      " +
+        printInfo[6].numero.padEnd(6) +
+        "  " +
         printInfo[6].option.charAt(0) +
         "     " +
         printInfo[6].montant +
@@ -2705,8 +2705,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[7].numero +
-        "      " +
+        printInfo[7].numero.padEnd(6) +
+        "  " +
         printInfo[7].option.charAt(0) +
         "     " +
         printInfo[7].montant +
@@ -2720,8 +2720,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[8].numero +
-        "      " +
+        printInfo[8].numero.padEnd(6) +
+        "  " +
         printInfo[8].option.charAt(0) +
         "     " +
         printInfo[8].montant +
@@ -2735,8 +2735,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[9].numero +
-        "      " +
+        printInfo[9].numero.padEnd(6) +
+        "  " +
         printInfo[9].option.charAt(0) +
         "     " +
         printInfo[9].montant +
@@ -2750,8 +2750,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[10].numero +
-        "      " +
+        printInfo[10].numero.padEnd(6) +
+        "  " +
         printInfo[10].option.charAt(0) +
         "     " +
         printInfo[10].montant +
@@ -2765,8 +2765,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[11].numero +
-        "      " +
+        printInfo[11].numero.padEnd(6) +
+        "  " +
         printInfo[11].option.charAt(0) +
         "     " +
         printInfo[11].montant +
@@ -2780,8 +2780,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[12].numero +
-        "      " +
+        printInfo[12].numero.padEnd(6) +
+        "  " +
         printInfo[12].option.charAt(0) +
         "     " +
         printInfo[12].montant +
@@ -2795,8 +2795,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[13].numero +
-        "      " +
+        printInfo[13].numero.padEnd(6) +
+        "  " +
         printInfo[13].option.charAt(0) +
         "     " +
         printInfo[13].montant +
@@ -2810,8 +2810,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[14].numero +
-        "      " +
+        printInfo[14].numero.padEnd(6) +
+        "  " +
         printInfo[14].option.charAt(0) +
         "     " +
         printInfo[14].montant +
@@ -2825,8 +2825,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[15].numero +
-        "      " +
+        printInfo[15].numero.padEnd(6) +
+        "  " +
         printInfo[15].option.charAt(0) +
         "     " +
         printInfo[15].montant +
@@ -2840,8 +2840,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[16].numero +
-        "      " +
+        printInfo[16].numero.padEnd(6) +
+        "  " +
         printInfo[16].option.charAt(0) +
         "     " +
         printInfo[16].montant +
@@ -2855,8 +2855,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[17].numero +
-        "      " +
+        printInfo[17].numero.padEnd(6) +
+        "  " +
         printInfo[17].option.charAt(0) +
         "     " +
         printInfo[17].montant +
@@ -2870,8 +2870,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[18].numero +
-        "      " +
+        printInfo[18].numero.padEnd(6) +
+        "  " +
         printInfo[18].option.charAt(0) +
         "     " +
         printInfo[18].montant +
@@ -2886,8 +2886,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[0].numero +
-        "      " +
+        printInfo[0].numero.padEnd(6) +
+        "  " +
         printInfo[0].option.charAt(0) +
         "     " +
         printInfo[0].montant +
@@ -2901,8 +2901,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[1].numero +
-        "      " +
+        printInfo[1].numero.padEnd(6) +
+        "  " +
         printInfo[1].option.charAt(0) +
         "     " +
         printInfo[1].montant +
@@ -2916,8 +2916,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[2].numero +
-        "      " +
+        printInfo[2].numero.padEnd(6) +
+        "  " +
         printInfo[2].option.charAt(0) +
         "     " +
         printInfo[2].montant +
@@ -2931,8 +2931,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[3].numero +
-        "      " +
+        printInfo[3].numero.padEnd(6) +
+        "  " +
         printInfo[3].option.charAt(0) +
         "     " +
         printInfo[3].montant +
@@ -2946,8 +2946,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[4].numero +
-        "      " +
+        printInfo[4].numero.padEnd(6) +
+        "  " +
         printInfo[4].option.charAt(0) +
         "     " +
         printInfo[4].montant +
@@ -2961,8 +2961,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[5].numero +
-        "      " +
+        printInfo[5].numero.padEnd(6) +
+        "  " +
         printInfo[5].option.charAt(0) +
         "     " +
         printInfo[5].montant +
@@ -2976,8 +2976,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[6].numero +
-        "      " +
+        printInfo[6].numero.padEnd(6) +
+        "  " +
         printInfo[6].option.charAt(0) +
         "     " +
         printInfo[6].montant +
@@ -2991,8 +2991,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[7].numero +
-        "      " +
+        printInfo[7].numero.padEnd(6) +
+        "  " +
         printInfo[7].option.charAt(0) +
         "     " +
         printInfo[7].montant +
@@ -3006,8 +3006,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[8].numero +
-        "      " +
+        printInfo[8].numero.padEnd(6) +
+        "  " +
         printInfo[8].option.charAt(0) +
         "     " +
         printInfo[8].montant +
@@ -3021,8 +3021,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[9].numero +
-        "      " +
+        printInfo[9].numero.padEnd(6) +
+        "  " +
         printInfo[9].option.charAt(0) +
         "     " +
         printInfo[9].montant +
@@ -3036,8 +3036,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[10].numero +
-        "      " +
+        printInfo[10].numero.padEnd(6) +
+        "  " +
         printInfo[10].option.charAt(0) +
         "     " +
         printInfo[10].montant +
@@ -3051,8 +3051,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[11].numero +
-        "      " +
+        printInfo[11].numero.padEnd(6) +
+        "  " +
         printInfo[11].option.charAt(0) +
         "     " +
         printInfo[11].montant +
@@ -3066,8 +3066,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[12].numero +
-        "      " +
+        printInfo[12].numero.padEnd(6) +
+        "  " +
         printInfo[12].option.charAt(0) +
         "     " +
         printInfo[12].montant +
@@ -3081,8 +3081,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[13].numero +
-        "      " +
+        printInfo[13].numero.padEnd(6) +
+        "  " +
         printInfo[13].option.charAt(0) +
         "     " +
         printInfo[13].montant +
@@ -3096,8 +3096,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[14].numero +
-        "      " +
+        printInfo[14].numero.padEnd(6) +
+        "  " +
         printInfo[14].option.charAt(0) +
         "     " +
         printInfo[14].montant +
@@ -3111,8 +3111,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[15].numero +
-        "      " +
+        printInfo[15].numero.padEnd(6) +
+        "  " +
         printInfo[15].option.charAt(0) +
         "     " +
         printInfo[15].montant +
@@ -3126,8 +3126,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[16].numero +
-        "      " +
+        printInfo[16].numero.padEnd(6) +
+        "  " +
         printInfo[16].option.charAt(0) +
         "     " +
         printInfo[16].montant +
@@ -3141,8 +3141,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[17].numero +
-        "      " +
+        printInfo[17].numero.padEnd(6) +
+        "  " +
         printInfo[17].option.charAt(0) +
         "     " +
         printInfo[17].montant +
@@ -3156,8 +3156,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[18].numero +
-        "      " +
+        printInfo[18].numero.padEnd(6) +
+        "  " +
         printInfo[18].option.charAt(0) +
         "     " +
         printInfo[18].montant +
@@ -3171,8 +3171,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[19].numero +
-        "      " +
+        printInfo[19].numero.padEnd(6) +
+        "  " +
         printInfo[19].option.charAt(0) +
         "     " +
         printInfo[19].montant +
@@ -3187,8 +3187,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[0].numero +
-        "      " +
+        printInfo[0].numero.padEnd(6) +
+        "  " +
         printInfo[0].option.charAt(0) +
         "     " +
         printInfo[0].montant +
@@ -3202,8 +3202,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[1].numero +
-        "      " +
+        printInfo[1].numero.padEnd(6) +
+        "  " +
         printInfo[1].option.charAt(0) +
         "     " +
         printInfo[1].montant +
@@ -3217,8 +3217,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[2].numero +
-        "      " +
+        printInfo[2].numero.padEnd(6) +
+        "  " +
         printInfo[2].option.charAt(0) +
         "     " +
         printInfo[2].montant +
@@ -3232,8 +3232,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[3].numero +
-        "      " +
+        printInfo[3].numero.padEnd(6) +
+        "  " +
         printInfo[3].option.charAt(0) +
         "     " +
         printInfo[3].montant +
@@ -3247,8 +3247,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[4].numero +
-        "      " +
+        printInfo[4].numero.padEnd(6) +
+        "  " +
         printInfo[4].option.charAt(0) +
         "     " +
         printInfo[4].montant +
@@ -3262,8 +3262,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[5].numero +
-        "      " +
+        printInfo[5].numero.padEnd(6) +
+        "  " +
         printInfo[5].option.charAt(0) +
         "     " +
         printInfo[5].montant +
@@ -3277,8 +3277,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[6].numero +
-        "      " +
+        printInfo[6].numero.padEnd(6) +
+        "  " +
         printInfo[6].option.charAt(0) +
         "     " +
         printInfo[6].montant +
@@ -3292,8 +3292,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[7].numero +
-        "      " +
+        printInfo[7].numero.padEnd(6) +
+        "  " +
         printInfo[7].option.charAt(0) +
         "     " +
         printInfo[7].montant +
@@ -3307,8 +3307,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[8].numero +
-        "      " +
+        printInfo[8].numero.padEnd(6) +
+        "  " +
         printInfo[8].option.charAt(0) +
         "     " +
         printInfo[8].montant +
@@ -3322,8 +3322,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[9].numero +
-        "      " +
+        printInfo[9].numero.padEnd(6) +
+        "  " +
         printInfo[9].option.charAt(0) +
         "     " +
         printInfo[9].montant +
@@ -3337,8 +3337,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[10].numero +
-        "      " +
+        printInfo[10].numero.padEnd(6) +
+        "  " +
         printInfo[10].option.charAt(0) +
         "     " +
         printInfo[10].montant +
@@ -3352,8 +3352,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[11].numero +
-        "      " +
+        printInfo[11].numero.padEnd(6) +
+        "  " +
         printInfo[11].option.charAt(0) +
         "     " +
         printInfo[11].montant +
@@ -3367,8 +3367,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[12].numero +
-        "      " +
+        printInfo[12].numero.padEnd(6) +
+        "  " +
         printInfo[12].option.charAt(0) +
         "     " +
         printInfo[12].montant +
@@ -3382,8 +3382,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[13].numero +
-        "      " +
+        printInfo[13].numero.padEnd(6) +
+        "  " +
         printInfo[13].option.charAt(0) +
         "     " +
         printInfo[13].montant +
@@ -3397,8 +3397,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[14].numero +
-        "      " +
+        printInfo[14].numero.padEnd(6) +
+        "  " +
         printInfo[14].option.charAt(0) +
         "     " +
         printInfo[14].montant +
@@ -3412,8 +3412,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[15].numero +
-        "      " +
+        printInfo[15].numero.padEnd(6) +
+        "  " +
         printInfo[15].option.charAt(0) +
         "     " +
         printInfo[15].montant +
@@ -3427,8 +3427,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[16].numero +
-        "      " +
+        printInfo[16].numero.padEnd(6) +
+        "  " +
         printInfo[16].option.charAt(0) +
         "     " +
         printInfo[16].montant +
@@ -3442,8 +3442,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[17].numero +
-        "      " +
+        printInfo[17].numero.padEnd(6) +
+        "  " +
         printInfo[17].option.charAt(0) +
         "     " +
         printInfo[17].montant +
@@ -3457,8 +3457,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[18].numero +
-        "      " +
+        printInfo[18].numero.padEnd(6) +
+        "  " +
         printInfo[18].option.charAt(0) +
         "     " +
         printInfo[18].montant +
@@ -3472,8 +3472,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[19].numero +
-        "      " +
+        printInfo[19].numero.padEnd(6) +
+        "  " +
         printInfo[19].option.charAt(0) +
         "     " +
         printInfo[19].montant +
@@ -3487,8 +3487,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[20].numero +
-        "      " +
+        printInfo[20].numero.padEnd(6) +
+        "  " +
         printInfo[20].option.charAt(0) +
         "     " +
         printInfo[20].montant +
@@ -3503,8 +3503,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[0].numero +
-        "      " +
+        printInfo[0].numero.padEnd(6) +
+        "  " +
         printInfo[0].option.charAt(0) +
         "     " +
         printInfo[0].montant +
@@ -3518,8 +3518,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[1].numero +
-        "      " +
+        printInfo[1].numero.padEnd(6) +
+        "  " +
         printInfo[1].option.charAt(0) +
         "     " +
         printInfo[1].montant +
@@ -3533,8 +3533,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[2].numero +
-        "      " +
+        printInfo[2].numero.padEnd(6) +
+        "  " +
         printInfo[2].option.charAt(0) +
         "     " +
         printInfo[2].montant +
@@ -3548,8 +3548,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[3].numero +
-        "      " +
+        printInfo[3].numero.padEnd(6) +
+        "  " +
         printInfo[3].option.charAt(0) +
         "     " +
         printInfo[3].montant +
@@ -3563,8 +3563,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[4].numero +
-        "      " +
+        printInfo[4].numero.padEnd(6) +
+        "  " +
         printInfo[4].option.charAt(0) +
         "     " +
         printInfo[4].montant +
@@ -3578,8 +3578,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[5].numero +
-        "      " +
+        printInfo[5].numero.padEnd(6) +
+        "  " +
         printInfo[5].option.charAt(0) +
         "     " +
         printInfo[5].montant +
@@ -3593,8 +3593,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[6].numero +
-        "      " +
+        printInfo[6].numero.padEnd(6) +
+        "  " +
         printInfo[6].option.charAt(0) +
         "     " +
         printInfo[6].montant +
@@ -3608,8 +3608,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[7].numero +
-        "      " +
+        printInfo[7].numero.padEnd(6) +
+        "  " +
         printInfo[7].option.charAt(0) +
         "     " +
         printInfo[7].montant +
@@ -3623,8 +3623,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[8].numero +
-        "      " +
+        printInfo[8].numero.padEnd(6) +
+        "  " +
         printInfo[8].option.charAt(0) +
         "     " +
         printInfo[8].montant +
@@ -3638,8 +3638,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[9].numero +
-        "      " +
+        printInfo[9].numero.padEnd(6) +
+        "  " +
         printInfo[9].option.charAt(0) +
         "     " +
         printInfo[9].montant +
@@ -3653,8 +3653,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[10].numero +
-        "      " +
+        printInfo[10].numero.padEnd(6) +
+        "  " +
         printInfo[10].option.charAt(0) +
         "     " +
         printInfo[10].montant +
@@ -3668,8 +3668,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[11].numero +
-        "      " +
+        printInfo[11].numero.padEnd(6) +
+        "  " +
         printInfo[11].option.charAt(0) +
         "     " +
         printInfo[11].montant +
@@ -3683,8 +3683,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[12].numero +
-        "      " +
+        printInfo[12].numero.padEnd(6) +
+        "  " +
         printInfo[12].option.charAt(0) +
         "     " +
         printInfo[12].montant +
@@ -3698,8 +3698,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[13].numero +
-        "      " +
+        printInfo[13].numero.padEnd(6) +
+        "  " +
         printInfo[13].option.charAt(0) +
         "     " +
         printInfo[13].montant +
@@ -3713,8 +3713,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[14].numero +
-        "      " +
+        printInfo[14].numero.padEnd(6) +
+        "  " +
         printInfo[14].option.charAt(0) +
         "     " +
         printInfo[14].montant +
@@ -3728,8 +3728,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[15].numero +
-        "      " +
+        printInfo[15].numero.padEnd(6) +
+        "  " +
         printInfo[15].option.charAt(0) +
         "     " +
         printInfo[15].montant +
@@ -3743,8 +3743,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[16].numero +
-        "      " +
+        printInfo[16].numero.padEnd(6) +
+        "  " +
         printInfo[16].option.charAt(0) +
         "     " +
         printInfo[16].montant +
@@ -3758,8 +3758,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[17].numero +
-        "      " +
+        printInfo[17].numero.padEnd(6) +
+        "  " +
         printInfo[17].option.charAt(0) +
         "     " +
         printInfo[17].montant +
@@ -3773,8 +3773,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[18].numero +
-        "      " +
+        printInfo[18].numero.padEnd(6) +
+        "  " +
         printInfo[18].option.charAt(0) +
         "     " +
         printInfo[18].montant +
@@ -3788,8 +3788,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[19].numero +
-        "      " +
+        printInfo[19].numero.padEnd(6) +
+        "  " +
         printInfo[19].option.charAt(0) +
         "     " +
         printInfo[19].montant +
@@ -3803,8 +3803,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[20].numero +
-        "      " +
+        printInfo[20].numero.padEnd(6) +
+        "  " +
         printInfo[20].option.charAt(0) +
         "     " +
         printInfo[20].montant +
@@ -3818,8 +3818,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[21].numero +
-        "      " +
+        printInfo[21].numero.padEnd(6) +
+        "  " +
         printInfo[21].option.charAt(0) +
         "     " +
         printInfo[21].montant +
@@ -3834,8 +3834,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[0].numero +
-        "      " +
+        printInfo[0].numero.padEnd(6) +
+        "  " +
         printInfo[0].option.charAt(0) +
         "     " +
         printInfo[0].montant +
@@ -3849,8 +3849,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[1].numero +
-        "      " +
+        printInfo[1].numero.padEnd(6) +
+        "  " +
         printInfo[1].option.charAt(0) +
         "     " +
         printInfo[1].montant +
@@ -3864,8 +3864,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[2].numero +
-        "      " +
+        printInfo[2].numero.padEnd(6) +
+        "  " +
         printInfo[2].option.charAt(0) +
         "     " +
         printInfo[2].montant +
@@ -3879,8 +3879,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[3].numero +
-        "      " +
+        printInfo[3].numero.padEnd(6) +
+        "  " +
         printInfo[3].option.charAt(0) +
         "     " +
         printInfo[3].montant +
@@ -3894,8 +3894,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[4].numero +
-        "      " +
+        printInfo[4].numero.padEnd(6) +
+        "  " +
         printInfo[4].option.charAt(0) +
         "     " +
         printInfo[4].montant +
@@ -3909,8 +3909,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[5].numero +
-        "      " +
+        printInfo[5].numero.padEnd(6) +
+        "  " +
         printInfo[5].option.charAt(0) +
         "     " +
         printInfo[5].montant +
@@ -3924,8 +3924,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[6].numero +
-        "      " +
+        printInfo[6].numero.padEnd(6) +
+        "  " +
         printInfo[6].option.charAt(0) +
         "     " +
         printInfo[6].montant +
@@ -3939,8 +3939,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[7].numero +
-        "      " +
+        printInfo[7].numero.padEnd(6) +
+        "  " +
         printInfo[7].option.charAt(0) +
         "     " +
         printInfo[7].montant +
@@ -3954,8 +3954,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[8].numero +
-        "      " +
+        printInfo[8].numero.padEnd(6) +
+        "  " +
         printInfo[8].option.charAt(0) +
         "     " +
         printInfo[8].montant +
@@ -3969,8 +3969,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[9].numero +
-        "      " +
+        printInfo[9].numero.padEnd(6) +
+        "  " +
         printInfo[9].option.charAt(0) +
         "     " +
         printInfo[9].montant +
@@ -3984,8 +3984,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[10].numero +
-        "      " +
+        printInfo[10].numero.padEnd(6) +
+        "  " +
         printInfo[10].option.charAt(0) +
         "     " +
         printInfo[10].montant +
@@ -3999,8 +3999,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[11].numero +
-        "      " +
+        printInfo[11].numero.padEnd(6) +
+        "  " +
         printInfo[11].option.charAt(0) +
         "     " +
         printInfo[11].montant +
@@ -4014,8 +4014,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[12].numero +
-        "      " +
+        printInfo[12].numero.padEnd(6) +
+        "  " +
         printInfo[12].option.charAt(0) +
         "     " +
         printInfo[12].montant +
@@ -4029,8 +4029,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[13].numero +
-        "      " +
+        printInfo[13].numero.padEnd(6) +
+        "  " +
         printInfo[13].option.charAt(0) +
         "     " +
         printInfo[13].montant +
@@ -4044,8 +4044,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[14].numero +
-        "      " +
+        printInfo[14].numero.padEnd(6) +
+        "  " +
         printInfo[14].option.charAt(0) +
         "     " +
         printInfo[14].montant +
@@ -4059,8 +4059,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[15].numero +
-        "      " +
+        printInfo[15].numero.padEnd(6) +
+        "  " +
         printInfo[15].option.charAt(0) +
         "     " +
         printInfo[15].montant +
@@ -4074,8 +4074,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[16].numero +
-        "      " +
+        printInfo[16].numero.padEnd(6) +
+        "  " +
         printInfo[16].option.charAt(0) +
         "     " +
         printInfo[16].montant +
@@ -4089,8 +4089,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[17].numero +
-        "      " +
+        printInfo[17].numero.padEnd(6) +
+        "  " +
         printInfo[17].option.charAt(0) +
         "     " +
         printInfo[17].montant +
@@ -4104,8 +4104,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[18].numero +
-        "      " +
+        printInfo[18].numero.padEnd(6) +
+        "  " +
         printInfo[18].option.charAt(0) +
         "     " +
         printInfo[18].montant +
@@ -4119,8 +4119,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[19].numero +
-        "      " +
+        printInfo[19].numero.padEnd(6) +
+        "  " +
         printInfo[19].option.charAt(0) +
         "     " +
         printInfo[19].montant +
@@ -4134,8 +4134,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[20].numero +
-        "      " +
+        printInfo[20].numero.padEnd(6) +
+        "  " +
         printInfo[20].option.charAt(0) +
         "     " +
         printInfo[20].montant +
@@ -4149,8 +4149,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[21].numero +
-        "      " +
+        printInfo[21].numero.padEnd(6) +
+        "  " +
         printInfo[21].option.charAt(0) +
         "     " +
         printInfo[21].montant +
@@ -4164,8 +4164,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[22].numero +
-        "      " +
+        printInfo[22].numero.padEnd(6) +
+        "  " +
         printInfo[22].option.charAt(0) +
         "     " +
         printInfo[22].montant +
@@ -4180,8 +4180,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[0].numero +
-        "      " +
+        printInfo[0].numero.padEnd(6) +
+        "  " +
         printInfo[0].option.charAt(0) +
         "     " +
         printInfo[0].montant +
@@ -4195,8 +4195,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[1].numero +
-        "      " +
+        printInfo[1].numero.padEnd(6) +
+        "  " +
         printInfo[1].option.charAt(0) +
         "     " +
         printInfo[1].montant +
@@ -4210,8 +4210,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[2].numero +
-        "      " +
+        printInfo[2].numero.padEnd(6) +
+        "  " +
         printInfo[2].option.charAt(0) +
         "     " +
         printInfo[2].montant +
@@ -4225,8 +4225,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[3].numero +
-        "      " +
+        printInfo[3].numero.padEnd(6) +
+        "  " +
         printInfo[3].option.charAt(0) +
         "     " +
         printInfo[3].montant +
@@ -4240,8 +4240,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[4].numero +
-        "      " +
+        printInfo[4].numero.padEnd(6) +
+        "  " +
         printInfo[4].option.charAt(0) +
         "     " +
         printInfo[4].montant +
@@ -4255,8 +4255,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[5].numero +
-        "      " +
+        printInfo[5].numero.padEnd(6) +
+        "  " +
         printInfo[5].option.charAt(0) +
         "     " +
         printInfo[5].montant +
@@ -4270,8 +4270,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[6].numero +
-        "      " +
+        printInfo[6].numero.padEnd(6) +
+        "  " +
         printInfo[6].option.charAt(0) +
         "     " +
         printInfo[6].montant +
@@ -4285,8 +4285,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[7].numero +
-        "      " +
+        printInfo[7].numero.padEnd(6) +
+        "  " +
         printInfo[7].option.charAt(0) +
         "     " +
         printInfo[7].montant +
@@ -4300,8 +4300,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[8].numero +
-        "      " +
+        printInfo[8].numero.padEnd(6) +
+        "  " +
         printInfo[8].option.charAt(0) +
         "     " +
         printInfo[8].montant +
@@ -4315,8 +4315,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[9].numero +
-        "      " +
+        printInfo[9].numero.padEnd(6) +
+        "  " +
         printInfo[9].option.charAt(0) +
         "     " +
         printInfo[9].montant +
@@ -4330,8 +4330,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[10].numero +
-        "      " +
+        printInfo[10].numero.padEnd(6) +
+        "  " +
         printInfo[10].option.charAt(0) +
         "     " +
         printInfo[10].montant +
@@ -4345,8 +4345,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[11].numero +
-        "      " +
+        printInfo[11].numero.padEnd(6) +
+        "  " +
         printInfo[11].option.charAt(0) +
         "     " +
         printInfo[11].montant +
@@ -4360,8 +4360,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[12].numero +
-        "      " +
+        printInfo[12].numero.padEnd(6) +
+        "  " +
         printInfo[12].option.charAt(0) +
         "     " +
         printInfo[12].montant +
@@ -4375,8 +4375,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[13].numero +
-        "      " +
+        printInfo[13].numero.padEnd(6) +
+        "  " +
         printInfo[13].option.charAt(0) +
         "     " +
         printInfo[13].montant +
@@ -4390,8 +4390,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[14].numero +
-        "      " +
+        printInfo[14].numero.padEnd(6) +
+        "  " +
         printInfo[14].option.charAt(0) +
         "     " +
         printInfo[14].montant +
@@ -4405,8 +4405,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[15].numero +
-        "      " +
+        printInfo[15].numero.padEnd(6) +
+        "  " +
         printInfo[15].option.charAt(0) +
         "     " +
         printInfo[15].montant +
@@ -4420,8 +4420,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[16].numero +
-        "      " +
+        printInfo[16].numero.padEnd(6) +
+        "  " +
         printInfo[16].option.charAt(0) +
         "     " +
         printInfo[16].montant +
@@ -4435,8 +4435,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[17].numero +
-        "      " +
+        printInfo[17].numero.padEnd(6) +
+        "  " +
         printInfo[17].option.charAt(0) +
         "     " +
         printInfo[17].montant +
@@ -4450,8 +4450,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[18].numero +
-        "      " +
+        printInfo[18].numero.padEnd(6) +
+        "  " +
         printInfo[18].option.charAt(0) +
         "     " +
         printInfo[18].montant +
@@ -4465,8 +4465,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[19].numero +
-        "      " +
+        printInfo[19].numero.padEnd(6) +
+        "  " +
         printInfo[19].option.charAt(0) +
         "     " +
         printInfo[19].montant +
@@ -4480,8 +4480,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[20].numero +
-        "      " +
+        printInfo[20].numero.padEnd(6) +
+        "  " +
         printInfo[20].option.charAt(0) +
         "     " +
         printInfo[20].montant +
@@ -4495,8 +4495,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[21].numero +
-        "      " +
+        printInfo[21].numero.padEnd(6) +
+        "  " +
         printInfo[21].option.charAt(0) +
         "     " +
         printInfo[21].montant +
@@ -4510,8 +4510,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[22].numero +
-        "      " +
+        printInfo[22].numero.padEnd(6) +
+        "  " +
         printInfo[22].option.charAt(0) +
         "     " +
         printInfo[22].montant +
@@ -4525,8 +4525,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[23].numero +
-        "      " +
+        printInfo[23].numero.padEnd(6) +
+        "  " +
         printInfo[23].option.charAt(0) +
         "     " +
         printInfo[23].montant +
@@ -4541,8 +4541,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[0].numero +
-        "      " +
+        printInfo[0].numero.padEnd(6) +
+        "  " +
         printInfo[0].option.charAt(0) +
         "     " +
         printInfo[0].montant +
@@ -4556,8 +4556,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[1].numero +
-        "      " +
+        printInfo[1].numero.padEnd(6) +
+        "  " +
         printInfo[1].option.charAt(0) +
         "     " +
         printInfo[1].montant +
@@ -4571,8 +4571,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[2].numero +
-        "      " +
+        printInfo[2].numero.padEnd(6) +
+        "  " +
         printInfo[2].option.charAt(0) +
         "     " +
         printInfo[2].montant +
@@ -4586,8 +4586,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[3].numero +
-        "      " +
+        printInfo[3].numero.padEnd(6) +
+        "  " +
         printInfo[3].option.charAt(0) +
         "     " +
         printInfo[3].montant +
@@ -4601,8 +4601,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[4].numero +
-        "      " +
+        printInfo[4].numero.padEnd(6) +
+        "  " +
         printInfo[4].option.charAt(0) +
         "     " +
         printInfo[4].montant +
@@ -4616,8 +4616,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[5].numero +
-        "      " +
+        printInfo[5].numero.padEnd(6) +
+        "  " +
         printInfo[5].option.charAt(0) +
         "     " +
         printInfo[5].montant +
@@ -4631,8 +4631,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[6].numero +
-        "      " +
+        printInfo[6].numero.padEnd(6) +
+        "  " +
         printInfo[6].option.charAt(0) +
         "     " +
         printInfo[6].montant +
@@ -4646,8 +4646,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[7].numero +
-        "      " +
+        printInfo[7].numero.padEnd(6) +
+        "  " +
         printInfo[7].option.charAt(0) +
         "     " +
         printInfo[7].montant +
@@ -4661,8 +4661,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[8].numero +
-        "      " +
+        printInfo[8].numero.padEnd(6) +
+        "  " +
         printInfo[8].option.charAt(0) +
         "     " +
         printInfo[8].montant +
@@ -4676,8 +4676,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[9].numero +
-        "      " +
+        printInfo[9].numero.padEnd(6) +
+        "  " +
         printInfo[9].option.charAt(0) +
         "     " +
         printInfo[9].montant +
@@ -4691,8 +4691,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[10].numero +
-        "      " +
+        printInfo[10].numero.padEnd(6) +
+        "  " +
         printInfo[10].option.charAt(0) +
         "     " +
         printInfo[10].montant +
@@ -4706,8 +4706,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[11].numero +
-        "      " +
+        printInfo[11].numero.padEnd(6) +
+        "  " +
         printInfo[11].option.charAt(0) +
         "     " +
         printInfo[11].montant +
@@ -4721,8 +4721,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[12].numero +
-        "      " +
+        printInfo[12].numero.padEnd(6) +
+        "  " +
         printInfo[12].option.charAt(0) +
         "     " +
         printInfo[12].montant +
@@ -4736,8 +4736,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[13].numero +
-        "      " +
+        printInfo[13].numero.padEnd(6) +
+        "  " +
         printInfo[13].option.charAt(0) +
         "     " +
         printInfo[13].montant +
@@ -4751,8 +4751,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[14].numero +
-        "      " +
+        printInfo[14].numero.padEnd(6) +
+        "  " +
         printInfo[14].option.charAt(0) +
         "     " +
         printInfo[14].montant +
@@ -4766,8 +4766,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[15].numero +
-        "      " +
+        printInfo[15].numero.padEnd(6) +
+        "  " +
         printInfo[15].option.charAt(0) +
         "     " +
         printInfo[15].montant +
@@ -4781,8 +4781,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[16].numero +
-        "      " +
+        printInfo[16].numero.padEnd(6) +
+        "  " +
         printInfo[16].option.charAt(0) +
         "     " +
         printInfo[16].montant +
@@ -4796,8 +4796,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[17].numero +
-        "      " +
+        printInfo[17].numero.padEnd(6) +
+        "  " +
         printInfo[17].option.charAt(0) +
         "     " +
         printInfo[17].montant +
@@ -4811,8 +4811,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[18].numero +
-        "      " +
+        printInfo[18].numero.padEnd(6) +
+        "  " +
         printInfo[18].option.charAt(0) +
         "     " +
         printInfo[18].montant +
@@ -4826,8 +4826,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[19].numero +
-        "      " +
+        printInfo[19].numero.padEnd(6) +
+        "  " +
         printInfo[19].option.charAt(0) +
         "     " +
         printInfo[19].montant +
@@ -4841,8 +4841,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[20].numero +
-        "      " +
+        printInfo[20].numero.padEnd(6) +
+        "  " +
         printInfo[20].option.charAt(0) +
         "     " +
         printInfo[20].montant +
@@ -4856,8 +4856,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[21].numero +
-        "      " +
+        printInfo[21].numero.padEnd(6) +
+        "  " +
         printInfo[21].option.charAt(0) +
         "     " +
         printInfo[21].montant +
@@ -4871,8 +4871,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[22].numero +
-        "      " +
+        printInfo[22].numero.padEnd(6) +
+        "  " +
         printInfo[22].option.charAt(0) +
         "     " +
         printInfo[22].montant +
@@ -4886,8 +4886,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[23].numero +
-        "      " +
+        printInfo[23].numero.padEnd(6) +
+        "  " +
         printInfo[23].option.charAt(0) +
         "     " +
         printInfo[23].montant +
@@ -4901,8 +4901,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[24].numero +
-        "      " +
+        printInfo[24].numero.padEnd(6) +
+        "  " +
         printInfo[24].option.charAt(0) +
         "     " +
         printInfo[24].montant +
@@ -4917,8 +4917,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[0].numero +
-        "      " +
+        printInfo[0].numero.padEnd(6) +
+        "  " +
         printInfo[0].option.charAt(0) +
         "     " +
         printInfo[0].montant +
@@ -4932,8 +4932,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[1].numero +
-        "      " +
+        printInfo[1].numero.padEnd(6) +
+        "  " +
         printInfo[1].option.charAt(0) +
         "     " +
         printInfo[1].montant +
@@ -4947,8 +4947,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[2].numero +
-        "      " +
+        printInfo[2].numero.padEnd(6) +
+        "  " +
         printInfo[2].option.charAt(0) +
         "     " +
         printInfo[2].montant +
@@ -4962,8 +4962,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[3].numero +
-        "      " +
+        printInfo[3].numero.padEnd(6) +
+        "  " +
         printInfo[3].option.charAt(0) +
         "     " +
         printInfo[3].montant +
@@ -4977,8 +4977,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[4].numero +
-        "      " +
+        printInfo[4].numero.padEnd(6) +
+        "  " +
         printInfo[4].option.charAt(0) +
         "     " +
         printInfo[4].montant +
@@ -4992,8 +4992,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[5].numero +
-        "      " +
+        printInfo[5].numero.padEnd(6) +
+        "  " +
         printInfo[5].option.charAt(0) +
         "     " +
         printInfo[5].montant +
@@ -5007,8 +5007,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[6].numero +
-        "      " +
+        printInfo[6].numero.padEnd(6) +
+        "  " +
         printInfo[6].option.charAt(0) +
         "     " +
         printInfo[6].montant +
@@ -5022,8 +5022,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[7].numero +
-        "      " +
+        printInfo[7].numero.padEnd(6) +
+        "  " +
         printInfo[7].option.charAt(0) +
         "     " +
         printInfo[7].montant +
@@ -5037,8 +5037,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[8].numero +
-        "      " +
+        printInfo[8].numero.padEnd(6) +
+        "  " +
         printInfo[8].option.charAt(0) +
         "     " +
         printInfo[8].montant +
@@ -5052,8 +5052,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[9].numero +
-        "      " +
+        printInfo[9].numero.padEnd(6) +
+        "  " +
         printInfo[9].option.charAt(0) +
         "     " +
         printInfo[9].montant +
@@ -5067,8 +5067,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[10].numero +
-        "      " +
+        printInfo[10].numero.padEnd(6) +
+        "  " +
         printInfo[10].option.charAt(0) +
         "     " +
         printInfo[10].montant +
@@ -5082,8 +5082,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[11].numero +
-        "      " +
+        printInfo[11].numero.padEnd(6) +
+        "  " +
         printInfo[11].option.charAt(0) +
         "     " +
         printInfo[11].montant +
@@ -5097,8 +5097,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[12].numero +
-        "      " +
+        printInfo[12].numero.padEnd(6) +
+        "  " +
         printInfo[12].option.charAt(0) +
         "     " +
         printInfo[12].montant +
@@ -5112,8 +5112,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[13].numero +
-        "      " +
+        printInfo[13].numero.padEnd(6) +
+        "  " +
         printInfo[13].option.charAt(0) +
         "     " +
         printInfo[13].montant +
@@ -5127,8 +5127,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[14].numero +
-        "      " +
+        printInfo[14].numero.padEnd(6) +
+        "  " +
         printInfo[14].option.charAt(0) +
         "     " +
         printInfo[14].montant +
@@ -5142,8 +5142,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[15].numero +
-        "      " +
+        printInfo[15].numero.padEnd(6) +
+        "  " +
         printInfo[15].option.charAt(0) +
         "     " +
         printInfo[15].montant +
@@ -5157,8 +5157,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[16].numero +
-        "      " +
+        printInfo[16].numero.padEnd(6) +
+        "  " +
         printInfo[16].option.charAt(0) +
         "     " +
         printInfo[16].montant +
@@ -5172,8 +5172,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[17].numero +
-        "      " +
+        printInfo[17].numero.padEnd(6) +
+        "  " +
         printInfo[17].option.charAt(0) +
         "     " +
         printInfo[17].montant +
@@ -5187,8 +5187,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[18].numero +
-        "      " +
+        printInfo[18].numero.padEnd(6) +
+        "  " +
         printInfo[18].option.charAt(0) +
         "     " +
         printInfo[18].montant +
@@ -5202,8 +5202,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[19].numero +
-        "      " +
+        printInfo[19].numero.padEnd(6) +
+        "  " +
         printInfo[19].option.charAt(0) +
         "     " +
         printInfo[19].montant +
@@ -5217,8 +5217,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[20].numero +
-        "      " +
+        printInfo[20].numero.padEnd(6) +
+        "  " +
         printInfo[20].option.charAt(0) +
         "     " +
         printInfo[20].montant +
@@ -5232,8 +5232,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[21].numero +
-        "      " +
+        printInfo[21].numero.padEnd(6) +
+        "  " +
         printInfo[21].option.charAt(0) +
         "     " +
         printInfo[21].montant +
@@ -5247,8 +5247,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[22].numero +
-        "      " +
+        printInfo[22].numero.padEnd(6) +
+        "  " +
         printInfo[22].option.charAt(0) +
         "     " +
         printInfo[22].montant +
@@ -5262,8 +5262,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[23].numero +
-        "      " +
+        printInfo[23].numero.padEnd(6) +
+        "  " +
         printInfo[23].option.charAt(0) +
         "     " +
         printInfo[23].montant +
@@ -5277,8 +5277,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[24].numero +
-        "      " +
+        printInfo[24].numero.padEnd(6) +
+        "  " +
         printInfo[24].option.charAt(0) +
         "     " +
         printInfo[24].montant +
@@ -5292,8 +5292,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[25].numero +
-        "      " +
+        printInfo[25].numero.padEnd(6) +
+        "  " +
         printInfo[25].option.charAt(0) +
         "     " +
         printInfo[25].montant +
@@ -5308,8 +5308,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[0].numero +
-        "      " +
+        printInfo[0].numero.padEnd(6) +
+        "  " +
         printInfo[0].option.charAt(0) +
         "     " +
         printInfo[0].montant +
@@ -5323,8 +5323,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[1].numero +
-        "      " +
+        printInfo[1].numero.padEnd(6) +
+        "  " +
         printInfo[1].option.charAt(0) +
         "     " +
         printInfo[1].montant +
@@ -5338,8 +5338,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[2].numero +
-        "      " +
+        printInfo[2].numero.padEnd(6) +
+        "  " +
         printInfo[2].option.charAt(0) +
         "     " +
         printInfo[2].montant +
@@ -5353,8 +5353,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[3].numero +
-        "      " +
+        printInfo[3].numero.padEnd(6) +
+        "  " +
         printInfo[3].option.charAt(0) +
         "     " +
         printInfo[3].montant +
@@ -5368,8 +5368,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[4].numero +
-        "      " +
+        printInfo[4].numero.padEnd(6) +
+        "  " +
         printInfo[4].option.charAt(0) +
         "     " +
         printInfo[4].montant +
@@ -5383,8 +5383,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[5].numero +
-        "      " +
+        printInfo[5].numero.padEnd(6) +
+        "  " +
         printInfo[5].option.charAt(0) +
         "     " +
         printInfo[5].montant +
@@ -5398,8 +5398,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[6].numero +
-        "      " +
+        printInfo[6].numero.padEnd(6) +
+        "  " +
         printInfo[6].option.charAt(0) +
         "     " +
         printInfo[6].montant +
@@ -5413,8 +5413,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[7].numero +
-        "      " +
+        printInfo[7].numero.padEnd(6) +
+        "  " +
         printInfo[7].option.charAt(0) +
         "     " +
         printInfo[7].montant +
@@ -5428,8 +5428,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[8].numero +
-        "      " +
+        printInfo[8].numero.padEnd(6) +
+        "  " +
         printInfo[8].option.charAt(0) +
         "     " +
         printInfo[8].montant +
@@ -5443,8 +5443,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[9].numero +
-        "      " +
+        printInfo[9].numero.padEnd(6) +
+        "  " +
         printInfo[9].option.charAt(0) +
         "     " +
         printInfo[9].montant +
@@ -5458,8 +5458,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[10].numero +
-        "      " +
+        printInfo[10].numero.padEnd(6) +
+        "  " +
         printInfo[10].option.charAt(0) +
         "     " +
         printInfo[10].montant +
@@ -5473,8 +5473,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[11].numero +
-        "      " +
+        printInfo[11].numero.padEnd(6) +
+        "  " +
         printInfo[11].option.charAt(0) +
         "     " +
         printInfo[11].montant +
@@ -5488,8 +5488,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[12].numero +
-        "      " +
+        printInfo[12].numero.padEnd(6) +
+        "  " +
         printInfo[12].option.charAt(0) +
         "     " +
         printInfo[12].montant +
@@ -5503,8 +5503,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[13].numero +
-        "      " +
+        printInfo[13].numero.padEnd(6) +
+        "  " +
         printInfo[13].option.charAt(0) +
         "     " +
         printInfo[13].montant +
@@ -5518,8 +5518,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[14].numero +
-        "      " +
+        printInfo[14].numero.padEnd(6) +
+        "  " +
         printInfo[14].option.charAt(0) +
         "     " +
         printInfo[14].montant +
@@ -5533,8 +5533,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[15].numero +
-        "      " +
+        printInfo[15].numero.padEnd(6) +
+        "  " +
         printInfo[15].option.charAt(0) +
         "     " +
         printInfo[15].montant +
@@ -5548,8 +5548,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[16].numero +
-        "      " +
+        printInfo[16].numero.padEnd(6) +
+        "  " +
         printInfo[16].option.charAt(0) +
         "     " +
         printInfo[16].montant +
@@ -5563,8 +5563,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[17].numero +
-        "      " +
+        printInfo[17].numero.padEnd(6) +
+        "  " +
         printInfo[17].option.charAt(0) +
         "     " +
         printInfo[17].montant +
@@ -5578,8 +5578,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[18].numero +
-        "      " +
+        printInfo[18].numero.padEnd(6) +
+        "  " +
         printInfo[18].option.charAt(0) +
         "     " +
         printInfo[18].montant +
@@ -5593,8 +5593,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[19].numero +
-        "      " +
+        printInfo[19].numero.padEnd(6) +
+        "  " +
         printInfo[19].option.charAt(0) +
         "     " +
         printInfo[19].montant +
@@ -5608,8 +5608,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[20].numero +
-        "      " +
+        printInfo[20].numero.padEnd(6) +
+        "  " +
         printInfo[20].option.charAt(0) +
         "     " +
         printInfo[20].montant +
@@ -5623,8 +5623,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[21].numero +
-        "      " +
+        printInfo[21].numero.padEnd(6) +
+        "  " +
         printInfo[21].option.charAt(0) +
         "     " +
         printInfo[21].montant +
@@ -5638,8 +5638,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[22].numero +
-        "      " +
+        printInfo[22].numero.padEnd(6) +
+        "  " +
         printInfo[22].option.charAt(0) +
         "     " +
         printInfo[22].montant +
@@ -5653,8 +5653,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[23].numero +
-        "      " +
+        printInfo[23].numero.padEnd(6) +
+        "  " +
         printInfo[23].option.charAt(0) +
         "     " +
         printInfo[23].montant +
@@ -5668,8 +5668,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[24].numero +
-        "      " +
+        printInfo[24].numero.padEnd(6) +
+        "  " +
         printInfo[24].option.charAt(0) +
         "     " +
         printInfo[24].montant +
@@ -5684,8 +5684,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[0].numero +
-        "      " +
+        printInfo[0].numero.padEnd(6) +
+        "  " +
         printInfo[0].option.charAt(0) +
         "     " +
         printInfo[0].montant +
@@ -5699,8 +5699,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[1].numero +
-        "      " +
+        printInfo[1].numero.padEnd(6) +
+        "  " +
         printInfo[1].option.charAt(0) +
         "     " +
         printInfo[1].montant +
@@ -5714,8 +5714,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[2].numero +
-        "      " +
+        printInfo[2].numero.padEnd(6) +
+        "  " +
         printInfo[2].option.charAt(0) +
         "     " +
         printInfo[2].montant +
@@ -5729,8 +5729,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[3].numero +
-        "      " +
+        printInfo[3].numero.padEnd(6) +
+        "  " +
         printInfo[3].option.charAt(0) +
         "     " +
         printInfo[3].montant +
@@ -5744,8 +5744,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[4].numero +
-        "      " +
+        printInfo[4].numero.padEnd(6) +
+        "  " +
         printInfo[4].option.charAt(0) +
         "     " +
         printInfo[4].montant +
@@ -5759,8 +5759,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[5].numero +
-        "      " +
+        printInfo[5].numero.padEnd(6) +
+        "  " +
         printInfo[5].option.charAt(0) +
         "     " +
         printInfo[5].montant +
@@ -5774,8 +5774,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[6].numero +
-        "      " +
+        printInfo[6].numero.padEnd(6) +
+        "  " +
         printInfo[6].option.charAt(0) +
         "     " +
         printInfo[6].montant +
@@ -5789,8 +5789,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[7].numero +
-        "      " +
+        printInfo[7].numero.padEnd(6) +
+        "  " +
         printInfo[7].option.charAt(0) +
         "     " +
         printInfo[7].montant +
@@ -5804,8 +5804,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[8].numero +
-        "      " +
+        printInfo[8].numero.padEnd(6) +
+        "  " +
         printInfo[8].option.charAt(0) +
         "     " +
         printInfo[8].montant +
@@ -5819,8 +5819,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[9].numero +
-        "      " +
+        printInfo[9].numero.padEnd(6) +
+        "  " +
         printInfo[9].option.charAt(0) +
         "     " +
         printInfo[9].montant +
@@ -5834,8 +5834,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[10].numero +
-        "      " +
+        printInfo[10].numero.padEnd(6) +
+        "  " +
         printInfo[10].option.charAt(0) +
         "     " +
         printInfo[10].montant +
@@ -5849,8 +5849,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[11].numero +
-        "      " +
+        printInfo[11].numero.padEnd(6) +
+        "  " +
         printInfo[11].option.charAt(0) +
         "     " +
         printInfo[11].montant +
@@ -5864,8 +5864,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[12].numero +
-        "      " +
+        printInfo[12].numero.padEnd(6) +
+        "  " +
         printInfo[12].option.charAt(0) +
         "     " +
         printInfo[12].montant +
@@ -5879,8 +5879,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[13].numero +
-        "      " +
+        printInfo[13].numero.padEnd(6) +
+        "  " +
         printInfo[13].option.charAt(0) +
         "     " +
         printInfo[13].montant +
@@ -5894,8 +5894,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[14].numero +
-        "      " +
+        printInfo[14].numero.padEnd(6) +
+        "  " +
         printInfo[14].option.charAt(0) +
         "     " +
         printInfo[14].montant +
@@ -5909,8 +5909,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[15].numero +
-        "      " +
+        printInfo[15].numero.padEnd(6) +
+        "  " +
         printInfo[15].option.charAt(0) +
         "     " +
         printInfo[15].montant +
@@ -5924,8 +5924,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[16].numero +
-        "      " +
+        printInfo[16].numero.padEnd(6) +
+        "  " +
         printInfo[16].option.charAt(0) +
         "     " +
         printInfo[16].montant +
@@ -5939,8 +5939,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[17].numero +
-        "      " +
+        printInfo[17].numero.padEnd(6) +
+        "  " +
         printInfo[17].option.charAt(0) +
         "     " +
         printInfo[17].montant +
@@ -5954,8 +5954,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[18].numero +
-        "      " +
+        printInfo[18].numero.padEnd(6) +
+        "  " +
         printInfo[18].option.charAt(0) +
         "     " +
         printInfo[18].montant +
@@ -5969,8 +5969,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[19].numero +
-        "      " +
+        printInfo[19].numero.padEnd(6) +
+        "  " +
         printInfo[19].option.charAt(0) +
         "     " +
         printInfo[19].montant +
@@ -5984,8 +5984,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[20].numero +
-        "      " +
+        printInfo[20].numero.padEnd(6) +
+        "  " +
         printInfo[20].option.charAt(0) +
         "     " +
         printInfo[20].montant +
@@ -5999,8 +5999,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[21].numero +
-        "      " +
+        printInfo[21].numero.padEnd(6) +
+        "  " +
         printInfo[21].option.charAt(0) +
         "     " +
         printInfo[21].montant +
@@ -6014,8 +6014,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[22].numero +
-        "      " +
+        printInfo[22].numero.padEnd(6) +
+        "  " +
         printInfo[22].option.charAt(0) +
         "     " +
         printInfo[22].montant +
@@ -6029,8 +6029,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[23].numero +
-        "      " +
+        printInfo[23].numero.padEnd(6) +
+        "  " +
         printInfo[23].option.charAt(0) +
         "     " +
         printInfo[23].montant +
@@ -6044,8 +6044,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[24].numero +
-        "      " +
+        printInfo[24].numero.padEnd(6) +
+        "  " +
         printInfo[24].option.charAt(0) +
         "     " +
         printInfo[24].montant +
@@ -6059,8 +6059,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[25].numero +
-        "      " +
+        printInfo[25].numero.padEnd(6) +
+        "  " +
         printInfo[25].option.charAt(0) +
         "     " +
         printInfo[25].montant +
@@ -6074,8 +6074,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[26].numero +
-        "      " +
+        printInfo[26].numero.padEnd(6) +
+        "  " +
         printInfo[26].option.charAt(0) +
         "     " +
         printInfo[26].montant +
@@ -6090,8 +6090,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[0].numero +
-        "      " +
+        printInfo[0].numero.padEnd(6) +
+        "  " +
         printInfo[0].option.charAt(0) +
         "     " +
         printInfo[0].montant +
@@ -6105,8 +6105,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[1].numero +
-        "      " +
+        printInfo[1].numero.padEnd(6) +
+        "  " +
         printInfo[1].option.charAt(0) +
         "     " +
         printInfo[1].montant +
@@ -6120,8 +6120,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[2].numero +
-        "      " +
+        printInfo[2].numero.padEnd(6) +
+        "  " +
         printInfo[2].option.charAt(0) +
         "     " +
         printInfo[2].montant +
@@ -6135,8 +6135,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[3].numero +
-        "      " +
+        printInfo[3].numero.padEnd(6) +
+        "  " +
         printInfo[3].option.charAt(0) +
         "     " +
         printInfo[3].montant +
@@ -6150,8 +6150,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[4].numero +
-        "      " +
+        printInfo[4].numero.padEnd(6) +
+        "  " +
         printInfo[4].option.charAt(0) +
         "     " +
         printInfo[4].montant +
@@ -6165,8 +6165,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[5].numero +
-        "      " +
+        printInfo[5].numero.padEnd(6) +
+        "  " +
         printInfo[5].option.charAt(0) +
         "     " +
         printInfo[5].montant +
@@ -6180,8 +6180,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[6].numero +
-        "      " +
+        printInfo[6].numero.padEnd(6) +
+        "  " +
         printInfo[6].option.charAt(0) +
         "     " +
         printInfo[6].montant +
@@ -6195,8 +6195,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[7].numero +
-        "      " +
+        printInfo[7].numero.padEnd(6) +
+        "  " +
         printInfo[7].option.charAt(0) +
         "     " +
         printInfo[7].montant +
@@ -6210,8 +6210,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[8].numero +
-        "      " +
+        printInfo[8].numero.padEnd(6) +
+        "  " +
         printInfo[8].option.charAt(0) +
         "     " +
         printInfo[8].montant +
@@ -6225,8 +6225,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[9].numero +
-        "      " +
+        printInfo[9].numero.padEnd(6) +
+        "  " +
         printInfo[9].option.charAt(0) +
         "     " +
         printInfo[9].montant +
@@ -6240,8 +6240,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[10].numero +
-        "      " +
+        printInfo[10].numero.padEnd(6) +
+        "  " +
         printInfo[10].option.charAt(0) +
         "     " +
         printInfo[10].montant +
@@ -6255,8 +6255,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[11].numero +
-        "      " +
+        printInfo[11].numero.padEnd(6) +
+        "  " +
         printInfo[11].option.charAt(0) +
         "     " +
         printInfo[11].montant +
@@ -6270,8 +6270,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[12].numero +
-        "      " +
+        printInfo[12].numero.padEnd(6) +
+        "  " +
         printInfo[12].option.charAt(0) +
         "     " +
         printInfo[12].montant +
@@ -6285,8 +6285,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[13].numero +
-        "      " +
+        printInfo[13].numero.padEnd(6) +
+        "  " +
         printInfo[13].option.charAt(0) +
         "     " +
         printInfo[13].montant +
@@ -6300,8 +6300,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[14].numero +
-        "      " +
+        printInfo[14].numero.padEnd(6) +
+        "  " +
         printInfo[14].option.charAt(0) +
         "     " +
         printInfo[14].montant +
@@ -6315,8 +6315,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[15].numero +
-        "      " +
+        printInfo[15].numero.padEnd(6) +
+        "  " +
         printInfo[15].option.charAt(0) +
         "     " +
         printInfo[15].montant +
@@ -6330,8 +6330,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[16].numero +
-        "      " +
+        printInfo[16].numero.padEnd(6) +
+        "  " +
         printInfo[16].option.charAt(0) +
         "     " +
         printInfo[16].montant +
@@ -6345,8 +6345,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[17].numero +
-        "      " +
+        printInfo[17].numero.padEnd(6) +
+        "  " +
         printInfo[17].option.charAt(0) +
         "     " +
         printInfo[17].montant +
@@ -6360,8 +6360,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[18].numero +
-        "      " +
+        printInfo[18].numero.padEnd(6) +
+        "  " +
         printInfo[18].option.charAt(0) +
         "     " +
         printInfo[18].montant +
@@ -6375,8 +6375,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[19].numero +
-        "      " +
+        printInfo[19].numero.padEnd(6) +
+        "  " +
         printInfo[19].option.charAt(0) +
         "     " +
         printInfo[19].montant +
@@ -6390,8 +6390,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[20].numero +
-        "      " +
+        printInfo[20].numero.padEnd(6) +
+        "  " +
         printInfo[20].option.charAt(0) +
         "     " +
         printInfo[20].montant +
@@ -6405,8 +6405,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[21].numero +
-        "      " +
+        printInfo[21].numero.padEnd(6) +
+        "  " +
         printInfo[21].option.charAt(0) +
         "     " +
         printInfo[21].montant +
@@ -6420,8 +6420,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[22].numero +
-        "      " +
+        printInfo[22].numero.padEnd(6) +
+        "  " +
         printInfo[22].option.charAt(0) +
         "     " +
         printInfo[22].montant +
@@ -6435,8 +6435,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[23].numero +
-        "      " +
+        printInfo[23].numero.padEnd(6) +
+        "  " +
         printInfo[23].option.charAt(0) +
         "     " +
         printInfo[23].montant +
@@ -6450,8 +6450,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[24].numero +
-        "      " +
+        printInfo[24].numero.padEnd(6) +
+        "  " +
         printInfo[24].option.charAt(0) +
         "     " +
         printInfo[24].montant +
@@ -6465,8 +6465,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[25].numero +
-        "      " +
+        printInfo[25].numero.padEnd(6) +
+        "  " +
         printInfo[25].option.charAt(0) +
         "     " +
         printInfo[25].montant +
@@ -6480,8 +6480,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[26].numero +
-        "      " +
+        printInfo[26].numero.padEnd(6) +
+        "  " +
         printInfo[26].option.charAt(0) +
         "     " +
         printInfo[26].montant +
@@ -6495,8 +6495,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[27].numero +
-        "      " +
+        printInfo[27].numero.padEnd(6) +
+        "  " +
         printInfo[27].option.charAt(0) +
         "     " +
         printInfo[27].montant +
@@ -6511,8 +6511,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[0].numero +
-        "      " +
+        printInfo[0].numero.padEnd(6) +
+        "  " +
         printInfo[0].option.charAt(0) +
         "     " +
         printInfo[0].montant +
@@ -6526,8 +6526,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[1].numero +
-        "      " +
+        printInfo[1].numero.padEnd(6) +
+        "  " +
         printInfo[1].option.charAt(0) +
         "     " +
         printInfo[1].montant +
@@ -6541,8 +6541,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[2].numero +
-        "      " +
+        printInfo[2].numero.padEnd(6) +
+        "  " +
         printInfo[2].option.charAt(0) +
         "     " +
         printInfo[2].montant +
@@ -6556,8 +6556,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[3].numero +
-        "      " +
+        printInfo[3].numero.padEnd(6) +
+        "  " +
         printInfo[3].option.charAt(0) +
         "     " +
         printInfo[3].montant +
@@ -6571,8 +6571,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[4].numero +
-        "      " +
+        printInfo[4].numero.padEnd(6) +
+        "  " +
         printInfo[4].option.charAt(0) +
         "     " +
         printInfo[4].montant +
@@ -6586,8 +6586,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[5].numero +
-        "      " +
+        printInfo[5].numero.padEnd(6) +
+        "  " +
         printInfo[5].option.charAt(0) +
         "     " +
         printInfo[5].montant +
@@ -6601,8 +6601,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[6].numero +
-        "      " +
+        printInfo[6].numero.padEnd(6) +
+        "  " +
         printInfo[6].option.charAt(0) +
         "     " +
         printInfo[6].montant +
@@ -6616,8 +6616,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[7].numero +
-        "      " +
+        printInfo[7].numero.padEnd(6) +
+        "  " +
         printInfo[7].option.charAt(0) +
         "     " +
         printInfo[7].montant +
@@ -6631,8 +6631,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[8].numero +
-        "      " +
+        printInfo[8].numero.padEnd(6) +
+        "  " +
         printInfo[8].option.charAt(0) +
         "     " +
         printInfo[8].montant +
@@ -6646,8 +6646,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[9].numero +
-        "      " +
+        printInfo[9].numero.padEnd(6) +
+        "  " +
         printInfo[9].option.charAt(0) +
         "     " +
         printInfo[9].montant +
@@ -6661,8 +6661,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[10].numero +
-        "      " +
+        printInfo[10].numero.padEnd(6) +
+        "  " +
         printInfo[10].option.charAt(0) +
         "     " +
         printInfo[10].montant +
@@ -6676,8 +6676,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[11].numero +
-        "      " +
+        printInfo[11].numero.padEnd(6) +
+        "  " +
         printInfo[11].option.charAt(0) +
         "     " +
         printInfo[11].montant +
@@ -6691,8 +6691,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[12].numero +
-        "      " +
+        printInfo[12].numero.padEnd(6) +
+        "  " +
         printInfo[12].option.charAt(0) +
         "     " +
         printInfo[12].montant +
@@ -6706,8 +6706,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[13].numero +
-        "      " +
+        printInfo[13].numero.padEnd(6) +
+        "  " +
         printInfo[13].option.charAt(0) +
         "     " +
         printInfo[13].montant +
@@ -6721,8 +6721,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[14].numero +
-        "      " +
+        printInfo[14].numero.padEnd(6) +
+        "  " +
         printInfo[14].option.charAt(0) +
         "     " +
         printInfo[14].montant +
@@ -6736,8 +6736,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[15].numero +
-        "      " +
+        printInfo[15].numero.padEnd(6) +
+        "  " +
         printInfo[15].option.charAt(0) +
         "     " +
         printInfo[15].montant +
@@ -6751,8 +6751,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[16].numero +
-        "      " +
+        printInfo[16].numero.padEnd(6) +
+        "  " +
         printInfo[16].option.charAt(0) +
         "     " +
         printInfo[16].montant +
@@ -6766,8 +6766,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[17].numero +
-        "      " +
+        printInfo[17].numero.padEnd(6) +
+        "  " +
         printInfo[17].option.charAt(0) +
         "     " +
         printInfo[17].montant +
@@ -6781,8 +6781,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[18].numero +
-        "      " +
+        printInfo[18].numero.padEnd(6) +
+        "  " +
         printInfo[18].option.charAt(0) +
         "     " +
         printInfo[18].montant +
@@ -6796,8 +6796,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[19].numero +
-        "      " +
+        printInfo[19].numero.padEnd(6) +
+        "  " +
         printInfo[19].option.charAt(0) +
         "     " +
         printInfo[19].montant +
@@ -6811,8 +6811,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[20].numero +
-        "      " +
+        printInfo[20].numero.padEnd(6) +
+        "  " +
         printInfo[20].option.charAt(0) +
         "     " +
         printInfo[20].montant +
@@ -6826,8 +6826,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[21].numero +
-        "      " +
+        printInfo[21].numero.padEnd(6) +
+        "  " +
         printInfo[21].option.charAt(0) +
         "     " +
         printInfo[21].montant +
@@ -6841,8 +6841,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[22].numero +
-        "      " +
+        printInfo[22].numero.padEnd(6) +
+        "  " +
         printInfo[22].option.charAt(0) +
         "     " +
         printInfo[22].montant +
@@ -6856,8 +6856,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[23].numero +
-        "      " +
+        printInfo[23].numero.padEnd(6) +
+        "  " +
         printInfo[23].option.charAt(0) +
         "     " +
         printInfo[23].montant +
@@ -6871,8 +6871,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[24].numero +
-        "      " +
+        printInfo[24].numero.padEnd(6) +
+        "  " +
         printInfo[24].option.charAt(0) +
         "     " +
         printInfo[24].montant +
@@ -6886,8 +6886,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[25].numero +
-        "      " +
+        printInfo[25].numero.padEnd(6) +
+        "  " +
         printInfo[25].option.charAt(0) +
         "     " +
         printInfo[25].montant +
@@ -6901,8 +6901,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[26].numero +
-        "      " +
+        printInfo[26].numero.padEnd(6) +
+        "  " +
         printInfo[26].option.charAt(0) +
         "     " +
         printInfo[26].montant +
@@ -6916,8 +6916,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[27].numero +
-        "      " +
+        printInfo[27].numero.padEnd(6) +
+        "  " +
         printInfo[27].option.charAt(0) +
         "     " +
         printInfo[27].montant +
@@ -6931,8 +6931,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[28].numero +
-        "      " +
+        printInfo[28].numero.padEnd(6) +
+        "  " +
         printInfo[28].option.charAt(0) +
         "     " +
         printInfo[28].montant +
@@ -6947,8 +6947,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[0].numero +
-        "      " +
+        printInfo[0].numero.padEnd(6) +
+        "  " +
         printInfo[0].option.charAt(0) +
         "     " +
         printInfo[0].montant +
@@ -6962,8 +6962,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[1].numero +
-        "      " +
+        printInfo[1].numero.padEnd(6) +
+        "  " +
         printInfo[1].option.charAt(0) +
         "     " +
         printInfo[1].montant +
@@ -6977,8 +6977,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[2].numero +
-        "      " +
+        printInfo[2].numero.padEnd(6) +
+        "  " +
         printInfo[2].option.charAt(0) +
         "     " +
         printInfo[2].montant +
@@ -6992,8 +6992,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[3].numero +
-        "      " +
+        printInfo[3].numero.padEnd(6) +
+        "  " +
         printInfo[3].option.charAt(0) +
         "     " +
         printInfo[3].montant +
@@ -7007,8 +7007,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[4].numero +
-        "      " +
+        printInfo[4].numero.padEnd(6) +
+        "  " +
         printInfo[4].option.charAt(0) +
         "     " +
         printInfo[4].montant +
@@ -7022,8 +7022,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[5].numero +
-        "      " +
+        printInfo[5].numero.padEnd(6) +
+        "  " +
         printInfo[5].option.charAt(0) +
         "     " +
         printInfo[5].montant +
@@ -7037,8 +7037,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[6].numero +
-        "      " +
+        printInfo[6].numero.padEnd(6) +
+        "  " +
         printInfo[6].option.charAt(0) +
         "     " +
         printInfo[6].montant +
@@ -7052,8 +7052,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[7].numero +
-        "      " +
+        printInfo[7].numero.padEnd(6) +
+        "  " +
         printInfo[7].option.charAt(0) +
         "     " +
         printInfo[7].montant +
@@ -7067,8 +7067,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[8].numero +
-        "      " +
+        printInfo[8].numero.padEnd(6) +
+        "  " +
         printInfo[8].option.charAt(0) +
         "     " +
         printInfo[8].montant +
@@ -7082,8 +7082,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[9].numero +
-        "      " +
+        printInfo[9].numero.padEnd(6) +
+        "  " +
         printInfo[9].option.charAt(0) +
         "     " +
         printInfo[9].montant +
@@ -7097,8 +7097,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[10].numero +
-        "      " +
+        printInfo[10].numero.padEnd(6) +
+        "  " +
         printInfo[10].option.charAt(0) +
         "     " +
         printInfo[10].montant +
@@ -7112,8 +7112,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[11].numero +
-        "      " +
+        printInfo[11].numero.padEnd(6) +
+        "  " +
         printInfo[11].option.charAt(0) +
         "     " +
         printInfo[11].montant +
@@ -7127,8 +7127,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[12].numero +
-        "      " +
+        printInfo[12].numero.padEnd(6) +
+        "  " +
         printInfo[12].option.charAt(0) +
         "     " +
         printInfo[12].montant +
@@ -7142,8 +7142,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[13].numero +
-        "      " +
+        printInfo[13].numero.padEnd(6) +
+        "  " +
         printInfo[13].option.charAt(0) +
         "     " +
         printInfo[13].montant +
@@ -7157,8 +7157,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[14].numero +
-        "      " +
+        printInfo[14].numero.padEnd(6) +
+        "  " +
         printInfo[14].option.charAt(0) +
         "     " +
         printInfo[14].montant +
@@ -7172,8 +7172,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[15].numero +
-        "      " +
+        printInfo[15].numero.padEnd(6) +
+        "  " +
         printInfo[15].option.charAt(0) +
         "     " +
         printInfo[15].montant +
@@ -7187,8 +7187,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[16].numero +
-        "      " +
+        printInfo[16].numero.padEnd(6) +
+        "  " +
         printInfo[16].option.charAt(0) +
         "     " +
         printInfo[16].montant +
@@ -7202,8 +7202,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[17].numero +
-        "      " +
+        printInfo[17].numero.padEnd(6) +
+        "  " +
         printInfo[17].option.charAt(0) +
         "     " +
         printInfo[17].montant +
@@ -7217,8 +7217,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[18].numero +
-        "      " +
+        printInfo[18].numero.padEnd(6) +
+        "  " +
         printInfo[18].option.charAt(0) +
         "     " +
         printInfo[18].montant +
@@ -7232,8 +7232,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[19].numero +
-        "      " +
+        printInfo[19].numero.padEnd(6) +
+        "  " +
         printInfo[19].option.charAt(0) +
         "     " +
         printInfo[19].montant +
@@ -7247,8 +7247,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[20].numero +
-        "      " +
+        printInfo[20].numero.padEnd(6) +
+        "  " +
         printInfo[20].option.charAt(0) +
         "     " +
         printInfo[20].montant +
@@ -7262,8 +7262,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[21].numero +
-        "      " +
+        printInfo[21].numero.padEnd(6) +
+        "  " +
         printInfo[21].option.charAt(0) +
         "     " +
         printInfo[21].montant +
@@ -7277,8 +7277,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[22].numero +
-        "      " +
+        printInfo[22].numero.padEnd(6) +
+        "  " +
         printInfo[22].option.charAt(0) +
         "     " +
         printInfo[22].montant +
@@ -7292,8 +7292,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[23].numero +
-        "      " +
+        printInfo[23].numero.padEnd(6) +
+        "  " +
         printInfo[23].option.charAt(0) +
         "     " +
         printInfo[23].montant +
@@ -7307,8 +7307,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[24].numero +
-        "      " +
+        printInfo[24].numero.padEnd(6) +
+        "  " +
         printInfo[24].option.charAt(0) +
         "     " +
         printInfo[24].montant +
@@ -7322,8 +7322,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[25].numero +
-        "      " +
+        printInfo[25].numero.padEnd(6) +
+        "  " +
         printInfo[25].option.charAt(0) +
         "     " +
         printInfo[25].montant +
@@ -7337,8 +7337,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[26].numero +
-        "      " +
+        printInfo[26].numero.padEnd(6) +
+        "  " +
         printInfo[26].option.charAt(0) +
         "     " +
         printInfo[26].montant +
@@ -7352,8 +7352,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[27].numero +
-        "      " +
+        printInfo[27].numero.padEnd(6) +
+        "  " +
         printInfo[27].option.charAt(0) +
         "     " +
         printInfo[27].montant +
@@ -7367,8 +7367,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[28].numero +
-        "      " +
+        printInfo[28].numero.padEnd(6) +
+        "  " +
         printInfo[28].option.charAt(0) +
         "     " +
         printInfo[28].montant +
@@ -7382,8 +7382,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[29].numero +
-        "      " +
+        printInfo[29].numero.padEnd(6) +
+        "  " +
         printInfo[29].option.charAt(0) +
         "     " +
         printInfo[29].montant +
@@ -7398,8 +7398,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[0].numero +
-        "      " +
+        printInfo[0].numero.padEnd(6) +
+        "  " +
         printInfo[0].option.charAt(0) +
         "     " +
         printInfo[0].montant +
@@ -7413,8 +7413,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[1].numero +
-        "      " +
+        printInfo[1].numero.padEnd(6) +
+        "  " +
         printInfo[1].option.charAt(0) +
         "     " +
         printInfo[1].montant +
@@ -7428,8 +7428,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[2].numero +
-        "      " +
+        printInfo[2].numero.padEnd(6) +
+        "  " +
         printInfo[2].option.charAt(0) +
         "     " +
         printInfo[2].montant +
@@ -7443,8 +7443,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[3].numero +
-        "      " +
+        printInfo[3].numero.padEnd(6) +
+        "  " +
         printInfo[3].option.charAt(0) +
         "     " +
         printInfo[3].montant +
@@ -7458,8 +7458,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[4].numero +
-        "      " +
+        printInfo[4].numero.padEnd(6) +
+        "  " +
         printInfo[4].option.charAt(0) +
         "     " +
         printInfo[4].montant +
@@ -7473,8 +7473,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[5].numero +
-        "      " +
+        printInfo[5].numero.padEnd(6) +
+        "  " +
         printInfo[5].option.charAt(0) +
         "     " +
         printInfo[5].montant +
@@ -7488,8 +7488,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[6].numero +
-        "      " +
+        printInfo[6].numero.padEnd(6) +
+        "  " +
         printInfo[6].option.charAt(0) +
         "     " +
         printInfo[6].montant +
@@ -7503,8 +7503,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[7].numero +
-        "      " +
+        printInfo[7].numero.padEnd(6) +
+        "  " +
         printInfo[7].option.charAt(0) +
         "     " +
         printInfo[7].montant +
@@ -7518,8 +7518,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[8].numero +
-        "      " +
+        printInfo[8].numero.padEnd(6) +
+        "  " +
         printInfo[8].option.charAt(0) +
         "     " +
         printInfo[8].montant +
@@ -7533,8 +7533,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[9].numero +
-        "      " +
+        printInfo[9].numero.padEnd(6) +
+        "  " +
         printInfo[9].option.charAt(0) +
         "     " +
         printInfo[9].montant +
@@ -7548,8 +7548,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[10].numero +
-        "      " +
+        printInfo[10].numero.padEnd(6) +
+        "  " +
         printInfo[10].option.charAt(0) +
         "     " +
         printInfo[10].montant +
@@ -7563,8 +7563,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[11].numero +
-        "      " +
+        printInfo[11].numero.padEnd(6) +
+        "  " +
         printInfo[11].option.charAt(0) +
         "     " +
         printInfo[11].montant +
@@ -7578,8 +7578,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[12].numero +
-        "      " +
+        printInfo[12].numero.padEnd(6) +
+        "  " +
         printInfo[12].option.charAt(0) +
         "     " +
         printInfo[12].montant +
@@ -7593,8 +7593,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[13].numero +
-        "      " +
+        printInfo[13].numero.padEnd(6) +
+        "  " +
         printInfo[13].option.charAt(0) +
         "     " +
         printInfo[13].montant +
@@ -7608,8 +7608,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[14].numero +
-        "      " +
+        printInfo[14].numero.padEnd(6) +
+        "  " +
         printInfo[14].option.charAt(0) +
         "     " +
         printInfo[14].montant +
@@ -7623,8 +7623,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[15].numero +
-        "      " +
+        printInfo[15].numero.padEnd(6) +
+        "  " +
         printInfo[15].option.charAt(0) +
         "     " +
         printInfo[15].montant +
@@ -7638,8 +7638,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[16].numero +
-        "      " +
+        printInfo[16].numero.padEnd(6) +
+        "  " +
         printInfo[16].option.charAt(0) +
         "     " +
         printInfo[16].montant +
@@ -7653,8 +7653,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[17].numero +
-        "      " +
+        printInfo[17].numero.padEnd(6) +
+        "  " +
         printInfo[17].option.charAt(0) +
         "     " +
         printInfo[17].montant +
@@ -7668,8 +7668,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[18].numero +
-        "      " +
+        printInfo[18].numero.padEnd(6) +
+        "  " +
         printInfo[18].option.charAt(0) +
         "     " +
         printInfo[18].montant +
@@ -7683,8 +7683,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[19].numero +
-        "      " +
+        printInfo[19].numero.padEnd(6) +
+        "  " +
         printInfo[19].option.charAt(0) +
         "     " +
         printInfo[19].montant +
@@ -7698,8 +7698,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[20].numero +
-        "      " +
+        printInfo[20].numero.padEnd(6) +
+        "  " +
         printInfo[20].option.charAt(0) +
         "     " +
         printInfo[20].montant +
@@ -7713,8 +7713,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[21].numero +
-        "      " +
+        printInfo[21].numero.padEnd(6) +
+        "  " +
         printInfo[21].option.charAt(0) +
         "     " +
         printInfo[21].montant +
@@ -7728,8 +7728,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[22].numero +
-        "      " +
+        printInfo[22].numero.padEnd(6) +
+        "  " +
         printInfo[22].option.charAt(0) +
         "     " +
         printInfo[22].montant +
@@ -7743,8 +7743,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[23].numero +
-        "      " +
+        printInfo[23].numero.padEnd(6) +
+        "  " +
         printInfo[23].option.charAt(0) +
         "     " +
         printInfo[23].montant +
@@ -7758,8 +7758,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[24].numero +
-        "      " +
+        printInfo[24].numero.padEnd(6) +
+        "  " +
         printInfo[24].option.charAt(0) +
         "     " +
         printInfo[24].montant +
@@ -7773,8 +7773,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[25].numero +
-        "      " +
+        printInfo[25].numero.padEnd(6) +
+        "  " +
         printInfo[25].option.charAt(0) +
         "     " +
         printInfo[25].montant +
@@ -7788,8 +7788,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[26].numero +
-        "      " +
+        printInfo[26].numero.padEnd(6) +
+        "  " +
         printInfo[26].option.charAt(0) +
         "     " +
         printInfo[26].montant +
@@ -7803,8 +7803,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[27].numero +
-        "      " +
+        printInfo[27].numero.padEnd(6) +
+        "  " +
         printInfo[27].option.charAt(0) +
         "     " +
         printInfo[27].montant +
@@ -7818,8 +7818,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[28].numero +
-        "      " +
+        printInfo[28].numero.padEnd(6) +
+        "  " +
         printInfo[28].option.charAt(0) +
         "     " +
         printInfo[28].montant +
@@ -7833,8 +7833,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[29].numero +
-        "      " +
+        printInfo[29].numero.padEnd(6) +
+        "  " +
         printInfo[29].option.charAt(0) +
         "     " +
         printInfo[29].montant +
@@ -7848,8 +7848,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[30].numero +
-        "      " +
+        printInfo[30].numero.padEnd(6) +
+        "  " +
         printInfo[30].option.charAt(0) +
         "     " +
         printInfo[30].montant +
@@ -7864,8 +7864,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[0].numero +
-        "      " +
+        printInfo[0].numero.padEnd(6) +
+        "  " +
         printInfo[0].option.charAt(0) +
         "     " +
         printInfo[0].montant +
@@ -7879,8 +7879,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[1].numero +
-        "      " +
+        printInfo[1].numero.padEnd(6) +
+        "  " +
         printInfo[1].option.charAt(0) +
         "     " +
         printInfo[1].montant +
@@ -7894,8 +7894,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[2].numero +
-        "      " +
+        printInfo[2].numero.padEnd(6) +
+        "  " +
         printInfo[2].option.charAt(0) +
         "     " +
         printInfo[2].montant +
@@ -7909,8 +7909,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[3].numero +
-        "      " +
+        printInfo[3].numero.padEnd(6) +
+        "  " +
         printInfo[3].option.charAt(0) +
         "     " +
         printInfo[3].montant +
@@ -7924,8 +7924,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[4].numero +
-        "      " +
+        printInfo[4].numero.padEnd(6) +
+        "  " +
         printInfo[4].option.charAt(0) +
         "     " +
         printInfo[4].montant +
@@ -7939,8 +7939,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[5].numero +
-        "      " +
+        printInfo[5].numero.padEnd(6) +
+        "  " +
         printInfo[5].option.charAt(0) +
         "     " +
         printInfo[5].montant +
@@ -7954,8 +7954,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[6].numero +
-        "      " +
+        printInfo[6].numero.padEnd(6) +
+        "  " +
         printInfo[6].option.charAt(0) +
         "     " +
         printInfo[6].montant +
@@ -7969,8 +7969,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[7].numero +
-        "      " +
+        printInfo[7].numero.padEnd(6) +
+        "  " +
         printInfo[7].option.charAt(0) +
         "     " +
         printInfo[7].montant +
@@ -7984,8 +7984,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[8].numero +
-        "      " +
+        printInfo[8].numero.padEnd(6) +
+        "  " +
         printInfo[8].option.charAt(0) +
         "     " +
         printInfo[8].montant +
@@ -7999,8 +7999,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[9].numero +
-        "      " +
+        printInfo[9].numero.padEnd(6) +
+        "  " +
         printInfo[9].option.charAt(0) +
         "     " +
         printInfo[9].montant +
@@ -8014,8 +8014,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[10].numero +
-        "      " +
+        printInfo[10].numero.padEnd(6) +
+        "  " +
         printInfo[10].option.charAt(0) +
         "     " +
         printInfo[10].montant +
@@ -8029,8 +8029,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[11].numero +
-        "      " +
+        printInfo[11].numero.padEnd(6) +
+        "  " +
         printInfo[11].option.charAt(0) +
         "     " +
         printInfo[11].montant +
@@ -8044,8 +8044,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[12].numero +
-        "      " +
+        printInfo[12].numero.padEnd(6) +
+        "  " +
         printInfo[12].option.charAt(0) +
         "     " +
         printInfo[12].montant +
@@ -8059,8 +8059,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[13].numero +
-        "      " +
+        printInfo[13].numero.padEnd(6) +
+        "  " +
         printInfo[13].option.charAt(0) +
         "     " +
         printInfo[13].montant +
@@ -8074,8 +8074,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[14].numero +
-        "      " +
+        printInfo[14].numero.padEnd(6) +
+        "  " +
         printInfo[14].option.charAt(0) +
         "     " +
         printInfo[14].montant +
@@ -8089,8 +8089,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[15].numero +
-        "      " +
+        printInfo[15].numero.padEnd(6) +
+        "  " +
         printInfo[15].option.charAt(0) +
         "     " +
         printInfo[15].montant +
@@ -8104,8 +8104,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[16].numero +
-        "      " +
+        printInfo[16].numero.padEnd(6) +
+        "  " +
         printInfo[16].option.charAt(0) +
         "     " +
         printInfo[16].montant +
@@ -8119,8 +8119,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[17].numero +
-        "      " +
+        printInfo[17].numero.padEnd(6) +
+        "  " +
         printInfo[17].option.charAt(0) +
         "     " +
         printInfo[17].montant +
@@ -8134,8 +8134,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[18].numero +
-        "      " +
+        printInfo[18].numero.padEnd(6) +
+        "  " +
         printInfo[18].option.charAt(0) +
         "     " +
         printInfo[18].montant +
@@ -8149,8 +8149,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[19].numero +
-        "      " +
+        printInfo[19].numero.padEnd(6) +
+        "  " +
         printInfo[19].option.charAt(0) +
         "     " +
         printInfo[19].montant +
@@ -8164,8 +8164,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[20].numero +
-        "      " +
+        printInfo[20].numero.padEnd(6) +
+        "  " +
         printInfo[20].option.charAt(0) +
         "     " +
         printInfo[20].montant +
@@ -8179,8 +8179,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[21].numero +
-        "      " +
+        printInfo[21].numero.padEnd(6) +
+        "  " +
         printInfo[21].option.charAt(0) +
         "     " +
         printInfo[21].montant +
@@ -8194,8 +8194,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[22].numero +
-        "      " +
+        printInfo[22].numero.padEnd(6) +
+        "  " +
         printInfo[22].option.charAt(0) +
         "     " +
         printInfo[22].montant +
@@ -8209,8 +8209,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[23].numero +
-        "      " +
+        printInfo[23].numero.padEnd(6) +
+        "  " +
         printInfo[23].option.charAt(0) +
         "     " +
         printInfo[23].montant +
@@ -8224,8 +8224,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[24].numero +
-        "      " +
+        printInfo[24].numero.padEnd(6) +
+        "  " +
         printInfo[24].option.charAt(0) +
         "     " +
         printInfo[24].montant +
@@ -8239,8 +8239,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[25].numero +
-        "      " +
+        printInfo[25].numero.padEnd(6) +
+        "  " +
         printInfo[25].option.charAt(0) +
         "     " +
         printInfo[25].montant +
@@ -8254,8 +8254,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[26].numero +
-        "      " +
+        printInfo[26].numero.padEnd(6) +
+        "  " +
         printInfo[26].option.charAt(0) +
         "     " +
         printInfo[26].montant +
@@ -8269,8 +8269,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[27].numero +
-        "      " +
+        printInfo[27].numero.padEnd(6) +
+        "  " +
         printInfo[27].option.charAt(0) +
         "     " +
         printInfo[27].montant +
@@ -8284,8 +8284,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[28].numero +
-        "      " +
+        printInfo[28].numero.padEnd(6) +
+        "  " +
         printInfo[28].option.charAt(0) +
         "     " +
         printInfo[28].montant +
@@ -8299,8 +8299,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[29].numero +
-        "      " +
+        printInfo[29].numero.padEnd(6) +
+        "  " +
         printInfo[29].option.charAt(0) +
         "     " +
         printInfo[29].montant +
@@ -8314,8 +8314,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[30].numero +
-        "      " +
+        printInfo[30].numero.padEnd(6) +
+        "  " +
         printInfo[30].option.charAt(0) +
         "     " +
         printInfo[30].montant +
@@ -8329,8 +8329,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[31].numero +
-        "      " +
+        printInfo[31].numero.padEnd(6) +
+        "  " +
         printInfo[31].option.charAt(0) +
         "     " +
         printInfo[31].montant +
@@ -8345,8 +8345,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[0].numero +
-        "      " +
+        printInfo[0].numero.padEnd(6) +
+        "  " +
         printInfo[0].option.charAt(0) +
         "     " +
         printInfo[0].montant +
@@ -8360,8 +8360,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[1].numero +
-        "      " +
+        printInfo[1].numero.padEnd(6) +
+        "  " +
         printInfo[1].option.charAt(0) +
         "     " +
         printInfo[1].montant +
@@ -8375,8 +8375,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[2].numero +
-        "      " +
+        printInfo[2].numero.padEnd(6) +
+        "  " +
         printInfo[2].option.charAt(0) +
         "     " +
         printInfo[2].montant +
@@ -8390,8 +8390,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[3].numero +
-        "      " +
+        printInfo[3].numero.padEnd(6) +
+        "  " +
         printInfo[3].option.charAt(0) +
         "     " +
         printInfo[3].montant +
@@ -8405,8 +8405,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[4].numero +
-        "      " +
+        printInfo[4].numero.padEnd(6) +
+        "  " +
         printInfo[4].option.charAt(0) +
         "     " +
         printInfo[4].montant +
@@ -8420,8 +8420,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[5].numero +
-        "      " +
+        printInfo[5].numero.padEnd(6) +
+        "  " +
         printInfo[5].option.charAt(0) +
         "     " +
         printInfo[5].montant +
@@ -8435,8 +8435,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[6].numero +
-        "      " +
+        printInfo[6].numero.padEnd(6) +
+        "  " +
         printInfo[6].option.charAt(0) +
         "     " +
         printInfo[6].montant +
@@ -8450,8 +8450,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[7].numero +
-        "      " +
+        printInfo[7].numero.padEnd(6) +
+        "  " +
         printInfo[7].option.charAt(0) +
         "     " +
         printInfo[7].montant +
@@ -8465,8 +8465,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[8].numero +
-        "      " +
+        printInfo[8].numero.padEnd(6) +
+        "  " +
         printInfo[8].option.charAt(0) +
         "     " +
         printInfo[8].montant +
@@ -8480,8 +8480,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[9].numero +
-        "      " +
+        printInfo[9].numero.padEnd(6) +
+        "  " +
         printInfo[9].option.charAt(0) +
         "     " +
         printInfo[9].montant +
@@ -8495,8 +8495,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[10].numero +
-        "      " +
+        printInfo[10].numero.padEnd(6) +
+        "  " +
         printInfo[10].option.charAt(0) +
         "     " +
         printInfo[10].montant +
@@ -8510,8 +8510,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[11].numero +
-        "      " +
+        printInfo[11].numero.padEnd(6) +
+        "  " +
         printInfo[11].option.charAt(0) +
         "     " +
         printInfo[11].montant +
@@ -8525,8 +8525,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[12].numero +
-        "      " +
+        printInfo[12].numero.padEnd(6) +
+        "  " +
         printInfo[12].option.charAt(0) +
         "     " +
         printInfo[12].montant +
@@ -8540,8 +8540,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[13].numero +
-        "      " +
+        printInfo[13].numero.padEnd(6) +
+        "  " +
         printInfo[13].option.charAt(0) +
         "     " +
         printInfo[13].montant +
@@ -8555,8 +8555,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[14].numero +
-        "      " +
+        printInfo[14].numero.padEnd(6) +
+        "  " +
         printInfo[14].option.charAt(0) +
         "     " +
         printInfo[14].montant +
@@ -8570,8 +8570,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[15].numero +
-        "      " +
+        printInfo[15].numero.padEnd(6) +
+        "  " +
         printInfo[15].option.charAt(0) +
         "     " +
         printInfo[15].montant +
@@ -8585,8 +8585,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[16].numero +
-        "      " +
+        printInfo[16].numero.padEnd(6) +
+        "  " +
         printInfo[16].option.charAt(0) +
         "     " +
         printInfo[16].montant +
@@ -8600,8 +8600,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[17].numero +
-        "      " +
+        printInfo[17].numero.padEnd(6) +
+        "  " +
         printInfo[17].option.charAt(0) +
         "     " +
         printInfo[17].montant +
@@ -8615,8 +8615,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[18].numero +
-        "      " +
+        printInfo[18].numero.padEnd(6) +
+        "  " +
         printInfo[18].option.charAt(0) +
         "     " +
         printInfo[18].montant +
@@ -8630,8 +8630,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[19].numero +
-        "      " +
+        printInfo[19].numero.padEnd(6) +
+        "  " +
         printInfo[19].option.charAt(0) +
         "     " +
         printInfo[19].montant +
@@ -8645,8 +8645,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[20].numero +
-        "      " +
+        printInfo[20].numero.padEnd(6) +
+        "  " +
         printInfo[20].option.charAt(0) +
         "     " +
         printInfo[20].montant +
@@ -8660,8 +8660,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[21].numero +
-        "      " +
+        printInfo[21].numero.padEnd(6) +
+        "  " +
         printInfo[21].option.charAt(0) +
         "     " +
         printInfo[21].montant +
@@ -8675,8 +8675,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[22].numero +
-        "      " +
+        printInfo[22].numero.padEnd(6) +
+        "  " +
         printInfo[22].option.charAt(0) +
         "     " +
         printInfo[22].montant +
@@ -8690,8 +8690,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[23].numero +
-        "      " +
+        printInfo[23].numero.padEnd(6) +
+        "  " +
         printInfo[23].option.charAt(0) +
         "     " +
         printInfo[23].montant +
@@ -8705,8 +8705,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[24].numero +
-        "      " +
+        printInfo[24].numero.padEnd(6) +
+        "  " +
         printInfo[24].option.charAt(0) +
         "     " +
         printInfo[24].montant +
@@ -8720,8 +8720,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[25].numero +
-        "      " +
+        printInfo[25].numero.padEnd(6) +
+        "  " +
         printInfo[25].option.charAt(0) +
         "     " +
         printInfo[25].montant +
@@ -8735,8 +8735,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[26].numero +
-        "      " +
+        printInfo[26].numero.padEnd(6) +
+        "  " +
         printInfo[26].option.charAt(0) +
         "     " +
         printInfo[26].montant +
@@ -8750,8 +8750,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[27].numero +
-        "      " +
+        printInfo[27].numero.padEnd(6) +
+        "  " +
         printInfo[27].option.charAt(0) +
         "     " +
         printInfo[27].montant +
@@ -8765,8 +8765,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[28].numero +
-        "      " +
+        printInfo[28].numero.padEnd(6) +
+        "  " +
         printInfo[28].option.charAt(0) +
         "     " +
         printInfo[28].montant +
@@ -8780,8 +8780,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[29].numero +
-        "      " +
+        printInfo[29].numero.padEnd(6) +
+        "  " +
         printInfo[29].option.charAt(0) +
         "     " +
         printInfo[29].montant +
@@ -8795,8 +8795,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[30].numero +
-        "      " +
+        printInfo[30].numero.padEnd(6) +
+        "  " +
         printInfo[30].option.charAt(0) +
         "     " +
         printInfo[30].montant +
@@ -8810,8 +8810,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[31].numero +
-        "      " +
+        printInfo[31].numero.padEnd(6) +
+        "  " +
         printInfo[31].option.charAt(0) +
         "     " +
         printInfo[31].montant +
@@ -8825,8 +8825,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[32].numero +
-        "      " +
+        printInfo[32].numero.padEnd(6) +
+        "  " +
         printInfo[32].option.charAt(0) +
         "     " +
         printInfo[32].montant +
@@ -8841,8 +8841,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[0].numero +
-        "      " +
+        printInfo[0].numero.padEnd(6) +
+        "  " +
         printInfo[0].option.charAt(0) +
         "     " +
         printInfo[0].montant +
@@ -8856,8 +8856,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[1].numero +
-        "      " +
+        printInfo[1].numero.padEnd(6) +
+        "  " +
         printInfo[1].option.charAt(0) +
         "     " +
         printInfo[1].montant +
@@ -8871,8 +8871,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[2].numero +
-        "      " +
+        printInfo[2].numero.padEnd(6) +
+        "  " +
         printInfo[2].option.charAt(0) +
         "     " +
         printInfo[2].montant +
@@ -8886,8 +8886,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[3].numero +
-        "      " +
+        printInfo[3].numero.padEnd(6) +
+        "  " +
         printInfo[3].option.charAt(0) +
         "     " +
         printInfo[3].montant +
@@ -8901,8 +8901,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[4].numero +
-        "      " +
+        printInfo[4].numero.padEnd(6) +
+        "  " +
         printInfo[4].option.charAt(0) +
         "     " +
         printInfo[4].montant +
@@ -8916,8 +8916,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[5].numero +
-        "      " +
+        printInfo[5].numero.padEnd(6) +
+        "  " +
         printInfo[5].option.charAt(0) +
         "     " +
         printInfo[5].montant +
@@ -8931,8 +8931,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[6].numero +
-        "      " +
+        printInfo[6].numero.padEnd(6) +
+        "  " +
         printInfo[6].option.charAt(0) +
         "     " +
         printInfo[6].montant +
@@ -8946,8 +8946,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[7].numero +
-        "      " +
+        printInfo[7].numero.padEnd(6) +
+        "  " +
         printInfo[7].option.charAt(0) +
         "     " +
         printInfo[7].montant +
@@ -8961,8 +8961,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[8].numero +
-        "      " +
+        printInfo[8].numero.padEnd(6) +
+        "  " +
         printInfo[8].option.charAt(0) +
         "     " +
         printInfo[8].montant +
@@ -8976,8 +8976,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[9].numero +
-        "      " +
+        printInfo[9].numero.padEnd(6) +
+        "  " +
         printInfo[9].option.charAt(0) +
         "     " +
         printInfo[9].montant +
@@ -8991,8 +8991,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[10].numero +
-        "      " +
+        printInfo[10].numero.padEnd(6) +
+        "  " +
         printInfo[10].option.charAt(0) +
         "     " +
         printInfo[10].montant +
@@ -9006,8 +9006,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[11].numero +
-        "      " +
+        printInfo[11].numero.padEnd(6) +
+        "  " +
         printInfo[11].option.charAt(0) +
         "     " +
         printInfo[11].montant +
@@ -9021,8 +9021,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[12].numero +
-        "      " +
+        printInfo[12].numero.padEnd(6) +
+        "  " +
         printInfo[12].option.charAt(0) +
         "     " +
         printInfo[12].montant +
@@ -9036,8 +9036,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[13].numero +
-        "      " +
+        printInfo[13].numero.padEnd(6) +
+        "  " +
         printInfo[13].option.charAt(0) +
         "     " +
         printInfo[13].montant +
@@ -9051,8 +9051,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[14].numero +
-        "      " +
+        printInfo[14].numero.padEnd(6) +
+        "  " +
         printInfo[14].option.charAt(0) +
         "     " +
         printInfo[14].montant +
@@ -9066,8 +9066,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[15].numero +
-        "      " +
+        printInfo[15].numero.padEnd(6) +
+        "  " +
         printInfo[15].option.charAt(0) +
         "     " +
         printInfo[15].montant +
@@ -9081,8 +9081,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[16].numero +
-        "      " +
+        printInfo[16].numero.padEnd(6) +
+        "  " +
         printInfo[16].option.charAt(0) +
         "     " +
         printInfo[16].montant +
@@ -9096,8 +9096,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[17].numero +
-        "      " +
+        printInfo[17].numero.padEnd(6) +
+        "  " +
         printInfo[17].option.charAt(0) +
         "     " +
         printInfo[17].montant +
@@ -9111,8 +9111,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[18].numero +
-        "      " +
+        printInfo[18].numero.padEnd(6) +
+        "  " +
         printInfo[18].option.charAt(0) +
         "     " +
         printInfo[18].montant +
@@ -9126,8 +9126,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[19].numero +
-        "      " +
+        printInfo[19].numero.padEnd(6) +
+        "  " +
         printInfo[19].option.charAt(0) +
         "     " +
         printInfo[19].montant +
@@ -9141,8 +9141,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[20].numero +
-        "      " +
+        printInfo[20].numero.padEnd(6) +
+        "  " +
         printInfo[20].option.charAt(0) +
         "     " +
         printInfo[20].montant +
@@ -9156,8 +9156,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[21].numero +
-        "      " +
+        printInfo[21].numero.padEnd(6) +
+        "  " +
         printInfo[21].option.charAt(0) +
         "     " +
         printInfo[21].montant +
@@ -9171,8 +9171,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[22].numero +
-        "      " +
+        printInfo[22].numero.padEnd(6) +
+        "  " +
         printInfo[22].option.charAt(0) +
         "     " +
         printInfo[22].montant +
@@ -9186,8 +9186,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[23].numero +
-        "      " +
+        printInfo[23].numero.padEnd(6) +
+        "  " +
         printInfo[23].option.charAt(0) +
         "     " +
         printInfo[23].montant +
@@ -9201,8 +9201,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[24].numero +
-        "      " +
+        printInfo[24].numero.padEnd(6) +
+        "  " +
         printInfo[24].option.charAt(0) +
         "     " +
         printInfo[24].montant +
@@ -9216,8 +9216,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[25].numero +
-        "      " +
+        printInfo[25].numero.padEnd(6) +
+        "  " +
         printInfo[25].option.charAt(0) +
         "     " +
         printInfo[25].montant +
@@ -9231,8 +9231,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[26].numero +
-        "      " +
+        printInfo[26].numero.padEnd(6) +
+        "  " +
         printInfo[26].option.charAt(0) +
         "     " +
         printInfo[26].montant +
@@ -9246,8 +9246,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[27].numero +
-        "      " +
+        printInfo[27].numero.padEnd(6) +
+        "  " +
         printInfo[27].option.charAt(0) +
         "     " +
         printInfo[27].montant +
@@ -9261,8 +9261,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[28].numero +
-        "      " +
+        printInfo[28].numero.padEnd(6) +
+        "  " +
         printInfo[28].option.charAt(0) +
         "     " +
         printInfo[28].montant +
@@ -9276,8 +9276,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[29].numero +
-        "      " +
+        printInfo[29].numero.padEnd(6) +
+        "  " +
         printInfo[29].option.charAt(0) +
         "     " +
         printInfo[29].montant +
@@ -9291,8 +9291,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[30].numero +
-        "      " +
+        printInfo[30].numero.padEnd(6) +
+        "  " +
         printInfo[30].option.charAt(0) +
         "     " +
         printInfo[30].montant +
@@ -9306,8 +9306,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[31].numero +
-        "      " +
+        printInfo[31].numero.padEnd(6) +
+        "  " +
         printInfo[31].option.charAt(0) +
         "     " +
         printInfo[31].montant +
@@ -9321,8 +9321,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[32].numero +
-        "      " +
+        printInfo[32].numero.padEnd(6) +
+        "  " +
         printInfo[32].option.charAt(0) +
         "     " +
         printInfo[32].montant +
@@ -9336,8 +9336,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[33].numero +
-        "      " +
+        printInfo[33].numero.padEnd(6) +
+        "  " +
         printInfo[33].option.charAt(0) +
         "     " +
         printInfo[33].montant +
@@ -9352,8 +9352,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[0].numero +
-        "      " +
+        printInfo[0].numero.padEnd(6) +
+        "  " +
         printInfo[0].option.charAt(0) +
         "     " +
         printInfo[0].montant +
@@ -9367,8 +9367,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[1].numero +
-        "      " +
+        printInfo[1].numero.padEnd(6) +
+        "  " +
         printInfo[1].option.charAt(0) +
         "     " +
         printInfo[1].montant +
@@ -9382,8 +9382,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[2].numero +
-        "      " +
+        printInfo[2].numero.padEnd(6) +
+        "  " +
         printInfo[2].option.charAt(0) +
         "     " +
         printInfo[2].montant +
@@ -9397,8 +9397,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[3].numero +
-        "      " +
+        printInfo[3].numero.padEnd(6) +
+        "  " +
         printInfo[3].option.charAt(0) +
         "     " +
         printInfo[3].montant +
@@ -9412,8 +9412,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[4].numero +
-        "      " +
+        printInfo[4].numero.padEnd(6) +
+        "  " +
         printInfo[4].option.charAt(0) +
         "     " +
         printInfo[4].montant +
@@ -9427,8 +9427,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[5].numero +
-        "      " +
+        printInfo[5].numero.padEnd(6) +
+        "  " +
         printInfo[5].option.charAt(0) +
         "     " +
         printInfo[5].montant +
@@ -9442,8 +9442,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[6].numero +
-        "      " +
+        printInfo[6].numero.padEnd(6) +
+        "  " +
         printInfo[6].option.charAt(0) +
         "     " +
         printInfo[6].montant +
@@ -9457,8 +9457,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[7].numero +
-        "      " +
+        printInfo[7].numero.padEnd(6) +
+        "  " +
         printInfo[7].option.charAt(0) +
         "     " +
         printInfo[7].montant +
@@ -9472,8 +9472,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[8].numero +
-        "      " +
+        printInfo[8].numero.padEnd(6) +
+        "  " +
         printInfo[8].option.charAt(0) +
         "     " +
         printInfo[8].montant +
@@ -9487,8 +9487,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[9].numero +
-        "      " +
+        printInfo[9].numero.padEnd(6) +
+        "  " +
         printInfo[9].option.charAt(0) +
         "     " +
         printInfo[9].montant +
@@ -9502,8 +9502,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[10].numero +
-        "      " +
+        printInfo[10].numero.padEnd(6) +
+        "  " +
         printInfo[10].option.charAt(0) +
         "     " +
         printInfo[10].montant +
@@ -9517,8 +9517,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[11].numero +
-        "      " +
+        printInfo[11].numero.padEnd(6) +
+        "  " +
         printInfo[11].option.charAt(0) +
         "     " +
         printInfo[11].montant +
@@ -9532,8 +9532,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[12].numero +
-        "      " +
+        printInfo[12].numero.padEnd(6) +
+        "  " +
         printInfo[12].option.charAt(0) +
         "     " +
         printInfo[12].montant +
@@ -9547,8 +9547,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[13].numero +
-        "      " +
+        printInfo[13].numero.padEnd(6) +
+        "  " +
         printInfo[13].option.charAt(0) +
         "     " +
         printInfo[13].montant +
@@ -9562,8 +9562,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[14].numero +
-        "      " +
+        printInfo[14].numero.padEnd(6) +
+        "  " +
         printInfo[14].option.charAt(0) +
         "     " +
         printInfo[14].montant +
@@ -9577,8 +9577,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[15].numero +
-        "      " +
+        printInfo[15].numero.padEnd(6) +
+        "  " +
         printInfo[15].option.charAt(0) +
         "     " +
         printInfo[15].montant +
@@ -9592,8 +9592,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[16].numero +
-        "      " +
+        printInfo[16].numero.padEnd(6) +
+        "  " +
         printInfo[16].option.charAt(0) +
         "     " +
         printInfo[16].montant +
@@ -9607,8 +9607,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[17].numero +
-        "      " +
+        printInfo[17].numero.padEnd(6) +
+        "  " +
         printInfo[17].option.charAt(0) +
         "     " +
         printInfo[17].montant +
@@ -9622,8 +9622,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[18].numero +
-        "      " +
+        printInfo[18].numero.padEnd(6) +
+        "  " +
         printInfo[18].option.charAt(0) +
         "     " +
         printInfo[18].montant +
@@ -9637,8 +9637,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[19].numero +
-        "      " +
+        printInfo[19].numero.padEnd(6) +
+        "  " +
         printInfo[19].option.charAt(0) +
         "     " +
         printInfo[19].montant +
@@ -9652,8 +9652,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[20].numero +
-        "      " +
+        printInfo[20].numero.padEnd(6) +
+        "  " +
         printInfo[20].option.charAt(0) +
         "     " +
         printInfo[20].montant +
@@ -9667,8 +9667,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[21].numero +
-        "      " +
+        printInfo[21].numero.padEnd(6) +
+        "  " +
         printInfo[21].option.charAt(0) +
         "     " +
         printInfo[21].montant +
@@ -9682,8 +9682,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[22].numero +
-        "      " +
+        printInfo[22].numero.padEnd(6) +
+        "  " +
         printInfo[22].option.charAt(0) +
         "     " +
         printInfo[22].montant +
@@ -9697,8 +9697,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[23].numero +
-        "      " +
+        printInfo[23].numero.padEnd(6) +
+        "  " +
         printInfo[23].option.charAt(0) +
         "     " +
         printInfo[23].montant +
@@ -9712,8 +9712,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[24].numero +
-        "      " +
+        printInfo[24].numero.padEnd(6) +
+        "  " +
         printInfo[24].option.charAt(0) +
         "     " +
         printInfo[24].montant +
@@ -9727,8 +9727,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[25].numero +
-        "      " +
+        printInfo[25].numero.padEnd(6) +
+        "  " +
         printInfo[25].option.charAt(0) +
         "     " +
         printInfo[25].montant +
@@ -9742,8 +9742,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[26].numero +
-        "      " +
+        printInfo[26].numero.padEnd(6) +
+        "  " +
         printInfo[26].option.charAt(0) +
         "     " +
         printInfo[26].montant +
@@ -9757,8 +9757,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[27].numero +
-        "      " +
+        printInfo[27].numero.padEnd(6) +
+        "  " +
         printInfo[27].option.charAt(0) +
         "     " +
         printInfo[27].montant +
@@ -9772,8 +9772,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[28].numero +
-        "      " +
+        printInfo[28].numero.padEnd(6) +
+        "  " +
         printInfo[28].option.charAt(0) +
         "     " +
         printInfo[28].montant +
@@ -9787,8 +9787,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[29].numero +
-        "      " +
+        printInfo[29].numero.padEnd(6) +
+        "  " +
         printInfo[29].option.charAt(0) +
         "     " +
         printInfo[29].montant +
@@ -9802,8 +9802,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[30].numero +
-        "      " +
+        printInfo[30].numero.padEnd(6) +
+        "  " +
         printInfo[30].option.charAt(0) +
         "     " +
         printInfo[30].montant +
@@ -9817,8 +9817,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[31].numero +
-        "      " +
+        printInfo[31].numero.padEnd(6) +
+        "  " +
         printInfo[31].option.charAt(0) +
         "     " +
         printInfo[31].montant +
@@ -9832,8 +9832,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[32].numero +
-        "      " +
+        printInfo[32].numero.padEnd(6) +
+        "  " +
         printInfo[32].option.charAt(0) +
         "     " +
         printInfo[32].montant +
@@ -9847,8 +9847,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[33].numero +
-        "      " +
+        printInfo[33].numero.padEnd(6) +
+        "  " +
         printInfo[33].option.charAt(0) +
         "     " +
         printInfo[33].montant +
@@ -9862,8 +9862,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[34].numero +
-        "      " +
+        printInfo[34].numero.padEnd(6) +
+        "  " +
         printInfo[34].option.charAt(0) +
         "     " +
         printInfo[34].montant +
@@ -9878,8 +9878,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[0].numero +
-        "      " +
+        printInfo[0].numero.padEnd(6) +
+        "  " +
         printInfo[0].option.charAt(0) +
         "     " +
         printInfo[0].montant +
@@ -9893,8 +9893,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[1].numero +
-        "      " +
+        printInfo[1].numero.padEnd(6) +
+        "  " +
         printInfo[1].option.charAt(0) +
         "     " +
         printInfo[1].montant +
@@ -9908,8 +9908,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[2].numero +
-        "      " +
+        printInfo[2].numero.padEnd(6) +
+        "  " +
         printInfo[2].option.charAt(0) +
         "     " +
         printInfo[2].montant +
@@ -9923,8 +9923,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[3].numero +
-        "      " +
+        printInfo[3].numero.padEnd(6) +
+        "  " +
         printInfo[3].option.charAt(0) +
         "     " +
         printInfo[3].montant +
@@ -9938,8 +9938,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[4].numero +
-        "      " +
+        printInfo[4].numero.padEnd(6) +
+        "  " +
         printInfo[4].option.charAt(0) +
         "     " +
         printInfo[4].montant +
@@ -9953,8 +9953,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[5].numero +
-        "      " +
+        printInfo[5].numero.padEnd(6) +
+        "  " +
         printInfo[5].option.charAt(0) +
         "     " +
         printInfo[5].montant +
@@ -9968,8 +9968,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[6].numero +
-        "      " +
+        printInfo[6].numero.padEnd(6) +
+        "  " +
         printInfo[6].option.charAt(0) +
         "     " +
         printInfo[6].montant +
@@ -9983,8 +9983,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[7].numero +
-        "      " +
+        printInfo[7].numero.padEnd(6) +
+        "  " +
         printInfo[7].option.charAt(0) +
         "     " +
         printInfo[7].montant +
@@ -9998,8 +9998,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[8].numero +
-        "      " +
+        printInfo[8].numero.padEnd(6) +
+        "  " +
         printInfo[8].option.charAt(0) +
         "     " +
         printInfo[8].montant +
@@ -10013,8 +10013,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[9].numero +
-        "      " +
+        printInfo[9].numero.padEnd(6) +
+        "  " +
         printInfo[9].option.charAt(0) +
         "     " +
         printInfo[9].montant +
@@ -10028,8 +10028,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[10].numero +
-        "      " +
+        printInfo[10].numero.padEnd(6) +
+        "  " +
         printInfo[10].option.charAt(0) +
         "     " +
         printInfo[10].montant +
@@ -10043,8 +10043,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[11].numero +
-        "      " +
+        printInfo[11].numero.padEnd(6) +
+        "  " +
         printInfo[11].option.charAt(0) +
         "     " +
         printInfo[11].montant +
@@ -10058,8 +10058,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[12].numero +
-        "      " +
+        printInfo[12].numero.padEnd(6) +
+        "  " +
         printInfo[12].option.charAt(0) +
         "     " +
         printInfo[12].montant +
@@ -10073,8 +10073,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[13].numero +
-        "      " +
+        printInfo[13].numero.padEnd(6) +
+        "  " +
         printInfo[13].option.charAt(0) +
         "     " +
         printInfo[13].montant +
@@ -10088,8 +10088,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[14].numero +
-        "      " +
+        printInfo[14].numero.padEnd(6) +
+        "  " +
         printInfo[14].option.charAt(0) +
         "     " +
         printInfo[14].montant +
@@ -10103,8 +10103,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[15].numero +
-        "      " +
+        printInfo[15].numero.padEnd(6) +
+        "  " +
         printInfo[15].option.charAt(0) +
         "     " +
         printInfo[15].montant +
@@ -10118,8 +10118,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[16].numero +
-        "      " +
+        printInfo[16].numero.padEnd(6) +
+        "  " +
         printInfo[16].option.charAt(0) +
         "     " +
         printInfo[16].montant +
@@ -10133,8 +10133,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[17].numero +
-        "      " +
+        printInfo[17].numero.padEnd(6) +
+        "  " +
         printInfo[17].option.charAt(0) +
         "     " +
         printInfo[17].montant +
@@ -10148,8 +10148,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[18].numero +
-        "      " +
+        printInfo[18].numero.padEnd(6) +
+        "  " +
         printInfo[18].option.charAt(0) +
         "     " +
         printInfo[18].montant +
@@ -10163,8 +10163,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[19].numero +
-        "      " +
+        printInfo[19].numero.padEnd(6) +
+        "  " +
         printInfo[19].option.charAt(0) +
         "     " +
         printInfo[19].montant +
@@ -10178,8 +10178,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[20].numero +
-        "      " +
+        printInfo[20].numero.padEnd(6) +
+        "  " +
         printInfo[20].option.charAt(0) +
         "     " +
         printInfo[20].montant +
@@ -10193,8 +10193,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[21].numero +
-        "      " +
+        printInfo[21].numero.padEnd(6) +
+        "  " +
         printInfo[21].option.charAt(0) +
         "     " +
         printInfo[21].montant +
@@ -10208,8 +10208,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[22].numero +
-        "      " +
+        printInfo[22].numero.padEnd(6) +
+        "  " +
         printInfo[22].option.charAt(0) +
         "     " +
         printInfo[22].montant +
@@ -10223,8 +10223,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[23].numero +
-        "      " +
+        printInfo[23].numero.padEnd(6) +
+        "  " +
         printInfo[23].option.charAt(0) +
         "     " +
         printInfo[23].montant +
@@ -10238,8 +10238,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[24].numero +
-        "      " +
+        printInfo[24].numero.padEnd(6) +
+        "  " +
         printInfo[24].option.charAt(0) +
         "     " +
         printInfo[24].montant +
@@ -10253,8 +10253,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[25].numero +
-        "      " +
+        printInfo[25].numero.padEnd(6) +
+        "  " +
         printInfo[25].option.charAt(0) +
         "     " +
         printInfo[25].montant +
@@ -10268,8 +10268,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[26].numero +
-        "      " +
+        printInfo[26].numero.padEnd(6) +
+        "  " +
         printInfo[26].option.charAt(0) +
         "     " +
         printInfo[26].montant +
@@ -10283,8 +10283,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[27].numero +
-        "      " +
+        printInfo[27].numero.padEnd(6) +
+        "  " +
         printInfo[27].option.charAt(0) +
         "     " +
         printInfo[27].montant +
@@ -10298,8 +10298,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[28].numero +
-        "      " +
+        printInfo[28].numero.padEnd(6) +
+        "  " +
         printInfo[28].option.charAt(0) +
         "     " +
         printInfo[28].montant +
@@ -10313,8 +10313,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[29].numero +
-        "      " +
+        printInfo[29].numero.padEnd(6) +
+        "  " +
         printInfo[29].option.charAt(0) +
         "     " +
         printInfo[29].montant +
@@ -10328,8 +10328,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[30].numero +
-        "      " +
+        printInfo[30].numero.padEnd(6) +
+        "  " +
         printInfo[30].option.charAt(0) +
         "     " +
         printInfo[30].montant +
@@ -10343,8 +10343,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[31].numero +
-        "      " +
+        printInfo[31].numero.padEnd(6) +
+        "  " +
         printInfo[31].option.charAt(0) +
         "     " +
         printInfo[31].montant +
@@ -10358,8 +10358,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[32].numero +
-        "      " +
+        printInfo[32].numero.padEnd(6) +
+        "  " +
         printInfo[32].option.charAt(0) +
         "     " +
         printInfo[32].montant +
@@ -10373,8 +10373,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[33].numero +
-        "      " +
+        printInfo[33].numero.padEnd(6) +
+        "  " +
         printInfo[33].option.charAt(0) +
         "     " +
         printInfo[33].montant +
@@ -10388,8 +10388,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[34].numero +
-        "      " +
+        printInfo[34].numero.padEnd(6) +
+        "  " +
         printInfo[34].option.charAt(0) +
         "     " +
         printInfo[34].montant +
@@ -10403,8 +10403,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[35].numero +
-        "      " +
+        printInfo[35].numero.padEnd(6) +
+        "  " +
         printInfo[35].option.charAt(0) +
         "     " +
         printInfo[35].montant +
@@ -10419,8 +10419,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[0].numero +
-        "      " +
+        printInfo[0].numero.padEnd(6) +
+        "  " +
         printInfo[0].option.charAt(0) +
         "     " +
         printInfo[0].montant +
@@ -10434,8 +10434,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[1].numero +
-        "      " +
+        printInfo[1].numero.padEnd(6) +
+        "  " +
         printInfo[1].option.charAt(0) +
         "     " +
         printInfo[1].montant +
@@ -10449,8 +10449,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[2].numero +
-        "      " +
+        printInfo[2].numero.padEnd(6) +
+        "  " +
         printInfo[2].option.charAt(0) +
         "     " +
         printInfo[2].montant +
@@ -10464,8 +10464,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[3].numero +
-        "      " +
+        printInfo[3].numero.padEnd(6) +
+        "  " +
         printInfo[3].option.charAt(0) +
         "     " +
         printInfo[3].montant +
@@ -10479,8 +10479,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[4].numero +
-        "      " +
+        printInfo[4].numero.padEnd(6) +
+        "  " +
         printInfo[4].option.charAt(0) +
         "     " +
         printInfo[4].montant +
@@ -10494,8 +10494,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[5].numero +
-        "      " +
+        printInfo[5].numero.padEnd(6) +
+        "  " +
         printInfo[5].option.charAt(0) +
         "     " +
         printInfo[5].montant +
@@ -10509,8 +10509,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[6].numero +
-        "      " +
+        printInfo[6].numero.padEnd(6) +
+        "  " +
         printInfo[6].option.charAt(0) +
         "     " +
         printInfo[6].montant +
@@ -10524,8 +10524,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[7].numero +
-        "      " +
+        printInfo[7].numero.padEnd(6) +
+        "  " +
         printInfo[7].option.charAt(0) +
         "     " +
         printInfo[7].montant +
@@ -10539,8 +10539,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[8].numero +
-        "      " +
+        printInfo[8].numero.padEnd(6) +
+        "  " +
         printInfo[8].option.charAt(0) +
         "     " +
         printInfo[8].montant +
@@ -10554,8 +10554,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[9].numero +
-        "      " +
+        printInfo[9].numero.padEnd(6) +
+        "  " +
         printInfo[9].option.charAt(0) +
         "     " +
         printInfo[9].montant +
@@ -10569,8 +10569,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[10].numero +
-        "      " +
+        printInfo[10].numero.padEnd(6) +
+        "  " +
         printInfo[10].option.charAt(0) +
         "     " +
         printInfo[10].montant +
@@ -10584,8 +10584,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[11].numero +
-        "      " +
+        printInfo[11].numero.padEnd(6) +
+        "  " +
         printInfo[11].option.charAt(0) +
         "     " +
         printInfo[11].montant +
@@ -10599,8 +10599,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[12].numero +
-        "      " +
+        printInfo[12].numero.padEnd(6) +
+        "  " +
         printInfo[12].option.charAt(0) +
         "     " +
         printInfo[12].montant +
@@ -10614,8 +10614,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[13].numero +
-        "      " +
+        printInfo[13].numero.padEnd(6) +
+        "  " +
         printInfo[13].option.charAt(0) +
         "     " +
         printInfo[13].montant +
@@ -10629,8 +10629,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[14].numero +
-        "      " +
+        printInfo[14].numero.padEnd(6) +
+        "  " +
         printInfo[14].option.charAt(0) +
         "     " +
         printInfo[14].montant +
@@ -10644,8 +10644,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[15].numero +
-        "      " +
+        printInfo[15].numero.padEnd(6) +
+        "  " +
         printInfo[15].option.charAt(0) +
         "     " +
         printInfo[15].montant +
@@ -10659,8 +10659,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[16].numero +
-        "      " +
+        printInfo[16].numero.padEnd(6) +
+        "  " +
         printInfo[16].option.charAt(0) +
         "     " +
         printInfo[16].montant +
@@ -10674,8 +10674,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[17].numero +
-        "      " +
+        printInfo[17].numero.padEnd(6) +
+        "  " +
         printInfo[17].option.charAt(0) +
         "     " +
         printInfo[17].montant +
@@ -10689,8 +10689,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[18].numero +
-        "      " +
+        printInfo[18].numero.padEnd(6) +
+        "  " +
         printInfo[18].option.charAt(0) +
         "     " +
         printInfo[18].montant +
@@ -10704,8 +10704,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[19].numero +
-        "      " +
+        printInfo[19].numero.padEnd(6) +
+        "  " +
         printInfo[19].option.charAt(0) +
         "     " +
         printInfo[19].montant +
@@ -10719,8 +10719,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[20].numero +
-        "      " +
+        printInfo[20].numero.padEnd(6) +
+        "  " +
         printInfo[20].option.charAt(0) +
         "     " +
         printInfo[20].montant +
@@ -10734,8 +10734,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[21].numero +
-        "      " +
+        printInfo[21].numero.padEnd(6) +
+        "  " +
         printInfo[21].option.charAt(0) +
         "     " +
         printInfo[21].montant +
@@ -10749,8 +10749,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[22].numero +
-        "      " +
+        printInfo[22].numero.padEnd(6) +
+        "  " +
         printInfo[22].option.charAt(0) +
         "     " +
         printInfo[22].montant +
@@ -10764,8 +10764,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[23].numero +
-        "      " +
+        printInfo[23].numero.padEnd(6) +
+        "  " +
         printInfo[23].option.charAt(0) +
         "     " +
         printInfo[23].montant +
@@ -10779,8 +10779,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[24].numero +
-        "      " +
+        printInfo[24].numero.padEnd(6) +
+        "  " +
         printInfo[24].option.charAt(0) +
         "     " +
         printInfo[24].montant +
@@ -10794,8 +10794,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[25].numero +
-        "      " +
+        printInfo[25].numero.padEnd(6) +
+        "  " +
         printInfo[25].option.charAt(0) +
         "     " +
         printInfo[25].montant +
@@ -10809,8 +10809,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[26].numero +
-        "      " +
+        printInfo[26].numero.padEnd(6) +
+        "  " +
         printInfo[26].option.charAt(0) +
         "     " +
         printInfo[26].montant +
@@ -10824,8 +10824,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[27].numero +
-        "      " +
+        printInfo[27].numero.padEnd(6) +
+        "  " +
         printInfo[27].option.charAt(0) +
         "     " +
         printInfo[27].montant +
@@ -10839,8 +10839,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[28].numero +
-        "      " +
+        printInfo[28].numero.padEnd(6) +
+        "  " +
         printInfo[28].option.charAt(0) +
         "     " +
         printInfo[28].montant +
@@ -10854,8 +10854,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[29].numero +
-        "      " +
+        printInfo[29].numero.padEnd(6) +
+        "  " +
         printInfo[29].option.charAt(0) +
         "     " +
         printInfo[29].montant +
@@ -10869,8 +10869,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[30].numero +
-        "      " +
+        printInfo[30].numero.padEnd(6) +
+        "  " +
         printInfo[30].option.charAt(0) +
         "     " +
         printInfo[30].montant +
@@ -10884,8 +10884,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[31].numero +
-        "      " +
+        printInfo[31].numero.padEnd(6) +
+        "  " +
         printInfo[31].option.charAt(0) +
         "     " +
         printInfo[31].montant +
@@ -10899,8 +10899,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[32].numero +
-        "      " +
+        printInfo[32].numero.padEnd(6) +
+        "  " +
         printInfo[32].option.charAt(0) +
         "     " +
         printInfo[32].montant +
@@ -10914,8 +10914,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[33].numero +
-        "      " +
+        printInfo[33].numero.padEnd(6) +
+        "  " +
         printInfo[33].option.charAt(0) +
         "     " +
         printInfo[33].montant +
@@ -10929,8 +10929,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[34].numero +
-        "      " +
+        printInfo[34].numero.padEnd(6) +
+        "  " +
         printInfo[34].option.charAt(0) +
         "     " +
         printInfo[34].montant +
@@ -10944,8 +10944,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[35].numero +
-        "      " +
+        printInfo[35].numero.padEnd(6) +
+        "  " +
         printInfo[35].option.charAt(0) +
         "     " +
         printInfo[35].montant +
@@ -10959,8 +10959,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[36].numero +
-        "      " +
+        printInfo[36].numero.padEnd(6) +
+        "  " +
         printInfo[36].option.charAt(0) +
         "     " +
         printInfo[36].montant +
@@ -10975,8 +10975,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[0].numero +
-        "      " +
+        printInfo[0].numero.padEnd(6) +
+        "  " +
         printInfo[0].option.charAt(0) +
         "     " +
         printInfo[0].montant +
@@ -10990,8 +10990,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[1].numero +
-        "      " +
+        printInfo[1].numero.padEnd(6) +
+        "  " +
         printInfo[1].option.charAt(0) +
         "     " +
         printInfo[1].montant +
@@ -11005,8 +11005,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[2].numero +
-        "      " +
+        printInfo[2].numero.padEnd(6) +
+        "  " +
         printInfo[2].option.charAt(0) +
         "     " +
         printInfo[2].montant +
@@ -11020,8 +11020,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[3].numero +
-        "      " +
+        printInfo[3].numero.padEnd(6) +
+        "  " +
         printInfo[3].option.charAt(0) +
         "     " +
         printInfo[3].montant +
@@ -11035,8 +11035,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[4].numero +
-        "      " +
+        printInfo[4].numero.padEnd(6) +
+        "  " +
         printInfo[4].option.charAt(0) +
         "     " +
         printInfo[4].montant +
@@ -11050,8 +11050,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[5].numero +
-        "      " +
+        printInfo[5].numero.padEnd(6) +
+        "  " +
         printInfo[5].option.charAt(0) +
         "     " +
         printInfo[5].montant +
@@ -11065,8 +11065,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[6].numero +
-        "      " +
+        printInfo[6].numero.padEnd(6) +
+        "  " +
         printInfo[6].option.charAt(0) +
         "     " +
         printInfo[6].montant +
@@ -11080,8 +11080,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[7].numero +
-        "      " +
+        printInfo[7].numero.padEnd(6) +
+        "  " +
         printInfo[7].option.charAt(0) +
         "     " +
         printInfo[7].montant +
@@ -11095,8 +11095,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[8].numero +
-        "      " +
+        printInfo[8].numero.padEnd(6) +
+        "  " +
         printInfo[8].option.charAt(0) +
         "     " +
         printInfo[8].montant +
@@ -11110,8 +11110,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[9].numero +
-        "      " +
+        printInfo[9].numero.padEnd(6) +
+        "  " +
         printInfo[9].option.charAt(0) +
         "     " +
         printInfo[9].montant +
@@ -11125,8 +11125,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[10].numero +
-        "      " +
+        printInfo[10].numero.padEnd(6) +
+        "  " +
         printInfo[10].option.charAt(0) +
         "     " +
         printInfo[10].montant +
@@ -11140,8 +11140,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[11].numero +
-        "      " +
+        printInfo[11].numero.padEnd(6) +
+        "  " +
         printInfo[11].option.charAt(0) +
         "     " +
         printInfo[11].montant +
@@ -11155,8 +11155,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[12].numero +
-        "      " +
+        printInfo[12].numero.padEnd(6) +
+        "  " +
         printInfo[12].option.charAt(0) +
         "     " +
         printInfo[12].montant +
@@ -11170,8 +11170,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[13].numero +
-        "      " +
+        printInfo[13].numero.padEnd(6) +
+        "  " +
         printInfo[13].option.charAt(0) +
         "     " +
         printInfo[13].montant +
@@ -11185,8 +11185,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[14].numero +
-        "      " +
+        printInfo[14].numero.padEnd(6) +
+        "  " +
         printInfo[14].option.charAt(0) +
         "     " +
         printInfo[14].montant +
@@ -11200,8 +11200,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[15].numero +
-        "      " +
+        printInfo[15].numero.padEnd(6) +
+        "  " +
         printInfo[15].option.charAt(0) +
         "     " +
         printInfo[15].montant +
@@ -11215,8 +11215,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[16].numero +
-        "      " +
+        printInfo[16].numero.padEnd(6) +
+        "  " +
         printInfo[16].option.charAt(0) +
         "     " +
         printInfo[16].montant +
@@ -11230,8 +11230,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[17].numero +
-        "      " +
+        printInfo[17].numero.padEnd(6) +
+        "  " +
         printInfo[17].option.charAt(0) +
         "     " +
         printInfo[17].montant +
@@ -11245,8 +11245,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[18].numero +
-        "      " +
+        printInfo[18].numero.padEnd(6) +
+        "  " +
         printInfo[18].option.charAt(0) +
         "     " +
         printInfo[18].montant +
@@ -11260,8 +11260,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[19].numero +
-        "      " +
+        printInfo[19].numero.padEnd(6) +
+        "  " +
         printInfo[19].option.charAt(0) +
         "     " +
         printInfo[19].montant +
@@ -11275,8 +11275,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[20].numero +
-        "      " +
+        printInfo[20].numero.padEnd(6) +
+        "  " +
         printInfo[20].option.charAt(0) +
         "     " +
         printInfo[20].montant +
@@ -11290,8 +11290,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[21].numero +
-        "      " +
+        printInfo[21].numero.padEnd(6) +
+        "  " +
         printInfo[21].option.charAt(0) +
         "     " +
         printInfo[21].montant +
@@ -11305,8 +11305,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[22].numero +
-        "      " +
+        printInfo[22].numero.padEnd(6) +
+        "  " +
         printInfo[22].option.charAt(0) +
         "     " +
         printInfo[22].montant +
@@ -11320,8 +11320,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[23].numero +
-        "      " +
+        printInfo[23].numero.padEnd(6) +
+        "  " +
         printInfo[23].option.charAt(0) +
         "     " +
         printInfo[23].montant +
@@ -11335,8 +11335,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[24].numero +
-        "      " +
+        printInfo[24].numero.padEnd(6) +
+        "  " +
         printInfo[24].option.charAt(0) +
         "     " +
         printInfo[24].montant +
@@ -11350,8 +11350,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[25].numero +
-        "      " +
+        printInfo[25].numero.padEnd(6) +
+        "  " +
         printInfo[25].option.charAt(0) +
         "     " +
         printInfo[25].montant +
@@ -11365,8 +11365,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[26].numero +
-        "      " +
+        printInfo[26].numero.padEnd(6) +
+        "  " +
         printInfo[26].option.charAt(0) +
         "     " +
         printInfo[26].montant +
@@ -11380,8 +11380,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[27].numero +
-        "      " +
+        printInfo[27].numero.padEnd(6) +
+        "  " +
         printInfo[27].option.charAt(0) +
         "     " +
         printInfo[27].montant +
@@ -11395,8 +11395,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[28].numero +
-        "      " +
+        printInfo[28].numero.padEnd(6) +
+        "  " +
         printInfo[28].option.charAt(0) +
         "     " +
         printInfo[28].montant +
@@ -11410,8 +11410,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[29].numero +
-        "      " +
+        printInfo[29].numero.padEnd(6) +
+        "  " +
         printInfo[29].option.charAt(0) +
         "     " +
         printInfo[29].montant +
@@ -11425,8 +11425,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[30].numero +
-        "      " +
+        printInfo[30].numero.padEnd(6) +
+        "  " +
         printInfo[30].option.charAt(0) +
         "     " +
         printInfo[30].montant +
@@ -11440,8 +11440,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[31].numero +
-        "      " +
+        printInfo[31].numero.padEnd(6) +
+        "  " +
         printInfo[31].option.charAt(0) +
         "     " +
         printInfo[31].montant +
@@ -11455,8 +11455,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[32].numero +
-        "      " +
+        printInfo[32].numero.padEnd(6) +
+        "  " +
         printInfo[32].option.charAt(0) +
         "     " +
         printInfo[32].montant +
@@ -11470,8 +11470,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[33].numero +
-        "      " +
+        printInfo[33].numero.padEnd(6) +
+        "  " +
         printInfo[33].option.charAt(0) +
         "     " +
         printInfo[33].montant +
@@ -11485,8 +11485,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[34].numero +
-        "      " +
+        printInfo[34].numero.padEnd(6) +
+        "  " +
         printInfo[34].option.charAt(0) +
         "     " +
         printInfo[34].montant +
@@ -11500,8 +11500,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[35].numero +
-        "      " +
+        printInfo[35].numero.padEnd(6) +
+        "  " +
         printInfo[35].option.charAt(0) +
         "     " +
         printInfo[35].montant +
@@ -11515,8 +11515,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[36].numero +
-        "      " +
+        printInfo[36].numero.padEnd(6) +
+        "  " +
         printInfo[36].option.charAt(0) +
         "     " +
         printInfo[36].montant +
@@ -11530,8 +11530,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[37].numero +
-        "      " +
+        printInfo[37].numero.padEnd(6) +
+        "  " +
         printInfo[37].option.charAt(0) +
         "     " +
         printInfo[37].montant +
@@ -11546,8 +11546,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[0].numero +
-        "      " +
+        printInfo[0].numero.padEnd(6) +
+        "  " +
         printInfo[0].option.charAt(0) +
         "     " +
         printInfo[0].montant +
@@ -11561,8 +11561,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[1].numero +
-        "      " +
+        printInfo[1].numero.padEnd(6) +
+        "  " +
         printInfo[1].option.charAt(0) +
         "     " +
         printInfo[1].montant +
@@ -11576,8 +11576,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[2].numero +
-        "      " +
+        printInfo[2].numero.padEnd(6) +
+        "  " +
         printInfo[2].option.charAt(0) +
         "     " +
         printInfo[2].montant +
@@ -11591,8 +11591,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[3].numero +
-        "      " +
+        printInfo[3].numero.padEnd(6) +
+        "  " +
         printInfo[3].option.charAt(0) +
         "     " +
         printInfo[3].montant +
@@ -11606,8 +11606,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[4].numero +
-        "      " +
+        printInfo[4].numero.padEnd(6) +
+        "  " +
         printInfo[4].option.charAt(0) +
         "     " +
         printInfo[4].montant +
@@ -11621,8 +11621,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[5].numero +
-        "      " +
+        printInfo[5].numero.padEnd(6) +
+        "  " +
         printInfo[5].option.charAt(0) +
         "     " +
         printInfo[5].montant +
@@ -11636,8 +11636,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[6].numero +
-        "      " +
+        printInfo[6].numero.padEnd(6) +
+        "  " +
         printInfo[6].option.charAt(0) +
         "     " +
         printInfo[6].montant +
@@ -11651,8 +11651,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[7].numero +
-        "      " +
+        printInfo[7].numero.padEnd(6) +
+        "  " +
         printInfo[7].option.charAt(0) +
         "     " +
         printInfo[7].montant +
@@ -11666,8 +11666,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[8].numero +
-        "      " +
+        printInfo[8].numero.padEnd(6) +
+        "  " +
         printInfo[8].option.charAt(0) +
         "     " +
         printInfo[8].montant +
@@ -11681,8 +11681,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[9].numero +
-        "      " +
+        printInfo[9].numero.padEnd(6) +
+        "  " +
         printInfo[9].option.charAt(0) +
         "     " +
         printInfo[9].montant +
@@ -11696,8 +11696,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[10].numero +
-        "      " +
+        printInfo[10].numero.padEnd(6) +
+        "  " +
         printInfo[10].option.charAt(0) +
         "     " +
         printInfo[10].montant +
@@ -11711,8 +11711,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[11].numero +
-        "      " +
+        printInfo[11].numero.padEnd(6) +
+        "  " +
         printInfo[11].option.charAt(0) +
         "     " +
         printInfo[11].montant +
@@ -11726,8 +11726,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[12].numero +
-        "      " +
+        printInfo[12].numero.padEnd(6) +
+        "  " +
         printInfo[12].option.charAt(0) +
         "     " +
         printInfo[12].montant +
@@ -11741,8 +11741,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[13].numero +
-        "      " +
+        printInfo[13].numero.padEnd(6) +
+        "  " +
         printInfo[13].option.charAt(0) +
         "     " +
         printInfo[13].montant +
@@ -11756,8 +11756,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[14].numero +
-        "      " +
+        printInfo[14].numero.padEnd(6) +
+        "  " +
         printInfo[14].option.charAt(0) +
         "     " +
         printInfo[14].montant +
@@ -11771,8 +11771,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[15].numero +
-        "      " +
+        printInfo[15].numero.padEnd(6) +
+        "  " +
         printInfo[15].option.charAt(0) +
         "     " +
         printInfo[15].montant +
@@ -11786,8 +11786,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[16].numero +
-        "      " +
+        printInfo[16].numero.padEnd(6) +
+        "  " +
         printInfo[16].option.charAt(0) +
         "     " +
         printInfo[16].montant +
@@ -11801,8 +11801,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[17].numero +
-        "      " +
+        printInfo[17].numero.padEnd(6) +
+        "  " +
         printInfo[17].option.charAt(0) +
         "     " +
         printInfo[17].montant +
@@ -11816,8 +11816,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[18].numero +
-        "      " +
+        printInfo[18].numero.padEnd(6) +
+        "  " +
         printInfo[18].option.charAt(0) +
         "     " +
         printInfo[18].montant +
@@ -11831,8 +11831,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[19].numero +
-        "      " +
+        printInfo[19].numero.padEnd(6) +
+        "  " +
         printInfo[19].option.charAt(0) +
         "     " +
         printInfo[19].montant +
@@ -11846,8 +11846,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[20].numero +
-        "      " +
+        printInfo[20].numero.padEnd(6) +
+        "  " +
         printInfo[20].option.charAt(0) +
         "     " +
         printInfo[20].montant +
@@ -11861,8 +11861,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[21].numero +
-        "      " +
+        printInfo[21].numero.padEnd(6) +
+        "  " +
         printInfo[21].option.charAt(0) +
         "     " +
         printInfo[21].montant +
@@ -11876,8 +11876,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[22].numero +
-        "      " +
+        printInfo[22].numero.padEnd(6) +
+        "  " +
         printInfo[22].option.charAt(0) +
         "     " +
         printInfo[22].montant +
@@ -11891,8 +11891,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[23].numero +
-        "      " +
+        printInfo[23].numero.padEnd(6) +
+        "  " +
         printInfo[23].option.charAt(0) +
         "     " +
         printInfo[23].montant +
@@ -11906,8 +11906,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[24].numero +
-        "      " +
+        printInfo[24].numero.padEnd(6) +
+        "  " +
         printInfo[24].option.charAt(0) +
         "     " +
         printInfo[24].montant +
@@ -11921,8 +11921,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[25].numero +
-        "      " +
+        printInfo[25].numero.padEnd(6) +
+        "  " +
         printInfo[25].option.charAt(0) +
         "     " +
         printInfo[25].montant +
@@ -11936,8 +11936,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[26].numero +
-        "      " +
+        printInfo[26].numero.padEnd(6) +
+        "  " +
         printInfo[26].option.charAt(0) +
         "     " +
         printInfo[26].montant +
@@ -11951,8 +11951,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[27].numero +
-        "      " +
+        printInfo[27].numero.padEnd(6) +
+        "  " +
         printInfo[27].option.charAt(0) +
         "     " +
         printInfo[27].montant +
@@ -11966,8 +11966,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[28].numero +
-        "      " +
+        printInfo[28].numero.padEnd(6) +
+        "  " +
         printInfo[28].option.charAt(0) +
         "     " +
         printInfo[28].montant +
@@ -11981,8 +11981,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[29].numero +
-        "      " +
+        printInfo[29].numero.padEnd(6) +
+        "  " +
         printInfo[29].option.charAt(0) +
         "     " +
         printInfo[29].montant +
@@ -11996,8 +11996,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[30].numero +
-        "      " +
+        printInfo[30].numero.padEnd(6) +
+        "  " +
         printInfo[30].option.charAt(0) +
         "     " +
         printInfo[30].montant +
@@ -12011,8 +12011,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[31].numero +
-        "      " +
+        printInfo[31].numero.padEnd(6) +
+        "  " +
         printInfo[31].option.charAt(0) +
         "     " +
         printInfo[31].montant +
@@ -12026,8 +12026,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[32].numero +
-        "      " +
+        printInfo[32].numero.padEnd(6) +
+        "  " +
         printInfo[32].option.charAt(0) +
         "     " +
         printInfo[32].montant +
@@ -12041,8 +12041,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[33].numero +
-        "      " +
+        printInfo[33].numero.padEnd(6) +
+        "  " +
         printInfo[33].option.charAt(0) +
         "     " +
         printInfo[33].montant +
@@ -12056,8 +12056,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[34].numero +
-        "      " +
+        printInfo[34].numero.padEnd(6) +
+        "  " +
         printInfo[34].option.charAt(0) +
         "     " +
         printInfo[34].montant +
@@ -12072,8 +12072,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[0].numero +
-        "      " +
+        printInfo[0].numero.padEnd(6) +
+        "  " +
         printInfo[0].option.charAt(0) +
         "     " +
         printInfo[0].montant +
@@ -12087,8 +12087,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[1].numero +
-        "      " +
+        printInfo[1].numero.padEnd(6) +
+        "  " +
         printInfo[1].option.charAt(0) +
         "     " +
         printInfo[1].montant +
@@ -12102,8 +12102,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[2].numero +
-        "      " +
+        printInfo[2].numero.padEnd(6) +
+        "  " +
         printInfo[2].option.charAt(0) +
         "     " +
         printInfo[2].montant +
@@ -12117,8 +12117,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[3].numero +
-        "      " +
+        printInfo[3].numero.padEnd(6) +
+        "  " +
         printInfo[3].option.charAt(0) +
         "     " +
         printInfo[3].montant +
@@ -12132,8 +12132,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[4].numero +
-        "      " +
+        printInfo[4].numero.padEnd(6) +
+        "  " +
         printInfo[4].option.charAt(0) +
         "     " +
         printInfo[4].montant +
@@ -12147,8 +12147,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[5].numero +
-        "      " +
+        printInfo[5].numero.padEnd(6) +
+        "  " +
         printInfo[5].option.charAt(0) +
         "     " +
         printInfo[5].montant +
@@ -12162,8 +12162,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[6].numero +
-        "      " +
+        printInfo[6].numero.padEnd(6) +
+        "  " +
         printInfo[6].option.charAt(0) +
         "     " +
         printInfo[6].montant +
@@ -12177,8 +12177,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[7].numero +
-        "      " +
+        printInfo[7].numero.padEnd(6) +
+        "  " +
         printInfo[7].option.charAt(0) +
         "     " +
         printInfo[7].montant +
@@ -12192,8 +12192,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[8].numero +
-        "      " +
+        printInfo[8].numero.padEnd(6) +
+        "  " +
         printInfo[8].option.charAt(0) +
         "     " +
         printInfo[8].montant +
@@ -12207,8 +12207,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[9].numero +
-        "      " +
+        printInfo[9].numero.padEnd(6) +
+        "  " +
         printInfo[9].option.charAt(0) +
         "     " +
         printInfo[9].montant +
@@ -12222,8 +12222,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[10].numero +
-        "      " +
+        printInfo[10].numero.padEnd(6) +
+        "  " +
         printInfo[10].option.charAt(0) +
         "     " +
         printInfo[10].montant +
@@ -12237,8 +12237,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[11].numero +
-        "      " +
+        printInfo[11].numero.padEnd(6) +
+        "  " +
         printInfo[11].option.charAt(0) +
         "     " +
         printInfo[11].montant +
@@ -12252,8 +12252,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[12].numero +
-        "      " +
+        printInfo[12].numero.padEnd(6) +
+        "  " +
         printInfo[12].option.charAt(0) +
         "     " +
         printInfo[12].montant +
@@ -12267,8 +12267,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[13].numero +
-        "      " +
+        printInfo[13].numero.padEnd(6) +
+        "  " +
         printInfo[13].option.charAt(0) +
         "     " +
         printInfo[13].montant +
@@ -12282,8 +12282,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[14].numero +
-        "      " +
+        printInfo[14].numero.padEnd(6) +
+        "  " +
         printInfo[14].option.charAt(0) +
         "     " +
         printInfo[14].montant +
@@ -12297,8 +12297,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[15].numero +
-        "      " +
+        printInfo[15].numero.padEnd(6) +
+        "  " +
         printInfo[15].option.charAt(0) +
         "     " +
         printInfo[15].montant +
@@ -12312,8 +12312,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[16].numero +
-        "      " +
+        printInfo[16].numero.padEnd(6) +
+        "  " +
         printInfo[16].option.charAt(0) +
         "     " +
         printInfo[16].montant +
@@ -12327,8 +12327,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[17].numero +
-        "      " +
+        printInfo[17].numero.padEnd(6) +
+        "  " +
         printInfo[17].option.charAt(0) +
         "     " +
         printInfo[17].montant +
@@ -12342,8 +12342,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[18].numero +
-        "      " +
+        printInfo[18].numero.padEnd(6) +
+        "  " +
         printInfo[18].option.charAt(0) +
         "     " +
         printInfo[18].montant +
@@ -12357,8 +12357,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[19].numero +
-        "      " +
+        printInfo[19].numero.padEnd(6) +
+        "  " +
         printInfo[19].option.charAt(0) +
         "     " +
         printInfo[19].montant +
@@ -12372,8 +12372,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[20].numero +
-        "      " +
+        printInfo[20].numero.padEnd(6) +
+        "  " +
         printInfo[20].option.charAt(0) +
         "     " +
         printInfo[20].montant +
@@ -12387,8 +12387,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[21].numero +
-        "      " +
+        printInfo[21].numero.padEnd(6) +
+        "  " +
         printInfo[21].option.charAt(0) +
         "     " +
         printInfo[21].montant +
@@ -12402,8 +12402,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[22].numero +
-        "      " +
+        printInfo[22].numero.padEnd(6) +
+        "  " +
         printInfo[22].option.charAt(0) +
         "     " +
         printInfo[22].montant +
@@ -12417,8 +12417,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[23].numero +
-        "      " +
+        printInfo[23].numero.padEnd(6) +
+        "  " +
         printInfo[23].option.charAt(0) +
         "     " +
         printInfo[23].montant +
@@ -12432,8 +12432,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[24].numero +
-        "      " +
+        printInfo[24].numero.padEnd(6) +
+        "  " +
         printInfo[24].option.charAt(0) +
         "     " +
         printInfo[24].montant +
@@ -12447,8 +12447,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[25].numero +
-        "      " +
+        printInfo[25].numero.padEnd(6) +
+        "  " +
         printInfo[25].option.charAt(0) +
         "     " +
         printInfo[25].montant +
@@ -12462,8 +12462,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[26].numero +
-        "      " +
+        printInfo[26].numero.padEnd(6) +
+        "  " +
         printInfo[26].option.charAt(0) +
         "     " +
         printInfo[26].montant +
@@ -12477,8 +12477,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[27].numero +
-        "      " +
+        printInfo[27].numero.padEnd(6) +
+        "  " +
         printInfo[27].option.charAt(0) +
         "     " +
         printInfo[27].montant +
@@ -12492,8 +12492,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[28].numero +
-        "      " +
+        printInfo[28].numero.padEnd(6) +
+        "  " +
         printInfo[28].option.charAt(0) +
         "     " +
         printInfo[28].montant +
@@ -12507,8 +12507,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[29].numero +
-        "      " +
+        printInfo[29].numero.padEnd(6) +
+        "  " +
         printInfo[29].option.charAt(0) +
         "     " +
         printInfo[29].montant +
@@ -12522,8 +12522,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[30].numero +
-        "      " +
+        printInfo[30].numero.padEnd(6) +
+        "  " +
         printInfo[30].option.charAt(0) +
         "     " +
         printInfo[30].montant +
@@ -12537,8 +12537,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[31].numero +
-        "      " +
+        printInfo[31].numero.padEnd(6) +
+        "  " +
         printInfo[31].option.charAt(0) +
         "     " +
         printInfo[31].montant +
@@ -12552,8 +12552,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[32].numero +
-        "      " +
+        printInfo[32].numero.padEnd(6) +
+        "  " +
         printInfo[32].option.charAt(0) +
         "     " +
         printInfo[32].montant +
@@ -12567,8 +12567,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[33].numero +
-        "      " +
+        printInfo[33].numero.padEnd(6) +
+        "  " +
         printInfo[33].option.charAt(0) +
         "     " +
         printInfo[33].montant +
@@ -12582,8 +12582,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[34].numero +
-        "      " +
+        printInfo[34].numero.padEnd(6) +
+        "  " +
         printInfo[34].option.charAt(0) +
         "     " +
         printInfo[34].montant +
@@ -12597,8 +12597,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[35].numero +
-        "      " +
+        printInfo[35].numero.padEnd(6) +
+        "  " +
         printInfo[35].option.charAt(0) +
         "     " +
         printInfo[35].montant +
@@ -12613,8 +12613,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[0].numero +
-        "      " +
+        printInfo[0].numero.padEnd(6) +
+        "  " +
         printInfo[0].option.charAt(0) +
         "     " +
         printInfo[0].montant +
@@ -12628,8 +12628,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[1].numero +
-        "      " +
+        printInfo[1].numero.padEnd(6) +
+        "  " +
         printInfo[1].option.charAt(0) +
         "     " +
         printInfo[1].montant +
@@ -12643,8 +12643,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[2].numero +
-        "      " +
+        printInfo[2].numero.padEnd(6) +
+        "  " +
         printInfo[2].option.charAt(0) +
         "     " +
         printInfo[2].montant +
@@ -12658,8 +12658,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[3].numero +
-        "      " +
+        printInfo[3].numero.padEnd(6) +
+        "  " +
         printInfo[3].option.charAt(0) +
         "     " +
         printInfo[3].montant +
@@ -12673,8 +12673,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[4].numero +
-        "      " +
+        printInfo[4].numero.padEnd(6) +
+        "  " +
         printInfo[4].option.charAt(0) +
         "     " +
         printInfo[4].montant +
@@ -12688,8 +12688,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[5].numero +
-        "      " +
+        printInfo[5].numero.padEnd(6) +
+        "  " +
         printInfo[5].option.charAt(0) +
         "     " +
         printInfo[5].montant +
@@ -12703,8 +12703,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[6].numero +
-        "      " +
+        printInfo[6].numero.padEnd(6) +
+        "  " +
         printInfo[6].option.charAt(0) +
         "     " +
         printInfo[6].montant +
@@ -12718,8 +12718,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[7].numero +
-        "      " +
+        printInfo[7].numero.padEnd(6) +
+        "  " +
         printInfo[7].option.charAt(0) +
         "     " +
         printInfo[7].montant +
@@ -12733,8 +12733,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[8].numero +
-        "      " +
+        printInfo[8].numero.padEnd(6) +
+        "  " +
         printInfo[8].option.charAt(0) +
         "     " +
         printInfo[8].montant +
@@ -12748,8 +12748,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[9].numero +
-        "      " +
+        printInfo[9].numero.padEnd(6) +
+        "  " +
         printInfo[9].option.charAt(0) +
         "     " +
         printInfo[9].montant +
@@ -12763,8 +12763,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[10].numero +
-        "      " +
+        printInfo[10].numero.padEnd(6) +
+        "  " +
         printInfo[10].option.charAt(0) +
         "     " +
         printInfo[10].montant +
@@ -12778,8 +12778,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[11].numero +
-        "      " +
+        printInfo[11].numero.padEnd(6) +
+        "  " +
         printInfo[11].option.charAt(0) +
         "     " +
         printInfo[11].montant +
@@ -12793,8 +12793,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[12].numero +
-        "      " +
+        printInfo[12].numero.padEnd(6) +
+        "  " +
         printInfo[12].option.charAt(0) +
         "     " +
         printInfo[12].montant +
@@ -12808,8 +12808,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[13].numero +
-        "      " +
+        printInfo[13].numero.padEnd(6) +
+        "  " +
         printInfo[13].option.charAt(0) +
         "     " +
         printInfo[13].montant +
@@ -12823,8 +12823,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[14].numero +
-        "      " +
+        printInfo[14].numero.padEnd(6) +
+        "  " +
         printInfo[14].option.charAt(0) +
         "     " +
         printInfo[14].montant +
@@ -12838,8 +12838,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[15].numero +
-        "      " +
+        printInfo[15].numero.padEnd(6) +
+        "  " +
         printInfo[15].option.charAt(0) +
         "     " +
         printInfo[15].montant +
@@ -12853,8 +12853,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[16].numero +
-        "      " +
+        printInfo[16].numero.padEnd(6) +
+        "  " +
         printInfo[16].option.charAt(0) +
         "     " +
         printInfo[16].montant +
@@ -12868,8 +12868,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[17].numero +
-        "      " +
+        printInfo[17].numero.padEnd(6) +
+        "  " +
         printInfo[17].option.charAt(0) +
         "     " +
         printInfo[17].montant +
@@ -12883,8 +12883,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[18].numero +
-        "      " +
+        printInfo[18].numero.padEnd(6) +
+        "  " +
         printInfo[18].option.charAt(0) +
         "     " +
         printInfo[18].montant +
@@ -12898,8 +12898,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[19].numero +
-        "      " +
+        printInfo[19].numero.padEnd(6) +
+        "  " +
         printInfo[19].option.charAt(0) +
         "     " +
         printInfo[19].montant +
@@ -12913,8 +12913,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[20].numero +
-        "      " +
+        printInfo[20].numero.padEnd(6) +
+        "  " +
         printInfo[20].option.charAt(0) +
         "     " +
         printInfo[20].montant +
@@ -12928,8 +12928,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[21].numero +
-        "      " +
+        printInfo[21].numero.padEnd(6) +
+        "  " +
         printInfo[21].option.charAt(0) +
         "     " +
         printInfo[21].montant +
@@ -12943,8 +12943,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[22].numero +
-        "      " +
+        printInfo[22].numero.padEnd(6) +
+        "  " +
         printInfo[22].option.charAt(0) +
         "     " +
         printInfo[22].montant +
@@ -12958,8 +12958,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[23].numero +
-        "      " +
+        printInfo[23].numero.padEnd(6) +
+        "  " +
         printInfo[23].option.charAt(0) +
         "     " +
         printInfo[23].montant +
@@ -12973,8 +12973,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[24].numero +
-        "      " +
+        printInfo[24].numero.padEnd(6) +
+        "  " +
         printInfo[24].option.charAt(0) +
         "     " +
         printInfo[24].montant +
@@ -12988,8 +12988,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[25].numero +
-        "      " +
+        printInfo[25].numero.padEnd(6) +
+        "  " +
         printInfo[25].option.charAt(0) +
         "     " +
         printInfo[25].montant +
@@ -13003,8 +13003,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[26].numero +
-        "      " +
+        printInfo[26].numero.padEnd(6) +
+        "  " +
         printInfo[26].option.charAt(0) +
         "     " +
         printInfo[26].montant +
@@ -13018,8 +13018,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[27].numero +
-        "      " +
+        printInfo[27].numero.padEnd(6) +
+        "  " +
         printInfo[27].option.charAt(0) +
         "     " +
         printInfo[27].montant +
@@ -13033,8 +13033,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[28].numero +
-        "      " +
+        printInfo[28].numero.padEnd(6) +
+        "  " +
         printInfo[28].option.charAt(0) +
         "     " +
         printInfo[28].montant +
@@ -13048,8 +13048,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[29].numero +
-        "      " +
+        printInfo[29].numero.padEnd(6) +
+        "  " +
         printInfo[29].option.charAt(0) +
         "     " +
         printInfo[29].montant +
@@ -13063,8 +13063,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[30].numero +
-        "      " +
+        printInfo[30].numero.padEnd(6) +
+        "  " +
         printInfo[30].option.charAt(0) +
         "     " +
         printInfo[30].montant +
@@ -13078,8 +13078,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[31].numero +
-        "      " +
+        printInfo[31].numero.padEnd(6) +
+        "  " +
         printInfo[31].option.charAt(0) +
         "     " +
         printInfo[31].montant +
@@ -13093,8 +13093,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[32].numero +
-        "      " +
+        printInfo[32].numero.padEnd(6) +
+        "  " +
         printInfo[32].option.charAt(0) +
         "     " +
         printInfo[32].montant +
@@ -13108,8 +13108,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[33].numero +
-        "      " +
+        printInfo[33].numero.padEnd(6) +
+        "  " +
         printInfo[33].option.charAt(0) +
         "     " +
         printInfo[33].montant +
@@ -13123,8 +13123,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[34].numero +
-        "      " +
+        printInfo[34].numero.padEnd(6) +
+        "  " +
         printInfo[34].option.charAt(0) +
         "     " +
         printInfo[34].montant +
@@ -13138,8 +13138,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[35].numero +
-        "      " +
+        printInfo[35].numero.padEnd(6) +
+        "  " +
         printInfo[35].option.charAt(0) +
         "     " +
         printInfo[35].montant +
@@ -13153,8 +13153,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[36].numero +
-        "      " +
+        printInfo[36].numero.padEnd(6) +
+        "  " +
         printInfo[36].option.charAt(0) +
         "     " +
         printInfo[36].montant +
@@ -13169,8 +13169,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[0].numero +
-        "      " +
+        printInfo[0].numero.padEnd(6) +
+        "  " +
         printInfo[0].option.charAt(0) +
         "     " +
         printInfo[0].montant +
@@ -13184,8 +13184,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[1].numero +
-        "      " +
+        printInfo[1].numero.padEnd(6) +
+        "  " +
         printInfo[1].option.charAt(0) +
         "     " +
         printInfo[1].montant +
@@ -13199,8 +13199,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[2].numero +
-        "      " +
+        printInfo[2].numero.padEnd(6) +
+        "  " +
         printInfo[2].option.charAt(0) +
         "     " +
         printInfo[2].montant +
@@ -13214,8 +13214,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[3].numero +
-        "      " +
+        printInfo[3].numero.padEnd(6) +
+        "  " +
         printInfo[3].option.charAt(0) +
         "     " +
         printInfo[3].montant +
@@ -13229,8 +13229,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[4].numero +
-        "      " +
+        printInfo[4].numero.padEnd(6) +
+        "  " +
         printInfo[4].option.charAt(0) +
         "     " +
         printInfo[4].montant +
@@ -13244,8 +13244,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[5].numero +
-        "      " +
+        printInfo[5].numero.padEnd(6) +
+        "  " +
         printInfo[5].option.charAt(0) +
         "     " +
         printInfo[5].montant +
@@ -13259,8 +13259,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[6].numero +
-        "      " +
+        printInfo[6].numero.padEnd(6) +
+        "  " +
         printInfo[6].option.charAt(0) +
         "     " +
         printInfo[6].montant +
@@ -13274,8 +13274,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[7].numero +
-        "      " +
+        printInfo[7].numero.padEnd(6) +
+        "  " +
         printInfo[7].option.charAt(0) +
         "     " +
         printInfo[7].montant +
@@ -13289,8 +13289,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[8].numero +
-        "      " +
+        printInfo[8].numero.padEnd(6) +
+        "  " +
         printInfo[8].option.charAt(0) +
         "     " +
         printInfo[8].montant +
@@ -13304,8 +13304,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[9].numero +
-        "      " +
+        printInfo[9].numero.padEnd(6) +
+        "  " +
         printInfo[9].option.charAt(0) +
         "     " +
         printInfo[9].montant +
@@ -13319,8 +13319,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[10].numero +
-        "      " +
+        printInfo[10].numero.padEnd(6) +
+        "  " +
         printInfo[10].option.charAt(0) +
         "     " +
         printInfo[10].montant +
@@ -13334,8 +13334,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[11].numero +
-        "      " +
+        printInfo[11].numero.padEnd(6) +
+        "  " +
         printInfo[11].option.charAt(0) +
         "     " +
         printInfo[11].montant +
@@ -13349,8 +13349,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[12].numero +
-        "      " +
+        printInfo[12].numero.padEnd(6) +
+        "  " +
         printInfo[12].option.charAt(0) +
         "     " +
         printInfo[12].montant +
@@ -13364,8 +13364,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[13].numero +
-        "      " +
+        printInfo[13].numero.padEnd(6) +
+        "  " +
         printInfo[13].option.charAt(0) +
         "     " +
         printInfo[13].montant +
@@ -13379,8 +13379,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[14].numero +
-        "      " +
+        printInfo[14].numero.padEnd(6) +
+        "  " +
         printInfo[14].option.charAt(0) +
         "     " +
         printInfo[14].montant +
@@ -13394,8 +13394,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[15].numero +
-        "      " +
+        printInfo[15].numero.padEnd(6) +
+        "  " +
         printInfo[15].option.charAt(0) +
         "     " +
         printInfo[15].montant +
@@ -13409,8 +13409,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[16].numero +
-        "      " +
+        printInfo[16].numero.padEnd(6) +
+        "  " +
         printInfo[16].option.charAt(0) +
         "     " +
         printInfo[16].montant +
@@ -13424,8 +13424,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[17].numero +
-        "      " +
+        printInfo[17].numero.padEnd(6) +
+        "  " +
         printInfo[17].option.charAt(0) +
         "     " +
         printInfo[17].montant +
@@ -13439,8 +13439,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[18].numero +
-        "      " +
+        printInfo[18].numero.padEnd(6) +
+        "  " +
         printInfo[18].option.charAt(0) +
         "     " +
         printInfo[18].montant +
@@ -13454,8 +13454,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[19].numero +
-        "      " +
+        printInfo[19].numero.padEnd(6) +
+        "  " +
         printInfo[19].option.charAt(0) +
         "     " +
         printInfo[19].montant +
@@ -13469,8 +13469,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[20].numero +
-        "      " +
+        printInfo[20].numero.padEnd(6) +
+        "  " +
         printInfo[20].option.charAt(0) +
         "     " +
         printInfo[20].montant +
@@ -13484,8 +13484,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[21].numero +
-        "      " +
+        printInfo[21].numero.padEnd(6) +
+        "  " +
         printInfo[21].option.charAt(0) +
         "     " +
         printInfo[21].montant +
@@ -13499,8 +13499,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[22].numero +
-        "      " +
+        printInfo[22].numero.padEnd(6) +
+        "  " +
         printInfo[22].option.charAt(0) +
         "     " +
         printInfo[22].montant +
@@ -13514,8 +13514,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[23].numero +
-        "      " +
+        printInfo[23].numero.padEnd(6) +
+        "  " +
         printInfo[23].option.charAt(0) +
         "     " +
         printInfo[23].montant +
@@ -13529,8 +13529,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[24].numero +
-        "      " +
+        printInfo[24].numero.padEnd(6) +
+        "  " +
         printInfo[24].option.charAt(0) +
         "     " +
         printInfo[24].montant +
@@ -13544,8 +13544,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[25].numero +
-        "      " +
+        printInfo[25].numero.padEnd(6) +
+        "  " +
         printInfo[25].option.charAt(0) +
         "     " +
         printInfo[25].montant +
@@ -13559,8 +13559,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[26].numero +
-        "      " +
+        printInfo[26].numero.padEnd(6) +
+        "  " +
         printInfo[26].option.charAt(0) +
         "     " +
         printInfo[26].montant +
@@ -13574,8 +13574,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[27].numero +
-        "      " +
+        printInfo[27].numero.padEnd(6) +
+        "  " +
         printInfo[27].option.charAt(0) +
         "     " +
         printInfo[27].montant +
@@ -13589,8 +13589,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[28].numero +
-        "      " +
+        printInfo[28].numero.padEnd(6) +
+        "  " +
         printInfo[28].option.charAt(0) +
         "     " +
         printInfo[28].montant +
@@ -13604,8 +13604,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[29].numero +
-        "      " +
+        printInfo[29].numero.padEnd(6) +
+        "  " +
         printInfo[29].option.charAt(0) +
         "     " +
         printInfo[29].montant +
@@ -13619,8 +13619,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[30].numero +
-        "      " +
+        printInfo[30].numero.padEnd(6) +
+        "  " +
         printInfo[30].option.charAt(0) +
         "     " +
         printInfo[30].montant +
@@ -13634,8 +13634,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[31].numero +
-        "      " +
+        printInfo[31].numero.padEnd(6) +
+        "  " +
         printInfo[31].option.charAt(0) +
         "     " +
         printInfo[31].montant +
@@ -13649,8 +13649,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[32].numero +
-        "      " +
+        printInfo[32].numero.padEnd(6) +
+        "  " +
         printInfo[32].option.charAt(0) +
         "     " +
         printInfo[32].montant +
@@ -13664,8 +13664,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[33].numero +
-        "      " +
+        printInfo[33].numero.padEnd(6) +
+        "  " +
         printInfo[33].option.charAt(0) +
         "     " +
         printInfo[33].montant +
@@ -13679,8 +13679,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[34].numero +
-        "      " +
+        printInfo[34].numero.padEnd(6) +
+        "  " +
         printInfo[34].option.charAt(0) +
         "     " +
         printInfo[34].montant +
@@ -13694,8 +13694,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[35].numero +
-        "      " +
+        printInfo[35].numero.padEnd(6) +
+        "  " +
         printInfo[35].option.charAt(0) +
         "     " +
         printInfo[35].montant +
@@ -13709,8 +13709,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[36].numero +
-        "      " +
+        printInfo[36].numero.padEnd(6) +
+        "  " +
         printInfo[36].option.charAt(0) +
         "     " +
         printInfo[36].montant +
@@ -13724,8 +13724,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[37].numero +
-        "      " +
+        printInfo[37].numero.padEnd(6) +
+        "  " +
         printInfo[37].option.charAt(0) +
         "     " +
         printInfo[37].montant +
@@ -13739,8 +13739,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[38].numero +
-        "      " +
+        printInfo[38].numero.padEnd(6) +
+        "  " +
         printInfo[38].option.charAt(0) +
         "     " +
         printInfo[38].montant +
@@ -13755,8 +13755,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[0].numero +
-        "      " +
+        printInfo[0].numero.padEnd(6) +
+        "  " +
         printInfo[0].option.charAt(0) +
         "     " +
         printInfo[0].montant +
@@ -13770,8 +13770,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[1].numero +
-        "      " +
+        printInfo[1].numero.padEnd(6) +
+        "  " +
         printInfo[1].option.charAt(0) +
         "     " +
         printInfo[1].montant +
@@ -13785,8 +13785,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[2].numero +
-        "      " +
+        printInfo[2].numero.padEnd(6) +
+        "  " +
         printInfo[2].option.charAt(0) +
         "     " +
         printInfo[2].montant +
@@ -13800,8 +13800,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[3].numero +
-        "      " +
+        printInfo[3].numero.padEnd(6) +
+        "  " +
         printInfo[3].option.charAt(0) +
         "     " +
         printInfo[3].montant +
@@ -13815,8 +13815,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[4].numero +
-        "      " +
+        printInfo[4].numero.padEnd(6) +
+        "  " +
         printInfo[4].option.charAt(0) +
         "     " +
         printInfo[4].montant +
@@ -13830,8 +13830,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[5].numero +
-        "      " +
+        printInfo[5].numero.padEnd(6) +
+        "  " +
         printInfo[5].option.charAt(0) +
         "     " +
         printInfo[5].montant +
@@ -13845,8 +13845,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[6].numero +
-        "      " +
+        printInfo[6].numero.padEnd(6) +
+        "  " +
         printInfo[6].option.charAt(0) +
         "     " +
         printInfo[6].montant +
@@ -13860,8 +13860,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[7].numero +
-        "      " +
+        printInfo[7].numero.padEnd(6) +
+        "  " +
         printInfo[7].option.charAt(0) +
         "     " +
         printInfo[7].montant +
@@ -13875,8 +13875,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[8].numero +
-        "      " +
+        printInfo[8].numero.padEnd(6) +
+        "  " +
         printInfo[8].option.charAt(0) +
         "     " +
         printInfo[8].montant +
@@ -13890,8 +13890,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[9].numero +
-        "      " +
+        printInfo[9].numero.padEnd(6) +
+        "  " +
         printInfo[9].option.charAt(0) +
         "     " +
         printInfo[9].montant +
@@ -13905,8 +13905,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[10].numero +
-        "      " +
+        printInfo[10].numero.padEnd(6) +
+        "  " +
         printInfo[10].option.charAt(0) +
         "     " +
         printInfo[10].montant +
@@ -13920,8 +13920,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[11].numero +
-        "      " +
+        printInfo[11].numero.padEnd(6) +
+        "  " +
         printInfo[11].option.charAt(0) +
         "     " +
         printInfo[11].montant +
@@ -13935,8 +13935,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[12].numero +
-        "      " +
+        printInfo[12].numero.padEnd(6) +
+        "  " +
         printInfo[12].option.charAt(0) +
         "     " +
         printInfo[12].montant +
@@ -13950,8 +13950,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[13].numero +
-        "      " +
+        printInfo[13].numero.padEnd(6) +
+        "  " +
         printInfo[13].option.charAt(0) +
         "     " +
         printInfo[13].montant +
@@ -13965,8 +13965,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[14].numero +
-        "      " +
+        printInfo[14].numero.padEnd(6) +
+        "  " +
         printInfo[14].option.charAt(0) +
         "     " +
         printInfo[14].montant +
@@ -13980,8 +13980,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[15].numero +
-        "      " +
+        printInfo[15].numero.padEnd(6) +
+        "  " +
         printInfo[15].option.charAt(0) +
         "     " +
         printInfo[15].montant +
@@ -13995,8 +13995,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[16].numero +
-        "      " +
+        printInfo[16].numero.padEnd(6) +
+        "  " +
         printInfo[16].option.charAt(0) +
         "     " +
         printInfo[16].montant +
@@ -14010,8 +14010,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[17].numero +
-        "      " +
+        printInfo[17].numero.padEnd(6) +
+        "  " +
         printInfo[17].option.charAt(0) +
         "     " +
         printInfo[17].montant +
@@ -14025,8 +14025,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[18].numero +
-        "      " +
+        printInfo[18].numero.padEnd(6) +
+        "  " +
         printInfo[18].option.charAt(0) +
         "     " +
         printInfo[18].montant +
@@ -14040,8 +14040,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[19].numero +
-        "      " +
+        printInfo[19].numero.padEnd(6) +
+        "  " +
         printInfo[19].option.charAt(0) +
         "     " +
         printInfo[19].montant +
@@ -14055,8 +14055,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[20].numero +
-        "      " +
+        printInfo[20].numero.padEnd(6) +
+        "  " +
         printInfo[20].option.charAt(0) +
         "     " +
         printInfo[20].montant +
@@ -14070,8 +14070,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[21].numero +
-        "      " +
+        printInfo[21].numero.padEnd(6) +
+        "  " +
         printInfo[21].option.charAt(0) +
         "     " +
         printInfo[21].montant +
@@ -14085,8 +14085,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[22].numero +
-        "      " +
+        printInfo[22].numero.padEnd(6) +
+        "  " +
         printInfo[22].option.charAt(0) +
         "     " +
         printInfo[22].montant +
@@ -14100,8 +14100,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[23].numero +
-        "      " +
+        printInfo[23].numero.padEnd(6) +
+        "  " +
         printInfo[23].option.charAt(0) +
         "     " +
         printInfo[23].montant +
@@ -14115,8 +14115,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[24].numero +
-        "      " +
+        printInfo[24].numero.padEnd(6) +
+        "  " +
         printInfo[24].option.charAt(0) +
         "     " +
         printInfo[24].montant +
@@ -14130,8 +14130,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[25].numero +
-        "      " +
+        printInfo[25].numero.padEnd(6) +
+        "  " +
         printInfo[25].option.charAt(0) +
         "     " +
         printInfo[25].montant +
@@ -14145,8 +14145,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[26].numero +
-        "      " +
+        printInfo[26].numero.padEnd(6) +
+        "  " +
         printInfo[26].option.charAt(0) +
         "     " +
         printInfo[26].montant +
@@ -14160,8 +14160,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[27].numero +
-        "      " +
+        printInfo[27].numero.padEnd(6) +
+        "  " +
         printInfo[27].option.charAt(0) +
         "     " +
         printInfo[27].montant +
@@ -14175,8 +14175,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[28].numero +
-        "      " +
+        printInfo[28].numero.padEnd(6) +
+        "  " +
         printInfo[28].option.charAt(0) +
         "     " +
         printInfo[28].montant +
@@ -14190,8 +14190,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[29].numero +
-        "      " +
+        printInfo[29].numero.padEnd(6) +
+        "  " +
         printInfo[29].option.charAt(0) +
         "     " +
         printInfo[29].montant +
@@ -14205,8 +14205,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[30].numero +
-        "      " +
+        printInfo[30].numero.padEnd(6) +
+        "  " +
         printInfo[30].option.charAt(0) +
         "     " +
         printInfo[30].montant +
@@ -14220,8 +14220,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[31].numero +
-        "      " +
+        printInfo[31].numero.padEnd(6) +
+        "  " +
         printInfo[31].option.charAt(0) +
         "     " +
         printInfo[31].montant +
@@ -14235,8 +14235,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[32].numero +
-        "      " +
+        printInfo[32].numero.padEnd(6) +
+        "  " +
         printInfo[32].option.charAt(0) +
         "     " +
         printInfo[32].montant +
@@ -14250,8 +14250,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[33].numero +
-        "      " +
+        printInfo[33].numero.padEnd(6) +
+        "  " +
         printInfo[33].option.charAt(0) +
         "     " +
         printInfo[33].montant +
@@ -14265,8 +14265,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[34].numero +
-        "      " +
+        printInfo[34].numero.padEnd(6) +
+        "  " +
         printInfo[34].option.charAt(0) +
         "     " +
         printInfo[34].montant +
@@ -14280,8 +14280,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[35].numero +
-        "      " +
+        printInfo[35].numero.padEnd(6) +
+        "  " +
         printInfo[35].option.charAt(0) +
         "     " +
         printInfo[35].montant +
@@ -14295,8 +14295,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[36].numero +
-        "      " +
+        printInfo[36].numero.padEnd(6) +
+        "  " +
         printInfo[36].option.charAt(0) +
         "     " +
         printInfo[36].montant +
@@ -14310,8 +14310,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[37].numero +
-        "      " +
+        printInfo[37].numero.padEnd(6) +
+        "  " +
         printInfo[37].option.charAt(0) +
         "     " +
         printInfo[37].montant +
@@ -14325,8 +14325,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[38].numero +
-        "      " +
+        printInfo[38].numero.padEnd(6) +
+        "  " +
         printInfo[38].option.charAt(0) +
         "     " +
         printInfo[38].montant +
@@ -14340,8 +14340,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[39].numero +
-        "      " +
+        printInfo[39].numero.padEnd(6) +
+        "  " +
         printInfo[39].option.charAt(0) +
         "     " +
         printInfo[39].montant +
@@ -14356,8 +14356,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[0].numero +
-        "      " +
+        printInfo[0].numero.padEnd(6) +
+        "  " +
         printInfo[0].option.charAt(0) +
         "     " +
         printInfo[0].montant +
@@ -14371,8 +14371,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[1].numero +
-        "      " +
+        printInfo[1].numero.padEnd(6) +
+        "  " +
         printInfo[1].option.charAt(0) +
         "     " +
         printInfo[1].montant +
@@ -14386,8 +14386,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[2].numero +
-        "      " +
+        printInfo[2].numero.padEnd(6) +
+        "  " +
         printInfo[2].option.charAt(0) +
         "     " +
         printInfo[2].montant +
@@ -14401,8 +14401,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[3].numero +
-        "      " +
+        printInfo[3].numero.padEnd(6) +
+        "  " +
         printInfo[3].option.charAt(0) +
         "     " +
         printInfo[3].montant +
@@ -14416,8 +14416,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[4].numero +
-        "      " +
+        printInfo[4].numero.padEnd(6) +
+        "  " +
         printInfo[4].option.charAt(0) +
         "     " +
         printInfo[4].montant +
@@ -14431,8 +14431,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[5].numero +
-        "      " +
+        printInfo[5].numero.padEnd(6) +
+        "  " +
         printInfo[5].option.charAt(0) +
         "     " +
         printInfo[5].montant +
@@ -14446,8 +14446,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[6].numero +
-        "      " +
+        printInfo[6].numero.padEnd(6) +
+        "  " +
         printInfo[6].option.charAt(0) +
         "     " +
         printInfo[6].montant +
@@ -14461,8 +14461,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[7].numero +
-        "      " +
+        printInfo[7].numero.padEnd(6) +
+        "  " +
         printInfo[7].option.charAt(0) +
         "     " +
         printInfo[7].montant +
@@ -14476,8 +14476,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[8].numero +
-        "      " +
+        printInfo[8].numero.padEnd(6) +
+        "  " +
         printInfo[8].option.charAt(0) +
         "     " +
         printInfo[8].montant +
@@ -14491,8 +14491,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[9].numero +
-        "      " +
+        printInfo[9].numero.padEnd(6) +
+        "  " +
         printInfo[9].option.charAt(0) +
         "     " +
         printInfo[9].montant +
@@ -14506,8 +14506,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[10].numero +
-        "      " +
+        printInfo[10].numero.padEnd(6) +
+        "  " +
         printInfo[10].option.charAt(0) +
         "     " +
         printInfo[10].montant +
@@ -14521,8 +14521,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[11].numero +
-        "      " +
+        printInfo[11].numero.padEnd(6) +
+        "  " +
         printInfo[11].option.charAt(0) +
         "     " +
         printInfo[11].montant +
@@ -14536,8 +14536,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[12].numero +
-        "      " +
+        printInfo[12].numero.padEnd(6) +
+        "  " +
         printInfo[12].option.charAt(0) +
         "     " +
         printInfo[12].montant +
@@ -14551,8 +14551,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[13].numero +
-        "      " +
+        printInfo[13].numero.padEnd(6) +
+        "  " +
         printInfo[13].option.charAt(0) +
         "     " +
         printInfo[13].montant +
@@ -14566,8 +14566,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[14].numero +
-        "      " +
+        printInfo[14].numero.padEnd(6) +
+        "  " +
         printInfo[14].option.charAt(0) +
         "     " +
         printInfo[14].montant +
@@ -14581,8 +14581,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[15].numero +
-        "      " +
+        printInfo[15].numero.padEnd(6) +
+        "  " +
         printInfo[15].option.charAt(0) +
         "     " +
         printInfo[15].montant +
@@ -14596,8 +14596,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[16].numero +
-        "      " +
+        printInfo[16].numero.padEnd(6) +
+        "  " +
         printInfo[16].option.charAt(0) +
         "     " +
         printInfo[16].montant +
@@ -14611,8 +14611,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[17].numero +
-        "      " +
+        printInfo[17].numero.padEnd(6) +
+        "  " +
         printInfo[17].option.charAt(0) +
         "     " +
         printInfo[17].montant +
@@ -14626,8 +14626,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[18].numero +
-        "      " +
+        printInfo[18].numero.padEnd(6) +
+        "  " +
         printInfo[18].option.charAt(0) +
         "     " +
         printInfo[18].montant +
@@ -14641,8 +14641,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[19].numero +
-        "      " +
+        printInfo[19].numero.padEnd(6) +
+        "  " +
         printInfo[19].option.charAt(0) +
         "     " +
         printInfo[19].montant +
@@ -14656,8 +14656,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[20].numero +
-        "      " +
+        printInfo[20].numero.padEnd(6) +
+        "  " +
         printInfo[20].option.charAt(0) +
         "     " +
         printInfo[20].montant +
@@ -14671,8 +14671,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[21].numero +
-        "      " +
+        printInfo[21].numero.padEnd(6) +
+        "  " +
         printInfo[21].option.charAt(0) +
         "     " +
         printInfo[21].montant +
@@ -14686,8 +14686,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[22].numero +
-        "      " +
+        printInfo[22].numero.padEnd(6) +
+        "  " +
         printInfo[22].option.charAt(0) +
         "     " +
         printInfo[22].montant +
@@ -14701,8 +14701,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[23].numero +
-        "      " +
+        printInfo[23].numero.padEnd(6) +
+        "  " +
         printInfo[23].option.charAt(0) +
         "     " +
         printInfo[23].montant +
@@ -14716,8 +14716,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[24].numero +
-        "      " +
+        printInfo[24].numero.padEnd(6) +
+        "  " +
         printInfo[24].option.charAt(0) +
         "     " +
         printInfo[24].montant +
@@ -14731,8 +14731,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[25].numero +
-        "      " +
+        printInfo[25].numero.padEnd(6) +
+        "  " +
         printInfo[25].option.charAt(0) +
         "     " +
         printInfo[25].montant +
@@ -14746,8 +14746,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[26].numero +
-        "      " +
+        printInfo[26].numero.padEnd(6) +
+        "  " +
         printInfo[26].option.charAt(0) +
         "     " +
         printInfo[26].montant +
@@ -14761,8 +14761,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[27].numero +
-        "      " +
+        printInfo[27].numero.padEnd(6) +
+        "  " +
         printInfo[27].option.charAt(0) +
         "     " +
         printInfo[27].montant +
@@ -14776,8 +14776,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[28].numero +
-        "      " +
+        printInfo[28].numero.padEnd(6) +
+        "  " +
         printInfo[28].option.charAt(0) +
         "     " +
         printInfo[28].montant +
@@ -14791,8 +14791,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[29].numero +
-        "      " +
+        printInfo[29].numero.padEnd(6) +
+        "  " +
         printInfo[29].option.charAt(0) +
         "     " +
         printInfo[29].montant +
@@ -14806,8 +14806,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[30].numero +
-        "      " +
+        printInfo[30].numero.padEnd(6) +
+        "  " +
         printInfo[30].option.charAt(0) +
         "     " +
         printInfo[30].montant +
@@ -14821,8 +14821,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[31].numero +
-        "      " +
+        printInfo[31].numero.padEnd(6) +
+        "  " +
         printInfo[31].option.charAt(0) +
         "     " +
         printInfo[31].montant +
@@ -14836,8 +14836,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[32].numero +
-        "      " +
+        printInfo[32].numero.padEnd(6) +
+        "  " +
         printInfo[32].option.charAt(0) +
         "     " +
         printInfo[32].montant +
@@ -14851,8 +14851,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[33].numero +
-        "      " +
+        printInfo[33].numero.padEnd(6) +
+        "  " +
         printInfo[33].option.charAt(0) +
         "     " +
         printInfo[33].montant +
@@ -14866,8 +14866,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[34].numero +
-        "      " +
+        printInfo[34].numero.padEnd(6) +
+        "  " +
         printInfo[34].option.charAt(0) +
         "     " +
         printInfo[34].montant +
@@ -14881,8 +14881,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[35].numero +
-        "      " +
+        printInfo[35].numero.padEnd(6) +
+        "  " +
         printInfo[35].option.charAt(0) +
         "     " +
         printInfo[35].montant +
@@ -14896,8 +14896,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[36].numero +
-        "      " +
+        printInfo[36].numero.padEnd(6) +
+        "  " +
         printInfo[36].option.charAt(0) +
         "     " +
         printInfo[36].montant +
@@ -14911,8 +14911,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[37].numero +
-        "      " +
+        printInfo[37].numero.padEnd(6) +
+        "  " +
         printInfo[37].option.charAt(0) +
         "     " +
         printInfo[37].montant +
@@ -14926,8 +14926,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[38].numero +
-        "      " +
+        printInfo[38].numero.padEnd(6) +
+        "  " +
         printInfo[38].option.charAt(0) +
         "     " +
         printInfo[38].montant +
@@ -14941,8 +14941,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[39].numero +
-        "      " +
+        printInfo[39].numero.padEnd(6) +
+        "  " +
         printInfo[39].option.charAt(0) +
         "     " +
         printInfo[39].montant +
@@ -14956,8 +14956,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[40].numero +
-        "      " +
+        printInfo[40].numero.padEnd(6) +
+        "  " +
         printInfo[40].option.charAt(0) +
         "     " +
         printInfo[40].montant +
@@ -14972,8 +14972,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[0].numero +
-        "      " +
+        printInfo[0].numero.padEnd(6) +
+        "  " +
         printInfo[0].option.charAt(0) +
         "     " +
         printInfo[0].montant +
@@ -14987,8 +14987,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[1].numero +
-        "      " +
+        printInfo[1].numero.padEnd(6) +
+        "  " +
         printInfo[1].option.charAt(0) +
         "     " +
         printInfo[1].montant +
@@ -15002,8 +15002,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[2].numero +
-        "      " +
+        printInfo[2].numero.padEnd(6) +
+        "  " +
         printInfo[2].option.charAt(0) +
         "     " +
         printInfo[2].montant +
@@ -15017,8 +15017,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[3].numero +
-        "      " +
+        printInfo[3].numero.padEnd(6) +
+        "  " +
         printInfo[3].option.charAt(0) +
         "     " +
         printInfo[3].montant +
@@ -15032,8 +15032,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[4].numero +
-        "      " +
+        printInfo[4].numero.padEnd(6) +
+        "  " +
         printInfo[4].option.charAt(0) +
         "     " +
         printInfo[4].montant +
@@ -15047,8 +15047,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[5].numero +
-        "      " +
+        printInfo[5].numero.padEnd(6) +
+        "  " +
         printInfo[5].option.charAt(0) +
         "     " +
         printInfo[5].montant +
@@ -15062,8 +15062,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[6].numero +
-        "      " +
+        printInfo[6].numero.padEnd(6) +
+        "  " +
         printInfo[6].option.charAt(0) +
         "     " +
         printInfo[6].montant +
@@ -15077,8 +15077,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[7].numero +
-        "      " +
+        printInfo[7].numero.padEnd(6) +
+        "  " +
         printInfo[7].option.charAt(0) +
         "     " +
         printInfo[7].montant +
@@ -15092,8 +15092,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[8].numero +
-        "      " +
+        printInfo[8].numero.padEnd(6) +
+        "  " +
         printInfo[8].option.charAt(0) +
         "     " +
         printInfo[8].montant +
@@ -15107,8 +15107,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[9].numero +
-        "      " +
+        printInfo[9].numero.padEnd(6) +
+        "  " +
         printInfo[9].option.charAt(0) +
         "     " +
         printInfo[9].montant +
@@ -15122,8 +15122,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[10].numero +
-        "      " +
+        printInfo[10].numero.padEnd(6) +
+        "  " +
         printInfo[10].option.charAt(0) +
         "     " +
         printInfo[10].montant +
@@ -15137,8 +15137,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[11].numero +
-        "      " +
+        printInfo[11].numero.padEnd(6) +
+        "  " +
         printInfo[11].option.charAt(0) +
         "     " +
         printInfo[11].montant +
@@ -15152,8 +15152,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[12].numero +
-        "      " +
+        printInfo[12].numero.padEnd(6) +
+        "  " +
         printInfo[12].option.charAt(0) +
         "     " +
         printInfo[12].montant +
@@ -15167,8 +15167,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[13].numero +
-        "      " +
+        printInfo[13].numero.padEnd(6) +
+        "  " +
         printInfo[13].option.charAt(0) +
         "     " +
         printInfo[13].montant +
@@ -15182,8 +15182,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[14].numero +
-        "      " +
+        printInfo[14].numero.padEnd(6) +
+        "  " +
         printInfo[14].option.charAt(0) +
         "     " +
         printInfo[14].montant +
@@ -15197,8 +15197,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[15].numero +
-        "      " +
+        printInfo[15].numero.padEnd(6) +
+        "  " +
         printInfo[15].option.charAt(0) +
         "     " +
         printInfo[15].montant +
@@ -15212,8 +15212,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[16].numero +
-        "      " +
+        printInfo[16].numero.padEnd(6) +
+        "  " +
         printInfo[16].option.charAt(0) +
         "     " +
         printInfo[16].montant +
@@ -15227,8 +15227,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[17].numero +
-        "      " +
+        printInfo[17].numero.padEnd(6) +
+        "  " +
         printInfo[17].option.charAt(0) +
         "     " +
         printInfo[17].montant +
@@ -15242,8 +15242,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[18].numero +
-        "      " +
+        printInfo[18].numero.padEnd(6) +
+        "  " +
         printInfo[18].option.charAt(0) +
         "     " +
         printInfo[18].montant +
@@ -15257,8 +15257,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[19].numero +
-        "      " +
+        printInfo[19].numero.padEnd(6) +
+        "  " +
         printInfo[19].option.charAt(0) +
         "     " +
         printInfo[19].montant +
@@ -15272,8 +15272,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[20].numero +
-        "      " +
+        printInfo[20].numero.padEnd(6) +
+        "  " +
         printInfo[20].option.charAt(0) +
         "     " +
         printInfo[20].montant +
@@ -15287,8 +15287,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[21].numero +
-        "      " +
+        printInfo[21].numero.padEnd(6) +
+        "  " +
         printInfo[21].option.charAt(0) +
         "     " +
         printInfo[21].montant +
@@ -15302,8 +15302,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[22].numero +
-        "      " +
+        printInfo[22].numero.padEnd(6) +
+        "  " +
         printInfo[22].option.charAt(0) +
         "     " +
         printInfo[22].montant +
@@ -15317,8 +15317,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[23].numero +
-        "      " +
+        printInfo[23].numero.padEnd(6) +
+        "  " +
         printInfo[23].option.charAt(0) +
         "     " +
         printInfo[23].montant +
@@ -15332,8 +15332,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[24].numero +
-        "      " +
+        printInfo[24].numero.padEnd(6) +
+        "  " +
         printInfo[24].option.charAt(0) +
         "     " +
         printInfo[24].montant +
@@ -15347,8 +15347,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[25].numero +
-        "      " +
+        printInfo[25].numero.padEnd(6) +
+        "  " +
         printInfo[25].option.charAt(0) +
         "     " +
         printInfo[25].montant +
@@ -15362,8 +15362,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[26].numero +
-        "      " +
+        printInfo[26].numero.padEnd(6) +
+        "  " +
         printInfo[26].option.charAt(0) +
         "     " +
         printInfo[26].montant +
@@ -15377,8 +15377,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[27].numero +
-        "      " +
+        printInfo[27].numero.padEnd(6) +
+        "  " +
         printInfo[27].option.charAt(0) +
         "     " +
         printInfo[27].montant +
@@ -15392,8 +15392,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[28].numero +
-        "      " +
+        printInfo[28].numero.padEnd(6) +
+        "  " +
         printInfo[28].option.charAt(0) +
         "     " +
         printInfo[28].montant +
@@ -15407,8 +15407,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[29].numero +
-        "      " +
+        printInfo[29].numero.padEnd(6) +
+        "  " +
         printInfo[29].option.charAt(0) +
         "     " +
         printInfo[29].montant +
@@ -15422,8 +15422,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[30].numero +
-        "      " +
+        printInfo[30].numero.padEnd(6) +
+        "  " +
         printInfo[30].option.charAt(0) +
         "     " +
         printInfo[30].montant +
@@ -15437,8 +15437,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[31].numero +
-        "      " +
+        printInfo[31].numero.padEnd(6) +
+        "  " +
         printInfo[31].option.charAt(0) +
         "     " +
         printInfo[31].montant +
@@ -15452,8 +15452,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[32].numero +
-        "      " +
+        printInfo[32].numero.padEnd(6) +
+        "  " +
         printInfo[32].option.charAt(0) +
         "     " +
         printInfo[32].montant +
@@ -15467,8 +15467,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[33].numero +
-        "      " +
+        printInfo[33].numero.padEnd(6) +
+        "  " +
         printInfo[33].option.charAt(0) +
         "     " +
         printInfo[33].montant +
@@ -15482,8 +15482,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[34].numero +
-        "      " +
+        printInfo[34].numero.padEnd(6) +
+        "  " +
         printInfo[34].option.charAt(0) +
         "     " +
         printInfo[34].montant +
@@ -15497,8 +15497,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[35].numero +
-        "      " +
+        printInfo[35].numero.padEnd(6) +
+        "  " +
         printInfo[35].option.charAt(0) +
         "     " +
         printInfo[35].montant +
@@ -15512,8 +15512,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[36].numero +
-        "      " +
+        printInfo[36].numero.padEnd(6) +
+        "  " +
         printInfo[36].option.charAt(0) +
         "     " +
         printInfo[36].montant +
@@ -15527,8 +15527,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[37].numero +
-        "      " +
+        printInfo[37].numero.padEnd(6) +
+        "  " +
         printInfo[37].option.charAt(0) +
         "     " +
         printInfo[37].montant +
@@ -15542,8 +15542,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[38].numero +
-        "      " +
+        printInfo[38].numero.padEnd(6) +
+        "  " +
         printInfo[38].option.charAt(0) +
         "     " +
         printInfo[38].montant +
@@ -15557,8 +15557,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[39].numero +
-        "      " +
+        printInfo[39].numero.padEnd(6) +
+        "  " +
         printInfo[39].option.charAt(0) +
         "     " +
         printInfo[39].montant +
@@ -15572,8 +15572,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[40].numero +
-        "      " +
+        printInfo[40].numero.padEnd(6) +
+        "  " +
         printInfo[40].option.charAt(0) +
         "     " +
         printInfo[40].montant +
@@ -15587,8 +15587,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[41].numero +
-        "      " +
+        printInfo[41].numero.padEnd(6) +
+        "  " +
         printInfo[41].option.charAt(0) +
         "     " +
         printInfo[41].montant +
@@ -15603,8 +15603,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[0].numero +
-        "      " +
+        printInfo[0].numero.padEnd(6) +
+        "  " +
         printInfo[0].option.charAt(0) +
         "     " +
         printInfo[0].montant +
@@ -15618,8 +15618,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[1].numero +
-        "      " +
+        printInfo[1].numero.padEnd(6) +
+        "  " +
         printInfo[1].option.charAt(0) +
         "     " +
         printInfo[1].montant +
@@ -15633,8 +15633,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[2].numero +
-        "      " +
+        printInfo[2].numero.padEnd(6) +
+        "  " +
         printInfo[2].option.charAt(0) +
         "     " +
         printInfo[2].montant +
@@ -15648,8 +15648,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[3].numero +
-        "      " +
+        printInfo[3].numero.padEnd(6) +
+        "  " +
         printInfo[3].option.charAt(0) +
         "     " +
         printInfo[3].montant +
@@ -15663,8 +15663,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[4].numero +
-        "      " +
+        printInfo[4].numero.padEnd(6) +
+        "  " +
         printInfo[4].option.charAt(0) +
         "     " +
         printInfo[4].montant +
@@ -15678,8 +15678,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[5].numero +
-        "      " +
+        printInfo[5].numero.padEnd(6) +
+        "  " +
         printInfo[5].option.charAt(0) +
         "     " +
         printInfo[5].montant +
@@ -15693,8 +15693,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[6].numero +
-        "      " +
+        printInfo[6].numero.padEnd(6) +
+        "  " +
         printInfo[6].option.charAt(0) +
         "     " +
         printInfo[6].montant +
@@ -15708,8 +15708,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[7].numero +
-        "      " +
+        printInfo[7].numero.padEnd(6) +
+        "  " +
         printInfo[7].option.charAt(0) +
         "     " +
         printInfo[7].montant +
@@ -15723,8 +15723,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[8].numero +
-        "      " +
+        printInfo[8].numero.padEnd(6) +
+        "  " +
         printInfo[8].option.charAt(0) +
         "     " +
         printInfo[8].montant +
@@ -15738,8 +15738,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[9].numero +
-        "      " +
+        printInfo[9].numero.padEnd(6) +
+        "  " +
         printInfo[9].option.charAt(0) +
         "     " +
         printInfo[9].montant +
@@ -15753,8 +15753,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[10].numero +
-        "      " +
+        printInfo[10].numero.padEnd(6) +
+        "  " +
         printInfo[10].option.charAt(0) +
         "     " +
         printInfo[10].montant +
@@ -15768,8 +15768,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[11].numero +
-        "      " +
+        printInfo[11].numero.padEnd(6) +
+        "  " +
         printInfo[11].option.charAt(0) +
         "     " +
         printInfo[11].montant +
@@ -15783,8 +15783,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[12].numero +
-        "      " +
+        printInfo[12].numero.padEnd(6) +
+        "  " +
         printInfo[12].option.charAt(0) +
         "     " +
         printInfo[12].montant +
@@ -15798,8 +15798,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[13].numero +
-        "      " +
+        printInfo[13].numero.padEnd(6) +
+        "  " +
         printInfo[13].option.charAt(0) +
         "     " +
         printInfo[13].montant +
@@ -15813,8 +15813,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[14].numero +
-        "      " +
+        printInfo[14].numero.padEnd(6) +
+        "  " +
         printInfo[14].option.charAt(0) +
         "     " +
         printInfo[14].montant +
@@ -15828,8 +15828,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[15].numero +
-        "      " +
+        printInfo[15].numero.padEnd(6) +
+        "  " +
         printInfo[15].option.charAt(0) +
         "     " +
         printInfo[15].montant +
@@ -15843,8 +15843,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[16].numero +
-        "      " +
+        printInfo[16].numero.padEnd(6) +
+        "  " +
         printInfo[16].option.charAt(0) +
         "     " +
         printInfo[16].montant +
@@ -15858,8 +15858,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[17].numero +
-        "      " +
+        printInfo[17].numero.padEnd(6) +
+        "  " +
         printInfo[17].option.charAt(0) +
         "     " +
         printInfo[17].montant +
@@ -15873,8 +15873,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[18].numero +
-        "      " +
+        printInfo[18].numero.padEnd(6) +
+        "  " +
         printInfo[18].option.charAt(0) +
         "     " +
         printInfo[18].montant +
@@ -15888,8 +15888,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[19].numero +
-        "      " +
+        printInfo[19].numero.padEnd(6) +
+        "  " +
         printInfo[19].option.charAt(0) +
         "     " +
         printInfo[19].montant +
@@ -15903,8 +15903,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[20].numero +
-        "      " +
+        printInfo[20].numero.padEnd(6) +
+        "  " +
         printInfo[20].option.charAt(0) +
         "     " +
         printInfo[20].montant +
@@ -15918,8 +15918,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[21].numero +
-        "      " +
+        printInfo[21].numero.padEnd(6) +
+        "  " +
         printInfo[21].option.charAt(0) +
         "     " +
         printInfo[21].montant +
@@ -15933,8 +15933,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[22].numero +
-        "      " +
+        printInfo[22].numero.padEnd(6) +
+        "  " +
         printInfo[22].option.charAt(0) +
         "     " +
         printInfo[22].montant +
@@ -15948,8 +15948,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[23].numero +
-        "      " +
+        printInfo[23].numero.padEnd(6) +
+        "  " +
         printInfo[23].option.charAt(0) +
         "     " +
         printInfo[23].montant +
@@ -15963,8 +15963,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[24].numero +
-        "      " +
+        printInfo[24].numero.padEnd(6) +
+        "  " +
         printInfo[24].option.charAt(0) +
         "     " +
         printInfo[24].montant +
@@ -15978,8 +15978,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[25].numero +
-        "      " +
+        printInfo[25].numero.padEnd(6) +
+        "  " +
         printInfo[25].option.charAt(0) +
         "     " +
         printInfo[25].montant +
@@ -15993,8 +15993,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[26].numero +
-        "      " +
+        printInfo[26].numero.padEnd(6) +
+        "  " +
         printInfo[26].option.charAt(0) +
         "     " +
         printInfo[26].montant +
@@ -16008,8 +16008,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[27].numero +
-        "      " +
+        printInfo[27].numero.padEnd(6) +
+        "  " +
         printInfo[27].option.charAt(0) +
         "     " +
         printInfo[27].montant +
@@ -16023,8 +16023,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[28].numero +
-        "      " +
+        printInfo[28].numero.padEnd(6) +
+        "  " +
         printInfo[28].option.charAt(0) +
         "     " +
         printInfo[28].montant +
@@ -16038,8 +16038,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[29].numero +
-        "      " +
+        printInfo[29].numero.padEnd(6) +
+        "  " +
         printInfo[29].option.charAt(0) +
         "     " +
         printInfo[29].montant +
@@ -16053,8 +16053,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[30].numero +
-        "      " +
+        printInfo[30].numero.padEnd(6) +
+        "  " +
         printInfo[30].option.charAt(0) +
         "     " +
         printInfo[30].montant +
@@ -16068,8 +16068,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[31].numero +
-        "      " +
+        printInfo[31].numero.padEnd(6) +
+        "  " +
         printInfo[31].option.charAt(0) +
         "     " +
         printInfo[31].montant +
@@ -16083,8 +16083,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[32].numero +
-        "      " +
+        printInfo[32].numero.padEnd(6) +
+        "  " +
         printInfo[32].option.charAt(0) +
         "     " +
         printInfo[32].montant +
@@ -16098,8 +16098,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[33].numero +
-        "      " +
+        printInfo[33].numero.padEnd(6) +
+        "  " +
         printInfo[33].option.charAt(0) +
         "     " +
         printInfo[33].montant +
@@ -16113,8 +16113,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[34].numero +
-        "      " +
+        printInfo[34].numero.padEnd(6) +
+        "  " +
         printInfo[34].option.charAt(0) +
         "     " +
         printInfo[34].montant +
@@ -16128,8 +16128,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[35].numero +
-        "      " +
+        printInfo[35].numero.padEnd(6) +
+        "  " +
         printInfo[35].option.charAt(0) +
         "     " +
         printInfo[35].montant +
@@ -16143,8 +16143,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[36].numero +
-        "      " +
+        printInfo[36].numero.padEnd(6) +
+        "  " +
         printInfo[36].option.charAt(0) +
         "     " +
         printInfo[36].montant +
@@ -16158,8 +16158,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[37].numero +
-        "      " +
+        printInfo[37].numero.padEnd(6) +
+        "  " +
         printInfo[37].option.charAt(0) +
         "     " +
         printInfo[37].montant +
@@ -16173,8 +16173,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[38].numero +
-        "      " +
+        printInfo[38].numero.padEnd(6) +
+        "  " +
         printInfo[38].option.charAt(0) +
         "     " +
         printInfo[38].montant +
@@ -16188,8 +16188,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[39].numero +
-        "      " +
+        printInfo[39].numero.padEnd(6) +
+        "  " +
         printInfo[39].option.charAt(0) +
         "     " +
         printInfo[39].montant +
@@ -16203,8 +16203,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[40].numero +
-        "      " +
+        printInfo[40].numero.padEnd(6) +
+        "  " +
         printInfo[40].option.charAt(0) +
         "     " +
         printInfo[40].montant +
@@ -16218,8 +16218,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[41].numero +
-        "      " +
+        printInfo[41].numero.padEnd(6) +
+        "  " +
         printInfo[41].option.charAt(0) +
         "     " +
         printInfo[41].montant +
@@ -16233,8 +16233,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[42].numero +
-        "      " +
+        printInfo[42].numero.padEnd(6) +
+        "  " +
         printInfo[42].option.charAt(0) +
         "     " +
         printInfo[42].montant +
@@ -16249,8 +16249,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[0].numero +
-        "      " +
+        printInfo[0].numero.padEnd(6) +
+        "  " +
         printInfo[0].option.charAt(0) +
         "     " +
         printInfo[0].montant +
@@ -16264,8 +16264,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[1].numero +
-        "      " +
+        printInfo[1].numero.padEnd(6) +
+        "  " +
         printInfo[1].option.charAt(0) +
         "     " +
         printInfo[1].montant +
@@ -16279,8 +16279,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[2].numero +
-        "      " +
+        printInfo[2].numero.padEnd(6) +
+        "  " +
         printInfo[2].option.charAt(0) +
         "     " +
         printInfo[2].montant +
@@ -16294,8 +16294,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[3].numero +
-        "      " +
+        printInfo[3].numero.padEnd(6) +
+        "  " +
         printInfo[3].option.charAt(0) +
         "     " +
         printInfo[3].montant +
@@ -16309,8 +16309,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[4].numero +
-        "      " +
+        printInfo[4].numero.padEnd(6) +
+        "  " +
         printInfo[4].option.charAt(0) +
         "     " +
         printInfo[4].montant +
@@ -16324,8 +16324,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[5].numero +
-        "      " +
+        printInfo[5].numero.padEnd(6) +
+        "  " +
         printInfo[5].option.charAt(0) +
         "     " +
         printInfo[5].montant +
@@ -16339,8 +16339,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[6].numero +
-        "      " +
+        printInfo[6].numero.padEnd(6) +
+        "  " +
         printInfo[6].option.charAt(0) +
         "     " +
         printInfo[6].montant +
@@ -16354,8 +16354,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[7].numero +
-        "      " +
+        printInfo[7].numero.padEnd(6) +
+        "  " +
         printInfo[7].option.charAt(0) +
         "     " +
         printInfo[7].montant +
@@ -16369,8 +16369,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[8].numero +
-        "      " +
+        printInfo[8].numero.padEnd(6) +
+        "  " +
         printInfo[8].option.charAt(0) +
         "     " +
         printInfo[8].montant +
@@ -16384,8 +16384,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[9].numero +
-        "      " +
+        printInfo[9].numero.padEnd(6) +
+        "  " +
         printInfo[9].option.charAt(0) +
         "     " +
         printInfo[9].montant +
@@ -16399,8 +16399,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[10].numero +
-        "      " +
+        printInfo[10].numero.padEnd(6) +
+        "  " +
         printInfo[10].option.charAt(0) +
         "     " +
         printInfo[10].montant +
@@ -16414,8 +16414,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[11].numero +
-        "      " +
+        printInfo[11].numero.padEnd(6) +
+        "  " +
         printInfo[11].option.charAt(0) +
         "     " +
         printInfo[11].montant +
@@ -16429,8 +16429,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[12].numero +
-        "      " +
+        printInfo[12].numero.padEnd(6) +
+        "  " +
         printInfo[12].option.charAt(0) +
         "     " +
         printInfo[12].montant +
@@ -16444,8 +16444,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[13].numero +
-        "      " +
+        printInfo[13].numero.padEnd(6) +
+        "  " +
         printInfo[13].option.charAt(0) +
         "     " +
         printInfo[13].montant +
@@ -16459,8 +16459,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[14].numero +
-        "      " +
+        printInfo[14].numero.padEnd(6) +
+        "  " +
         printInfo[14].option.charAt(0) +
         "     " +
         printInfo[14].montant +
@@ -16474,8 +16474,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[15].numero +
-        "      " +
+        printInfo[15].numero.padEnd(6) +
+        "  " +
         printInfo[15].option.charAt(0) +
         "     " +
         printInfo[15].montant +
@@ -16489,8 +16489,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[16].numero +
-        "      " +
+        printInfo[16].numero.padEnd(6) +
+        "  " +
         printInfo[16].option.charAt(0) +
         "     " +
         printInfo[16].montant +
@@ -16504,8 +16504,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[17].numero +
-        "      " +
+        printInfo[17].numero.padEnd(6) +
+        "  " +
         printInfo[17].option.charAt(0) +
         "     " +
         printInfo[17].montant +
@@ -16519,8 +16519,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[18].numero +
-        "      " +
+        printInfo[18].numero.padEnd(6) +
+        "  " +
         printInfo[18].option.charAt(0) +
         "     " +
         printInfo[18].montant +
@@ -16534,8 +16534,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[19].numero +
-        "      " +
+        printInfo[19].numero.padEnd(6) +
+        "  " +
         printInfo[19].option.charAt(0) +
         "     " +
         printInfo[19].montant +
@@ -16549,8 +16549,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[20].numero +
-        "      " +
+        printInfo[20].numero.padEnd(6) +
+        "  " +
         printInfo[20].option.charAt(0) +
         "     " +
         printInfo[20].montant +
@@ -16564,8 +16564,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[21].numero +
-        "      " +
+        printInfo[21].numero.padEnd(6) +
+        "  " +
         printInfo[21].option.charAt(0) +
         "     " +
         printInfo[21].montant +
@@ -16579,8 +16579,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[22].numero +
-        "      " +
+        printInfo[22].numero.padEnd(6) +
+        "  " +
         printInfo[22].option.charAt(0) +
         "     " +
         printInfo[22].montant +
@@ -16594,8 +16594,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[23].numero +
-        "      " +
+        printInfo[23].numero.padEnd(6) +
+        "  " +
         printInfo[23].option.charAt(0) +
         "     " +
         printInfo[23].montant +
@@ -16609,8 +16609,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[24].numero +
-        "      " +
+        printInfo[24].numero.padEnd(6) +
+        "  " +
         printInfo[24].option.charAt(0) +
         "     " +
         printInfo[24].montant +
@@ -16624,8 +16624,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[25].numero +
-        "      " +
+        printInfo[25].numero.padEnd(6) +
+        "  " +
         printInfo[25].option.charAt(0) +
         "     " +
         printInfo[25].montant +
@@ -16639,8 +16639,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[26].numero +
-        "      " +
+        printInfo[26].numero.padEnd(6) +
+        "  " +
         printInfo[26].option.charAt(0) +
         "     " +
         printInfo[26].montant +
@@ -16654,8 +16654,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[27].numero +
-        "      " +
+        printInfo[27].numero.padEnd(6) +
+        "  " +
         printInfo[27].option.charAt(0) +
         "     " +
         printInfo[27].montant +
@@ -16669,8 +16669,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[28].numero +
-        "      " +
+        printInfo[28].numero.padEnd(6) +
+        "  " +
         printInfo[28].option.charAt(0) +
         "     " +
         printInfo[28].montant +
@@ -16684,8 +16684,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[29].numero +
-        "      " +
+        printInfo[29].numero.padEnd(6) +
+        "  " +
         printInfo[29].option.charAt(0) +
         "     " +
         printInfo[29].montant +
@@ -16699,8 +16699,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[30].numero +
-        "      " +
+        printInfo[30].numero.padEnd(6) +
+        "  " +
         printInfo[30].option.charAt(0) +
         "     " +
         printInfo[30].montant +
@@ -16714,8 +16714,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[31].numero +
-        "      " +
+        printInfo[31].numero.padEnd(6) +
+        "  " +
         printInfo[31].option.charAt(0) +
         "     " +
         printInfo[31].montant +
@@ -16729,8 +16729,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[32].numero +
-        "      " +
+        printInfo[32].numero.padEnd(6) +
+        "  " +
         printInfo[32].option.charAt(0) +
         "     " +
         printInfo[32].montant +
@@ -16744,8 +16744,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[33].numero +
-        "      " +
+        printInfo[33].numero.padEnd(6) +
+        "  " +
         printInfo[33].option.charAt(0) +
         "     " +
         printInfo[33].montant +
@@ -16759,8 +16759,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[34].numero +
-        "      " +
+        printInfo[34].numero.padEnd(6) +
+        "  " +
         printInfo[34].option.charAt(0) +
         "     " +
         printInfo[34].montant +
@@ -16774,8 +16774,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[35].numero +
-        "      " +
+        printInfo[35].numero.padEnd(6) +
+        "  " +
         printInfo[35].option.charAt(0) +
         "     " +
         printInfo[35].montant +
@@ -16789,8 +16789,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[36].numero +
-        "      " +
+        printInfo[36].numero.padEnd(6) +
+        "  " +
         printInfo[36].option.charAt(0) +
         "     " +
         printInfo[36].montant +
@@ -16804,8 +16804,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[37].numero +
-        "      " +
+        printInfo[37].numero.padEnd(6) +
+        "  " +
         printInfo[37].option.charAt(0) +
         "     " +
         printInfo[37].montant +
@@ -16819,8 +16819,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[38].numero +
-        "      " +
+        printInfo[38].numero.padEnd(6) +
+        "  " +
         printInfo[38].option.charAt(0) +
         "     " +
         printInfo[38].montant +
@@ -16834,8 +16834,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[39].numero +
-        "      " +
+        printInfo[39].numero.padEnd(6) +
+        "  " +
         printInfo[39].option.charAt(0) +
         "     " +
         printInfo[39].montant +
@@ -16849,8 +16849,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[40].numero +
-        "      " +
+        printInfo[40].numero.padEnd(6) +
+        "  " +
         printInfo[40].option.charAt(0) +
         "     " +
         printInfo[40].montant +
@@ -16864,8 +16864,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[41].numero +
-        "      " +
+        printInfo[41].numero.padEnd(6) +
+        "  " +
         printInfo[41].option.charAt(0) +
         "     " +
         printInfo[41].montant +
@@ -16879,8 +16879,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[42].numero +
-        "      " +
+        printInfo[42].numero.padEnd(6) +
+        "  " +
         printInfo[42].option.charAt(0) +
         "     " +
         printInfo[42].montant +
@@ -16894,8 +16894,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[43].numero +
-        "      " +
+        printInfo[43].numero.padEnd(6) +
+        "  " +
         printInfo[43].option.charAt(0) +
         "     " +
         printInfo[43].montant +
@@ -16910,8 +16910,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[0].numero +
-        "      " +
+        printInfo[0].numero.padEnd(6) +
+        "  " +
         printInfo[0].option.charAt(0) +
         "     " +
         printInfo[0].montant +
@@ -16925,8 +16925,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[1].numero +
-        "      " +
+        printInfo[1].numero.padEnd(6) +
+        "  " +
         printInfo[1].option.charAt(0) +
         "     " +
         printInfo[1].montant +
@@ -16940,8 +16940,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[2].numero +
-        "      " +
+        printInfo[2].numero.padEnd(6) +
+        "  " +
         printInfo[2].option.charAt(0) +
         "     " +
         printInfo[2].montant +
@@ -16955,8 +16955,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[3].numero +
-        "      " +
+        printInfo[3].numero.padEnd(6) +
+        "  " +
         printInfo[3].option.charAt(0) +
         "     " +
         printInfo[3].montant +
@@ -16970,8 +16970,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[4].numero +
-        "      " +
+        printInfo[4].numero.padEnd(6) +
+        "  " +
         printInfo[4].option.charAt(0) +
         "     " +
         printInfo[4].montant +
@@ -16985,8 +16985,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[5].numero +
-        "      " +
+        printInfo[5].numero.padEnd(6) +
+        "  " +
         printInfo[5].option.charAt(0) +
         "     " +
         printInfo[5].montant +
@@ -17000,8 +17000,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[6].numero +
-        "      " +
+        printInfo[6].numero.padEnd(6) +
+        "  " +
         printInfo[6].option.charAt(0) +
         "     " +
         printInfo[6].montant +
@@ -17015,8 +17015,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[7].numero +
-        "      " +
+        printInfo[7].numero.padEnd(6) +
+        "  " +
         printInfo[7].option.charAt(0) +
         "     " +
         printInfo[7].montant +
@@ -17030,8 +17030,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[8].numero +
-        "      " +
+        printInfo[8].numero.padEnd(6) +
+        "  " +
         printInfo[8].option.charAt(0) +
         "     " +
         printInfo[8].montant +
@@ -17045,8 +17045,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[9].numero +
-        "      " +
+        printInfo[9].numero.padEnd(6) +
+        "  " +
         printInfo[9].option.charAt(0) +
         "     " +
         printInfo[9].montant +
@@ -17060,8 +17060,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[10].numero +
-        "      " +
+        printInfo[10].numero.padEnd(6) +
+        "  " +
         printInfo[10].option.charAt(0) +
         "     " +
         printInfo[10].montant +
@@ -17075,8 +17075,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[11].numero +
-        "      " +
+        printInfo[11].numero.padEnd(6) +
+        "  " +
         printInfo[11].option.charAt(0) +
         "     " +
         printInfo[11].montant +
@@ -17090,8 +17090,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[12].numero +
-        "      " +
+        printInfo[12].numero.padEnd(6) +
+        "  " +
         printInfo[12].option.charAt(0) +
         "     " +
         printInfo[12].montant +
@@ -17105,8 +17105,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[13].numero +
-        "      " +
+        printInfo[13].numero.padEnd(6) +
+        "  " +
         printInfo[13].option.charAt(0) +
         "     " +
         printInfo[13].montant +
@@ -17120,8 +17120,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[14].numero +
-        "      " +
+        printInfo[14].numero.padEnd(6) +
+        "  " +
         printInfo[14].option.charAt(0) +
         "     " +
         printInfo[14].montant +
@@ -17135,8 +17135,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[15].numero +
-        "      " +
+        printInfo[15].numero.padEnd(6) +
+        "  " +
         printInfo[15].option.charAt(0) +
         "     " +
         printInfo[15].montant +
@@ -17150,8 +17150,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[16].numero +
-        "      " +
+        printInfo[16].numero.padEnd(6) +
+        "  " +
         printInfo[16].option.charAt(0) +
         "     " +
         printInfo[16].montant +
@@ -17165,8 +17165,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[17].numero +
-        "      " +
+        printInfo[17].numero.padEnd(6) +
+        "  " +
         printInfo[17].option.charAt(0) +
         "     " +
         printInfo[17].montant +
@@ -17180,8 +17180,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[18].numero +
-        "      " +
+        printInfo[18].numero.padEnd(6) +
+        "  " +
         printInfo[18].option.charAt(0) +
         "     " +
         printInfo[18].montant +
@@ -17195,8 +17195,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[19].numero +
-        "      " +
+        printInfo[19].numero.padEnd(6) +
+        "  " +
         printInfo[19].option.charAt(0) +
         "     " +
         printInfo[19].montant +
@@ -17210,8 +17210,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[20].numero +
-        "      " +
+        printInfo[20].numero.padEnd(6) +
+        "  " +
         printInfo[20].option.charAt(0) +
         "     " +
         printInfo[20].montant +
@@ -17225,8 +17225,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[21].numero +
-        "      " +
+        printInfo[21].numero.padEnd(6) +
+        "  " +
         printInfo[21].option.charAt(0) +
         "     " +
         printInfo[21].montant +
@@ -17240,8 +17240,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[22].numero +
-        "      " +
+        printInfo[22].numero.padEnd(6) +
+        "  " +
         printInfo[22].option.charAt(0) +
         "     " +
         printInfo[22].montant +
@@ -17255,8 +17255,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[23].numero +
-        "      " +
+        printInfo[23].numero.padEnd(6) +
+        "  " +
         printInfo[23].option.charAt(0) +
         "     " +
         printInfo[23].montant +
@@ -17270,8 +17270,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[24].numero +
-        "      " +
+        printInfo[24].numero.padEnd(6) +
+        "  " +
         printInfo[24].option.charAt(0) +
         "     " +
         printInfo[24].montant +
@@ -17285,8 +17285,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[25].numero +
-        "      " +
+        printInfo[25].numero.padEnd(6) +
+        "  " +
         printInfo[25].option.charAt(0) +
         "     " +
         printInfo[25].montant +
@@ -17300,8 +17300,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[26].numero +
-        "      " +
+        printInfo[26].numero.padEnd(6) +
+        "  " +
         printInfo[26].option.charAt(0) +
         "     " +
         printInfo[26].montant +
@@ -17315,8 +17315,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[27].numero +
-        "      " +
+        printInfo[27].numero.padEnd(6) +
+        "  " +
         printInfo[27].option.charAt(0) +
         "     " +
         printInfo[27].montant +
@@ -17330,8 +17330,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[28].numero +
-        "      " +
+        printInfo[28].numero.padEnd(6) +
+        "  " +
         printInfo[28].option.charAt(0) +
         "     " +
         printInfo[28].montant +
@@ -17345,8 +17345,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[29].numero +
-        "      " +
+        printInfo[29].numero.padEnd(6) +
+        "  " +
         printInfo[29].option.charAt(0) +
         "     " +
         printInfo[29].montant +
@@ -17360,8 +17360,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[30].numero +
-        "      " +
+        printInfo[30].numero.padEnd(6) +
+        "  " +
         printInfo[30].option.charAt(0) +
         "     " +
         printInfo[30].montant +
@@ -17375,8 +17375,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[31].numero +
-        "      " +
+        printInfo[31].numero.padEnd(6) +
+        "  " +
         printInfo[31].option.charAt(0) +
         "     " +
         printInfo[31].montant +
@@ -17390,8 +17390,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[32].numero +
-        "      " +
+        printInfo[32].numero.padEnd(6) +
+        "  " +
         printInfo[32].option.charAt(0) +
         "     " +
         printInfo[32].montant +
@@ -17405,8 +17405,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[33].numero +
-        "      " +
+        printInfo[33].numero.padEnd(6) +
+        "  " +
         printInfo[33].option.charAt(0) +
         "     " +
         printInfo[33].montant +
@@ -17420,8 +17420,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[34].numero +
-        "      " +
+        printInfo[34].numero.padEnd(6) +
+        "  " +
         printInfo[34].option.charAt(0) +
         "     " +
         printInfo[34].montant +
@@ -17435,8 +17435,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[35].numero +
-        "      " +
+        printInfo[35].numero.padEnd(6) +
+        "  " +
         printInfo[35].option.charAt(0) +
         "     " +
         printInfo[35].montant +
@@ -17450,8 +17450,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[36].numero +
-        "      " +
+        printInfo[36].numero.padEnd(6) +
+        "  " +
         printInfo[36].option.charAt(0) +
         "     " +
         printInfo[36].montant +
@@ -17465,8 +17465,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[37].numero +
-        "      " +
+        printInfo[37].numero.padEnd(6) +
+        "  " +
         printInfo[37].option.charAt(0) +
         "     " +
         printInfo[37].montant +
@@ -17480,8 +17480,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[38].numero +
-        "      " +
+        printInfo[38].numero.padEnd(6) +
+        "  " +
         printInfo[38].option.charAt(0) +
         "     " +
         printInfo[38].montant +
@@ -17495,8 +17495,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[39].numero +
-        "      " +
+        printInfo[39].numero.padEnd(6) +
+        "  " +
         printInfo[39].option.charAt(0) +
         "     " +
         printInfo[39].montant +
@@ -17510,8 +17510,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[40].numero +
-        "      " +
+        printInfo[40].numero.padEnd(6) +
+        "  " +
         printInfo[40].option.charAt(0) +
         "     " +
         printInfo[40].montant +
@@ -17525,8 +17525,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[41].numero +
-        "      " +
+        printInfo[41].numero.padEnd(6) +
+        "  " +
         printInfo[41].option.charAt(0) +
         "     " +
         printInfo[41].montant +
@@ -17540,8 +17540,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[42].numero +
-        "      " +
+        printInfo[42].numero.padEnd(6) +
+        "  " +
         printInfo[42].option.charAt(0) +
         "     " +
         printInfo[42].montant +
@@ -17555,8 +17555,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[43].numero +
-        "      " +
+        printInfo[43].numero.padEnd(6) +
+        "  " +
         printInfo[43].option.charAt(0) +
         "     " +
         printInfo[43].montant +
@@ -17570,8 +17570,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[44].numero +
-        "      " +
+        printInfo[44].numero.padEnd(6) +
+        "  " +
         printInfo[44].option.charAt(0) +
         "     " +
         printInfo[44].montant +
@@ -17586,8 +17586,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[0].numero +
-        "      " +
+        printInfo[0].numero.padEnd(6) +
+        "  " +
         printInfo[0].option.charAt(0) +
         "     " +
         printInfo[0].montant +
@@ -17601,8 +17601,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[1].numero +
-        "      " +
+        printInfo[1].numero.padEnd(6) +
+        "  " +
         printInfo[1].option.charAt(0) +
         "     " +
         printInfo[1].montant +
@@ -17616,8 +17616,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[2].numero +
-        "      " +
+        printInfo[2].numero.padEnd(6) +
+        "  " +
         printInfo[2].option.charAt(0) +
         "     " +
         printInfo[2].montant +
@@ -17631,8 +17631,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[3].numero +
-        "      " +
+        printInfo[3].numero.padEnd(6) +
+        "  " +
         printInfo[3].option.charAt(0) +
         "     " +
         printInfo[3].montant +
@@ -17646,8 +17646,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[4].numero +
-        "      " +
+        printInfo[4].numero.padEnd(6) +
+        "  " +
         printInfo[4].option.charAt(0) +
         "     " +
         printInfo[4].montant +
@@ -17661,8 +17661,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[5].numero +
-        "      " +
+        printInfo[5].numero.padEnd(6) +
+        "  " +
         printInfo[5].option.charAt(0) +
         "     " +
         printInfo[5].montant +
@@ -17676,8 +17676,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[6].numero +
-        "      " +
+        printInfo[6].numero.padEnd(6) +
+        "  " +
         printInfo[6].option.charAt(0) +
         "     " +
         printInfo[6].montant +
@@ -17691,8 +17691,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[7].numero +
-        "      " +
+        printInfo[7].numero.padEnd(6) +
+        "  " +
         printInfo[7].option.charAt(0) +
         "     " +
         printInfo[7].montant +
@@ -17706,8 +17706,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[8].numero +
-        "      " +
+        printInfo[8].numero.padEnd(6) +
+        "  " +
         printInfo[8].option.charAt(0) +
         "     " +
         printInfo[8].montant +
@@ -17721,8 +17721,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[9].numero +
-        "      " +
+        printInfo[9].numero.padEnd(6) +
+        "  " +
         printInfo[9].option.charAt(0) +
         "     " +
         printInfo[9].montant +
@@ -17736,8 +17736,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[10].numero +
-        "      " +
+        printInfo[10].numero.padEnd(6) +
+        "  " +
         printInfo[10].option.charAt(0) +
         "     " +
         printInfo[10].montant +
@@ -17751,8 +17751,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[11].numero +
-        "      " +
+        printInfo[11].numero.padEnd(6) +
+        "  " +
         printInfo[11].option.charAt(0) +
         "     " +
         printInfo[11].montant +
@@ -17766,8 +17766,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[12].numero +
-        "      " +
+        printInfo[12].numero.padEnd(6) +
+        "  " +
         printInfo[12].option.charAt(0) +
         "     " +
         printInfo[12].montant +
@@ -17781,8 +17781,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[13].numero +
-        "      " +
+        printInfo[13].numero.padEnd(6) +
+        "  " +
         printInfo[13].option.charAt(0) +
         "     " +
         printInfo[13].montant +
@@ -17796,8 +17796,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[14].numero +
-        "      " +
+        printInfo[14].numero.padEnd(6) +
+        "  " +
         printInfo[14].option.charAt(0) +
         "     " +
         printInfo[14].montant +
@@ -17811,8 +17811,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[15].numero +
-        "      " +
+        printInfo[15].numero.padEnd(6) +
+        "  " +
         printInfo[15].option.charAt(0) +
         "     " +
         printInfo[15].montant +
@@ -17826,8 +17826,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[16].numero +
-        "      " +
+        printInfo[16].numero.padEnd(6) +
+        "  " +
         printInfo[16].option.charAt(0) +
         "     " +
         printInfo[16].montant +
@@ -17841,8 +17841,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[17].numero +
-        "      " +
+        printInfo[17].numero.padEnd(6) +
+        "  " +
         printInfo[17].option.charAt(0) +
         "     " +
         printInfo[17].montant +
@@ -17856,8 +17856,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[18].numero +
-        "      " +
+        printInfo[18].numero.padEnd(6) +
+        "  " +
         printInfo[18].option.charAt(0) +
         "     " +
         printInfo[18].montant +
@@ -17871,8 +17871,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[19].numero +
-        "      " +
+        printInfo[19].numero.padEnd(6) +
+        "  " +
         printInfo[19].option.charAt(0) +
         "     " +
         printInfo[19].montant +
@@ -17886,8 +17886,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[20].numero +
-        "      " +
+        printInfo[20].numero.padEnd(6) +
+        "  " +
         printInfo[20].option.charAt(0) +
         "     " +
         printInfo[20].montant +
@@ -17901,8 +17901,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[21].numero +
-        "      " +
+        printInfo[21].numero.padEnd(6) +
+        "  " +
         printInfo[21].option.charAt(0) +
         "     " +
         printInfo[21].montant +
@@ -17916,8 +17916,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[22].numero +
-        "      " +
+        printInfo[22].numero.padEnd(6) +
+        "  " +
         printInfo[22].option.charAt(0) +
         "     " +
         printInfo[22].montant +
@@ -17931,8 +17931,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[23].numero +
-        "      " +
+        printInfo[23].numero.padEnd(6) +
+        "  " +
         printInfo[23].option.charAt(0) +
         "     " +
         printInfo[23].montant +
@@ -17946,8 +17946,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[24].numero +
-        "      " +
+        printInfo[24].numero.padEnd(6) +
+        "  " +
         printInfo[24].option.charAt(0) +
         "     " +
         printInfo[24].montant +
@@ -17961,8 +17961,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[25].numero +
-        "      " +
+        printInfo[25].numero.padEnd(6) +
+        "  " +
         printInfo[25].option.charAt(0) +
         "     " +
         printInfo[25].montant +
@@ -17976,8 +17976,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[26].numero +
-        "      " +
+        printInfo[26].numero.padEnd(6) +
+        "  " +
         printInfo[26].option.charAt(0) +
         "     " +
         printInfo[26].montant +
@@ -17991,8 +17991,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[27].numero +
-        "      " +
+        printInfo[27].numero.padEnd(6) +
+        "  " +
         printInfo[27].option.charAt(0) +
         "     " +
         printInfo[27].montant +
@@ -18006,8 +18006,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[28].numero +
-        "      " +
+        printInfo[28].numero.padEnd(6) +
+        "  " +
         printInfo[28].option.charAt(0) +
         "     " +
         printInfo[28].montant +
@@ -18021,8 +18021,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[29].numero +
-        "      " +
+        printInfo[29].numero.padEnd(6) +
+        "  " +
         printInfo[29].option.charAt(0) +
         "     " +
         printInfo[29].montant +
@@ -18036,8 +18036,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[30].numero +
-        "      " +
+        printInfo[30].numero.padEnd(6) +
+        "  " +
         printInfo[30].option.charAt(0) +
         "     " +
         printInfo[30].montant +
@@ -18051,8 +18051,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[31].numero +
-        "      " +
+        printInfo[31].numero.padEnd(6) +
+        "  " +
         printInfo[31].option.charAt(0) +
         "     " +
         printInfo[31].montant +
@@ -18066,8 +18066,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[32].numero +
-        "      " +
+        printInfo[32].numero.padEnd(6) +
+        "  " +
         printInfo[32].option.charAt(0) +
         "     " +
         printInfo[32].montant +
@@ -18081,8 +18081,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[33].numero +
-        "      " +
+        printInfo[33].numero.padEnd(6) +
+        "  " +
         printInfo[33].option.charAt(0) +
         "     " +
         printInfo[33].montant +
@@ -18096,8 +18096,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[34].numero +
-        "      " +
+        printInfo[34].numero.padEnd(6) +
+        "  " +
         printInfo[34].option.charAt(0) +
         "     " +
         printInfo[34].montant +
@@ -18111,8 +18111,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[35].numero +
-        "      " +
+        printInfo[35].numero.padEnd(6) +
+        "  " +
         printInfo[35].option.charAt(0) +
         "     " +
         printInfo[35].montant +
@@ -18126,8 +18126,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[36].numero +
-        "      " +
+        printInfo[36].numero.padEnd(6) +
+        "  " +
         printInfo[36].option.charAt(0) +
         "     " +
         printInfo[36].montant +
@@ -18141,8 +18141,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[37].numero +
-        "      " +
+        printInfo[37].numero.padEnd(6) +
+        "  " +
         printInfo[37].option.charAt(0) +
         "     " +
         printInfo[37].montant +
@@ -18156,8 +18156,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[38].numero +
-        "      " +
+        printInfo[38].numero.padEnd(6) +
+        "  " +
         printInfo[38].option.charAt(0) +
         "     " +
         printInfo[38].montant +
@@ -18171,8 +18171,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[39].numero +
-        "      " +
+        printInfo[39].numero.padEnd(6) +
+        "  " +
         printInfo[39].option.charAt(0) +
         "     " +
         printInfo[39].montant +
@@ -18186,8 +18186,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[40].numero +
-        "      " +
+        printInfo[40].numero.padEnd(6) +
+        "  " +
         printInfo[40].option.charAt(0) +
         "     " +
         printInfo[40].montant +
@@ -18201,8 +18201,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[41].numero +
-        "      " +
+        printInfo[41].numero.padEnd(6) +
+        "  " +
         printInfo[41].option.charAt(0) +
         "     " +
         printInfo[41].montant +
@@ -18216,8 +18216,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[42].numero +
-        "      " +
+        printInfo[42].numero.padEnd(6) +
+        "  " +
         printInfo[42].option.charAt(0) +
         "     " +
         printInfo[42].montant +
@@ -18231,8 +18231,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[43].numero +
-        "      " +
+        printInfo[43].numero.padEnd(6) +
+        "  " +
         printInfo[43].option.charAt(0) +
         "     " +
         printInfo[43].montant +
@@ -18246,8 +18246,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[44].numero +
-        "      " +
+        printInfo[44].numero.padEnd(6) +
+        "  " +
         printInfo[44].option.charAt(0) +
         "     " +
         printInfo[44].montant +
@@ -18261,8 +18261,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[45].numero +
-        "      " +
+        printInfo[45].numero.padEnd(6) +
+        "  " +
         printInfo[45].option.charAt(0) +
         "     " +
         printInfo[45].montant +
@@ -18277,8 +18277,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[0].numero +
-        "      " +
+        printInfo[0].numero.padEnd(6) +
+        "  " +
         printInfo[0].option.charAt(0) +
         "     " +
         printInfo[0].montant +
@@ -18292,8 +18292,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[1].numero +
-        "      " +
+        printInfo[1].numero.padEnd(6) +
+        "  " +
         printInfo[1].option.charAt(0) +
         "     " +
         printInfo[1].montant +
@@ -18307,8 +18307,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[2].numero +
-        "      " +
+        printInfo[2].numero.padEnd(6) +
+        "  " +
         printInfo[2].option.charAt(0) +
         "     " +
         printInfo[2].montant +
@@ -18322,8 +18322,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[3].numero +
-        "      " +
+        printInfo[3].numero.padEnd(6) +
+        "  " +
         printInfo[3].option.charAt(0) +
         "     " +
         printInfo[3].montant +
@@ -18337,8 +18337,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[4].numero +
-        "      " +
+        printInfo[4].numero.padEnd(6) +
+        "  " +
         printInfo[4].option.charAt(0) +
         "     " +
         printInfo[4].montant +
@@ -18352,8 +18352,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[5].numero +
-        "      " +
+        printInfo[5].numero.padEnd(6) +
+        "  " +
         printInfo[5].option.charAt(0) +
         "     " +
         printInfo[5].montant +
@@ -18367,8 +18367,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[6].numero +
-        "      " +
+        printInfo[6].numero.padEnd(6) +
+        "  " +
         printInfo[6].option.charAt(0) +
         "     " +
         printInfo[6].montant +
@@ -18382,8 +18382,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[7].numero +
-        "      " +
+        printInfo[7].numero.padEnd(6) +
+        "  " +
         printInfo[7].option.charAt(0) +
         "     " +
         printInfo[7].montant +
@@ -18397,8 +18397,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[8].numero +
-        "      " +
+        printInfo[8].numero.padEnd(6) +
+        "  " +
         printInfo[8].option.charAt(0) +
         "     " +
         printInfo[8].montant +
@@ -18412,8 +18412,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[9].numero +
-        "      " +
+        printInfo[9].numero.padEnd(6) +
+        "  " +
         printInfo[9].option.charAt(0) +
         "     " +
         printInfo[9].montant +
@@ -18427,8 +18427,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[10].numero +
-        "      " +
+        printInfo[10].numero.padEnd(6) +
+        "  " +
         printInfo[10].option.charAt(0) +
         "     " +
         printInfo[10].montant +
@@ -18442,8 +18442,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[11].numero +
-        "      " +
+        printInfo[11].numero.padEnd(6) +
+        "  " +
         printInfo[11].option.charAt(0) +
         "     " +
         printInfo[11].montant +
@@ -18457,8 +18457,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[12].numero +
-        "      " +
+        printInfo[12].numero.padEnd(6) +
+        "  " +
         printInfo[12].option.charAt(0) +
         "     " +
         printInfo[12].montant +
@@ -18472,8 +18472,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[13].numero +
-        "      " +
+        printInfo[13].numero.padEnd(6) +
+        "  " +
         printInfo[13].option.charAt(0) +
         "     " +
         printInfo[13].montant +
@@ -18487,8 +18487,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[14].numero +
-        "      " +
+        printInfo[14].numero.padEnd(6) +
+        "  " +
         printInfo[14].option.charAt(0) +
         "     " +
         printInfo[14].montant +
@@ -18502,8 +18502,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[15].numero +
-        "      " +
+        printInfo[15].numero.padEnd(6) +
+        "  " +
         printInfo[15].option.charAt(0) +
         "     " +
         printInfo[15].montant +
@@ -18517,8 +18517,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[16].numero +
-        "      " +
+        printInfo[16].numero.padEnd(6) +
+        "  " +
         printInfo[16].option.charAt(0) +
         "     " +
         printInfo[16].montant +
@@ -18532,8 +18532,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[17].numero +
-        "      " +
+        printInfo[17].numero.padEnd(6) +
+        "  " +
         printInfo[17].option.charAt(0) +
         "     " +
         printInfo[17].montant +
@@ -18547,8 +18547,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[18].numero +
-        "      " +
+        printInfo[18].numero.padEnd(6) +
+        "  " +
         printInfo[18].option.charAt(0) +
         "     " +
         printInfo[18].montant +
@@ -18562,8 +18562,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[19].numero +
-        "      " +
+        printInfo[19].numero.padEnd(6) +
+        "  " +
         printInfo[19].option.charAt(0) +
         "     " +
         printInfo[19].montant +
@@ -18577,8 +18577,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[20].numero +
-        "      " +
+        printInfo[20].numero.padEnd(6) +
+        "  " +
         printInfo[20].option.charAt(0) +
         "     " +
         printInfo[20].montant +
@@ -18592,8 +18592,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[21].numero +
-        "      " +
+        printInfo[21].numero.padEnd(6) +
+        "  " +
         printInfo[21].option.charAt(0) +
         "     " +
         printInfo[21].montant +
@@ -18607,8 +18607,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[22].numero +
-        "      " +
+        printInfo[22].numero.padEnd(6) +
+        "  " +
         printInfo[22].option.charAt(0) +
         "     " +
         printInfo[22].montant +
@@ -18622,8 +18622,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[23].numero +
-        "      " +
+        printInfo[23].numero.padEnd(6) +
+        "  " +
         printInfo[23].option.charAt(0) +
         "     " +
         printInfo[23].montant +
@@ -18637,8 +18637,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[24].numero +
-        "      " +
+        printInfo[24].numero.padEnd(6) +
+        "  " +
         printInfo[24].option.charAt(0) +
         "     " +
         printInfo[24].montant +
@@ -18652,8 +18652,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[25].numero +
-        "      " +
+        printInfo[25].numero.padEnd(6) +
+        "  " +
         printInfo[25].option.charAt(0) +
         "     " +
         printInfo[25].montant +
@@ -18667,8 +18667,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[26].numero +
-        "      " +
+        printInfo[26].numero.padEnd(6) +
+        "  " +
         printInfo[26].option.charAt(0) +
         "     " +
         printInfo[26].montant +
@@ -18682,8 +18682,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[27].numero +
-        "      " +
+        printInfo[27].numero.padEnd(6) +
+        "  " +
         printInfo[27].option.charAt(0) +
         "     " +
         printInfo[27].montant +
@@ -18697,8 +18697,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[28].numero +
-        "      " +
+        printInfo[28].numero.padEnd(6) +
+        "  " +
         printInfo[28].option.charAt(0) +
         "     " +
         printInfo[28].montant +
@@ -18712,8 +18712,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[29].numero +
-        "      " +
+        printInfo[29].numero.padEnd(6) +
+        "  " +
         printInfo[29].option.charAt(0) +
         "     " +
         printInfo[29].montant +
@@ -18727,8 +18727,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[30].numero +
-        "      " +
+        printInfo[30].numero.padEnd(6) +
+        "  " +
         printInfo[30].option.charAt(0) +
         "     " +
         printInfo[30].montant +
@@ -18742,8 +18742,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[31].numero +
-        "      " +
+        printInfo[31].numero.padEnd(6) +
+        "  " +
         printInfo[31].option.charAt(0) +
         "     " +
         printInfo[31].montant +
@@ -18757,8 +18757,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[32].numero +
-        "      " +
+        printInfo[32].numero.padEnd(6) +
+        "  " +
         printInfo[32].option.charAt(0) +
         "     " +
         printInfo[32].montant +
@@ -18772,8 +18772,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[33].numero +
-        "      " +
+        printInfo[33].numero.padEnd(6) +
+        "  " +
         printInfo[33].option.charAt(0) +
         "     " +
         printInfo[33].montant +
@@ -18787,8 +18787,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[34].numero +
-        "      " +
+        printInfo[34].numero.padEnd(6) +
+        "  " +
         printInfo[34].option.charAt(0) +
         "     " +
         printInfo[34].montant +
@@ -18802,8 +18802,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[35].numero +
-        "      " +
+        printInfo[35].numero.padEnd(6) +
+        "  " +
         printInfo[35].option.charAt(0) +
         "     " +
         printInfo[35].montant +
@@ -18817,8 +18817,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[36].numero +
-        "      " +
+        printInfo[36].numero.padEnd(6) +
+        "  " +
         printInfo[36].option.charAt(0) +
         "     " +
         printInfo[36].montant +
@@ -18832,8 +18832,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[37].numero +
-        "      " +
+        printInfo[37].numero.padEnd(6) +
+        "  " +
         printInfo[37].option.charAt(0) +
         "     " +
         printInfo[37].montant +
@@ -18847,8 +18847,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[38].numero +
-        "      " +
+        printInfo[38].numero.padEnd(6) +
+        "  " +
         printInfo[38].option.charAt(0) +
         "     " +
         printInfo[38].montant +
@@ -18862,8 +18862,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[39].numero +
-        "      " +
+        printInfo[39].numero.padEnd(6) +
+        "  " +
         printInfo[39].option.charAt(0) +
         "     " +
         printInfo[39].montant +
@@ -18877,8 +18877,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[40].numero +
-        "      " +
+        printInfo[40].numero.padEnd(6) +
+        "  " +
         printInfo[40].option.charAt(0) +
         "     " +
         printInfo[40].montant +
@@ -18892,8 +18892,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[41].numero +
-        "      " +
+        printInfo[41].numero.padEnd(6) +
+        "  " +
         printInfo[41].option.charAt(0) +
         "     " +
         printInfo[41].montant +
@@ -18907,8 +18907,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[42].numero +
-        "      " +
+        printInfo[42].numero.padEnd(6) +
+        "  " +
         printInfo[42].option.charAt(0) +
         "     " +
         printInfo[42].montant +
@@ -18922,8 +18922,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[43].numero +
-        "      " +
+        printInfo[43].numero.padEnd(6) +
+        "  " +
         printInfo[43].option.charAt(0) +
         "     " +
         printInfo[43].montant +
@@ -18937,8 +18937,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[44].numero +
-        "      " +
+        printInfo[44].numero.padEnd(6) +
+        "  " +
         printInfo[44].option.charAt(0) +
         "     " +
         printInfo[44].montant +
@@ -18952,8 +18952,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[45].numero +
-        "      " +
+        printInfo[45].numero.padEnd(6) +
+        "  " +
         printInfo[45].option.charAt(0) +
         "     " +
         printInfo[45].montant +
@@ -18967,8 +18967,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[46].numero +
-        "      " +
+        printInfo[46].numero.padEnd(6) +
+        "  " +
         printInfo[46].option.charAt(0) +
         "     " +
         printInfo[46].montant +
@@ -18983,8 +18983,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[0].numero +
-        "      " +
+        printInfo[0].numero.padEnd(6) +
+        "  " +
         printInfo[0].option.charAt(0) +
         "     " +
         printInfo[0].montant +
@@ -18998,8 +18998,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[1].numero +
-        "      " +
+        printInfo[1].numero.padEnd(6) +
+        "  " +
         printInfo[1].option.charAt(0) +
         "     " +
         printInfo[1].montant +
@@ -19013,8 +19013,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[2].numero +
-        "      " +
+        printInfo[2].numero.padEnd(6) +
+        "  " +
         printInfo[2].option.charAt(0) +
         "     " +
         printInfo[2].montant +
@@ -19028,8 +19028,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[3].numero +
-        "      " +
+        printInfo[3].numero.padEnd(6) +
+        "  " +
         printInfo[3].option.charAt(0) +
         "     " +
         printInfo[3].montant +
@@ -19043,8 +19043,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[4].numero +
-        "      " +
+        printInfo[4].numero.padEnd(6) +
+        "  " +
         printInfo[4].option.charAt(0) +
         "     " +
         printInfo[4].montant +
@@ -19058,8 +19058,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[5].numero +
-        "      " +
+        printInfo[5].numero.padEnd(6) +
+        "  " +
         printInfo[5].option.charAt(0) +
         "     " +
         printInfo[5].montant +
@@ -19073,8 +19073,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[6].numero +
-        "      " +
+        printInfo[6].numero.padEnd(6) +
+        "  " +
         printInfo[6].option.charAt(0) +
         "     " +
         printInfo[6].montant +
@@ -19088,8 +19088,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[7].numero +
-        "      " +
+        printInfo[7].numero.padEnd(6) +
+        "  " +
         printInfo[7].option.charAt(0) +
         "     " +
         printInfo[7].montant +
@@ -19103,8 +19103,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[8].numero +
-        "      " +
+        printInfo[8].numero.padEnd(6) +
+        "  " +
         printInfo[8].option.charAt(0) +
         "     " +
         printInfo[8].montant +
@@ -19118,8 +19118,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[9].numero +
-        "      " +
+        printInfo[9].numero.padEnd(6) +
+        "  " +
         printInfo[9].option.charAt(0) +
         "     " +
         printInfo[9].montant +
@@ -19133,8 +19133,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[10].numero +
-        "      " +
+        printInfo[10].numero.padEnd(6) +
+        "  " +
         printInfo[10].option.charAt(0) +
         "     " +
         printInfo[10].montant +
@@ -19148,8 +19148,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[11].numero +
-        "      " +
+        printInfo[11].numero.padEnd(6) +
+        "  " +
         printInfo[11].option.charAt(0) +
         "     " +
         printInfo[11].montant +
@@ -19163,8 +19163,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[12].numero +
-        "      " +
+        printInfo[12].numero.padEnd(6) +
+        "  " +
         printInfo[12].option.charAt(0) +
         "     " +
         printInfo[12].montant +
@@ -19178,8 +19178,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[13].numero +
-        "      " +
+        printInfo[13].numero.padEnd(6) +
+        "  " +
         printInfo[13].option.charAt(0) +
         "     " +
         printInfo[13].montant +
@@ -19193,8 +19193,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[14].numero +
-        "      " +
+        printInfo[14].numero.padEnd(6) +
+        "  " +
         printInfo[14].option.charAt(0) +
         "     " +
         printInfo[14].montant +
@@ -19208,8 +19208,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[15].numero +
-        "      " +
+        printInfo[15].numero.padEnd(6) +
+        "  " +
         printInfo[15].option.charAt(0) +
         "     " +
         printInfo[15].montant +
@@ -19223,8 +19223,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[16].numero +
-        "      " +
+        printInfo[16].numero.padEnd(6) +
+        "  " +
         printInfo[16].option.charAt(0) +
         "     " +
         printInfo[16].montant +
@@ -19238,8 +19238,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[17].numero +
-        "      " +
+        printInfo[17].numero.padEnd(6) +
+        "  " +
         printInfo[17].option.charAt(0) +
         "     " +
         printInfo[17].montant +
@@ -19253,8 +19253,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[18].numero +
-        "      " +
+        printInfo[18].numero.padEnd(6) +
+        "  " +
         printInfo[18].option.charAt(0) +
         "     " +
         printInfo[18].montant +
@@ -19268,8 +19268,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[19].numero +
-        "      " +
+        printInfo[19].numero.padEnd(6) +
+        "  " +
         printInfo[19].option.charAt(0) +
         "     " +
         printInfo[19].montant +
@@ -19283,8 +19283,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[20].numero +
-        "      " +
+        printInfo[20].numero.padEnd(6) +
+        "  " +
         printInfo[20].option.charAt(0) +
         "     " +
         printInfo[20].montant +
@@ -19298,8 +19298,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[21].numero +
-        "      " +
+        printInfo[21].numero.padEnd(6) +
+        "  " +
         printInfo[21].option.charAt(0) +
         "     " +
         printInfo[21].montant +
@@ -19313,8 +19313,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[22].numero +
-        "      " +
+        printInfo[22].numero.padEnd(6) +
+        "  " +
         printInfo[22].option.charAt(0) +
         "     " +
         printInfo[22].montant +
@@ -19328,8 +19328,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[23].numero +
-        "      " +
+        printInfo[23].numero.padEnd(6) +
+        "  " +
         printInfo[23].option.charAt(0) +
         "     " +
         printInfo[23].montant +
@@ -19343,8 +19343,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[24].numero +
-        "      " +
+        printInfo[24].numero.padEnd(6) +
+        "  " +
         printInfo[24].option.charAt(0) +
         "     " +
         printInfo[24].montant +
@@ -19358,8 +19358,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[25].numero +
-        "      " +
+        printInfo[25].numero.padEnd(6) +
+        "  " +
         printInfo[25].option.charAt(0) +
         "     " +
         printInfo[25].montant +
@@ -19373,8 +19373,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[26].numero +
-        "      " +
+        printInfo[26].numero.padEnd(6) +
+        "  " +
         printInfo[26].option.charAt(0) +
         "     " +
         printInfo[26].montant +
@@ -19388,8 +19388,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[27].numero +
-        "      " +
+        printInfo[27].numero.padEnd(6) +
+        "  " +
         printInfo[27].option.charAt(0) +
         "     " +
         printInfo[27].montant +
@@ -19403,8 +19403,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[28].numero +
-        "      " +
+        printInfo[28].numero.padEnd(6) +
+        "  " +
         printInfo[28].option.charAt(0) +
         "     " +
         printInfo[28].montant +
@@ -19418,8 +19418,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[29].numero +
-        "      " +
+        printInfo[29].numero.padEnd(6) +
+        "  " +
         printInfo[29].option.charAt(0) +
         "     " +
         printInfo[29].montant +
@@ -19433,8 +19433,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[30].numero +
-        "      " +
+        printInfo[30].numero.padEnd(6) +
+        "  " +
         printInfo[30].option.charAt(0) +
         "     " +
         printInfo[30].montant +
@@ -19448,8 +19448,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[31].numero +
-        "      " +
+        printInfo[31].numero.padEnd(6) +
+        "  " +
         printInfo[31].option.charAt(0) +
         "     " +
         printInfo[31].montant +
@@ -19463,8 +19463,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[32].numero +
-        "      " +
+        printInfo[32].numero.padEnd(6) +
+        "  " +
         printInfo[32].option.charAt(0) +
         "     " +
         printInfo[32].montant +
@@ -19478,8 +19478,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[33].numero +
-        "      " +
+        printInfo[33].numero.padEnd(6) +
+        "  " +
         printInfo[33].option.charAt(0) +
         "     " +
         printInfo[33].montant +
@@ -19493,8 +19493,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[34].numero +
-        "      " +
+        printInfo[34].numero.padEnd(6) +
+        "  " +
         printInfo[34].option.charAt(0) +
         "     " +
         printInfo[34].montant +
@@ -19508,8 +19508,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[35].numero +
-        "      " +
+        printInfo[35].numero.padEnd(6) +
+        "  " +
         printInfo[35].option.charAt(0) +
         "     " +
         printInfo[35].montant +
@@ -19523,8 +19523,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[36].numero +
-        "      " +
+        printInfo[36].numero.padEnd(6) +
+        "  " +
         printInfo[36].option.charAt(0) +
         "     " +
         printInfo[36].montant +
@@ -19538,8 +19538,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[37].numero +
-        "      " +
+        printInfo[37].numero.padEnd(6) +
+        "  " +
         printInfo[37].option.charAt(0) +
         "     " +
         printInfo[37].montant +
@@ -19553,8 +19553,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[38].numero +
-        "      " +
+        printInfo[38].numero.padEnd(6) +
+        "  " +
         printInfo[38].option.charAt(0) +
         "     " +
         printInfo[38].montant +
@@ -19568,8 +19568,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[39].numero +
-        "      " +
+        printInfo[39].numero.padEnd(6) +
+        "  " +
         printInfo[39].option.charAt(0) +
         "     " +
         printInfo[39].montant +
@@ -19583,8 +19583,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[40].numero +
-        "      " +
+        printInfo[40].numero.padEnd(6) +
+        "  " +
         printInfo[40].option.charAt(0) +
         "     " +
         printInfo[40].montant +
@@ -19598,8 +19598,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[41].numero +
-        "      " +
+        printInfo[41].numero.padEnd(6) +
+        "  " +
         printInfo[41].option.charAt(0) +
         "     " +
         printInfo[41].montant +
@@ -19613,8 +19613,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[42].numero +
-        "      " +
+        printInfo[42].numero.padEnd(6) +
+        "  " +
         printInfo[42].option.charAt(0) +
         "     " +
         printInfo[42].montant +
@@ -19628,8 +19628,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[43].numero +
-        "      " +
+        printInfo[43].numero.padEnd(6) +
+        "  " +
         printInfo[43].option.charAt(0) +
         "     " +
         printInfo[43].montant +
@@ -19643,8 +19643,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[44].numero +
-        "      " +
+        printInfo[44].numero.padEnd(6) +
+        "  " +
         printInfo[44].option.charAt(0) +
         "     " +
         printInfo[44].montant +
@@ -19658,8 +19658,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[45].numero +
-        "      " +
+        printInfo[45].numero.padEnd(6) +
+        "  " +
         printInfo[45].option.charAt(0) +
         "     " +
         printInfo[45].montant +
@@ -19673,8 +19673,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[46].numero +
-        "      " +
+        printInfo[46].numero.padEnd(6) +
+        "  " +
         printInfo[46].option.charAt(0) +
         "     " +
         printInfo[46].montant +
@@ -19688,8 +19688,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[47].numero +
-        "      " +
+        printInfo[47].numero.padEnd(6) +
+        "  " +
         printInfo[47].option.charAt(0) +
         "     " +
         printInfo[47].montant +
@@ -19704,8 +19704,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[0].numero +
-        "      " +
+        printInfo[0].numero.padEnd(6) +
+        "  " +
         printInfo[0].option.charAt(0) +
         "     " +
         printInfo[0].montant +
@@ -19719,8 +19719,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[1].numero +
-        "      " +
+        printInfo[1].numero.padEnd(6) +
+        "  " +
         printInfo[1].option.charAt(0) +
         "     " +
         printInfo[1].montant +
@@ -19734,8 +19734,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[2].numero +
-        "      " +
+        printInfo[2].numero.padEnd(6) +
+        "  " +
         printInfo[2].option.charAt(0) +
         "     " +
         printInfo[2].montant +
@@ -19749,8 +19749,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[3].numero +
-        "      " +
+        printInfo[3].numero.padEnd(6) +
+        "  " +
         printInfo[3].option.charAt(0) +
         "     " +
         printInfo[3].montant +
@@ -19764,8 +19764,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[4].numero +
-        "      " +
+        printInfo[4].numero.padEnd(6) +
+        "  " +
         printInfo[4].option.charAt(0) +
         "     " +
         printInfo[4].montant +
@@ -19779,8 +19779,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[5].numero +
-        "      " +
+        printInfo[5].numero.padEnd(6) +
+        "  " +
         printInfo[5].option.charAt(0) +
         "     " +
         printInfo[5].montant +
@@ -19794,8 +19794,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[6].numero +
-        "      " +
+        printInfo[6].numero.padEnd(6) +
+        "  " +
         printInfo[6].option.charAt(0) +
         "     " +
         printInfo[6].montant +
@@ -19809,8 +19809,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[7].numero +
-        "      " +
+        printInfo[7].numero.padEnd(6) +
+        "  " +
         printInfo[7].option.charAt(0) +
         "     " +
         printInfo[7].montant +
@@ -19824,8 +19824,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[8].numero +
-        "      " +
+        printInfo[8].numero.padEnd(6) +
+        "  " +
         printInfo[8].option.charAt(0) +
         "     " +
         printInfo[8].montant +
@@ -19839,8 +19839,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[9].numero +
-        "      " +
+        printInfo[9].numero.padEnd(6) +
+        "  " +
         printInfo[9].option.charAt(0) +
         "     " +
         printInfo[9].montant +
@@ -19854,8 +19854,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[10].numero +
-        "      " +
+        printInfo[10].numero.padEnd(6) +
+        "  " +
         printInfo[10].option.charAt(0) +
         "     " +
         printInfo[10].montant +
@@ -19869,8 +19869,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[11].numero +
-        "      " +
+        printInfo[11].numero.padEnd(6) +
+        "  " +
         printInfo[11].option.charAt(0) +
         "     " +
         printInfo[11].montant +
@@ -19884,8 +19884,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[12].numero +
-        "      " +
+        printInfo[12].numero.padEnd(6) +
+        "  " +
         printInfo[12].option.charAt(0) +
         "     " +
         printInfo[12].montant +
@@ -19899,8 +19899,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[13].numero +
-        "      " +
+        printInfo[13].numero.padEnd(6) +
+        "  " +
         printInfo[13].option.charAt(0) +
         "     " +
         printInfo[13].montant +
@@ -19914,8 +19914,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[14].numero +
-        "      " +
+        printInfo[14].numero.padEnd(6) +
+        "  " +
         printInfo[14].option.charAt(0) +
         "     " +
         printInfo[14].montant +
@@ -19929,8 +19929,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[15].numero +
-        "      " +
+        printInfo[15].numero.padEnd(6) +
+        "  " +
         printInfo[15].option.charAt(0) +
         "     " +
         printInfo[15].montant +
@@ -19944,8 +19944,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[16].numero +
-        "      " +
+        printInfo[16].numero.padEnd(6) +
+        "  " +
         printInfo[16].option.charAt(0) +
         "     " +
         printInfo[16].montant +
@@ -19959,8 +19959,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[17].numero +
-        "      " +
+        printInfo[17].numero.padEnd(6) +
+        "  " +
         printInfo[17].option.charAt(0) +
         "     " +
         printInfo[17].montant +
@@ -19974,8 +19974,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[18].numero +
-        "      " +
+        printInfo[18].numero.padEnd(6) +
+        "  " +
         printInfo[18].option.charAt(0) +
         "     " +
         printInfo[18].montant +
@@ -19989,8 +19989,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[19].numero +
-        "      " +
+        printInfo[19].numero.padEnd(6) +
+        "  " +
         printInfo[19].option.charAt(0) +
         "     " +
         printInfo[19].montant +
@@ -20004,8 +20004,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[20].numero +
-        "      " +
+        printInfo[20].numero.padEnd(6) +
+        "  " +
         printInfo[20].option.charAt(0) +
         "     " +
         printInfo[20].montant +
@@ -20019,8 +20019,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[21].numero +
-        "      " +
+        printInfo[21].numero.padEnd(6) +
+        "  " +
         printInfo[21].option.charAt(0) +
         "     " +
         printInfo[21].montant +
@@ -20034,8 +20034,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[22].numero +
-        "      " +
+        printInfo[22].numero.padEnd(6) +
+        "  " +
         printInfo[22].option.charAt(0) +
         "     " +
         printInfo[22].montant +
@@ -20049,8 +20049,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[23].numero +
-        "      " +
+        printInfo[23].numero.padEnd(6) +
+        "  " +
         printInfo[23].option.charAt(0) +
         "     " +
         printInfo[23].montant +
@@ -20064,8 +20064,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[24].numero +
-        "      " +
+        printInfo[24].numero.padEnd(6) +
+        "  " +
         printInfo[24].option.charAt(0) +
         "     " +
         printInfo[24].montant +
@@ -20079,8 +20079,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[25].numero +
-        "      " +
+        printInfo[25].numero.padEnd(6) +
+        "  " +
         printInfo[25].option.charAt(0) +
         "     " +
         printInfo[25].montant +
@@ -20094,8 +20094,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[26].numero +
-        "      " +
+        printInfo[26].numero.padEnd(6) +
+        "  " +
         printInfo[26].option.charAt(0) +
         "     " +
         printInfo[26].montant +
@@ -20109,8 +20109,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[27].numero +
-        "      " +
+        printInfo[27].numero.padEnd(6) +
+        "  " +
         printInfo[27].option.charAt(0) +
         "     " +
         printInfo[27].montant +
@@ -20124,8 +20124,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[28].numero +
-        "      " +
+        printInfo[28].numero.padEnd(6) +
+        "  " +
         printInfo[28].option.charAt(0) +
         "     " +
         printInfo[28].montant +
@@ -20139,8 +20139,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[29].numero +
-        "      " +
+        printInfo[29].numero.padEnd(6) +
+        "  " +
         printInfo[29].option.charAt(0) +
         "     " +
         printInfo[29].montant +
@@ -20154,8 +20154,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[30].numero +
-        "      " +
+        printInfo[30].numero.padEnd(6) +
+        "  " +
         printInfo[30].option.charAt(0) +
         "     " +
         printInfo[30].montant +
@@ -20169,8 +20169,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[31].numero +
-        "      " +
+        printInfo[31].numero.padEnd(6) +
+        "  " +
         printInfo[31].option.charAt(0) +
         "     " +
         printInfo[31].montant +
@@ -20184,8 +20184,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[32].numero +
-        "      " +
+        printInfo[32].numero.padEnd(6) +
+        "  " +
         printInfo[32].option.charAt(0) +
         "     " +
         printInfo[32].montant +
@@ -20199,8 +20199,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[33].numero +
-        "      " +
+        printInfo[33].numero.padEnd(6) +
+        "  " +
         printInfo[33].option.charAt(0) +
         "     " +
         printInfo[33].montant +
@@ -20214,8 +20214,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[34].numero +
-        "      " +
+        printInfo[34].numero.padEnd(6) +
+        "  " +
         printInfo[34].option.charAt(0) +
         "     " +
         printInfo[34].montant +
@@ -20229,8 +20229,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[35].numero +
-        "      " +
+        printInfo[35].numero.padEnd(6) +
+        "  " +
         printInfo[35].option.charAt(0) +
         "     " +
         printInfo[35].montant +
@@ -20244,8 +20244,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[36].numero +
-        "      " +
+        printInfo[36].numero.padEnd(6) +
+        "  " +
         printInfo[36].option.charAt(0) +
         "     " +
         printInfo[36].montant +
@@ -20259,8 +20259,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[37].numero +
-        "      " +
+        printInfo[37].numero.padEnd(6) +
+        "  " +
         printInfo[37].option.charAt(0) +
         "     " +
         printInfo[37].montant +
@@ -20274,8 +20274,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[38].numero +
-        "      " +
+        printInfo[38].numero.padEnd(6) +
+        "  " +
         printInfo[38].option.charAt(0) +
         "     " +
         printInfo[38].montant +
@@ -20289,8 +20289,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[39].numero +
-        "      " +
+        printInfo[39].numero.padEnd(6) +
+        "  " +
         printInfo[39].option.charAt(0) +
         "     " +
         printInfo[39].montant +
@@ -20304,8 +20304,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[40].numero +
-        "      " +
+        printInfo[40].numero.padEnd(6) +
+        "  " +
         printInfo[40].option.charAt(0) +
         "     " +
         printInfo[40].montant +
@@ -20319,8 +20319,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[41].numero +
-        "      " +
+        printInfo[41].numero.padEnd(6) +
+        "  " +
         printInfo[41].option.charAt(0) +
         "     " +
         printInfo[41].montant +
@@ -20334,8 +20334,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[42].numero +
-        "      " +
+        printInfo[42].numero.padEnd(6) +
+        "  " +
         printInfo[42].option.charAt(0) +
         "     " +
         printInfo[42].montant +
@@ -20349,8 +20349,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[43].numero +
-        "      " +
+        printInfo[43].numero.padEnd(6) +
+        "  " +
         printInfo[43].option.charAt(0) +
         "     " +
         printInfo[43].montant +
@@ -20364,8 +20364,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[44].numero +
-        "      " +
+        printInfo[44].numero.padEnd(6) +
+        "  " +
         printInfo[44].option.charAt(0) +
         "     " +
         printInfo[44].montant +
@@ -20379,8 +20379,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[45].numero +
-        "      " +
+        printInfo[45].numero.padEnd(6) +
+        "  " +
         printInfo[45].option.charAt(0) +
         "     " +
         printInfo[45].montant +
@@ -20394,8 +20394,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[46].numero +
-        "      " +
+        printInfo[46].numero.padEnd(6) +
+        "  " +
         printInfo[46].option.charAt(0) +
         "     " +
         printInfo[46].montant +
@@ -20409,8 +20409,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[47].numero +
-        "      " +
+        printInfo[47].numero.padEnd(6) +
+        "  " +
         printInfo[47].option.charAt(0) +
         "     " +
         printInfo[47].montant +
@@ -20424,8 +20424,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[48].numero +
-        "      " +
+        printInfo[48].numero.padEnd(6) +
+        "  " +
         printInfo[48].option.charAt(0) +
         "     " +
         printInfo[48].montant +
@@ -20440,8 +20440,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[0].numero +
-        "      " +
+        printInfo[0].numero.padEnd(6) +
+        "  " +
         printInfo[0].option.charAt(0) +
         "     " +
         printInfo[0].montant +
@@ -20455,8 +20455,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[1].numero +
-        "      " +
+        printInfo[1].numero.padEnd(6) +
+        "  " +
         printInfo[1].option.charAt(0) +
         "     " +
         printInfo[1].montant +
@@ -20470,8 +20470,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[2].numero +
-        "      " +
+        printInfo[2].numero.padEnd(6) +
+        "  " +
         printInfo[2].option.charAt(0) +
         "     " +
         printInfo[2].montant +
@@ -20485,8 +20485,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[3].numero +
-        "      " +
+        printInfo[3].numero.padEnd(6) +
+        "  " +
         printInfo[3].option.charAt(0) +
         "     " +
         printInfo[3].montant +
@@ -20500,8 +20500,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[4].numero +
-        "      " +
+        printInfo[4].numero.padEnd(6) +
+        "  " +
         printInfo[4].option.charAt(0) +
         "     " +
         printInfo[4].montant +
@@ -20515,8 +20515,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[5].numero +
-        "      " +
+        printInfo[5].numero.padEnd(6) +
+        "  " +
         printInfo[5].option.charAt(0) +
         "     " +
         printInfo[5].montant +
@@ -20530,8 +20530,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[6].numero +
-        "      " +
+        printInfo[6].numero.padEnd(6) +
+        "  " +
         printInfo[6].option.charAt(0) +
         "     " +
         printInfo[6].montant +
@@ -20545,8 +20545,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[7].numero +
-        "      " +
+        printInfo[7].numero.padEnd(6) +
+        "  " +
         printInfo[7].option.charAt(0) +
         "     " +
         printInfo[7].montant +
@@ -20560,8 +20560,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[8].numero +
-        "      " +
+        printInfo[8].numero.padEnd(6) +
+        "  " +
         printInfo[8].option.charAt(0) +
         "     " +
         printInfo[8].montant +
@@ -20575,8 +20575,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[9].numero +
-        "      " +
+        printInfo[9].numero.padEnd(6) +
+        "  " +
         printInfo[9].option.charAt(0) +
         "     " +
         printInfo[9].montant +
@@ -20590,8 +20590,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[10].numero +
-        "      " +
+        printInfo[10].numero.padEnd(6) +
+        "  " +
         printInfo[10].option.charAt(0) +
         "     " +
         printInfo[10].montant +
@@ -20605,8 +20605,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[11].numero +
-        "      " +
+        printInfo[11].numero.padEnd(6) +
+        "  " +
         printInfo[11].option.charAt(0) +
         "     " +
         printInfo[11].montant +
@@ -20620,8 +20620,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[12].numero +
-        "      " +
+        printInfo[12].numero.padEnd(6) +
+        "  " +
         printInfo[12].option.charAt(0) +
         "     " +
         printInfo[12].montant +
@@ -20635,8 +20635,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[13].numero +
-        "      " +
+        printInfo[13].numero.padEnd(6) +
+        "  " +
         printInfo[13].option.charAt(0) +
         "     " +
         printInfo[13].montant +
@@ -20650,8 +20650,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[14].numero +
-        "      " +
+        printInfo[14].numero.padEnd(6) +
+        "  " +
         printInfo[14].option.charAt(0) +
         "     " +
         printInfo[14].montant +
@@ -20665,8 +20665,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[15].numero +
-        "      " +
+        printInfo[15].numero.padEnd(6) +
+        "  " +
         printInfo[15].option.charAt(0) +
         "     " +
         printInfo[15].montant +
@@ -20680,8 +20680,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[16].numero +
-        "      " +
+        printInfo[16].numero.padEnd(6) +
+        "  " +
         printInfo[16].option.charAt(0) +
         "     " +
         printInfo[16].montant +
@@ -20695,8 +20695,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[17].numero +
-        "      " +
+        printInfo[17].numero.padEnd(6) +
+        "  " +
         printInfo[17].option.charAt(0) +
         "     " +
         printInfo[17].montant +
@@ -20710,8 +20710,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[18].numero +
-        "      " +
+        printInfo[18].numero.padEnd(6) +
+        "  " +
         printInfo[18].option.charAt(0) +
         "     " +
         printInfo[18].montant +
@@ -20725,8 +20725,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[19].numero +
-        "      " +
+        printInfo[19].numero.padEnd(6) +
+        "  " +
         printInfo[19].option.charAt(0) +
         "     " +
         printInfo[19].montant +
@@ -20740,8 +20740,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[20].numero +
-        "      " +
+        printInfo[20].numero.padEnd(6) +
+        "  " +
         printInfo[20].option.charAt(0) +
         "     " +
         printInfo[20].montant +
@@ -20755,8 +20755,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[21].numero +
-        "      " +
+        printInfo[21].numero.padEnd(6) +
+        "  " +
         printInfo[21].option.charAt(0) +
         "     " +
         printInfo[21].montant +
@@ -20770,8 +20770,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[22].numero +
-        "      " +
+        printInfo[22].numero.padEnd(6) +
+        "  " +
         printInfo[22].option.charAt(0) +
         "     " +
         printInfo[22].montant +
@@ -20785,8 +20785,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[23].numero +
-        "      " +
+        printInfo[23].numero.padEnd(6) +
+        "  " +
         printInfo[23].option.charAt(0) +
         "     " +
         printInfo[23].montant +
@@ -20800,8 +20800,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[24].numero +
-        "      " +
+        printInfo[24].numero.padEnd(6) +
+        "  " +
         printInfo[24].option.charAt(0) +
         "     " +
         printInfo[24].montant +
@@ -20815,8 +20815,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[25].numero +
-        "      " +
+        printInfo[25].numero.padEnd(6) +
+        "  " +
         printInfo[25].option.charAt(0) +
         "     " +
         printInfo[25].montant +
@@ -20830,8 +20830,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[26].numero +
-        "      " +
+        printInfo[26].numero.padEnd(6) +
+        "  " +
         printInfo[26].option.charAt(0) +
         "     " +
         printInfo[26].montant +
@@ -20845,8 +20845,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[27].numero +
-        "      " +
+        printInfo[27].numero.padEnd(6) +
+        "  " +
         printInfo[27].option.charAt(0) +
         "     " +
         printInfo[27].montant +
@@ -20860,8 +20860,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[28].numero +
-        "      " +
+        printInfo[28].numero.padEnd(6) +
+        "  " +
         printInfo[28].option.charAt(0) +
         "     " +
         printInfo[28].montant +
@@ -20875,8 +20875,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[29].numero +
-        "      " +
+        printInfo[29].numero.padEnd(6) +
+        "  " +
         printInfo[29].option.charAt(0) +
         "     " +
         printInfo[29].montant +
@@ -20890,8 +20890,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[30].numero +
-        "      " +
+        printInfo[30].numero.padEnd(6) +
+        "  " +
         printInfo[30].option.charAt(0) +
         "     " +
         printInfo[30].montant +
@@ -20905,8 +20905,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[31].numero +
-        "      " +
+        printInfo[31].numero.padEnd(6) +
+        "  " +
         printInfo[31].option.charAt(0) +
         "     " +
         printInfo[31].montant +
@@ -20920,8 +20920,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[32].numero +
-        "      " +
+        printInfo[32].numero.padEnd(6) +
+        "  " +
         printInfo[32].option.charAt(0) +
         "     " +
         printInfo[32].montant +
@@ -20935,8 +20935,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[33].numero +
-        "      " +
+        printInfo[33].numero.padEnd(6) +
+        "  " +
         printInfo[33].option.charAt(0) +
         "     " +
         printInfo[33].montant +
@@ -20950,8 +20950,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[34].numero +
-        "      " +
+        printInfo[34].numero.padEnd(6) +
+        "  " +
         printInfo[34].option.charAt(0) +
         "     " +
         printInfo[34].montant +
@@ -20965,8 +20965,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[35].numero +
-        "      " +
+        printInfo[35].numero.padEnd(6) +
+        "  " +
         printInfo[35].option.charAt(0) +
         "     " +
         printInfo[35].montant +
@@ -20980,8 +20980,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[36].numero +
-        "      " +
+        printInfo[36].numero.padEnd(6) +
+        "  " +
         printInfo[36].option.charAt(0) +
         "     " +
         printInfo[36].montant +
@@ -20995,8 +20995,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[37].numero +
-        "      " +
+        printInfo[37].numero.padEnd(6) +
+        "  " +
         printInfo[37].option.charAt(0) +
         "     " +
         printInfo[37].montant +
@@ -21010,8 +21010,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[38].numero +
-        "      " +
+        printInfo[38].numero.padEnd(6) +
+        "  " +
         printInfo[38].option.charAt(0) +
         "     " +
         printInfo[38].montant +
@@ -21025,8 +21025,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[39].numero +
-        "      " +
+        printInfo[39].numero.padEnd(6) +
+        "  " +
         printInfo[39].option.charAt(0) +
         "     " +
         printInfo[39].montant +
@@ -21040,8 +21040,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[40].numero +
-        "      " +
+        printInfo[40].numero.padEnd(6) +
+        "  " +
         printInfo[40].option.charAt(0) +
         "     " +
         printInfo[40].montant +
@@ -21055,8 +21055,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[41].numero +
-        "      " +
+        printInfo[41].numero.padEnd(6) +
+        "  " +
         printInfo[41].option.charAt(0) +
         "     " +
         printInfo[41].montant +
@@ -21070,8 +21070,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[42].numero +
-        "      " +
+        printInfo[42].numero.padEnd(6) +
+        "  " +
         printInfo[42].option.charAt(0) +
         "     " +
         printInfo[42].montant +
@@ -21085,8 +21085,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[43].numero +
-        "      " +
+        printInfo[43].numero.padEnd(6) +
+        "  " +
         printInfo[43].option.charAt(0) +
         "     " +
         printInfo[43].montant +
@@ -21100,8 +21100,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[44].numero +
-        "      " +
+        printInfo[44].numero.padEnd(6) +
+        "  " +
         printInfo[44].option.charAt(0) +
         "     " +
         printInfo[44].montant +
@@ -21115,8 +21115,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[45].numero +
-        "      " +
+        printInfo[45].numero.padEnd(6) +
+        "  " +
         printInfo[45].option.charAt(0) +
         "     " +
         printInfo[45].montant +
@@ -21130,8 +21130,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[46].numero +
-        "      " +
+        printInfo[46].numero.padEnd(6) +
+        "  " +
         printInfo[46].option.charAt(0) +
         "     " +
         printInfo[46].montant +
@@ -21145,8 +21145,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[47].numero +
-        "      " +
+        printInfo[47].numero.padEnd(6) +
+        "  " +
         printInfo[47].option.charAt(0) +
         "     " +
         printInfo[47].montant +
@@ -21160,8 +21160,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[48].numero +
-        "      " +
+        printInfo[48].numero.padEnd(6) +
+        "  " +
         printInfo[48].option.charAt(0) +
         "     " +
         printInfo[48].montant +
@@ -21175,8 +21175,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[49].numero +
-        "      " +
+        printInfo[49].numero.padEnd(6) +
+        "  " +
         printInfo[49].option.charAt(0) +
         "     " +
         printInfo[49].montant +
@@ -21191,8 +21191,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[0].numero +
-        "      " +
+        printInfo[0].numero.padEnd(6) +
+        "  " +
         printInfo[0].option.charAt(0) +
         "     " +
         printInfo[0].montant +
@@ -21206,8 +21206,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[1].numero +
-        "      " +
+        printInfo[1].numero.padEnd(6) +
+        "  " +
         printInfo[1].option.charAt(0) +
         "     " +
         printInfo[1].montant +
@@ -21221,8 +21221,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[2].numero +
-        "      " +
+        printInfo[2].numero.padEnd(6) +
+        "  " +
         printInfo[2].option.charAt(0) +
         "     " +
         printInfo[2].montant +
@@ -21236,8 +21236,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[3].numero +
-        "      " +
+        printInfo[3].numero.padEnd(6) +
+        "  " +
         printInfo[3].option.charAt(0) +
         "     " +
         printInfo[3].montant +
@@ -21251,8 +21251,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[4].numero +
-        "      " +
+        printInfo[4].numero.padEnd(6) +
+        "  " +
         printInfo[4].option.charAt(0) +
         "     " +
         printInfo[4].montant +
@@ -21266,8 +21266,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[5].numero +
-        "      " +
+        printInfo[5].numero.padEnd(6) +
+        "  " +
         printInfo[5].option.charAt(0) +
         "     " +
         printInfo[5].montant +
@@ -21281,8 +21281,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[6].numero +
-        "      " +
+        printInfo[6].numero.padEnd(6) +
+        "  " +
         printInfo[6].option.charAt(0) +
         "     " +
         printInfo[6].montant +
@@ -21296,8 +21296,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[7].numero +
-        "      " +
+        printInfo[7].numero.padEnd(6) +
+        "  " +
         printInfo[7].option.charAt(0) +
         "     " +
         printInfo[7].montant +
@@ -21311,8 +21311,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[8].numero +
-        "      " +
+        printInfo[8].numero.padEnd(6) +
+        "  " +
         printInfo[8].option.charAt(0) +
         "     " +
         printInfo[8].montant +
@@ -21326,8 +21326,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[9].numero +
-        "      " +
+        printInfo[9].numero.padEnd(6) +
+        "  " +
         printInfo[9].option.charAt(0) +
         "     " +
         printInfo[9].montant +
@@ -21341,8 +21341,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[10].numero +
-        "      " +
+        printInfo[10].numero.padEnd(6) +
+        "  " +
         printInfo[10].option.charAt(0) +
         "     " +
         printInfo[10].montant +
@@ -21356,8 +21356,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[11].numero +
-        "      " +
+        printInfo[11].numero.padEnd(6) +
+        "  " +
         printInfo[11].option.charAt(0) +
         "     " +
         printInfo[11].montant +
@@ -21371,8 +21371,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[12].numero +
-        "      " +
+        printInfo[12].numero.padEnd(6) +
+        "  " +
         printInfo[12].option.charAt(0) +
         "     " +
         printInfo[12].montant +
@@ -21386,8 +21386,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[13].numero +
-        "      " +
+        printInfo[13].numero.padEnd(6) +
+        "  " +
         printInfo[13].option.charAt(0) +
         "     " +
         printInfo[13].montant +
@@ -21401,8 +21401,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[14].numero +
-        "      " +
+        printInfo[14].numero.padEnd(6) +
+        "  " +
         printInfo[14].option.charAt(0) +
         "     " +
         printInfo[14].montant +
@@ -21416,8 +21416,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[15].numero +
-        "      " +
+        printInfo[15].numero.padEnd(6) +
+        "  " +
         printInfo[15].option.charAt(0) +
         "     " +
         printInfo[15].montant +
@@ -21431,8 +21431,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[16].numero +
-        "      " +
+        printInfo[16].numero.padEnd(6) +
+        "  " +
         printInfo[16].option.charAt(0) +
         "     " +
         printInfo[16].montant +
@@ -21446,8 +21446,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[17].numero +
-        "      " +
+        printInfo[17].numero.padEnd(6) +
+        "  " +
         printInfo[17].option.charAt(0) +
         "     " +
         printInfo[17].montant +
@@ -21461,8 +21461,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[18].numero +
-        "      " +
+        printInfo[18].numero.padEnd(6) +
+        "  " +
         printInfo[18].option.charAt(0) +
         "     " +
         printInfo[18].montant +
@@ -21476,8 +21476,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[19].numero +
-        "      " +
+        printInfo[19].numero.padEnd(6) +
+        "  " +
         printInfo[19].option.charAt(0) +
         "     " +
         printInfo[19].montant +
@@ -21491,8 +21491,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[20].numero +
-        "      " +
+        printInfo[20].numero.padEnd(6) +
+        "  " +
         printInfo[20].option.charAt(0) +
         "     " +
         printInfo[20].montant +
@@ -21506,8 +21506,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[21].numero +
-        "      " +
+        printInfo[21].numero.padEnd(6) +
+        "  " +
         printInfo[21].option.charAt(0) +
         "     " +
         printInfo[21].montant +
@@ -21521,8 +21521,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[22].numero +
-        "      " +
+        printInfo[22].numero.padEnd(6) +
+        "  " +
         printInfo[22].option.charAt(0) +
         "     " +
         printInfo[22].montant +
@@ -21536,8 +21536,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[23].numero +
-        "      " +
+        printInfo[23].numero.padEnd(6) +
+        "  " +
         printInfo[23].option.charAt(0) +
         "     " +
         printInfo[23].montant +
@@ -21551,8 +21551,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[24].numero +
-        "      " +
+        printInfo[24].numero.padEnd(6) +
+        "  " +
         printInfo[24].option.charAt(0) +
         "     " +
         printInfo[24].montant +
@@ -21566,8 +21566,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[25].numero +
-        "      " +
+        printInfo[25].numero.padEnd(6) +
+        "  " +
         printInfo[25].option.charAt(0) +
         "     " +
         printInfo[25].montant +
@@ -21581,8 +21581,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[26].numero +
-        "      " +
+        printInfo[26].numero.padEnd(6) +
+        "  " +
         printInfo[26].option.charAt(0) +
         "     " +
         printInfo[26].montant +
@@ -21596,8 +21596,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[27].numero +
-        "      " +
+        printInfo[27].numero.padEnd(6) +
+        "  " +
         printInfo[27].option.charAt(0) +
         "     " +
         printInfo[27].montant +
@@ -21611,8 +21611,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[28].numero +
-        "      " +
+        printInfo[28].numero.padEnd(6) +
+        "  " +
         printInfo[28].option.charAt(0) +
         "     " +
         printInfo[28].montant +
@@ -21626,8 +21626,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[29].numero +
-        "      " +
+        printInfo[29].numero.padEnd(6) +
+        "  " +
         printInfo[29].option.charAt(0) +
         "     " +
         printInfo[29].montant +
@@ -21641,8 +21641,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[30].numero +
-        "      " +
+        printInfo[30].numero.padEnd(6) +
+        "  " +
         printInfo[30].option.charAt(0) +
         "     " +
         printInfo[30].montant +
@@ -21656,8 +21656,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[31].numero +
-        "      " +
+        printInfo[31].numero.padEnd(6) +
+        "  " +
         printInfo[31].option.charAt(0) +
         "     " +
         printInfo[31].montant +
@@ -21671,8 +21671,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[32].numero +
-        "      " +
+        printInfo[32].numero.padEnd(6) +
+        "  " +
         printInfo[32].option.charAt(0) +
         "     " +
         printInfo[32].montant +
@@ -21686,8 +21686,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[33].numero +
-        "      " +
+        printInfo[33].numero.padEnd(6) +
+        "  " +
         printInfo[33].option.charAt(0) +
         "     " +
         printInfo[33].montant +
@@ -21701,8 +21701,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[34].numero +
-        "      " +
+        printInfo[34].numero.padEnd(6) +
+        "  " +
         printInfo[34].option.charAt(0) +
         "     " +
         printInfo[34].montant +
@@ -21716,8 +21716,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[35].numero +
-        "      " +
+        printInfo[35].numero.padEnd(6) +
+        "  " +
         printInfo[35].option.charAt(0) +
         "     " +
         printInfo[35].montant +
@@ -21731,8 +21731,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[36].numero +
-        "      " +
+        printInfo[36].numero.padEnd(6) +
+        "  " +
         printInfo[36].option.charAt(0) +
         "     " +
         printInfo[36].montant +
@@ -21746,8 +21746,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[37].numero +
-        "      " +
+        printInfo[37].numero.padEnd(6) +
+        "  " +
         printInfo[37].option.charAt(0) +
         "     " +
         printInfo[37].montant +
@@ -21761,8 +21761,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[38].numero +
-        "      " +
+        printInfo[38].numero.padEnd(6) +
+        "  " +
         printInfo[38].option.charAt(0) +
         "     " +
         printInfo[38].montant +
@@ -21776,8 +21776,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[39].numero +
-        "      " +
+        printInfo[39].numero.padEnd(6) +
+        "  " +
         printInfo[39].option.charAt(0) +
         "     " +
         printInfo[39].montant +
@@ -21791,8 +21791,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[40].numero +
-        "      " +
+        printInfo[40].numero.padEnd(6) +
+        "  " +
         printInfo[40].option.charAt(0) +
         "     " +
         printInfo[40].montant +
@@ -21806,8 +21806,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[41].numero +
-        "      " +
+        printInfo[41].numero.padEnd(6) +
+        "  " +
         printInfo[41].option.charAt(0) +
         "     " +
         printInfo[41].montant +
@@ -21821,8 +21821,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[42].numero +
-        "      " +
+        printInfo[42].numero.padEnd(6) +
+        "  " +
         printInfo[42].option.charAt(0) +
         "     " +
         printInfo[42].montant +
@@ -21836,8 +21836,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[43].numero +
-        "      " +
+        printInfo[43].numero.padEnd(6) +
+        "  " +
         printInfo[43].option.charAt(0) +
         "     " +
         printInfo[43].montant +
@@ -21851,8 +21851,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[44].numero +
-        "      " +
+        printInfo[44].numero.padEnd(6) +
+        "  " +
         printInfo[44].option.charAt(0) +
         "     " +
         printInfo[44].montant +
@@ -21866,8 +21866,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[45].numero +
-        "      " +
+        printInfo[45].numero.padEnd(6) +
+        "  " +
         printInfo[45].option.charAt(0) +
         "     " +
         printInfo[45].montant +
@@ -21881,8 +21881,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[46].numero +
-        "      " +
+        printInfo[46].numero.padEnd(6) +
+        "  " +
         printInfo[46].option.charAt(0) +
         "     " +
         printInfo[46].montant +
@@ -21896,8 +21896,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[47].numero +
-        "      " +
+        printInfo[47].numero.padEnd(6) +
+        "  " +
         printInfo[47].option.charAt(0) +
         "     " +
         printInfo[47].montant +
@@ -21911,8 +21911,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[48].numero +
-        "      " +
+        printInfo[48].numero.padEnd(6) +
+        "  " +
         printInfo[48].option.charAt(0) +
         "     " +
         printInfo[48].montant +
@@ -21926,8 +21926,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[49].numero +
-        "      " +
+        printInfo[49].numero.padEnd(6) +
+        "  " +
         printInfo[49].option.charAt(0) +
         "     " +
         printInfo[49].montant +
@@ -21941,8 +21941,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[50].numero +
-        "      " +
+        printInfo[50].numero.padEnd(6) +
+        "  " +
         printInfo[50].option.charAt(0) +
         "     " +
         printInfo[50].montant +
@@ -21957,8 +21957,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[0].numero +
-        "      " +
+        printInfo[0].numero.padEnd(6) +
+        "  " +
         printInfo[0].option.charAt(0) +
         "     " +
         printInfo[0].montant +
@@ -21972,8 +21972,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[1].numero +
-        "      " +
+        printInfo[1].numero.padEnd(6) +
+        "  " +
         printInfo[1].option.charAt(0) +
         "     " +
         printInfo[1].montant +
@@ -21987,8 +21987,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[2].numero +
-        "      " +
+        printInfo[2].numero.padEnd(6) +
+        "  " +
         printInfo[2].option.charAt(0) +
         "     " +
         printInfo[2].montant +
@@ -22002,8 +22002,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[3].numero +
-        "      " +
+        printInfo[3].numero.padEnd(6) +
+        "  " +
         printInfo[3].option.charAt(0) +
         "     " +
         printInfo[3].montant +
@@ -22017,8 +22017,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[4].numero +
-        "      " +
+        printInfo[4].numero.padEnd(6) +
+        "  " +
         printInfo[4].option.charAt(0) +
         "     " +
         printInfo[4].montant +
@@ -22032,8 +22032,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[5].numero +
-        "      " +
+        printInfo[5].numero.padEnd(6) +
+        "  " +
         printInfo[5].option.charAt(0) +
         "     " +
         printInfo[5].montant +
@@ -22047,8 +22047,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[6].numero +
-        "      " +
+        printInfo[6].numero.padEnd(6) +
+        "  " +
         printInfo[6].option.charAt(0) +
         "     " +
         printInfo[6].montant +
@@ -22062,8 +22062,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[7].numero +
-        "      " +
+        printInfo[7].numero.padEnd(6) +
+        "  " +
         printInfo[7].option.charAt(0) +
         "     " +
         printInfo[7].montant +
@@ -22077,8 +22077,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[8].numero +
-        "      " +
+        printInfo[8].numero.padEnd(6) +
+        "  " +
         printInfo[8].option.charAt(0) +
         "     " +
         printInfo[8].montant +
@@ -22092,8 +22092,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[9].numero +
-        "      " +
+        printInfo[9].numero.padEnd(6) +
+        "  " +
         printInfo[9].option.charAt(0) +
         "     " +
         printInfo[9].montant +
@@ -22107,8 +22107,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[10].numero +
-        "      " +
+        printInfo[10].numero.padEnd(6) +
+        "  " +
         printInfo[10].option.charAt(0) +
         "     " +
         printInfo[10].montant +
@@ -22122,8 +22122,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[11].numero +
-        "      " +
+        printInfo[11].numero.padEnd(6) +
+        "  " +
         printInfo[11].option.charAt(0) +
         "     " +
         printInfo[11].montant +
@@ -22137,8 +22137,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[12].numero +
-        "      " +
+        printInfo[12].numero.padEnd(6) +
+        "  " +
         printInfo[12].option.charAt(0) +
         "     " +
         printInfo[12].montant +
@@ -22152,8 +22152,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[13].numero +
-        "      " +
+        printInfo[13].numero.padEnd(6) +
+        "  " +
         printInfo[13].option.charAt(0) +
         "     " +
         printInfo[13].montant +
@@ -22167,8 +22167,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[14].numero +
-        "      " +
+        printInfo[14].numero.padEnd(6) +
+        "  " +
         printInfo[14].option.charAt(0) +
         "     " +
         printInfo[14].montant +
@@ -22182,8 +22182,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[15].numero +
-        "      " +
+        printInfo[15].numero.padEnd(6) +
+        "  " +
         printInfo[15].option.charAt(0) +
         "     " +
         printInfo[15].montant +
@@ -22197,8 +22197,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[16].numero +
-        "      " +
+        printInfo[16].numero.padEnd(6) +
+        "  " +
         printInfo[16].option.charAt(0) +
         "     " +
         printInfo[16].montant +
@@ -22212,8 +22212,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[17].numero +
-        "      " +
+        printInfo[17].numero.padEnd(6) +
+        "  " +
         printInfo[17].option.charAt(0) +
         "     " +
         printInfo[17].montant +
@@ -22227,8 +22227,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[18].numero +
-        "      " +
+        printInfo[18].numero.padEnd(6) +
+        "  " +
         printInfo[18].option.charAt(0) +
         "     " +
         printInfo[18].montant +
@@ -22242,8 +22242,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[19].numero +
-        "      " +
+        printInfo[19].numero.padEnd(6) +
+        "  " +
         printInfo[19].option.charAt(0) +
         "     " +
         printInfo[19].montant +
@@ -22257,8 +22257,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[20].numero +
-        "      " +
+        printInfo[20].numero.padEnd(6) +
+        "  " +
         printInfo[20].option.charAt(0) +
         "     " +
         printInfo[20].montant +
@@ -22272,8 +22272,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[21].numero +
-        "      " +
+        printInfo[21].numero.padEnd(6) +
+        "  " +
         printInfo[21].option.charAt(0) +
         "     " +
         printInfo[21].montant +
@@ -22287,8 +22287,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[22].numero +
-        "      " +
+        printInfo[22].numero.padEnd(6) +
+        "  " +
         printInfo[22].option.charAt(0) +
         "     " +
         printInfo[22].montant +
@@ -22302,8 +22302,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[23].numero +
-        "      " +
+        printInfo[23].numero.padEnd(6) +
+        "  " +
         printInfo[23].option.charAt(0) +
         "     " +
         printInfo[23].montant +
@@ -22317,8 +22317,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[24].numero +
-        "      " +
+        printInfo[24].numero.padEnd(6) +
+        "  " +
         printInfo[24].option.charAt(0) +
         "     " +
         printInfo[24].montant +
@@ -22332,8 +22332,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[25].numero +
-        "      " +
+        printInfo[25].numero.padEnd(6) +
+        "  " +
         printInfo[25].option.charAt(0) +
         "     " +
         printInfo[25].montant +
@@ -22347,8 +22347,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[26].numero +
-        "      " +
+        printInfo[26].numero.padEnd(6) +
+        "  " +
         printInfo[26].option.charAt(0) +
         "     " +
         printInfo[26].montant +
@@ -22362,8 +22362,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[27].numero +
-        "      " +
+        printInfo[27].numero.padEnd(6) +
+        "  " +
         printInfo[27].option.charAt(0) +
         "     " +
         printInfo[27].montant +
@@ -22377,8 +22377,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[28].numero +
-        "      " +
+        printInfo[28].numero.padEnd(6) +
+        "  " +
         printInfo[28].option.charAt(0) +
         "     " +
         printInfo[28].montant +
@@ -22392,8 +22392,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[29].numero +
-        "      " +
+        printInfo[29].numero.padEnd(6) +
+        "  " +
         printInfo[29].option.charAt(0) +
         "     " +
         printInfo[29].montant +
@@ -22407,8 +22407,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[30].numero +
-        "      " +
+        printInfo[30].numero.padEnd(6) +
+        "  " +
         printInfo[30].option.charAt(0) +
         "     " +
         printInfo[30].montant +
@@ -22422,8 +22422,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[31].numero +
-        "      " +
+        printInfo[31].numero.padEnd(6) +
+        "  " +
         printInfo[31].option.charAt(0) +
         "     " +
         printInfo[31].montant +
@@ -22437,8 +22437,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[32].numero +
-        "      " +
+        printInfo[32].numero.padEnd(6) +
+        "  " +
         printInfo[32].option.charAt(0) +
         "     " +
         printInfo[32].montant +
@@ -22452,8 +22452,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[33].numero +
-        "      " +
+        printInfo[33].numero.padEnd(6) +
+        "  " +
         printInfo[33].option.charAt(0) +
         "     " +
         printInfo[33].montant +
@@ -22467,8 +22467,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[34].numero +
-        "      " +
+        printInfo[34].numero.padEnd(6) +
+        "  " +
         printInfo[34].option.charAt(0) +
         "     " +
         printInfo[34].montant +
@@ -22482,8 +22482,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[35].numero +
-        "      " +
+        printInfo[35].numero.padEnd(6) +
+        "  " +
         printInfo[35].option.charAt(0) +
         "     " +
         printInfo[35].montant +
@@ -22497,8 +22497,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[36].numero +
-        "      " +
+        printInfo[36].numero.padEnd(6) +
+        "  " +
         printInfo[36].option.charAt(0) +
         "     " +
         printInfo[36].montant +
@@ -22512,8 +22512,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[37].numero +
-        "      " +
+        printInfo[37].numero.padEnd(6) +
+        "  " +
         printInfo[37].option.charAt(0) +
         "     " +
         printInfo[37].montant +
@@ -22527,8 +22527,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[38].numero +
-        "      " +
+        printInfo[38].numero.padEnd(6) +
+        "  " +
         printInfo[38].option.charAt(0) +
         "     " +
         printInfo[38].montant +
@@ -22542,8 +22542,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[39].numero +
-        "      " +
+        printInfo[39].numero.padEnd(6) +
+        "  " +
         printInfo[39].option.charAt(0) +
         "     " +
         printInfo[39].montant +
@@ -22557,8 +22557,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[40].numero +
-        "      " +
+        printInfo[40].numero.padEnd(6) +
+        "  " +
         printInfo[40].option.charAt(0) +
         "     " +
         printInfo[40].montant +
@@ -22572,8 +22572,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[41].numero +
-        "      " +
+        printInfo[41].numero.padEnd(6) +
+        "  " +
         printInfo[41].option.charAt(0) +
         "     " +
         printInfo[41].montant +
@@ -22587,8 +22587,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[42].numero +
-        "      " +
+        printInfo[42].numero.padEnd(6) +
+        "  " +
         printInfo[42].option.charAt(0) +
         "     " +
         printInfo[42].montant +
@@ -22602,8 +22602,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[43].numero +
-        "      " +
+        printInfo[43].numero.padEnd(6) +
+        "  " +
         printInfo[43].option.charAt(0) +
         "     " +
         printInfo[43].montant +
@@ -22617,8 +22617,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[44].numero +
-        "      " +
+        printInfo[44].numero.padEnd(6) +
+        "  " +
         printInfo[44].option.charAt(0) +
         "     " +
         printInfo[44].montant +
@@ -22632,8 +22632,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[45].numero +
-        "      " +
+        printInfo[45].numero.padEnd(6) +
+        "  " +
         printInfo[45].option.charAt(0) +
         "     " +
         printInfo[45].montant +
@@ -22647,8 +22647,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[46].numero +
-        "      " +
+        printInfo[46].numero.padEnd(6) +
+        "  " +
         printInfo[46].option.charAt(0) +
         "     " +
         printInfo[46].montant +
@@ -22662,8 +22662,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[47].numero +
-        "      " +
+        printInfo[47].numero.padEnd(6) +
+        "  " +
         printInfo[47].option.charAt(0) +
         "     " +
         printInfo[47].montant +
@@ -22677,8 +22677,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[48].numero +
-        "      " +
+        printInfo[48].numero.padEnd(6) +
+        "  " +
         printInfo[48].option.charAt(0) +
         "     " +
         printInfo[48].montant +
@@ -22692,8 +22692,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[49].numero +
-        "      " +
+        printInfo[49].numero.padEnd(6) +
+        "  " +
         printInfo[49].option.charAt(0) +
         "     " +
         printInfo[49].montant +
@@ -22707,8 +22707,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[50].numero +
-        "      " +
+        printInfo[50].numero.padEnd(6) +
+        "  " +
         printInfo[50].option.charAt(0) +
         "     " +
         printInfo[50].montant +
@@ -22722,8 +22722,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[51].numero +
-        "      " +
+        printInfo[51].numero.padEnd(6) +
+        "  " +
         printInfo[51].option.charAt(0) +
         "     " +
         printInfo[51].montant +
@@ -22738,8 +22738,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[0].numero +
-        "      " +
+        printInfo[0].numero.padEnd(6) +
+        "  " +
         printInfo[0].option.charAt(0) +
         "     " +
         printInfo[0].montant +
@@ -22753,8 +22753,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[1].numero +
-        "      " +
+        printInfo[1].numero.padEnd(6) +
+        "  " +
         printInfo[1].option.charAt(0) +
         "     " +
         printInfo[1].montant +
@@ -22768,8 +22768,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[2].numero +
-        "      " +
+        printInfo[2].numero.padEnd(6) +
+        "  " +
         printInfo[2].option.charAt(0) +
         "     " +
         printInfo[2].montant +
@@ -22783,8 +22783,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[3].numero +
-        "      " +
+        printInfo[3].numero.padEnd(6) +
+        "  " +
         printInfo[3].option.charAt(0) +
         "     " +
         printInfo[3].montant +
@@ -22798,8 +22798,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[4].numero +
-        "      " +
+        printInfo[4].numero.padEnd(6) +
+        "  " +
         printInfo[4].option.charAt(0) +
         "     " +
         printInfo[4].montant +
@@ -22813,8 +22813,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[5].numero +
-        "      " +
+        printInfo[5].numero.padEnd(6) +
+        "  " +
         printInfo[5].option.charAt(0) +
         "     " +
         printInfo[5].montant +
@@ -22828,8 +22828,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[6].numero +
-        "      " +
+        printInfo[6].numero.padEnd(6) +
+        "  " +
         printInfo[6].option.charAt(0) +
         "     " +
         printInfo[6].montant +
@@ -22843,8 +22843,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[7].numero +
-        "      " +
+        printInfo[7].numero.padEnd(6) +
+        "  " +
         printInfo[7].option.charAt(0) +
         "     " +
         printInfo[7].montant +
@@ -22858,8 +22858,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[8].numero +
-        "      " +
+        printInfo[8].numero.padEnd(6) +
+        "  " +
         printInfo[8].option.charAt(0) +
         "     " +
         printInfo[8].montant +
@@ -22873,8 +22873,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[9].numero +
-        "      " +
+        printInfo[9].numero.padEnd(6) +
+        "  " +
         printInfo[9].option.charAt(0) +
         "     " +
         printInfo[9].montant +
@@ -22888,8 +22888,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[10].numero +
-        "      " +
+        printInfo[10].numero.padEnd(6) +
+        "  " +
         printInfo[10].option.charAt(0) +
         "     " +
         printInfo[10].montant +
@@ -22903,8 +22903,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[11].numero +
-        "      " +
+        printInfo[11].numero.padEnd(6) +
+        "  " +
         printInfo[11].option.charAt(0) +
         "     " +
         printInfo[11].montant +
@@ -22918,8 +22918,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[12].numero +
-        "      " +
+        printInfo[12].numero.padEnd(6) +
+        "  " +
         printInfo[12].option.charAt(0) +
         "     " +
         printInfo[12].montant +
@@ -22933,8 +22933,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[13].numero +
-        "      " +
+        printInfo[13].numero.padEnd(6) +
+        "  " +
         printInfo[13].option.charAt(0) +
         "     " +
         printInfo[13].montant +
@@ -22948,8 +22948,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[14].numero +
-        "      " +
+        printInfo[14].numero.padEnd(6) +
+        "  " +
         printInfo[14].option.charAt(0) +
         "     " +
         printInfo[14].montant +
@@ -22963,8 +22963,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[15].numero +
-        "      " +
+        printInfo[15].numero.padEnd(6) +
+        "  " +
         printInfo[15].option.charAt(0) +
         "     " +
         printInfo[15].montant +
@@ -22978,8 +22978,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[16].numero +
-        "      " +
+        printInfo[16].numero.padEnd(6) +
+        "  " +
         printInfo[16].option.charAt(0) +
         "     " +
         printInfo[16].montant +
@@ -22993,8 +22993,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[17].numero +
-        "      " +
+        printInfo[17].numero.padEnd(6) +
+        "  " +
         printInfo[17].option.charAt(0) +
         "     " +
         printInfo[17].montant +
@@ -23008,8 +23008,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[18].numero +
-        "      " +
+        printInfo[18].numero.padEnd(6) +
+        "  " +
         printInfo[18].option.charAt(0) +
         "     " +
         printInfo[18].montant +
@@ -23023,8 +23023,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[19].numero +
-        "      " +
+        printInfo[19].numero.padEnd(6) +
+        "  " +
         printInfo[19].option.charAt(0) +
         "     " +
         printInfo[19].montant +
@@ -23038,8 +23038,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[20].numero +
-        "      " +
+        printInfo[20].numero.padEnd(6) +
+        "  " +
         printInfo[20].option.charAt(0) +
         "     " +
         printInfo[20].montant +
@@ -23053,8 +23053,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[21].numero +
-        "      " +
+        printInfo[21].numero.padEnd(6) +
+        "  " +
         printInfo[21].option.charAt(0) +
         "     " +
         printInfo[21].montant +
@@ -23068,8 +23068,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[22].numero +
-        "      " +
+        printInfo[22].numero.padEnd(6) +
+        "  " +
         printInfo[22].option.charAt(0) +
         "     " +
         printInfo[22].montant +
@@ -23083,8 +23083,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[23].numero +
-        "      " +
+        printInfo[23].numero.padEnd(6) +
+        "  " +
         printInfo[23].option.charAt(0) +
         "     " +
         printInfo[23].montant +
@@ -23098,8 +23098,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[24].numero +
-        "      " +
+        printInfo[24].numero.padEnd(6) +
+        "  " +
         printInfo[24].option.charAt(0) +
         "     " +
         printInfo[24].montant +
@@ -23113,8 +23113,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[25].numero +
-        "      " +
+        printInfo[25].numero.padEnd(6) +
+        "  " +
         printInfo[25].option.charAt(0) +
         "     " +
         printInfo[25].montant +
@@ -23128,8 +23128,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[26].numero +
-        "      " +
+        printInfo[26].numero.padEnd(6) +
+        "  " +
         printInfo[26].option.charAt(0) +
         "     " +
         printInfo[26].montant +
@@ -23143,8 +23143,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[27].numero +
-        "      " +
+        printInfo[27].numero.padEnd(6) +
+        "  " +
         printInfo[27].option.charAt(0) +
         "     " +
         printInfo[27].montant +
@@ -23158,8 +23158,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[28].numero +
-        "      " +
+        printInfo[28].numero.padEnd(6) +
+        "  " +
         printInfo[28].option.charAt(0) +
         "     " +
         printInfo[28].montant +
@@ -23173,8 +23173,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[29].numero +
-        "      " +
+        printInfo[29].numero.padEnd(6) +
+        "  " +
         printInfo[29].option.charAt(0) +
         "     " +
         printInfo[29].montant +
@@ -23188,8 +23188,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[30].numero +
-        "      " +
+        printInfo[30].numero.padEnd(6) +
+        "  " +
         printInfo[30].option.charAt(0) +
         "     " +
         printInfo[30].montant +
@@ -23203,8 +23203,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[31].numero +
-        "      " +
+        printInfo[31].numero.padEnd(6) +
+        "  " +
         printInfo[31].option.charAt(0) +
         "     " +
         printInfo[31].montant +
@@ -23218,8 +23218,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[32].numero +
-        "      " +
+        printInfo[32].numero.padEnd(6) +
+        "  " +
         printInfo[32].option.charAt(0) +
         "     " +
         printInfo[32].montant +
@@ -23233,8 +23233,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[33].numero +
-        "      " +
+        printInfo[33].numero.padEnd(6) +
+        "  " +
         printInfo[33].option.charAt(0) +
         "     " +
         printInfo[33].montant +
@@ -23248,8 +23248,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[34].numero +
-        "      " +
+        printInfo[34].numero.padEnd(6) +
+        "  " +
         printInfo[34].option.charAt(0) +
         "     " +
         printInfo[34].montant +
@@ -23263,8 +23263,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[35].numero +
-        "      " +
+        printInfo[35].numero.padEnd(6) +
+        "  " +
         printInfo[35].option.charAt(0) +
         "     " +
         printInfo[35].montant +
@@ -23278,8 +23278,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[36].numero +
-        "      " +
+        printInfo[36].numero.padEnd(6) +
+        "  " +
         printInfo[36].option.charAt(0) +
         "     " +
         printInfo[36].montant +
@@ -23293,8 +23293,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[37].numero +
-        "      " +
+        printInfo[37].numero.padEnd(6) +
+        "  " +
         printInfo[37].option.charAt(0) +
         "     " +
         printInfo[37].montant +
@@ -23308,8 +23308,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[38].numero +
-        "      " +
+        printInfo[38].numero.padEnd(6) +
+        "  " +
         printInfo[38].option.charAt(0) +
         "     " +
         printInfo[38].montant +
@@ -23323,8 +23323,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[39].numero +
-        "      " +
+        printInfo[39].numero.padEnd(6) +
+        "  " +
         printInfo[39].option.charAt(0) +
         "     " +
         printInfo[39].montant +
@@ -23338,8 +23338,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[40].numero +
-        "      " +
+        printInfo[40].numero.padEnd(6) +
+        "  " +
         printInfo[40].option.charAt(0) +
         "     " +
         printInfo[40].montant +
@@ -23353,8 +23353,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[41].numero +
-        "      " +
+        printInfo[41].numero.padEnd(6) +
+        "  " +
         printInfo[41].option.charAt(0) +
         "     " +
         printInfo[41].montant +
@@ -23368,8 +23368,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[42].numero +
-        "      " +
+        printInfo[42].numero.padEnd(6) +
+        "  " +
         printInfo[42].option.charAt(0) +
         "     " +
         printInfo[42].montant +
@@ -23383,8 +23383,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[43].numero +
-        "      " +
+        printInfo[43].numero.padEnd(6) +
+        "  " +
         printInfo[43].option.charAt(0) +
         "     " +
         printInfo[43].montant +
@@ -23398,8 +23398,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[44].numero +
-        "      " +
+        printInfo[44].numero.padEnd(6) +
+        "  " +
         printInfo[44].option.charAt(0) +
         "     " +
         printInfo[44].montant +
@@ -23413,8 +23413,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[45].numero +
-        "      " +
+        printInfo[45].numero.padEnd(6) +
+        "  " +
         printInfo[45].option.charAt(0) +
         "     " +
         printInfo[45].montant +
@@ -23428,8 +23428,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[46].numero +
-        "      " +
+        printInfo[46].numero.padEnd(6) +
+        "  " +
         printInfo[46].option.charAt(0) +
         "     " +
         printInfo[46].montant +
@@ -23443,8 +23443,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[47].numero +
-        "      " +
+        printInfo[47].numero.padEnd(6) +
+        "  " +
         printInfo[47].option.charAt(0) +
         "     " +
         printInfo[47].montant +
@@ -23458,8 +23458,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[48].numero +
-        "      " +
+        printInfo[48].numero.padEnd(6) +
+        "  " +
         printInfo[48].option.charAt(0) +
         "     " +
         printInfo[48].montant +
@@ -23473,8 +23473,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[49].numero +
-        "      " +
+        printInfo[49].numero.padEnd(6) +
+        "  " +
         printInfo[49].option.charAt(0) +
         "     " +
         printInfo[49].montant +
@@ -23488,8 +23488,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[50].numero +
-        "      " +
+        printInfo[50].numero.padEnd(6) +
+        "  " +
         printInfo[50].option.charAt(0) +
         "     " +
         printInfo[50].montant +
@@ -23503,8 +23503,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[51].numero +
-        "      " +
+        printInfo[51].numero.padEnd(6) +
+        "  " +
         printInfo[51].option.charAt(0) +
         "     " +
         printInfo[51].montant +
@@ -23518,8 +23518,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[52].numero +
-        "      " +
+        printInfo[52].numero.padEnd(6) +
+        "  " +
         printInfo[52].option.charAt(0) +
         "     " +
         printInfo[52].montant +
@@ -23534,8 +23534,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[0].numero +
-        "      " +
+        printInfo[0].numero.padEnd(6) +
+        "  " +
         printInfo[0].option.charAt(0) +
         "     " +
         printInfo[0].montant +
@@ -23549,8 +23549,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[1].numero +
-        "      " +
+        printInfo[1].numero.padEnd(6) +
+        "  " +
         printInfo[1].option.charAt(0) +
         "     " +
         printInfo[1].montant +
@@ -23564,8 +23564,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[2].numero +
-        "      " +
+        printInfo[2].numero.padEnd(6) +
+        "  " +
         printInfo[2].option.charAt(0) +
         "     " +
         printInfo[2].montant +
@@ -23579,8 +23579,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[3].numero +
-        "      " +
+        printInfo[3].numero.padEnd(6) +
+        "  " +
         printInfo[3].option.charAt(0) +
         "     " +
         printInfo[3].montant +
@@ -23594,8 +23594,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[4].numero +
-        "      " +
+        printInfo[4].numero.padEnd(6) +
+        "  " +
         printInfo[4].option.charAt(0) +
         "     " +
         printInfo[4].montant +
@@ -23609,8 +23609,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[5].numero +
-        "      " +
+        printInfo[5].numero.padEnd(6) +
+        "  " +
         printInfo[5].option.charAt(0) +
         "     " +
         printInfo[5].montant +
@@ -23624,8 +23624,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[6].numero +
-        "      " +
+        printInfo[6].numero.padEnd(6) +
+        "  " +
         printInfo[6].option.charAt(0) +
         "     " +
         printInfo[6].montant +
@@ -23639,8 +23639,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[7].numero +
-        "      " +
+        printInfo[7].numero.padEnd(6) +
+        "  " +
         printInfo[7].option.charAt(0) +
         "     " +
         printInfo[7].montant +
@@ -23654,8 +23654,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[8].numero +
-        "      " +
+        printInfo[8].numero.padEnd(6) +
+        "  " +
         printInfo[8].option.charAt(0) +
         "     " +
         printInfo[8].montant +
@@ -23669,8 +23669,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[9].numero +
-        "      " +
+        printInfo[9].numero.padEnd(6) +
+        "  " +
         printInfo[9].option.charAt(0) +
         "     " +
         printInfo[9].montant +
@@ -23684,8 +23684,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[10].numero +
-        "      " +
+        printInfo[10].numero.padEnd(6) +
+        "  " +
         printInfo[10].option.charAt(0) +
         "     " +
         printInfo[10].montant +
@@ -23699,8 +23699,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[11].numero +
-        "      " +
+        printInfo[11].numero.padEnd(6) +
+        "  " +
         printInfo[11].option.charAt(0) +
         "     " +
         printInfo[11].montant +
@@ -23714,8 +23714,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[12].numero +
-        "      " +
+        printInfo[12].numero.padEnd(6) +
+        "  " +
         printInfo[12].option.charAt(0) +
         "     " +
         printInfo[12].montant +
@@ -23729,8 +23729,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[13].numero +
-        "      " +
+        printInfo[13].numero.padEnd(6) +
+        "  " +
         printInfo[13].option.charAt(0) +
         "     " +
         printInfo[13].montant +
@@ -23744,8 +23744,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[14].numero +
-        "      " +
+        printInfo[14].numero.padEnd(6) +
+        "  " +
         printInfo[14].option.charAt(0) +
         "     " +
         printInfo[14].montant +
@@ -23759,8 +23759,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[15].numero +
-        "      " +
+        printInfo[15].numero.padEnd(6) +
+        "  " +
         printInfo[15].option.charAt(0) +
         "     " +
         printInfo[15].montant +
@@ -23774,8 +23774,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[16].numero +
-        "      " +
+        printInfo[16].numero.padEnd(6) +
+        "  " +
         printInfo[16].option.charAt(0) +
         "     " +
         printInfo[16].montant +
@@ -23789,8 +23789,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[17].numero +
-        "      " +
+        printInfo[17].numero.padEnd(6) +
+        "  " +
         printInfo[17].option.charAt(0) +
         "     " +
         printInfo[17].montant +
@@ -23804,8 +23804,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[18].numero +
-        "      " +
+        printInfo[18].numero.padEnd(6) +
+        "  " +
         printInfo[18].option.charAt(0) +
         "     " +
         printInfo[18].montant +
@@ -23819,8 +23819,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[19].numero +
-        "      " +
+        printInfo[19].numero.padEnd(6) +
+        "  " +
         printInfo[19].option.charAt(0) +
         "     " +
         printInfo[19].montant +
@@ -23834,8 +23834,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[20].numero +
-        "      " +
+        printInfo[20].numero.padEnd(6) +
+        "  " +
         printInfo[20].option.charAt(0) +
         "     " +
         printInfo[20].montant +
@@ -23849,8 +23849,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[21].numero +
-        "      " +
+        printInfo[21].numero.padEnd(6) +
+        "  " +
         printInfo[21].option.charAt(0) +
         "     " +
         printInfo[21].montant +
@@ -23864,8 +23864,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[22].numero +
-        "      " +
+        printInfo[22].numero.padEnd(6) +
+        "  " +
         printInfo[22].option.charAt(0) +
         "     " +
         printInfo[22].montant +
@@ -23879,8 +23879,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[23].numero +
-        "      " +
+        printInfo[23].numero.padEnd(6) +
+        "  " +
         printInfo[23].option.charAt(0) +
         "     " +
         printInfo[23].montant +
@@ -23894,8 +23894,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[24].numero +
-        "      " +
+        printInfo[24].numero.padEnd(6) +
+        "  " +
         printInfo[24].option.charAt(0) +
         "     " +
         printInfo[24].montant +
@@ -23909,8 +23909,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[25].numero +
-        "      " +
+        printInfo[25].numero.padEnd(6) +
+        "  " +
         printInfo[25].option.charAt(0) +
         "     " +
         printInfo[25].montant +
@@ -23924,8 +23924,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[26].numero +
-        "      " +
+        printInfo[26].numero.padEnd(6) +
+        "  " +
         printInfo[26].option.charAt(0) +
         "     " +
         printInfo[26].montant +
@@ -23939,8 +23939,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[27].numero +
-        "      " +
+        printInfo[27].numero.padEnd(6) +
+        "  " +
         printInfo[27].option.charAt(0) +
         "     " +
         printInfo[27].montant +
@@ -23954,8 +23954,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[28].numero +
-        "      " +
+        printInfo[28].numero.padEnd(6) +
+        "  " +
         printInfo[28].option.charAt(0) +
         "     " +
         printInfo[28].montant +
@@ -23969,8 +23969,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[29].numero +
-        "      " +
+        printInfo[29].numero.padEnd(6) +
+        "  " +
         printInfo[29].option.charAt(0) +
         "     " +
         printInfo[29].montant +
@@ -23984,8 +23984,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[30].numero +
-        "      " +
+        printInfo[30].numero.padEnd(6) +
+        "  " +
         printInfo[30].option.charAt(0) +
         "     " +
         printInfo[30].montant +
@@ -23999,8 +23999,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[31].numero +
-        "      " +
+        printInfo[31].numero.padEnd(6) +
+        "  " +
         printInfo[31].option.charAt(0) +
         "     " +
         printInfo[31].montant +
@@ -24014,8 +24014,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[32].numero +
-        "      " +
+        printInfo[32].numero.padEnd(6) +
+        "  " +
         printInfo[32].option.charAt(0) +
         "     " +
         printInfo[32].montant +
@@ -24029,8 +24029,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[33].numero +
-        "      " +
+        printInfo[33].numero.padEnd(6) +
+        "  " +
         printInfo[33].option.charAt(0) +
         "     " +
         printInfo[33].montant +
@@ -24044,8 +24044,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[34].numero +
-        "      " +
+        printInfo[34].numero.padEnd(6) +
+        "  " +
         printInfo[34].option.charAt(0) +
         "     " +
         printInfo[34].montant +
@@ -24059,8 +24059,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[35].numero +
-        "      " +
+        printInfo[35].numero.padEnd(6) +
+        "  " +
         printInfo[35].option.charAt(0) +
         "     " +
         printInfo[35].montant +
@@ -24074,8 +24074,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[36].numero +
-        "      " +
+        printInfo[36].numero.padEnd(6) +
+        "  " +
         printInfo[36].option.charAt(0) +
         "     " +
         printInfo[36].montant +
@@ -24089,8 +24089,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[37].numero +
-        "      " +
+        printInfo[37].numero.padEnd(6) +
+        "  " +
         printInfo[37].option.charAt(0) +
         "     " +
         printInfo[37].montant +
@@ -24104,8 +24104,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[38].numero +
-        "      " +
+        printInfo[38].numero.padEnd(6) +
+        "  " +
         printInfo[38].option.charAt(0) +
         "     " +
         printInfo[38].montant +
@@ -24119,8 +24119,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[39].numero +
-        "      " +
+        printInfo[39].numero.padEnd(6) +
+        "  " +
         printInfo[39].option.charAt(0) +
         "     " +
         printInfo[39].montant +
@@ -24134,8 +24134,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[40].numero +
-        "      " +
+        printInfo[40].numero.padEnd(6) +
+        "  " +
         printInfo[40].option.charAt(0) +
         "     " +
         printInfo[40].montant +
@@ -24149,8 +24149,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[41].numero +
-        "      " +
+        printInfo[41].numero.padEnd(6) +
+        "  " +
         printInfo[41].option.charAt(0) +
         "     " +
         printInfo[41].montant +
@@ -24164,8 +24164,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[42].numero +
-        "      " +
+        printInfo[42].numero.padEnd(6) +
+        "  " +
         printInfo[42].option.charAt(0) +
         "     " +
         printInfo[42].montant +
@@ -24179,8 +24179,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[43].numero +
-        "      " +
+        printInfo[43].numero.padEnd(6) +
+        "  " +
         printInfo[43].option.charAt(0) +
         "     " +
         printInfo[43].montant +
@@ -24194,8 +24194,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[44].numero +
-        "      " +
+        printInfo[44].numero.padEnd(6) +
+        "  " +
         printInfo[44].option.charAt(0) +
         "     " +
         printInfo[44].montant +
@@ -24209,8 +24209,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[45].numero +
-        "      " +
+        printInfo[45].numero.padEnd(6) +
+        "  " +
         printInfo[45].option.charAt(0) +
         "     " +
         printInfo[45].montant +
@@ -24224,8 +24224,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[46].numero +
-        "      " +
+        printInfo[46].numero.padEnd(6) +
+        "  " +
         printInfo[46].option.charAt(0) +
         "     " +
         printInfo[46].montant +
@@ -24239,8 +24239,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[47].numero +
-        "      " +
+        printInfo[47].numero.padEnd(6) +
+        "  " +
         printInfo[47].option.charAt(0) +
         "     " +
         printInfo[47].montant +
@@ -24254,8 +24254,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[48].numero +
-        "      " +
+        printInfo[48].numero.padEnd(6) +
+        "  " +
         printInfo[48].option.charAt(0) +
         "     " +
         printInfo[48].montant +
@@ -24269,8 +24269,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[49].numero +
-        "      " +
+        printInfo[49].numero.padEnd(6) +
+        "  " +
         printInfo[49].option.charAt(0) +
         "     " +
         printInfo[49].montant +
@@ -24284,8 +24284,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[50].numero +
-        "      " +
+        printInfo[50].numero.padEnd(6) +
+        "  " +
         printInfo[50].option.charAt(0) +
         "     " +
         printInfo[50].montant +
@@ -24299,8 +24299,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[51].numero +
-        "      " +
+        printInfo[51].numero.padEnd(6) +
+        "  " +
         printInfo[51].option.charAt(0) +
         "     " +
         printInfo[51].montant +
@@ -24314,8 +24314,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[52].numero +
-        "      " +
+        printInfo[52].numero.padEnd(6) +
+        "  " +
         printInfo[52].option.charAt(0) +
         "     " +
         printInfo[52].montant +
@@ -24329,8 +24329,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[53].numero +
-        "      " +
+        printInfo[53].numero.padEnd(6) +
+        "  " +
         printInfo[53].option.charAt(0) +
         "     " +
         printInfo[53].montant +
@@ -24345,8 +24345,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[0].numero +
-        "      " +
+        printInfo[0].numero.padEnd(6) +
+        "  " +
         printInfo[0].option.charAt(0) +
         "     " +
         printInfo[0].montant +
@@ -24360,8 +24360,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[1].numero +
-        "      " +
+        printInfo[1].numero.padEnd(6) +
+        "  " +
         printInfo[1].option.charAt(0) +
         "     " +
         printInfo[1].montant +
@@ -24375,8 +24375,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[2].numero +
-        "      " +
+        printInfo[2].numero.padEnd(6) +
+        "  " +
         printInfo[2].option.charAt(0) +
         "     " +
         printInfo[2].montant +
@@ -24390,8 +24390,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[3].numero +
-        "      " +
+        printInfo[3].numero.padEnd(6) +
+        "  " +
         printInfo[3].option.charAt(0) +
         "     " +
         printInfo[3].montant +
@@ -24405,8 +24405,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[4].numero +
-        "      " +
+        printInfo[4].numero.padEnd(6) +
+        "  " +
         printInfo[4].option.charAt(0) +
         "     " +
         printInfo[4].montant +
@@ -24420,8 +24420,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[5].numero +
-        "      " +
+        printInfo[5].numero.padEnd(6) +
+        "  " +
         printInfo[5].option.charAt(0) +
         "     " +
         printInfo[5].montant +
@@ -24435,8 +24435,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[6].numero +
-        "      " +
+        printInfo[6].numero.padEnd(6) +
+        "  " +
         printInfo[6].option.charAt(0) +
         "     " +
         printInfo[6].montant +
@@ -24450,8 +24450,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[7].numero +
-        "      " +
+        printInfo[7].numero.padEnd(6) +
+        "  " +
         printInfo[7].option.charAt(0) +
         "     " +
         printInfo[7].montant +
@@ -24465,8 +24465,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[8].numero +
-        "      " +
+        printInfo[8].numero.padEnd(6) +
+        "  " +
         printInfo[8].option.charAt(0) +
         "     " +
         printInfo[8].montant +
@@ -24480,8 +24480,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[9].numero +
-        "      " +
+        printInfo[9].numero.padEnd(6) +
+        "  " +
         printInfo[9].option.charAt(0) +
         "     " +
         printInfo[9].montant +
@@ -24495,8 +24495,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[10].numero +
-        "      " +
+        printInfo[10].numero.padEnd(6) +
+        "  " +
         printInfo[10].option.charAt(0) +
         "     " +
         printInfo[10].montant +
@@ -24510,8 +24510,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[11].numero +
-        "      " +
+        printInfo[11].numero.padEnd(6) +
+        "  " +
         printInfo[11].option.charAt(0) +
         "     " +
         printInfo[11].montant +
@@ -24525,8 +24525,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[12].numero +
-        "      " +
+        printInfo[12].numero.padEnd(6) +
+        "  " +
         printInfo[12].option.charAt(0) +
         "     " +
         printInfo[12].montant +
@@ -24540,8 +24540,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[13].numero +
-        "      " +
+        printInfo[13].numero.padEnd(6) +
+        "  " +
         printInfo[13].option.charAt(0) +
         "     " +
         printInfo[13].montant +
@@ -24555,8 +24555,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[14].numero +
-        "      " +
+        printInfo[14].numero.padEnd(6) +
+        "  " +
         printInfo[14].option.charAt(0) +
         "     " +
         printInfo[14].montant +
@@ -24570,8 +24570,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[15].numero +
-        "      " +
+        printInfo[15].numero.padEnd(6) +
+        "  " +
         printInfo[15].option.charAt(0) +
         "     " +
         printInfo[15].montant +
@@ -24585,8 +24585,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[16].numero +
-        "      " +
+        printInfo[16].numero.padEnd(6) +
+        "  " +
         printInfo[16].option.charAt(0) +
         "     " +
         printInfo[16].montant +
@@ -24600,8 +24600,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[17].numero +
-        "      " +
+        printInfo[17].numero.padEnd(6) +
+        "  " +
         printInfo[17].option.charAt(0) +
         "     " +
         printInfo[17].montant +
@@ -24615,8 +24615,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[18].numero +
-        "      " +
+        printInfo[18].numero.padEnd(6) +
+        "  " +
         printInfo[18].option.charAt(0) +
         "     " +
         printInfo[18].montant +
@@ -24630,8 +24630,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[19].numero +
-        "      " +
+        printInfo[19].numero.padEnd(6) +
+        "  " +
         printInfo[19].option.charAt(0) +
         "     " +
         printInfo[19].montant +
@@ -24645,8 +24645,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[20].numero +
-        "      " +
+        printInfo[20].numero.padEnd(6) +
+        "  " +
         printInfo[20].option.charAt(0) +
         "     " +
         printInfo[20].montant +
@@ -24660,8 +24660,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[21].numero +
-        "      " +
+        printInfo[21].numero.padEnd(6) +
+        "  " +
         printInfo[21].option.charAt(0) +
         "     " +
         printInfo[21].montant +
@@ -24675,8 +24675,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[22].numero +
-        "      " +
+        printInfo[22].numero.padEnd(6) +
+        "  " +
         printInfo[22].option.charAt(0) +
         "     " +
         printInfo[22].montant +
@@ -24690,8 +24690,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[23].numero +
-        "      " +
+        printInfo[23].numero.padEnd(6) +
+        "  " +
         printInfo[23].option.charAt(0) +
         "     " +
         printInfo[23].montant +
@@ -24705,8 +24705,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[24].numero +
-        "      " +
+        printInfo[24].numero.padEnd(6) +
+        "  " +
         printInfo[24].option.charAt(0) +
         "     " +
         printInfo[24].montant +
@@ -24720,8 +24720,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[25].numero +
-        "      " +
+        printInfo[25].numero.padEnd(6) +
+        "  " +
         printInfo[25].option.charAt(0) +
         "     " +
         printInfo[25].montant +
@@ -24735,8 +24735,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[26].numero +
-        "      " +
+        printInfo[26].numero.padEnd(6) +
+        "  " +
         printInfo[26].option.charAt(0) +
         "     " +
         printInfo[26].montant +
@@ -24750,8 +24750,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[27].numero +
-        "      " +
+        printInfo[27].numero.padEnd(6) +
+        "  " +
         printInfo[27].option.charAt(0) +
         "     " +
         printInfo[27].montant +
@@ -24765,8 +24765,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[28].numero +
-        "      " +
+        printInfo[28].numero.padEnd(6) +
+        "  " +
         printInfo[28].option.charAt(0) +
         "     " +
         printInfo[28].montant +
@@ -24780,8 +24780,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[29].numero +
-        "      " +
+        printInfo[29].numero.padEnd(6) +
+        "  " +
         printInfo[29].option.charAt(0) +
         "     " +
         printInfo[29].montant +
@@ -24795,8 +24795,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[30].numero +
-        "      " +
+        printInfo[30].numero.padEnd(6) +
+        "  " +
         printInfo[30].option.charAt(0) +
         "     " +
         printInfo[30].montant +
@@ -24810,8 +24810,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[31].numero +
-        "      " +
+        printInfo[31].numero.padEnd(6) +
+        "  " +
         printInfo[31].option.charAt(0) +
         "     " +
         printInfo[31].montant +
@@ -24825,8 +24825,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[32].numero +
-        "      " +
+        printInfo[32].numero.padEnd(6) +
+        "  " +
         printInfo[32].option.charAt(0) +
         "     " +
         printInfo[32].montant +
@@ -24840,8 +24840,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[33].numero +
-        "      " +
+        printInfo[33].numero.padEnd(6) +
+        "  " +
         printInfo[33].option.charAt(0) +
         "     " +
         printInfo[33].montant +
@@ -24855,8 +24855,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[34].numero +
-        "      " +
+        printInfo[34].numero.padEnd(6) +
+        "  " +
         printInfo[34].option.charAt(0) +
         "     " +
         printInfo[34].montant +
@@ -24870,8 +24870,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[35].numero +
-        "      " +
+        printInfo[35].numero.padEnd(6) +
+        "  " +
         printInfo[35].option.charAt(0) +
         "     " +
         printInfo[35].montant +
@@ -24885,8 +24885,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[36].numero +
-        "      " +
+        printInfo[36].numero.padEnd(6) +
+        "  " +
         printInfo[36].option.charAt(0) +
         "     " +
         printInfo[36].montant +
@@ -24900,8 +24900,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[37].numero +
-        "      " +
+        printInfo[37].numero.padEnd(6) +
+        "  " +
         printInfo[37].option.charAt(0) +
         "     " +
         printInfo[37].montant +
@@ -24915,8 +24915,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[38].numero +
-        "      " +
+        printInfo[38].numero.padEnd(6) +
+        "  " +
         printInfo[38].option.charAt(0) +
         "     " +
         printInfo[38].montant +
@@ -24930,8 +24930,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[39].numero +
-        "      " +
+        printInfo[39].numero.padEnd(6) +
+        "  " +
         printInfo[39].option.charAt(0) +
         "     " +
         printInfo[39].montant +
@@ -24945,8 +24945,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[40].numero +
-        "      " +
+        printInfo[40].numero.padEnd(6) +
+        "  " +
         printInfo[40].option.charAt(0) +
         "     " +
         printInfo[40].montant +
@@ -24960,8 +24960,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[41].numero +
-        "      " +
+        printInfo[41].numero.padEnd(6) +
+        "  " +
         printInfo[41].option.charAt(0) +
         "     " +
         printInfo[41].montant +
@@ -24975,8 +24975,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[42].numero +
-        "      " +
+        printInfo[42].numero.padEnd(6) +
+        "  " +
         printInfo[42].option.charAt(0) +
         "     " +
         printInfo[42].montant +
@@ -24990,8 +24990,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[43].numero +
-        "      " +
+        printInfo[43].numero.padEnd(6) +
+        "  " +
         printInfo[43].option.charAt(0) +
         "     " +
         printInfo[43].montant +
@@ -25005,8 +25005,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[44].numero +
-        "      " +
+        printInfo[44].numero.padEnd(6) +
+        "  " +
         printInfo[44].option.charAt(0) +
         "     " +
         printInfo[44].montant +
@@ -25020,8 +25020,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[45].numero +
-        "      " +
+        printInfo[45].numero.padEnd(6) +
+        "  " +
         printInfo[45].option.charAt(0) +
         "     " +
         printInfo[45].montant +
@@ -25035,8 +25035,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[46].numero +
-        "      " +
+        printInfo[46].numero.padEnd(6) +
+        "  " +
         printInfo[46].option.charAt(0) +
         "     " +
         printInfo[46].montant +
@@ -25050,8 +25050,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[47].numero +
-        "      " +
+        printInfo[47].numero.padEnd(6) +
+        "  " +
         printInfo[47].option.charAt(0) +
         "     " +
         printInfo[47].montant +
@@ -25065,8 +25065,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[48].numero +
-        "      " +
+        printInfo[48].numero.padEnd(6) +
+        "  " +
         printInfo[48].option.charAt(0) +
         "     " +
         printInfo[48].montant +
@@ -25080,8 +25080,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[49].numero +
-        "      " +
+        printInfo[49].numero.padEnd(6) +
+        "  " +
         printInfo[49].option.charAt(0) +
         "     " +
         printInfo[49].montant +
@@ -25095,8 +25095,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[50].numero +
-        "      " +
+        printInfo[50].numero.padEnd(6) +
+        "  " +
         printInfo[50].option.charAt(0) +
         "     " +
         printInfo[50].montant +
@@ -25110,8 +25110,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[51].numero +
-        "      " +
+        printInfo[51].numero.padEnd(6) +
+        "  " +
         printInfo[51].option.charAt(0) +
         "     " +
         printInfo[51].montant +
@@ -25125,8 +25125,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[52].numero +
-        "      " +
+        printInfo[52].numero.padEnd(6) +
+        "  " +
         printInfo[52].option.charAt(0) +
         "     " +
         printInfo[52].montant +
@@ -25140,8 +25140,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[53].numero +
-        "      " +
+        printInfo[53].numero.padEnd(6) +
+        "  " +
         printInfo[53].option.charAt(0) +
         "     " +
         printInfo[53].montant +
@@ -25155,8 +25155,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[54].numero +
-        "      " +
+        printInfo[54].numero.padEnd(6) +
+        "  " +
         printInfo[54].option.charAt(0) +
         "     " +
         printInfo[54].montant +
@@ -25171,8 +25171,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[0].numero +
-        "      " +
+        printInfo[0].numero.padEnd(6) +
+        "  " +
         printInfo[0].option.charAt(0) +
         "     " +
         printInfo[0].montant +
@@ -25186,8 +25186,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[1].numero +
-        "      " +
+        printInfo[1].numero.padEnd(6) +
+        "  " +
         printInfo[1].option.charAt(0) +
         "     " +
         printInfo[1].montant +
@@ -25201,8 +25201,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[2].numero +
-        "      " +
+        printInfo[2].numero.padEnd(6) +
+        "  " +
         printInfo[2].option.charAt(0) +
         "     " +
         printInfo[2].montant +
@@ -25216,8 +25216,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[3].numero +
-        "      " +
+        printInfo[3].numero.padEnd(6) +
+        "  " +
         printInfo[3].option.charAt(0) +
         "     " +
         printInfo[3].montant +
@@ -25231,8 +25231,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[4].numero +
-        "      " +
+        printInfo[4].numero.padEnd(6) +
+        "  " +
         printInfo[4].option.charAt(0) +
         "     " +
         printInfo[4].montant +
@@ -25246,8 +25246,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[5].numero +
-        "      " +
+        printInfo[5].numero.padEnd(6) +
+        "  " +
         printInfo[5].option.charAt(0) +
         "     " +
         printInfo[5].montant +
@@ -25261,8 +25261,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[6].numero +
-        "      " +
+        printInfo[6].numero.padEnd(6) +
+        "  " +
         printInfo[6].option.charAt(0) +
         "     " +
         printInfo[6].montant +
@@ -25276,8 +25276,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[7].numero +
-        "      " +
+        printInfo[7].numero.padEnd(6) +
+        "  " +
         printInfo[7].option.charAt(0) +
         "     " +
         printInfo[7].montant +
@@ -25291,8 +25291,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[8].numero +
-        "      " +
+        printInfo[8].numero.padEnd(6) +
+        "  " +
         printInfo[8].option.charAt(0) +
         "     " +
         printInfo[8].montant +
@@ -25306,8 +25306,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[9].numero +
-        "      " +
+        printInfo[9].numero.padEnd(6) +
+        "  " +
         printInfo[9].option.charAt(0) +
         "     " +
         printInfo[9].montant +
@@ -25321,8 +25321,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[10].numero +
-        "      " +
+        printInfo[10].numero.padEnd(6) +
+        "  " +
         printInfo[10].option.charAt(0) +
         "     " +
         printInfo[10].montant +
@@ -25336,8 +25336,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[11].numero +
-        "      " +
+        printInfo[11].numero.padEnd(6) +
+        "  " +
         printInfo[11].option.charAt(0) +
         "     " +
         printInfo[11].montant +
@@ -25351,8 +25351,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[12].numero +
-        "      " +
+        printInfo[12].numero.padEnd(6) +
+        "  " +
         printInfo[12].option.charAt(0) +
         "     " +
         printInfo[12].montant +
@@ -25366,8 +25366,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[13].numero +
-        "      " +
+        printInfo[13].numero.padEnd(6) +
+        "  " +
         printInfo[13].option.charAt(0) +
         "     " +
         printInfo[13].montant +
@@ -25381,8 +25381,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[14].numero +
-        "      " +
+        printInfo[14].numero.padEnd(6) +
+        "  " +
         printInfo[14].option.charAt(0) +
         "     " +
         printInfo[14].montant +
@@ -25396,8 +25396,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[15].numero +
-        "      " +
+        printInfo[15].numero.padEnd(6) +
+        "  " +
         printInfo[15].option.charAt(0) +
         "     " +
         printInfo[15].montant +
@@ -25411,8 +25411,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[16].numero +
-        "      " +
+        printInfo[16].numero.padEnd(6) +
+        "  " +
         printInfo[16].option.charAt(0) +
         "     " +
         printInfo[16].montant +
@@ -25426,8 +25426,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[17].numero +
-        "      " +
+        printInfo[17].numero.padEnd(6) +
+        "  " +
         printInfo[17].option.charAt(0) +
         "     " +
         printInfo[17].montant +
@@ -25441,8 +25441,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[18].numero +
-        "      " +
+        printInfo[18].numero.padEnd(6) +
+        "  " +
         printInfo[18].option.charAt(0) +
         "     " +
         printInfo[18].montant +
@@ -25456,8 +25456,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[19].numero +
-        "      " +
+        printInfo[19].numero.padEnd(6) +
+        "  " +
         printInfo[19].option.charAt(0) +
         "     " +
         printInfo[19].montant +
@@ -25471,8 +25471,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[20].numero +
-        "      " +
+        printInfo[20].numero.padEnd(6) +
+        "  " +
         printInfo[20].option.charAt(0) +
         "     " +
         printInfo[20].montant +
@@ -25486,8 +25486,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[21].numero +
-        "      " +
+        printInfo[21].numero.padEnd(6) +
+        "  " +
         printInfo[21].option.charAt(0) +
         "     " +
         printInfo[21].montant +
@@ -25501,8 +25501,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[22].numero +
-        "      " +
+        printInfo[22].numero.padEnd(6) +
+        "  " +
         printInfo[22].option.charAt(0) +
         "     " +
         printInfo[22].montant +
@@ -25516,8 +25516,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[23].numero +
-        "      " +
+        printInfo[23].numero.padEnd(6) +
+        "  " +
         printInfo[23].option.charAt(0) +
         "     " +
         printInfo[23].montant +
@@ -25531,8 +25531,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[24].numero +
-        "      " +
+        printInfo[24].numero.padEnd(6) +
+        "  " +
         printInfo[24].option.charAt(0) +
         "     " +
         printInfo[24].montant +
@@ -25546,8 +25546,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[25].numero +
-        "      " +
+        printInfo[25].numero.padEnd(6) +
+        "  " +
         printInfo[25].option.charAt(0) +
         "     " +
         printInfo[25].montant +
@@ -25561,8 +25561,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[26].numero +
-        "      " +
+        printInfo[26].numero.padEnd(6) +
+        "  " +
         printInfo[26].option.charAt(0) +
         "     " +
         printInfo[26].montant +
@@ -25576,8 +25576,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[27].numero +
-        "      " +
+        printInfo[27].numero.padEnd(6) +
+        "  " +
         printInfo[27].option.charAt(0) +
         "     " +
         printInfo[27].montant +
@@ -25591,8 +25591,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[28].numero +
-        "      " +
+        printInfo[28].numero.padEnd(6) +
+        "  " +
         printInfo[28].option.charAt(0) +
         "     " +
         printInfo[28].montant +
@@ -25606,8 +25606,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[29].numero +
-        "      " +
+        printInfo[29].numero.padEnd(6) +
+        "  " +
         printInfo[29].option.charAt(0) +
         "     " +
         printInfo[29].montant +
@@ -25621,8 +25621,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[30].numero +
-        "      " +
+        printInfo[30].numero.padEnd(6) +
+        "  " +
         printInfo[30].option.charAt(0) +
         "     " +
         printInfo[30].montant +
@@ -25636,8 +25636,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[31].numero +
-        "      " +
+        printInfo[31].numero.padEnd(6) +
+        "  " +
         printInfo[31].option.charAt(0) +
         "     " +
         printInfo[31].montant +
@@ -25651,8 +25651,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[32].numero +
-        "      " +
+        printInfo[32].numero.padEnd(6) +
+        "  " +
         printInfo[32].option.charAt(0) +
         "     " +
         printInfo[32].montant +
@@ -25666,8 +25666,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[33].numero +
-        "      " +
+        printInfo[33].numero.padEnd(6) +
+        "  " +
         printInfo[33].option.charAt(0) +
         "     " +
         printInfo[33].montant +
@@ -25681,8 +25681,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[34].numero +
-        "      " +
+        printInfo[34].numero.padEnd(6) +
+        "  " +
         printInfo[34].option.charAt(0) +
         "     " +
         printInfo[34].montant +
@@ -25696,8 +25696,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[35].numero +
-        "      " +
+        printInfo[35].numero.padEnd(6) +
+        "  " +
         printInfo[35].option.charAt(0) +
         "     " +
         printInfo[35].montant +
@@ -25711,8 +25711,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[36].numero +
-        "      " +
+        printInfo[36].numero.padEnd(6) +
+        "  " +
         printInfo[36].option.charAt(0) +
         "     " +
         printInfo[36].montant +
@@ -25726,8 +25726,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[37].numero +
-        "      " +
+        printInfo[37].numero.padEnd(6) +
+        "  " +
         printInfo[37].option.charAt(0) +
         "     " +
         printInfo[37].montant +
@@ -25741,8 +25741,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[38].numero +
-        "      " +
+        printInfo[38].numero.padEnd(6) +
+        "  " +
         printInfo[38].option.charAt(0) +
         "     " +
         printInfo[38].montant +
@@ -25756,8 +25756,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[39].numero +
-        "      " +
+        printInfo[39].numero.padEnd(6) +
+        "  " +
         printInfo[39].option.charAt(0) +
         "     " +
         printInfo[39].montant +
@@ -25771,8 +25771,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[40].numero +
-        "      " +
+        printInfo[40].numero.padEnd(6) +
+        "  " +
         printInfo[40].option.charAt(0) +
         "     " +
         printInfo[40].montant +
@@ -25786,8 +25786,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[41].numero +
-        "      " +
+        printInfo[41].numero.padEnd(6) +
+        "  " +
         printInfo[41].option.charAt(0) +
         "     " +
         printInfo[41].montant +
@@ -25801,8 +25801,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[42].numero +
-        "      " +
+        printInfo[42].numero.padEnd(6) +
+        "  " +
         printInfo[42].option.charAt(0) +
         "     " +
         printInfo[42].montant +
@@ -25816,8 +25816,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[43].numero +
-        "      " +
+        printInfo[43].numero.padEnd(6) +
+        "  " +
         printInfo[43].option.charAt(0) +
         "     " +
         printInfo[43].montant +
@@ -25831,8 +25831,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[44].numero +
-        "      " +
+        printInfo[44].numero.padEnd(6) +
+        "  " +
         printInfo[44].option.charAt(0) +
         "     " +
         printInfo[44].montant +
@@ -25846,8 +25846,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[45].numero +
-        "      " +
+        printInfo[45].numero.padEnd(6) +
+        "  " +
         printInfo[45].option.charAt(0) +
         "     " +
         printInfo[45].montant +
@@ -25861,8 +25861,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[46].numero +
-        "      " +
+        printInfo[46].numero.padEnd(6) +
+        "  " +
         printInfo[46].option.charAt(0) +
         "     " +
         printInfo[46].montant +
@@ -25876,8 +25876,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[47].numero +
-        "      " +
+        printInfo[47].numero.padEnd(6) +
+        "  " +
         printInfo[47].option.charAt(0) +
         "     " +
         printInfo[47].montant +
@@ -25891,8 +25891,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[48].numero +
-        "      " +
+        printInfo[48].numero.padEnd(6) +
+        "  " +
         printInfo[48].option.charAt(0) +
         "     " +
         printInfo[48].montant +
@@ -25906,8 +25906,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[49].numero +
-        "      " +
+        printInfo[49].numero.padEnd(6) +
+        "  " +
         printInfo[49].option.charAt(0) +
         "     " +
         printInfo[49].montant +
@@ -25921,8 +25921,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[50].numero +
-        "      " +
+        printInfo[50].numero.padEnd(6) +
+        "  " +
         printInfo[50].option.charAt(0) +
         "     " +
         printInfo[50].montant +
@@ -25936,8 +25936,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[51].numero +
-        "      " +
+        printInfo[51].numero.padEnd(6) +
+        "  " +
         printInfo[51].option.charAt(0) +
         "     " +
         printInfo[51].montant +
@@ -25951,8 +25951,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[52].numero +
-        "      " +
+        printInfo[52].numero.padEnd(6) +
+        "  " +
         printInfo[52].option.charAt(0) +
         "     " +
         printInfo[52].montant +
@@ -25966,8 +25966,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[53].numero +
-        "      " +
+        printInfo[53].numero.padEnd(6) +
+        "  " +
         printInfo[53].option.charAt(0) +
         "     " +
         printInfo[53].montant +
@@ -25981,8 +25981,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[54].numero +
-        "      " +
+        printInfo[54].numero.padEnd(6) +
+        "  " +
         printInfo[54].option.charAt(0) +
         "     " +
         printInfo[54].montant +
@@ -25996,8 +25996,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[55].numero +
-        "      " +
+        printInfo[55].numero.padEnd(6) +
+        "  " +
         printInfo[55].option.charAt(0) +
         "     " +
         printInfo[55].montant +
@@ -26012,8 +26012,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[0].numero +
-        "      " +
+        printInfo[0].numero.padEnd(6) +
+        "  " +
         printInfo[0].option.charAt(0) +
         "     " +
         printInfo[0].montant +
@@ -26027,8 +26027,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[1].numero +
-        "      " +
+        printInfo[1].numero.padEnd(6) +
+        "  " +
         printInfo[1].option.charAt(0) +
         "     " +
         printInfo[1].montant +
@@ -26042,8 +26042,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[2].numero +
-        "      " +
+        printInfo[2].numero.padEnd(6) +
+        "  " +
         printInfo[2].option.charAt(0) +
         "     " +
         printInfo[2].montant +
@@ -26057,8 +26057,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[3].numero +
-        "      " +
+        printInfo[3].numero.padEnd(6) +
+        "  " +
         printInfo[3].option.charAt(0) +
         "     " +
         printInfo[3].montant +
@@ -26072,8 +26072,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[4].numero +
-        "      " +
+        printInfo[4].numero.padEnd(6) +
+        "  " +
         printInfo[4].option.charAt(0) +
         "     " +
         printInfo[4].montant +
@@ -26087,8 +26087,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[5].numero +
-        "      " +
+        printInfo[5].numero.padEnd(6) +
+        "  " +
         printInfo[5].option.charAt(0) +
         "     " +
         printInfo[5].montant +
@@ -26102,8 +26102,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[6].numero +
-        "      " +
+        printInfo[6].numero.padEnd(6) +
+        "  " +
         printInfo[6].option.charAt(0) +
         "     " +
         printInfo[6].montant +
@@ -26117,8 +26117,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[7].numero +
-        "      " +
+        printInfo[7].numero.padEnd(6) +
+        "  " +
         printInfo[7].option.charAt(0) +
         "     " +
         printInfo[7].montant +
@@ -26132,8 +26132,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[8].numero +
-        "      " +
+        printInfo[8].numero.padEnd(6) +
+        "  " +
         printInfo[8].option.charAt(0) +
         "     " +
         printInfo[8].montant +
@@ -26147,8 +26147,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[9].numero +
-        "      " +
+        printInfo[9].numero.padEnd(6) +
+        "  " +
         printInfo[9].option.charAt(0) +
         "     " +
         printInfo[9].montant +
@@ -26162,8 +26162,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[10].numero +
-        "      " +
+        printInfo[10].numero.padEnd(6) +
+        "  " +
         printInfo[10].option.charAt(0) +
         "     " +
         printInfo[10].montant +
@@ -26177,8 +26177,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[11].numero +
-        "      " +
+        printInfo[11].numero.padEnd(6) +
+        "  " +
         printInfo[11].option.charAt(0) +
         "     " +
         printInfo[11].montant +
@@ -26192,8 +26192,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[12].numero +
-        "      " +
+        printInfo[12].numero.padEnd(6) +
+        "  " +
         printInfo[12].option.charAt(0) +
         "     " +
         printInfo[12].montant +
@@ -26207,8 +26207,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[13].numero +
-        "      " +
+        printInfo[13].numero.padEnd(6) +
+        "  " +
         printInfo[13].option.charAt(0) +
         "     " +
         printInfo[13].montant +
@@ -26222,8 +26222,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[14].numero +
-        "      " +
+        printInfo[14].numero.padEnd(6) +
+        "  " +
         printInfo[14].option.charAt(0) +
         "     " +
         printInfo[14].montant +
@@ -26237,8 +26237,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[15].numero +
-        "      " +
+        printInfo[15].numero.padEnd(6) +
+        "  " +
         printInfo[15].option.charAt(0) +
         "     " +
         printInfo[15].montant +
@@ -26252,8 +26252,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[16].numero +
-        "      " +
+        printInfo[16].numero.padEnd(6) +
+        "  " +
         printInfo[16].option.charAt(0) +
         "     " +
         printInfo[16].montant +
@@ -26267,8 +26267,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[17].numero +
-        "      " +
+        printInfo[17].numero.padEnd(6) +
+        "  " +
         printInfo[17].option.charAt(0) +
         "     " +
         printInfo[17].montant +
@@ -26282,8 +26282,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[18].numero +
-        "      " +
+        printInfo[18].numero.padEnd(6) +
+        "  " +
         printInfo[18].option.charAt(0) +
         "     " +
         printInfo[18].montant +
@@ -26297,8 +26297,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[19].numero +
-        "      " +
+        printInfo[19].numero.padEnd(6) +
+        "  " +
         printInfo[19].option.charAt(0) +
         "     " +
         printInfo[19].montant +
@@ -26312,8 +26312,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[20].numero +
-        "      " +
+        printInfo[20].numero.padEnd(6) +
+        "  " +
         printInfo[20].option.charAt(0) +
         "     " +
         printInfo[20].montant +
@@ -26327,8 +26327,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[21].numero +
-        "      " +
+        printInfo[21].numero.padEnd(6) +
+        "  " +
         printInfo[21].option.charAt(0) +
         "     " +
         printInfo[21].montant +
@@ -26342,8 +26342,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[22].numero +
-        "      " +
+        printInfo[22].numero.padEnd(6) +
+        "  " +
         printInfo[22].option.charAt(0) +
         "     " +
         printInfo[22].montant +
@@ -26357,8 +26357,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[23].numero +
-        "      " +
+        printInfo[23].numero.padEnd(6) +
+        "  " +
         printInfo[23].option.charAt(0) +
         "     " +
         printInfo[23].montant +
@@ -26372,8 +26372,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[24].numero +
-        "      " +
+        printInfo[24].numero.padEnd(6) +
+        "  " +
         printInfo[24].option.charAt(0) +
         "     " +
         printInfo[24].montant +
@@ -26387,8 +26387,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[25].numero +
-        "      " +
+        printInfo[25].numero.padEnd(6) +
+        "  " +
         printInfo[25].option.charAt(0) +
         "     " +
         printInfo[25].montant +
@@ -26402,8 +26402,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[26].numero +
-        "      " +
+        printInfo[26].numero.padEnd(6) +
+        "  " +
         printInfo[26].option.charAt(0) +
         "     " +
         printInfo[26].montant +
@@ -26417,8 +26417,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[27].numero +
-        "      " +
+        printInfo[27].numero.padEnd(6) +
+        "  " +
         printInfo[27].option.charAt(0) +
         "     " +
         printInfo[27].montant +
@@ -26432,8 +26432,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[28].numero +
-        "      " +
+        printInfo[28].numero.padEnd(6) +
+        "  " +
         printInfo[28].option.charAt(0) +
         "     " +
         printInfo[28].montant +
@@ -26447,8 +26447,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[29].numero +
-        "      " +
+        printInfo[29].numero.padEnd(6) +
+        "  " +
         printInfo[29].option.charAt(0) +
         "     " +
         printInfo[29].montant +
@@ -26462,8 +26462,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[30].numero +
-        "      " +
+        printInfo[30].numero.padEnd(6) +
+        "  " +
         printInfo[30].option.charAt(0) +
         "     " +
         printInfo[30].montant +
@@ -26477,8 +26477,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[31].numero +
-        "      " +
+        printInfo[31].numero.padEnd(6) +
+        "  " +
         printInfo[31].option.charAt(0) +
         "     " +
         printInfo[31].montant +
@@ -26492,8 +26492,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[32].numero +
-        "      " +
+        printInfo[32].numero.padEnd(6) +
+        "  " +
         printInfo[32].option.charAt(0) +
         "     " +
         printInfo[32].montant +
@@ -26507,8 +26507,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[33].numero +
-        "      " +
+        printInfo[33].numero.padEnd(6) +
+        "  " +
         printInfo[33].option.charAt(0) +
         "     " +
         printInfo[33].montant +
@@ -26522,8 +26522,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[34].numero +
-        "      " +
+        printInfo[34].numero.padEnd(6) +
+        "  " +
         printInfo[34].option.charAt(0) +
         "     " +
         printInfo[34].montant +
@@ -26537,8 +26537,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[35].numero +
-        "      " +
+        printInfo[35].numero.padEnd(6) +
+        "  " +
         printInfo[35].option.charAt(0) +
         "     " +
         printInfo[35].montant +
@@ -26552,8 +26552,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[36].numero +
-        "      " +
+        printInfo[36].numero.padEnd(6) +
+        "  " +
         printInfo[36].option.charAt(0) +
         "     " +
         printInfo[36].montant +
@@ -26567,8 +26567,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[37].numero +
-        "      " +
+        printInfo[37].numero.padEnd(6) +
+        "  " +
         printInfo[37].option.charAt(0) +
         "     " +
         printInfo[37].montant +
@@ -26582,8 +26582,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[38].numero +
-        "      " +
+        printInfo[38].numero.padEnd(6) +
+        "  " +
         printInfo[38].option.charAt(0) +
         "     " +
         printInfo[38].montant +
@@ -26597,8 +26597,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[39].numero +
-        "      " +
+        printInfo[39].numero.padEnd(6) +
+        "  " +
         printInfo[39].option.charAt(0) +
         "     " +
         printInfo[39].montant +
@@ -26612,8 +26612,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[40].numero +
-        "      " +
+        printInfo[40].numero.padEnd(6) +
+        "  " +
         printInfo[40].option.charAt(0) +
         "     " +
         printInfo[40].montant +
@@ -26627,8 +26627,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[41].numero +
-        "      " +
+        printInfo[41].numero.padEnd(6) +
+        "  " +
         printInfo[41].option.charAt(0) +
         "     " +
         printInfo[41].montant +
@@ -26642,8 +26642,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[42].numero +
-        "      " +
+        printInfo[42].numero.padEnd(6) +
+        "  " +
         printInfo[42].option.charAt(0) +
         "     " +
         printInfo[42].montant +
@@ -26657,8 +26657,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[43].numero +
-        "      " +
+        printInfo[43].numero.padEnd(6) +
+        "  " +
         printInfo[43].option.charAt(0) +
         "     " +
         printInfo[43].montant +
@@ -26672,8 +26672,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[44].numero +
-        "      " +
+        printInfo[44].numero.padEnd(6) +
+        "  " +
         printInfo[44].option.charAt(0) +
         "     " +
         printInfo[44].montant +
@@ -26687,8 +26687,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[45].numero +
-        "      " +
+        printInfo[45].numero.padEnd(6) +
+        "  " +
         printInfo[45].option.charAt(0) +
         "     " +
         printInfo[45].montant +
@@ -26702,8 +26702,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[46].numero +
-        "      " +
+        printInfo[46].numero.padEnd(6) +
+        "  " +
         printInfo[46].option.charAt(0) +
         "     " +
         printInfo[46].montant +
@@ -26717,8 +26717,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[47].numero +
-        "      " +
+        printInfo[47].numero.padEnd(6) +
+        "  " +
         printInfo[47].option.charAt(0) +
         "     " +
         printInfo[47].montant +
@@ -26732,8 +26732,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[48].numero +
-        "      " +
+        printInfo[48].numero.padEnd(6) +
+        "  " +
         printInfo[48].option.charAt(0) +
         "     " +
         printInfo[48].montant +
@@ -26747,8 +26747,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[49].numero +
-        "      " +
+        printInfo[49].numero.padEnd(6) +
+        "  " +
         printInfo[49].option.charAt(0) +
         "     " +
         printInfo[49].montant +
@@ -26762,8 +26762,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[50].numero +
-        "      " +
+        printInfo[50].numero.padEnd(6) +
+        "  " +
         printInfo[50].option.charAt(0) +
         "     " +
         printInfo[50].montant +
@@ -26777,8 +26777,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[51].numero +
-        "      " +
+        printInfo[51].numero.padEnd(6) +
+        "  " +
         printInfo[51].option.charAt(0) +
         "     " +
         printInfo[51].montant +
@@ -26792,8 +26792,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[52].numero +
-        "      " +
+        printInfo[52].numero.padEnd(6) +
+        "  " +
         printInfo[52].option.charAt(0) +
         "     " +
         printInfo[52].montant +
@@ -26807,8 +26807,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[53].numero +
-        "      " +
+        printInfo[53].numero.padEnd(6) +
+        "  " +
         printInfo[53].option.charAt(0) +
         "     " +
         printInfo[53].montant +
@@ -26822,8 +26822,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[54].numero +
-        "      " +
+        printInfo[54].numero.padEnd(6) +
+        "  " +
         printInfo[54].option.charAt(0) +
         "     " +
         printInfo[54].montant +
@@ -26837,8 +26837,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[55].numero +
-        "      " +
+        printInfo[55].numero.padEnd(6) +
+        "  " +
         printInfo[55].option.charAt(0) +
         "     " +
         printInfo[55].montant +
@@ -26852,8 +26852,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[56].numero +
-        "      " +
+        printInfo[56].numero.padEnd(6) +
+        "  " +
         printInfo[56].option.charAt(0) +
         "     " +
         printInfo[56].montant +
@@ -26868,8 +26868,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[0].numero +
-        "      " +
+        printInfo[0].numero.padEnd(6) +
+        "  " +
         printInfo[0].option.charAt(0) +
         "     " +
         printInfo[0].montant +
@@ -26883,8 +26883,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[1].numero +
-        "      " +
+        printInfo[1].numero.padEnd(6) +
+        "  " +
         printInfo[1].option.charAt(0) +
         "     " +
         printInfo[1].montant +
@@ -26898,8 +26898,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[2].numero +
-        "      " +
+        printInfo[2].numero.padEnd(6) +
+        "  " +
         printInfo[2].option.charAt(0) +
         "     " +
         printInfo[2].montant +
@@ -26913,8 +26913,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[3].numero +
-        "      " +
+        printInfo[3].numero.padEnd(6) +
+        "  " +
         printInfo[3].option.charAt(0) +
         "     " +
         printInfo[3].montant +
@@ -26928,8 +26928,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[4].numero +
-        "      " +
+        printInfo[4].numero.padEnd(6) +
+        "  " +
         printInfo[4].option.charAt(0) +
         "     " +
         printInfo[4].montant +
@@ -26943,8 +26943,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[5].numero +
-        "      " +
+        printInfo[5].numero.padEnd(6) +
+        "  " +
         printInfo[5].option.charAt(0) +
         "     " +
         printInfo[5].montant +
@@ -26958,8 +26958,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[6].numero +
-        "      " +
+        printInfo[6].numero.padEnd(6) +
+        "  " +
         printInfo[6].option.charAt(0) +
         "     " +
         printInfo[6].montant +
@@ -26973,8 +26973,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[7].numero +
-        "      " +
+        printInfo[7].numero.padEnd(6) +
+        "  " +
         printInfo[7].option.charAt(0) +
         "     " +
         printInfo[7].montant +
@@ -26988,8 +26988,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[8].numero +
-        "      " +
+        printInfo[8].numero.padEnd(6) +
+        "  " +
         printInfo[8].option.charAt(0) +
         "     " +
         printInfo[8].montant +
@@ -27003,8 +27003,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[9].numero +
-        "      " +
+        printInfo[9].numero.padEnd(6) +
+        "  " +
         printInfo[9].option.charAt(0) +
         "     " +
         printInfo[9].montant +
@@ -27018,8 +27018,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[10].numero +
-        "      " +
+        printInfo[10].numero.padEnd(6) +
+        "  " +
         printInfo[10].option.charAt(0) +
         "     " +
         printInfo[10].montant +
@@ -27033,8 +27033,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[11].numero +
-        "      " +
+        printInfo[11].numero.padEnd(6) +
+        "  " +
         printInfo[11].option.charAt(0) +
         "     " +
         printInfo[11].montant +
@@ -27048,8 +27048,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[12].numero +
-        "      " +
+        printInfo[12].numero.padEnd(6) +
+        "  " +
         printInfo[12].option.charAt(0) +
         "     " +
         printInfo[12].montant +
@@ -27063,8 +27063,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[13].numero +
-        "      " +
+        printInfo[13].numero.padEnd(6) +
+        "  " +
         printInfo[13].option.charAt(0) +
         "     " +
         printInfo[13].montant +
@@ -27078,8 +27078,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[14].numero +
-        "      " +
+        printInfo[14].numero.padEnd(6) +
+        "  " +
         printInfo[14].option.charAt(0) +
         "     " +
         printInfo[14].montant +
@@ -27093,8 +27093,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[15].numero +
-        "      " +
+        printInfo[15].numero.padEnd(6) +
+        "  " +
         printInfo[15].option.charAt(0) +
         "     " +
         printInfo[15].montant +
@@ -27108,8 +27108,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[16].numero +
-        "      " +
+        printInfo[16].numero.padEnd(6) +
+        "  " +
         printInfo[16].option.charAt(0) +
         "     " +
         printInfo[16].montant +
@@ -27123,8 +27123,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[17].numero +
-        "      " +
+        printInfo[17].numero.padEnd(6) +
+        "  " +
         printInfo[17].option.charAt(0) +
         "     " +
         printInfo[17].montant +
@@ -27138,8 +27138,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[18].numero +
-        "      " +
+        printInfo[18].numero.padEnd(6) +
+        "  " +
         printInfo[18].option.charAt(0) +
         "     " +
         printInfo[18].montant +
@@ -27153,8 +27153,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[19].numero +
-        "      " +
+        printInfo[19].numero.padEnd(6) +
+        "  " +
         printInfo[19].option.charAt(0) +
         "     " +
         printInfo[19].montant +
@@ -27168,8 +27168,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[20].numero +
-        "      " +
+        printInfo[20].numero.padEnd(6) +
+        "  " +
         printInfo[20].option.charAt(0) +
         "     " +
         printInfo[20].montant +
@@ -27183,8 +27183,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[21].numero +
-        "      " +
+        printInfo[21].numero.padEnd(6) +
+        "  " +
         printInfo[21].option.charAt(0) +
         "     " +
         printInfo[21].montant +
@@ -27198,8 +27198,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[22].numero +
-        "      " +
+        printInfo[22].numero.padEnd(6) +
+        "  " +
         printInfo[22].option.charAt(0) +
         "     " +
         printInfo[22].montant +
@@ -27213,8 +27213,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[23].numero +
-        "      " +
+        printInfo[23].numero.padEnd(6) +
+        "  " +
         printInfo[23].option.charAt(0) +
         "     " +
         printInfo[23].montant +
@@ -27228,8 +27228,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[24].numero +
-        "      " +
+        printInfo[24].numero.padEnd(6) +
+        "  " +
         printInfo[24].option.charAt(0) +
         "     " +
         printInfo[24].montant +
@@ -27243,8 +27243,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[25].numero +
-        "      " +
+        printInfo[25].numero.padEnd(6) +
+        "  " +
         printInfo[25].option.charAt(0) +
         "     " +
         printInfo[25].montant +
@@ -27258,8 +27258,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[26].numero +
-        "      " +
+        printInfo[26].numero.padEnd(6) +
+        "  " +
         printInfo[26].option.charAt(0) +
         "     " +
         printInfo[26].montant +
@@ -27273,8 +27273,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[27].numero +
-        "      " +
+        printInfo[27].numero.padEnd(6) +
+        "  " +
         printInfo[27].option.charAt(0) +
         "     " +
         printInfo[27].montant +
@@ -27288,8 +27288,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[28].numero +
-        "      " +
+        printInfo[28].numero.padEnd(6) +
+        "  " +
         printInfo[28].option.charAt(0) +
         "     " +
         printInfo[28].montant +
@@ -27303,8 +27303,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[29].numero +
-        "      " +
+        printInfo[29].numero.padEnd(6) +
+        "  " +
         printInfo[29].option.charAt(0) +
         "     " +
         printInfo[29].montant +
@@ -27318,8 +27318,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[30].numero +
-        "      " +
+        printInfo[30].numero.padEnd(6) +
+        "  " +
         printInfo[30].option.charAt(0) +
         "     " +
         printInfo[30].montant +
@@ -27333,8 +27333,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[31].numero +
-        "      " +
+        printInfo[31].numero.padEnd(6) +
+        "  " +
         printInfo[31].option.charAt(0) +
         "     " +
         printInfo[31].montant +
@@ -27348,8 +27348,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[32].numero +
-        "      " +
+        printInfo[32].numero.padEnd(6) +
+        "  " +
         printInfo[32].option.charAt(0) +
         "     " +
         printInfo[32].montant +
@@ -27363,8 +27363,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[33].numero +
-        "      " +
+        printInfo[33].numero.padEnd(6) +
+        "  " +
         printInfo[33].option.charAt(0) +
         "     " +
         printInfo[33].montant +
@@ -27378,8 +27378,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[34].numero +
-        "      " +
+        printInfo[34].numero.padEnd(6) +
+        "  " +
         printInfo[34].option.charAt(0) +
         "     " +
         printInfo[34].montant +
@@ -27393,8 +27393,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[35].numero +
-        "      " +
+        printInfo[35].numero.padEnd(6) +
+        "  " +
         printInfo[35].option.charAt(0) +
         "     " +
         printInfo[35].montant +
@@ -27408,8 +27408,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[36].numero +
-        "      " +
+        printInfo[36].numero.padEnd(6) +
+        "  " +
         printInfo[36].option.charAt(0) +
         "     " +
         printInfo[36].montant +
@@ -27423,8 +27423,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[37].numero +
-        "      " +
+        printInfo[37].numero.padEnd(6) +
+        "  " +
         printInfo[37].option.charAt(0) +
         "     " +
         printInfo[37].montant +
@@ -27438,8 +27438,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[38].numero +
-        "      " +
+        printInfo[38].numero.padEnd(6) +
+        "  " +
         printInfo[38].option.charAt(0) +
         "     " +
         printInfo[38].montant +
@@ -27453,8 +27453,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[39].numero +
-        "      " +
+        printInfo[39].numero.padEnd(6) +
+        "  " +
         printInfo[39].option.charAt(0) +
         "     " +
         printInfo[39].montant +
@@ -27468,8 +27468,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[40].numero +
-        "      " +
+        printInfo[40].numero.padEnd(6) +
+        "  " +
         printInfo[40].option.charAt(0) +
         "     " +
         printInfo[40].montant +
@@ -27483,8 +27483,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[41].numero +
-        "      " +
+        printInfo[41].numero.padEnd(6) +
+        "  " +
         printInfo[41].option.charAt(0) +
         "     " +
         printInfo[41].montant +
@@ -27498,8 +27498,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[42].numero +
-        "      " +
+        printInfo[42].numero.padEnd(6) +
+        "  " +
         printInfo[42].option.charAt(0) +
         "     " +
         printInfo[42].montant +
@@ -27513,8 +27513,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[43].numero +
-        "      " +
+        printInfo[43].numero.padEnd(6) +
+        "  " +
         printInfo[43].option.charAt(0) +
         "     " +
         printInfo[43].montant +
@@ -27528,8 +27528,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[44].numero +
-        "      " +
+        printInfo[44].numero.padEnd(6) +
+        "  " +
         printInfo[44].option.charAt(0) +
         "     " +
         printInfo[44].montant +
@@ -27543,8 +27543,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[45].numero +
-        "      " +
+        printInfo[45].numero.padEnd(6) +
+        "  " +
         printInfo[45].option.charAt(0) +
         "     " +
         printInfo[45].montant +
@@ -27558,8 +27558,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[46].numero +
-        "      " +
+        printInfo[46].numero.padEnd(6) +
+        "  " +
         printInfo[46].option.charAt(0) +
         "     " +
         printInfo[46].montant +
@@ -27573,8 +27573,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[47].numero +
-        "      " +
+        printInfo[47].numero.padEnd(6) +
+        "  " +
         printInfo[47].option.charAt(0) +
         "     " +
         printInfo[47].montant +
@@ -27588,8 +27588,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[48].numero +
-        "      " +
+        printInfo[48].numero.padEnd(6) +
+        "  " +
         printInfo[48].option.charAt(0) +
         "     " +
         printInfo[48].montant +
@@ -27603,8 +27603,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[49].numero +
-        "      " +
+        printInfo[49].numero.padEnd(6) +
+        "  " +
         printInfo[49].option.charAt(0) +
         "     " +
         printInfo[49].montant +
@@ -27618,8 +27618,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[50].numero +
-        "      " +
+        printInfo[50].numero.padEnd(6) +
+        "  " +
         printInfo[50].option.charAt(0) +
         "     " +
         printInfo[50].montant +
@@ -27633,8 +27633,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[51].numero +
-        "      " +
+        printInfo[51].numero.padEnd(6) +
+        "  " +
         printInfo[51].option.charAt(0) +
         "     " +
         printInfo[51].montant +
@@ -27648,8 +27648,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[52].numero +
-        "      " +
+        printInfo[52].numero.padEnd(6) +
+        "  " +
         printInfo[52].option.charAt(0) +
         "     " +
         printInfo[52].montant +
@@ -27663,8 +27663,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[53].numero +
-        "      " +
+        printInfo[53].numero.padEnd(6) +
+        "  " +
         printInfo[53].option.charAt(0) +
         "     " +
         printInfo[53].montant +
@@ -27678,8 +27678,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[54].numero +
-        "      " +
+        printInfo[54].numero.padEnd(6) +
+        "  " +
         printInfo[54].option.charAt(0) +
         "     " +
         printInfo[54].montant +
@@ -27693,8 +27693,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[55].numero +
-        "      " +
+        printInfo[55].numero.padEnd(6) +
+        "  " +
         printInfo[55].option.charAt(0) +
         "     " +
         printInfo[55].montant +
@@ -27708,8 +27708,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[56].numero +
-        "      " +
+        printInfo[56].numero.padEnd(6) +
+        "  " +
         printInfo[56].option.charAt(0) +
         "     " +
         printInfo[56].montant +
@@ -27723,8 +27723,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[57].numero +
-        "      " +
+        printInfo[57].numero.padEnd(6) +
+        "  " +
         printInfo[57].option.charAt(0) +
         "     " +
         printInfo[57].montant +
@@ -27739,8 +27739,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[0].numero +
-        "      " +
+        printInfo[0].numero.padEnd(6) +
+        "  " +
         printInfo[0].option.charAt(0) +
         "     " +
         printInfo[0].montant +
@@ -27754,8 +27754,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[1].numero +
-        "      " +
+        printInfo[1].numero.padEnd(6) +
+        "  " +
         printInfo[1].option.charAt(0) +
         "     " +
         printInfo[1].montant +
@@ -27769,8 +27769,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[2].numero +
-        "      " +
+        printInfo[2].numero.padEnd(6) +
+        "  " +
         printInfo[2].option.charAt(0) +
         "     " +
         printInfo[2].montant +
@@ -27784,8 +27784,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[3].numero +
-        "      " +
+        printInfo[3].numero.padEnd(6) +
+        "  " +
         printInfo[3].option.charAt(0) +
         "     " +
         printInfo[3].montant +
@@ -27799,8 +27799,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[4].numero +
-        "      " +
+        printInfo[4].numero.padEnd(6) +
+        "  " +
         printInfo[4].option.charAt(0) +
         "     " +
         printInfo[4].montant +
@@ -27814,8 +27814,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[5].numero +
-        "      " +
+        printInfo[5].numero.padEnd(6) +
+        "  " +
         printInfo[5].option.charAt(0) +
         "     " +
         printInfo[5].montant +
@@ -27829,8 +27829,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[6].numero +
-        "      " +
+        printInfo[6].numero.padEnd(6) +
+        "  " +
         printInfo[6].option.charAt(0) +
         "     " +
         printInfo[6].montant +
@@ -27844,8 +27844,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[7].numero +
-        "      " +
+        printInfo[7].numero.padEnd(6) +
+        "  " +
         printInfo[7].option.charAt(0) +
         "     " +
         printInfo[7].montant +
@@ -27859,8 +27859,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[8].numero +
-        "      " +
+        printInfo[8].numero.padEnd(6) +
+        "  " +
         printInfo[8].option.charAt(0) +
         "     " +
         printInfo[8].montant +
@@ -27874,8 +27874,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[9].numero +
-        "      " +
+        printInfo[9].numero.padEnd(6) +
+        "  " +
         printInfo[9].option.charAt(0) +
         "     " +
         printInfo[9].montant +
@@ -27889,8 +27889,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[10].numero +
-        "      " +
+        printInfo[10].numero.padEnd(6) +
+        "  " +
         printInfo[10].option.charAt(0) +
         "     " +
         printInfo[10].montant +
@@ -27904,8 +27904,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[11].numero +
-        "      " +
+        printInfo[11].numero.padEnd(6) +
+        "  " +
         printInfo[11].option.charAt(0) +
         "     " +
         printInfo[11].montant +
@@ -27919,8 +27919,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[12].numero +
-        "      " +
+        printInfo[12].numero.padEnd(6) +
+        "  " +
         printInfo[12].option.charAt(0) +
         "     " +
         printInfo[12].montant +
@@ -27934,8 +27934,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[13].numero +
-        "      " +
+        printInfo[13].numero.padEnd(6) +
+        "  " +
         printInfo[13].option.charAt(0) +
         "     " +
         printInfo[13].montant +
@@ -27949,8 +27949,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[14].numero +
-        "      " +
+        printInfo[14].numero.padEnd(6) +
+        "  " +
         printInfo[14].option.charAt(0) +
         "     " +
         printInfo[14].montant +
@@ -27964,8 +27964,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[15].numero +
-        "      " +
+        printInfo[15].numero.padEnd(6) +
+        "  " +
         printInfo[15].option.charAt(0) +
         "     " +
         printInfo[15].montant +
@@ -27979,8 +27979,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[16].numero +
-        "      " +
+        printInfo[16].numero.padEnd(6) +
+        "  " +
         printInfo[16].option.charAt(0) +
         "     " +
         printInfo[16].montant +
@@ -27994,8 +27994,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[17].numero +
-        "      " +
+        printInfo[17].numero.padEnd(6) +
+        "  " +
         printInfo[17].option.charAt(0) +
         "     " +
         printInfo[17].montant +
@@ -28009,8 +28009,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[18].numero +
-        "      " +
+        printInfo[18].numero.padEnd(6) +
+        "  " +
         printInfo[18].option.charAt(0) +
         "     " +
         printInfo[18].montant +
@@ -28024,8 +28024,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[19].numero +
-        "      " +
+        printInfo[19].numero.padEnd(6) +
+        "  " +
         printInfo[19].option.charAt(0) +
         "     " +
         printInfo[19].montant +
@@ -28039,8 +28039,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[20].numero +
-        "      " +
+        printInfo[20].numero.padEnd(6) +
+        "  " +
         printInfo[20].option.charAt(0) +
         "     " +
         printInfo[20].montant +
@@ -28054,8 +28054,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[21].numero +
-        "      " +
+        printInfo[21].numero.padEnd(6) +
+        "  " +
         printInfo[21].option.charAt(0) +
         "     " +
         printInfo[21].montant +
@@ -28069,8 +28069,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[22].numero +
-        "      " +
+        printInfo[22].numero.padEnd(6) +
+        "  " +
         printInfo[22].option.charAt(0) +
         "     " +
         printInfo[22].montant +
@@ -28084,8 +28084,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[23].numero +
-        "      " +
+        printInfo[23].numero.padEnd(6) +
+        "  " +
         printInfo[23].option.charAt(0) +
         "     " +
         printInfo[23].montant +
@@ -28099,8 +28099,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[24].numero +
-        "      " +
+        printInfo[24].numero.padEnd(6) +
+        "  " +
         printInfo[24].option.charAt(0) +
         "     " +
         printInfo[24].montant +
@@ -28114,8 +28114,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[25].numero +
-        "      " +
+        printInfo[25].numero.padEnd(6) +
+        "  " +
         printInfo[25].option.charAt(0) +
         "     " +
         printInfo[25].montant +
@@ -28129,8 +28129,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[26].numero +
-        "      " +
+        printInfo[26].numero.padEnd(6) +
+        "  " +
         printInfo[26].option.charAt(0) +
         "     " +
         printInfo[26].montant +
@@ -28144,8 +28144,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[27].numero +
-        "      " +
+        printInfo[27].numero.padEnd(6) +
+        "  " +
         printInfo[27].option.charAt(0) +
         "     " +
         printInfo[27].montant +
@@ -28159,8 +28159,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[28].numero +
-        "      " +
+        printInfo[28].numero.padEnd(6) +
+        "  " +
         printInfo[28].option.charAt(0) +
         "     " +
         printInfo[28].montant +
@@ -28174,8 +28174,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[29].numero +
-        "      " +
+        printInfo[29].numero.padEnd(6) +
+        "  " +
         printInfo[29].option.charAt(0) +
         "     " +
         printInfo[29].montant +
@@ -28189,8 +28189,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[30].numero +
-        "      " +
+        printInfo[30].numero.padEnd(6) +
+        "  " +
         printInfo[30].option.charAt(0) +
         "     " +
         printInfo[30].montant +
@@ -28204,8 +28204,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[31].numero +
-        "      " +
+        printInfo[31].numero.padEnd(6) +
+        "  " +
         printInfo[31].option.charAt(0) +
         "     " +
         printInfo[31].montant +
@@ -28219,8 +28219,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[32].numero +
-        "      " +
+        printInfo[32].numero.padEnd(6) +
+        "  " +
         printInfo[32].option.charAt(0) +
         "     " +
         printInfo[32].montant +
@@ -28234,8 +28234,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[33].numero +
-        "      " +
+        printInfo[33].numero.padEnd(6) +
+        "  " +
         printInfo[33].option.charAt(0) +
         "     " +
         printInfo[33].montant +
@@ -28249,8 +28249,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[34].numero +
-        "      " +
+        printInfo[34].numero.padEnd(6) +
+        "  " +
         printInfo[34].option.charAt(0) +
         "     " +
         printInfo[34].montant +
@@ -28264,8 +28264,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[35].numero +
-        "      " +
+        printInfo[35].numero.padEnd(6) +
+        "  " +
         printInfo[35].option.charAt(0) +
         "     " +
         printInfo[35].montant +
@@ -28279,8 +28279,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[36].numero +
-        "      " +
+        printInfo[36].numero.padEnd(6) +
+        "  " +
         printInfo[36].option.charAt(0) +
         "     " +
         printInfo[36].montant +
@@ -28294,8 +28294,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[37].numero +
-        "      " +
+        printInfo[37].numero.padEnd(6) +
+        "  " +
         printInfo[37].option.charAt(0) +
         "     " +
         printInfo[37].montant +
@@ -28309,8 +28309,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[38].numero +
-        "      " +
+        printInfo[38].numero.padEnd(6) +
+        "  " +
         printInfo[38].option.charAt(0) +
         "     " +
         printInfo[38].montant +
@@ -28324,8 +28324,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[39].numero +
-        "      " +
+        printInfo[39].numero.padEnd(6) +
+        "  " +
         printInfo[39].option.charAt(0) +
         "     " +
         printInfo[39].montant +
@@ -28339,8 +28339,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[40].numero +
-        "      " +
+        printInfo[40].numero.padEnd(6) +
+        "  " +
         printInfo[40].option.charAt(0) +
         "     " +
         printInfo[40].montant +
@@ -28354,8 +28354,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[41].numero +
-        "      " +
+        printInfo[41].numero.padEnd(6) +
+        "  " +
         printInfo[41].option.charAt(0) +
         "     " +
         printInfo[41].montant +
@@ -28369,8 +28369,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[42].numero +
-        "      " +
+        printInfo[42].numero.padEnd(6) +
+        "  " +
         printInfo[42].option.charAt(0) +
         "     " +
         printInfo[42].montant +
@@ -28384,8 +28384,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[43].numero +
-        "      " +
+        printInfo[43].numero.padEnd(6) +
+        "  " +
         printInfo[43].option.charAt(0) +
         "     " +
         printInfo[43].montant +
@@ -28399,8 +28399,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[44].numero +
-        "      " +
+        printInfo[44].numero.padEnd(6) +
+        "  " +
         printInfo[44].option.charAt(0) +
         "     " +
         printInfo[44].montant +
@@ -28414,8 +28414,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[45].numero +
-        "      " +
+        printInfo[45].numero.padEnd(6) +
+        "  " +
         printInfo[45].option.charAt(0) +
         "     " +
         printInfo[45].montant +
@@ -28429,8 +28429,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[46].numero +
-        "      " +
+        printInfo[46].numero.padEnd(6) +
+        "  " +
         printInfo[46].option.charAt(0) +
         "     " +
         printInfo[46].montant +
@@ -28444,8 +28444,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[47].numero +
-        "      " +
+        printInfo[47].numero.padEnd(6) +
+        "  " +
         printInfo[47].option.charAt(0) +
         "     " +
         printInfo[47].montant +
@@ -28459,8 +28459,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[48].numero +
-        "      " +
+        printInfo[48].numero.padEnd(6) +
+        "  " +
         printInfo[48].option.charAt(0) +
         "     " +
         printInfo[48].montant +
@@ -28474,8 +28474,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[49].numero +
-        "      " +
+        printInfo[49].numero.padEnd(6) +
+        "  " +
         printInfo[49].option.charAt(0) +
         "     " +
         printInfo[49].montant +
@@ -28489,8 +28489,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[50].numero +
-        "      " +
+        printInfo[50].numero.padEnd(6) +
+        "  " +
         printInfo[50].option.charAt(0) +
         "     " +
         printInfo[50].montant +
@@ -28504,8 +28504,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[51].numero +
-        "      " +
+        printInfo[51].numero.padEnd(6) +
+        "  " +
         printInfo[51].option.charAt(0) +
         "     " +
         printInfo[51].montant +
@@ -28519,8 +28519,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[52].numero +
-        "      " +
+        printInfo[52].numero.padEnd(6) +
+        "  " +
         printInfo[52].option.charAt(0) +
         "     " +
         printInfo[52].montant +
@@ -28534,8 +28534,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[53].numero +
-        "      " +
+        printInfo[53].numero.padEnd(6) +
+        "  " +
         printInfo[53].option.charAt(0) +
         "     " +
         printInfo[53].montant +
@@ -28549,8 +28549,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[54].numero +
-        "      " +
+        printInfo[54].numero.padEnd(6) +
+        "  " +
         printInfo[54].option.charAt(0) +
         "     " +
         printInfo[54].montant +
@@ -28564,8 +28564,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[55].numero +
-        "      " +
+        printInfo[55].numero.padEnd(6) +
+        "  " +
         printInfo[55].option.charAt(0) +
         "     " +
         printInfo[55].montant +
@@ -28579,8 +28579,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[56].numero +
-        "      " +
+        printInfo[56].numero.padEnd(6) +
+        "  " +
         printInfo[56].option.charAt(0) +
         "     " +
         printInfo[56].montant +
@@ -28594,8 +28594,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[57].numero +
-        "      " +
+        printInfo[57].numero.padEnd(6) +
+        "  " +
         printInfo[57].option.charAt(0) +
         "     " +
         printInfo[57].montant +
@@ -28609,8 +28609,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[58].numero +
-        "      " +
+        printInfo[58].numero.padEnd(6) +
+        "  " +
         printInfo[58].option.charAt(0) +
         "     " +
         printInfo[58].montant +
@@ -28625,8 +28625,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[0].numero +
-        "      " +
+        printInfo[0].numero.padEnd(6) +
+        "  " +
         printInfo[0].option.charAt(0) +
         "     " +
         printInfo[0].montant +
@@ -28640,8 +28640,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[1].numero +
-        "      " +
+        printInfo[1].numero.padEnd(6) +
+        "  " +
         printInfo[1].option.charAt(0) +
         "     " +
         printInfo[1].montant +
@@ -28655,8 +28655,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[2].numero +
-        "      " +
+        printInfo[2].numero.padEnd(6) +
+        "  " +
         printInfo[2].option.charAt(0) +
         "     " +
         printInfo[2].montant +
@@ -28670,8 +28670,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[3].numero +
-        "      " +
+        printInfo[3].numero.padEnd(6) +
+        "  " +
         printInfo[3].option.charAt(0) +
         "     " +
         printInfo[3].montant +
@@ -28685,8 +28685,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[4].numero +
-        "      " +
+        printInfo[4].numero.padEnd(6) +
+        "  " +
         printInfo[4].option.charAt(0) +
         "     " +
         printInfo[4].montant +
@@ -28700,8 +28700,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[5].numero +
-        "      " +
+        printInfo[5].numero.padEnd(6) +
+        "  " +
         printInfo[5].option.charAt(0) +
         "     " +
         printInfo[5].montant +
@@ -28715,8 +28715,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[6].numero +
-        "      " +
+        printInfo[6].numero.padEnd(6) +
+        "  " +
         printInfo[6].option.charAt(0) +
         "     " +
         printInfo[6].montant +
@@ -28730,8 +28730,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[7].numero +
-        "      " +
+        printInfo[7].numero.padEnd(6) +
+        "  " +
         printInfo[7].option.charAt(0) +
         "     " +
         printInfo[7].montant +
@@ -28745,8 +28745,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[8].numero +
-        "      " +
+        printInfo[8].numero.padEnd(6) +
+        "  " +
         printInfo[8].option.charAt(0) +
         "     " +
         printInfo[8].montant +
@@ -28760,8 +28760,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[9].numero +
-        "      " +
+        printInfo[9].numero.padEnd(6) +
+        "  " +
         printInfo[9].option.charAt(0) +
         "     " +
         printInfo[9].montant +
@@ -28775,8 +28775,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[10].numero +
-        "      " +
+        printInfo[10].numero.padEnd(6) +
+        "  " +
         printInfo[10].option.charAt(0) +
         "     " +
         printInfo[10].montant +
@@ -28790,8 +28790,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[11].numero +
-        "      " +
+        printInfo[11].numero.padEnd(6) +
+        "  " +
         printInfo[11].option.charAt(0) +
         "     " +
         printInfo[11].montant +
@@ -28805,8 +28805,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[12].numero +
-        "      " +
+        printInfo[12].numero.padEnd(6) +
+        "  " +
         printInfo[12].option.charAt(0) +
         "     " +
         printInfo[12].montant +
@@ -28820,8 +28820,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[13].numero +
-        "      " +
+        printInfo[13].numero.padEnd(6) +
+        "  " +
         printInfo[13].option.charAt(0) +
         "     " +
         printInfo[13].montant +
@@ -28835,8 +28835,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[14].numero +
-        "      " +
+        printInfo[14].numero.padEnd(6) +
+        "  " +
         printInfo[14].option.charAt(0) +
         "     " +
         printInfo[14].montant +
@@ -28850,8 +28850,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[15].numero +
-        "      " +
+        printInfo[15].numero.padEnd(6) +
+        "  " +
         printInfo[15].option.charAt(0) +
         "     " +
         printInfo[15].montant +
@@ -28865,8 +28865,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[16].numero +
-        "      " +
+        printInfo[16].numero.padEnd(6) +
+        "  " +
         printInfo[16].option.charAt(0) +
         "     " +
         printInfo[16].montant +
@@ -28880,8 +28880,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[17].numero +
-        "      " +
+        printInfo[17].numero.padEnd(6) +
+        "  " +
         printInfo[17].option.charAt(0) +
         "     " +
         printInfo[17].montant +
@@ -28895,8 +28895,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[18].numero +
-        "      " +
+        printInfo[18].numero.padEnd(6) +
+        "  " +
         printInfo[18].option.charAt(0) +
         "     " +
         printInfo[18].montant +
@@ -28910,8 +28910,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[19].numero +
-        "      " +
+        printInfo[19].numero.padEnd(6) +
+        "  " +
         printInfo[19].option.charAt(0) +
         "     " +
         printInfo[19].montant +
@@ -28925,8 +28925,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[20].numero +
-        "      " +
+        printInfo[20].numero.padEnd(6) +
+        "  " +
         printInfo[20].option.charAt(0) +
         "     " +
         printInfo[20].montant +
@@ -28940,8 +28940,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[21].numero +
-        "      " +
+        printInfo[21].numero.padEnd(6) +
+        "  " +
         printInfo[21].option.charAt(0) +
         "     " +
         printInfo[21].montant +
@@ -28955,8 +28955,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[22].numero +
-        "      " +
+        printInfo[22].numero.padEnd(6) +
+        "  " +
         printInfo[22].option.charAt(0) +
         "     " +
         printInfo[22].montant +
@@ -28970,8 +28970,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[23].numero +
-        "      " +
+        printInfo[23].numero.padEnd(6) +
+        "  " +
         printInfo[23].option.charAt(0) +
         "     " +
         printInfo[23].montant +
@@ -28985,8 +28985,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[24].numero +
-        "      " +
+        printInfo[24].numero.padEnd(6) +
+        "  " +
         printInfo[24].option.charAt(0) +
         "     " +
         printInfo[24].montant +
@@ -29000,8 +29000,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[25].numero +
-        "      " +
+        printInfo[25].numero.padEnd(6) +
+        "  " +
         printInfo[25].option.charAt(0) +
         "     " +
         printInfo[25].montant +
@@ -29015,8 +29015,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[26].numero +
-        "      " +
+        printInfo[26].numero.padEnd(6) +
+        "  " +
         printInfo[26].option.charAt(0) +
         "     " +
         printInfo[26].montant +
@@ -29030,8 +29030,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[27].numero +
-        "      " +
+        printInfo[27].numero.padEnd(6) +
+        "  " +
         printInfo[27].option.charAt(0) +
         "     " +
         printInfo[27].montant +
@@ -29045,8 +29045,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[28].numero +
-        "      " +
+        printInfo[28].numero.padEnd(6) +
+        "  " +
         printInfo[28].option.charAt(0) +
         "     " +
         printInfo[28].montant +
@@ -29060,8 +29060,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[29].numero +
-        "      " +
+        printInfo[29].numero.padEnd(6) +
+        "  " +
         printInfo[29].option.charAt(0) +
         "     " +
         printInfo[29].montant +
@@ -29075,8 +29075,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[30].numero +
-        "      " +
+        printInfo[30].numero.padEnd(6) +
+        "  " +
         printInfo[30].option.charAt(0) +
         "     " +
         printInfo[30].montant +
@@ -29090,8 +29090,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[31].numero +
-        "      " +
+        printInfo[31].numero.padEnd(6) +
+        "  " +
         printInfo[31].option.charAt(0) +
         "     " +
         printInfo[31].montant +
@@ -29105,8 +29105,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[32].numero +
-        "      " +
+        printInfo[32].numero.padEnd(6) +
+        "  " +
         printInfo[32].option.charAt(0) +
         "     " +
         printInfo[32].montant +
@@ -29120,8 +29120,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[33].numero +
-        "      " +
+        printInfo[33].numero.padEnd(6) +
+        "  " +
         printInfo[33].option.charAt(0) +
         "     " +
         printInfo[33].montant +
@@ -29135,8 +29135,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[34].numero +
-        "      " +
+        printInfo[34].numero.padEnd(6) +
+        "  " +
         printInfo[34].option.charAt(0) +
         "     " +
         printInfo[34].montant +
@@ -29150,8 +29150,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[35].numero +
-        "      " +
+        printInfo[35].numero.padEnd(6) +
+        "  " +
         printInfo[35].option.charAt(0) +
         "     " +
         printInfo[35].montant +
@@ -29165,8 +29165,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[36].numero +
-        "      " +
+        printInfo[36].numero.padEnd(6) +
+        "  " +
         printInfo[36].option.charAt(0) +
         "     " +
         printInfo[36].montant +
@@ -29180,8 +29180,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[37].numero +
-        "      " +
+        printInfo[37].numero.padEnd(6) +
+        "  " +
         printInfo[37].option.charAt(0) +
         "     " +
         printInfo[37].montant +
@@ -29195,8 +29195,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[38].numero +
-        "      " +
+        printInfo[38].numero.padEnd(6) +
+        "  " +
         printInfo[38].option.charAt(0) +
         "     " +
         printInfo[38].montant +
@@ -29210,8 +29210,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[39].numero +
-        "      " +
+        printInfo[39].numero.padEnd(6) +
+        "  " +
         printInfo[39].option.charAt(0) +
         "     " +
         printInfo[39].montant +
@@ -29225,8 +29225,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[40].numero +
-        "      " +
+        printInfo[40].numero.padEnd(6) +
+        "  " +
         printInfo[40].option.charAt(0) +
         "     " +
         printInfo[40].montant +
@@ -29240,8 +29240,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[41].numero +
-        "      " +
+        printInfo[41].numero.padEnd(6) +
+        "  " +
         printInfo[41].option.charAt(0) +
         "     " +
         printInfo[41].montant +
@@ -29255,8 +29255,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[42].numero +
-        "      " +
+        printInfo[42].numero.padEnd(6) +
+        "  " +
         printInfo[42].option.charAt(0) +
         "     " +
         printInfo[42].montant +
@@ -29270,8 +29270,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[43].numero +
-        "      " +
+        printInfo[43].numero.padEnd(6) +
+        "  " +
         printInfo[43].option.charAt(0) +
         "     " +
         printInfo[43].montant +
@@ -29285,8 +29285,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[44].numero +
-        "      " +
+        printInfo[44].numero.padEnd(6) +
+        "  " +
         printInfo[44].option.charAt(0) +
         "     " +
         printInfo[44].montant +
@@ -29300,8 +29300,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[45].numero +
-        "      " +
+        printInfo[45].numero.padEnd(6) +
+        "  " +
         printInfo[45].option.charAt(0) +
         "     " +
         printInfo[45].montant +
@@ -29315,8 +29315,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[46].numero +
-        "      " +
+        printInfo[46].numero.padEnd(6) +
+        "  " +
         printInfo[46].option.charAt(0) +
         "     " +
         printInfo[46].montant +
@@ -29330,8 +29330,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[47].numero +
-        "      " +
+        printInfo[47].numero.padEnd(6) +
+        "  " +
         printInfo[47].option.charAt(0) +
         "     " +
         printInfo[47].montant +
@@ -29345,8 +29345,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[48].numero +
-        "      " +
+        printInfo[48].numero.padEnd(6) +
+        "  " +
         printInfo[48].option.charAt(0) +
         "     " +
         printInfo[48].montant +
@@ -29360,8 +29360,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[49].numero +
-        "      " +
+        printInfo[49].numero.padEnd(6) +
+        "  " +
         printInfo[49].option.charAt(0) +
         "     " +
         printInfo[49].montant +
@@ -29375,8 +29375,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[50].numero +
-        "      " +
+        printInfo[50].numero.padEnd(6) +
+        "  " +
         printInfo[50].option.charAt(0) +
         "     " +
         printInfo[50].montant +
@@ -29390,8 +29390,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[51].numero +
-        "      " +
+        printInfo[51].numero.padEnd(6) +
+        "  " +
         printInfo[51].option.charAt(0) +
         "     " +
         printInfo[51].montant +
@@ -29405,8 +29405,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[52].numero +
-        "      " +
+        printInfo[52].numero.padEnd(6) +
+        "  " +
         printInfo[52].option.charAt(0) +
         "     " +
         printInfo[52].montant +
@@ -29420,8 +29420,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[53].numero +
-        "      " +
+        printInfo[53].numero.padEnd(6) +
+        "  " +
         printInfo[53].option.charAt(0) +
         "     " +
         printInfo[53].montant +
@@ -29435,8 +29435,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[54].numero +
-        "      " +
+        printInfo[54].numero.padEnd(6) +
+        "  " +
         printInfo[54].option.charAt(0) +
         "     " +
         printInfo[54].montant +
@@ -29450,8 +29450,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[55].numero +
-        "      " +
+        printInfo[55].numero.padEnd(6) +
+        "  " +
         printInfo[55].option.charAt(0) +
         "     " +
         printInfo[55].montant +
@@ -29465,8 +29465,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[56].numero +
-        "      " +
+        printInfo[56].numero.padEnd(6) +
+        "  " +
         printInfo[56].option.charAt(0) +
         "     " +
         printInfo[56].montant +
@@ -29480,8 +29480,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[57].numero +
-        "      " +
+        printInfo[57].numero.padEnd(6) +
+        "  " +
         printInfo[57].option.charAt(0) +
         "     " +
         printInfo[57].montant +
@@ -29495,8 +29495,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[58].numero +
-        "      " +
+        printInfo[58].numero.padEnd(6) +
+        "  " +
         printInfo[58].option.charAt(0) +
         "     " +
         printInfo[58].montant +
@@ -29510,8 +29510,8 @@ const printData = (printInfo: IBorlette[]) => {
             : 0
         ) +
         "  " +
-        printInfo[59].numero +
-        "      " +
+        printInfo[59].numero.padEnd(6) +
+        "  " +
         printInfo[59].option.charAt(0) +
         "     " +
         printInfo[59].montant +

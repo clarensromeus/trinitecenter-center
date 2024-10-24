@@ -30,7 +30,9 @@ export default function KonfimationScreen() {
     mmFeedPaper: 12,
     autoCut: true,
     timeout: 30000,
+    
   };
+
 
   const router = useRouter();
 
@@ -330,8 +332,8 @@ export default function KonfimationScreen() {
                                       "[L]Bank : " +
                                       agent.Bank +
                                       "\n" +
-                                      "[L]Agent : " +
-                                      agent.Pseudoname +
+                                      "[L]Surcussale : " +
+                                      agent.Surcussale +
                                       "\n" +
                                       "[L]" +
                                       onlyDate +

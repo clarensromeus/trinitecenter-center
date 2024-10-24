@@ -23,10 +23,11 @@ const InputsComponent = ({
               : ""
           }`}
           length={
-            baseDetection == "Borlette" ? 2 : baseDetection == "Lotto3" ? 3 : 7
+            baseDetection == "Borlette" ? 2 : baseDetection == "Lotto3" ? 3 : 4
           }
           onChangeText={(text) => handleInputChange(index, "number", text)}
-          baseDetection={baseDetection == "Mariage" ? "default" : "numeric"}
+          // baseDetection={baseDetection == "Mariage" ? "default" : "numeric"}
+          baseDetection="numeric"
           affixType="no"
         />
       </View>

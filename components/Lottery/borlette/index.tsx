@@ -8,7 +8,7 @@ import ConstraintDialog from "../constraintDialog";
 
 function Borlette() {
   const [inputs, setInputs] = useState<LotteryInput[]>(
-    Array(12).fill({ number: "", amount: "" })
+    Array(18).fill({ number: "", amount: "" })
   );
   const [isLoading, setLoading] = React.useState<boolean>(false);
   const [visible, setVisible] = React.useState<boolean>(false);
