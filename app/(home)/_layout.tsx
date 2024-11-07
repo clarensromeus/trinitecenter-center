@@ -5,7 +5,6 @@ import AntDesign from "@expo/vector-icons/AntDesign";
 import FontAwesome5 from "@expo/vector-icons/FontAwesome5";
 import Fontisto from "@expo/vector-icons/Fontisto";
 import Entypo from "@expo/vector-icons/Entypo";
-import Dialog from "react-native-dialog";
 import PeyeTike from "@/components/dialog/peyeTike";
 import { Rapo } from "@/components/dialog/rapo";
 import ImprimeTike from "@/components/dialog/imprime";
@@ -13,6 +12,7 @@ import { Menu } from "react-native-paper";
 import { useRouter, Router } from "expo-router";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { AnileTike } from "@/components/dialog/anileTike";
+import useLotteryStore from "@/store/ProviderData";
 
 export default function Homelayourt() {
   const [visible, setVisible] = React.useState<boolean>(false);
@@ -22,6 +22,7 @@ export default function Homelayourt() {
   const [isVisible, setMenuVisible] = React.useState<boolean>(false);
 
   const router: Router = useRouter();
+  const updateAuth = useLotteryStore((state) => state.updateAuth);
 
   const showDialog = () => {
     setVisible(true);
@@ -85,7 +86,7 @@ export default function Homelayourt() {
                     <Pressable onPress={openMenu}>
                       <Entypo
                         name="dots-three-vertical"
-                        size={24}
+                        size={30}
                         color="white"
                       />
                     </Pressable>
@@ -102,9 +103,10 @@ export default function Homelayourt() {
                   <Menu.Item
                     onPress={async () => {
                       try {
+                        updateAuth(false);
                         closeMenu();
                         await AsyncStorage.clear();
-                        router.back();
+                        router.replace("/");
                       } catch (error) {
                         throw new Error(`${error}`);
                       }

@@ -54,6 +54,19 @@ interface Test {
   boule: string;
 }
 
+export function pairwiseCombinationProduct(arr: string[]): string[] {
+  const results: string[] = [];
+
+  // Loop through each unique pair of elements in the array
+  for (let i = 0; i < arr.length; i++) {
+    for (let j = i + 1; j < arr.length; j++) {
+      results.push(arr[i] + arr[j]);
+    }
+  }
+
+  return results;
+}
+
 export const blockageBoule = async (
   boule: string[],
   Tirage: string,
@@ -69,9 +82,8 @@ export const blockageBoule = async (
     } else {
       boules.docs.map((doc) => {
         if (
-          doc.data().Agent == agent &&
-          Tirage == doc.data().Tirage
-          /* Tirage.filter((f) => f === doc.data().Tirage).length > 0 */
+          (doc.data().Agent == agent || doc.data().Agent == "tout") &&
+          (Tirage == doc.data().Tirage || doc.data().Tirage == "tout")
         ) {
           if (boule.filter((b) => b === doc.data().boule).length > 0) {
             boule
@@ -110,7 +122,7 @@ export const limiteBoule = async (
     } else {
       limites.docs.map((lb) => {
         // Tirage.filter((t) => t == lb.data().Tirage)
-        if (Tirage == lb.data().Tirage) {
+        if (Tirage == lb.data().Tirage || lb.data().Tirage == "tout") {
           const bo = boule.filter((b) => b == lb.data().Boule);
           const isLimite = montant.some(
             (l) => parseInt(l) > parseInt(lb.data().Limite)
@@ -146,7 +158,10 @@ export const limitBouleParAgent = async (
       limiteData.state = false;
     }
     limitePa.docs.map((lb) => {
-      if (Tirage == lb.data().Tirage && lb.data().Agent == Agent) {
+      if (
+        (Tirage == lb.data().Tirage || lb.data().Tirage == "tout") &&
+        lb.data().Agent == Agent
+      ) {
         const bo = boule.filter((b) => b == lb.data().Boule);
         const isLimite = montant.some(
           (l) => parseInt(l) > parseInt(lb.data().Limite)
@@ -181,10 +196,10 @@ export const limiteJeu = async (
       limites.docs.map((l) => {
         // Tirage.filter((t) => t === l.data().Tirage).length > 0
         if (
-          Tirage == l.data().Tirage &&
+          (Tirage == l.data().Tirage || l.data().Tirage == "tout") &&
           type.filter(
             (t) =>
-              t.borlette == l.data().Option &&
+              t.borlette == l.data().Option.replace(/\s/g, "") &&
               parseInt(t.montant) > parseInt(l.data().Limite)
           ).length > 0
           // type == l.data().Option
@@ -192,7 +207,7 @@ export const limiteJeu = async (
           const allLimite = type
             .filter(
               (t) =>
-                t.borlette == l.data().Option &&
+                t.borlette == l.data().Option.replace(/\s/g, "") &&
                 parseInt(t.montant) > parseInt(l.data().Limite)
             )
             .map((v) => v.montant);
@@ -231,10 +246,10 @@ export const limiteJeuParAgent = async (
       limites.docs.map((lj) => {
         if (
           lj.data().Agent == Agent &&
-          Tirage == lj.data().Tirage &&
+          (Tirage == lj.data().Tirage || lj.data().Tirage == "tout") &&
           type.filter(
             (t) =>
-              t.borlette == lj.data().Option &&
+              t.borlette == lj.data().Option.replace(/\s/g, "") &&
               parseInt(t.montant) > parseInt(lj.data().Limite)
           ).length > 0
           // type == lj.data().Option
@@ -242,7 +257,7 @@ export const limiteJeuParAgent = async (
           const allLimite = type
             .filter(
               (t) =>
-                t.borlette == lj.data().Option &&
+                t.borlette == lj.data().Option.replace(/\s/g, "") &&
                 parseInt(t.montant) > parseInt(lj.data().Limite)
             )
             .map((v) => v.montant);
@@ -507,6 +522,14 @@ export const allFicheParAgent = async (
     throw new Error(`${error}`);
   }
 };
+
+const rapportParAgent = async () => {
+  try {
+    
+  } catch (error) {
+    throw new Error(`${error}`)
+  }
+}
 
 export const getUserData = async () => {
   try {

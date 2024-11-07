@@ -10,6 +10,7 @@ const InputsComponent = ({
   handleInputChange,
   defaultValue,
   baseDetection,
+  reload,
 }: IData) => {
   const renderItem = ({ item, index }: IrenderItem) => (
     <View style={[styles.cardContainer, { marginTop: 15 }]}>

@@ -5,10 +5,12 @@ import InputsComponent from "../inputComponent";
 import useLotteryStore from "@/store/ProviderData";
 import { IBorlette, LotteryInput } from "@/types/lottery";
 import ConstraintDialog from "../constraintDialog";
+import { Pressable } from "react-native";
+import Ionicons from "@expo/vector-icons/Ionicons";
 
 function Mariage() {
   const [inputs, setInputs] = useState<LotteryInput[]>(
-    Array(18).fill({ number: "", amount: "" })
+    Array(72).fill({ number: "", amount: "" })
   );
   const [loading, setLoading] = React.useState<boolean>(false);
   const [visible, setVisible] = React.useState<boolean>(false);
@@ -23,10 +25,21 @@ function Mariage() {
     [inputs]
   );
 
-  const { Mariage, addMariage } = useLotteryStore((state) => ({
-    Mariage: state.Mariage,
-    addMariage: state.addMariage,
-  }));
+  const { Mariage, addMariage, Reload, addReload } = useLotteryStore(
+    (state) => ({
+      Mariage: state.Mariage,
+      addMariage: state.addMariage,
+      Reload: state.Reload,
+      addReload: state.addReload,
+    })
+  );
+
+  const addTo = async () => {
+    try {
+    } catch (error) {
+      throw new Error(`${error}`);
+    }
+  };
 
   const save = async () => {
     try {
@@ -58,6 +71,23 @@ function Mariage() {
   React.useEffect(() => {
     const number = Mariage.map((b) => b.numero);
     const amount = Mariage.map((b) => b.montant);
+
+    const firstValue = inputs.map((bo, ind) => {
+      if (Mariage.length > 0 && ind < Mariage.length) {
+        return {
+          number: number[ind],
+          amount: amount[ind],
+        };
+      } else {
+        return { number: "", amount: "" };
+      }
+    });
+    setInputs(firstValue);
+  }, [Reload]);
+
+  React.useEffect(() => {
+    const number = Mariage.map((b) => b.numero);
+    const amount = Mariage.map((b) => b.montant);
     const firstValue = inputs.map((bo, ind) => {
       if (Mariage.length > 0 && ind < Mariage.length) {
         return {
@@ -81,6 +111,7 @@ function Mariage() {
               data={inputs}
               handleInputChange={handleInputChange}
               baseDetection="Mariage"
+              reload={Reload}
             />
           </Card.Content>
         </Card>
@@ -99,6 +130,24 @@ function Mariage() {
             "Enregistrer"
           )}
         </Button>
+        <Pressable
+          style={styles.firstButton}
+          onPress={() => {
+            addReload();
+          }}
+        >
+          <Ionicons name="copy-outline" size={25} color="#651fff" />
+          <Text
+            variant="headlineSmall"
+            style={{
+              // textTransform: "uppercase",
+              color: "#651fff",
+              fontSize: 19,
+            }}
+          >
+            Ajouter
+          </Text>
+        </Pressable>
       </View>
       <ConstraintDialog setVisible={setVisible} isVisible={visible} />
     </View>
@@ -111,6 +160,7 @@ const styles = StyleSheet.create({
     paddingTop: 25,
     paddingBottom: 10,
     flexDirection: "row",
+    gap: 5,
   },
   vider: {
     color: "#f44336",
@@ -119,7 +169,19 @@ const styles = StyleSheet.create({
   },
   listParent: { width: 400 },
   card: { backgroundColor: "white" },
-  Button: { borderRadius: 5, flexGrow: 1 },
+  Button: { borderRadius: 0, flexGrow: 1 },
+  firstButton: {
+    width: "42%",
+    margin: 8,
+    borderColor: "#651fff",
+    borderStyle: "solid",
+    flexDirection: "row",
+    borderWidth: 1,
+    justifyContent: "space-between",
+    paddingHorizontal: 16,
+    paddingVertical: 6,
+    alignItems: "center",
+  },
 });
 
 export default memo(Mariage);

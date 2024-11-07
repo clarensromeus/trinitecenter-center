@@ -1,7 +1,7 @@
 import { Stack } from "expo-router";
 import * as React from "react";
-import { View, StyleSheet, Pressable } from "react-native";
-import { Menu } from "react-native-paper";
+import { View, StyleSheet, Pressable, TouchableOpacity } from "react-native";
+import { Menu, Text } from "react-native-paper";
 import AntDesign from "@expo/vector-icons/AntDesign";
 import Entypo from "@expo/vector-icons/Entypo";
 import { RechercherTike } from "@/components/dialog/rechercheTike";
@@ -25,9 +25,11 @@ import {
   limiteBoule,
   limiteJeu,
   limiteJeuParAgent,
+  pairwiseCombinationProduct,
 } from "@/components/Lottery/logics";
 import DialogMessage from "@/components/Lottery/dialog";
 import __ from "lodash";
+import MontantDialog from "@/components/Lottery/montantAutomatique";
 
 export default function Homelayourt() {
   const [visible, setVisible] = React.useState<boolean>(false);
@@ -36,6 +38,7 @@ export default function Homelayourt() {
   const [message, setMessage] = React.useState<string>("");
   const [visibleMessage, setVisibleMessage] = React.useState<boolean>(false);
   const [isEl, setEl] = React.useState<boolean>(false);
+  const [visibleM, setVisibleM] = React.useState<boolean>(false);
   const [isError, setError] = React.useState<boolean>(false);
   const {
     Borlette,
@@ -44,6 +47,8 @@ export default function Homelayourt() {
     Lotto5,
     Mariage,
     Tirage,
+    addReload,
+    addMariage,
     ClearBorlette,
     ClearLotto3,
     ClearLotto4,
@@ -56,6 +61,8 @@ export default function Homelayourt() {
     Lotto5: state.Lotto5,
     Mariage: state.Mariage,
     Tirage: state.Tirage,
+    addReload: state.addReload,
+    addMariage: state.addMariage,
     ClearBorlette: state.clearBorlette,
     ClearLotto3: state.clearLotto3,
     ClearLotto4: state.clearLotto4,
@@ -101,96 +108,78 @@ export default function Homelayourt() {
       const montant = Object.values(totalBorlette.map((b) => b.montant));
       setVisibleMessage(true);
       setLoading(true);
-
-      // grab borlette
       // const borlette = Object.values(totalBorlette.map((b) => b.borlette));
 
       // test time of the slot
       const tirage = await accessTirage(Tirage);
-      if (tirage.state == true) {
-        setLoading(false);
-        setMessage(tirage.message);
-        setEl(true);
-        // setVisibleMessage(true);
-      }
-      // block access in case no number is bet
-      if (totalBorlette.length == 0) {
-        setLoading(false);
-        setMessage("fok ou jwe pou piti yon boul, pou ou ka kreye yon fich");
-      }
+
       // blockage boule
       const bb: { data: string[]; state: boolean } = await blockageBoule(
         boules,
         Tirage[0],
-        vendeur.Agent
+        vendeur.Bank
       );
-      if (bb.state == true) {
-        setLoading(false);
-        setMessage(`${bb.data.join(",")}, sorry boule sa (yo) bloke `);
-        // setVisibleMessage(true);
-      }
       // limite boule
       const lb: {
         data: string[];
         state: boolean;
       } = await limiteBoule(boules, montant, Tirage[0]);
+      // limite boule par agent
+      const lbpa: {
+        data: string[];
+        state: boolean;
+      } = await limitBouleParAgent(boules, Tirage[0], vendeur.Bank, montant);
+      // limite Jeu
+      const lj = await limiteJeu(Tirage[0], totalBorlette);
+      // limite Jeu Par agent
+      const ljpa: { message: string; state: boolean } = await limiteJeuParAgent(
+        vendeur.Bank,
+        Tirage[0],
+        totalBorlette
+      );
 
-      if (lb.state == true) {
+      // all particular case on the receipt
+      if (tirage.state == true) {
+        setLoading(false);
+        setMessage(tirage.message);
+        setEl(true);
+        // setVisibleMessage(true);
+      } else if (totalBorlette.length == 0) {
+        // block access in case no number is bet
+        setLoading(false);
+        setMessage("fok ou jwe pou piti yon boul, pou ou ka kreye yon fich");
+      } else if (bb.state == true) {
+        setLoading(false);
+        setMessage(`${bb.data.join(",")}, sorry boule sa (yo) bloke `);
+        // setVisibleMessage(true);
+      } else if (lb.state == true) {
         setLoading(false);
         setMessage(
           `${lb.data.join(",")}, boule sa (yo) pa ka jwe, kob la twò wo`
         );
         // setVisibleMessage(true);
-      }
-      // limite boule par agent
-      const lbpa: {
-        data: string[];
-        state: boolean;
-      } = await limitBouleParAgent(boules, Tirage[0], vendeur.Agent, montant);
-
-      if (lbpa.state == true) {
+      } else if (lbpa.state == true) {
         setLoading(false);
         setMessage(
           `${lbpa.data.join(",")}, boule sa (yo) pa ka jwe, kob la twò wo`
         );
         // setVisibleMessage(true);
-      }
-
-      // limite Jeu
-      const lj = await limiteJeu(Tirage[0], totalBorlette);
-      if (lj.state == true) {
+      } else if (lj.state == true) {
         setLoading(false);
         setMessage(lj.message);
         // setVisibleMessage(true);
-      }
-      // limite Jeu Par agent
-      const ljpa: { message: string; state: boolean } = await limiteJeuParAgent(
-        vendeur.Agent,
-        Tirage[0],
-        totalBorlette
-      );
-      if (ljpa.state == true) {
+      } else if (ljpa.state == true) {
         setLoading(false);
         setMessage(ljpa.message);
         // setVisibleMessage(true);
-      }
-
-      // if everything is okay
-      if (
-        tirage.state == false &&
-        bb.state == false &&
-        lb.state == false &&
-        lbpa.state == false &&
-        lj.state == false &&
-        ljpa.state == false
-      ) {
+      } else {
         setLoading(true);
         setMessage("Pran yon ti pasyans pandan fich la ap trete");
         // setVisibleMessage(true);
         const ficheCreation = await createFiche(
           date.toString(),
           totalBorlette,
-          Tirage[0],
+          `${Tirage[0].toLowerCase()}`,
           `${vendeur.Pseudoname}`,
           vendeur.Surcussale,
           `${vendeur.Bank}`
@@ -260,13 +249,13 @@ export default function Homelayourt() {
             headerShadowVisible: false,
             headerRight: () => {
               return (
-                <View style={{ flexDirection: "row", gap: 25 }}>
+                <View style={{ flexDirection: "row", gap: 29 }}>
                   <Pressable onPress={showDialog}>
-                    <AntDesign name="search1" size={26} color="white" />
+                    <AntDesign name="search1" size={29} color="white" />
                   </Pressable>
                   <RechercherTike visible={visible} setVisible={setVisible} />
                   <Pressable onPress={Jwe}>
-                    <AntDesign name="check" size={27} color="white" />
+                    <AntDesign name="check" size={30} color="white" />
                   </Pressable>
                   <DialogMessage
                     isVisible={visibleMessage}
@@ -282,16 +271,50 @@ export default function Homelayourt() {
                       <Pressable onPress={openMenu}>
                         <Entypo
                           name="dots-three-vertical"
-                          size={27}
+                          size={30}
                           color="white"
                         />
                       </Pressable>
                     }
                   >
                     <Menu.Item
-                      onPress={() => router.back()}
+                      onPress={() => router.navigate("/(home)/(jwe)")}
                       contentStyle={{ paddingHorizontal: 10 }}
                       title="Retounen avan"
+                    />
+                    <Menu.Item
+                      onPress={() => {
+                        const numeros = Borlette.map((f) =>
+                          f.numero.toString()
+                        );
+                        closeMenu();
+                        const pair = pairwiseCombinationProduct(numeros);
+                        // addMariageAutomatic(pair);
+                        const allMariage = pair.map((num, index) => {
+                          return {
+                            numero: `${num}`,
+                            montant: `0`,
+                            option: "-",
+                            borlette: "mariage",
+                          };
+                        });
+                        addMariage(allMariage);
+                        addReload();
+                      }}
+                      contentStyle={{ paddingHorizontal: 10 }}
+                      title="Mariage automatique"
+                    />
+                    <Menu.Item
+                      onPress={() => {
+                        setVisibleM(true);
+                        // closeMenu();
+                      }}
+                      contentStyle={{ paddingHorizontal: 10 }}
+                      title="Montant automatique"
+                    />
+                    <MontantDialog
+                      isVisible={visibleM}
+                      setVisible={setVisibleM}
                     />
                   </Menu>
                 </View>
@@ -328,6 +351,15 @@ export default function Homelayourt() {
           headerStyle: { backgroundColor: "#651fff" },
           headerTitleStyle: { color: "white", fontSize: 24 },
           headerShadowVisible: false,
+          headerRight: () => {
+            return (
+              <TouchableOpacity
+                onPress={() => router.replace("/(home)/(jwe)/")}
+              >
+                <Text style={{ color: "#4caf50", fontSize: 21 }}>Retounen</Text>
+              </TouchableOpacity>
+            );
+          },
         }}
       />
     </Stack>

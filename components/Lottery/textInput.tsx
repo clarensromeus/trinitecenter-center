@@ -1,6 +1,7 @@
 import React, { memo } from "react";
 import { TextInput } from "react-native-paper";
 import __ from "lodash";
+import useLotteryStore from "@/store/ProviderData";
 
 interface IInput {
   value: string;
@@ -23,8 +24,10 @@ const MemoizedTextInput = memo(
     length,
     affixType,
   }: IInput) => {
+    const reload = useLotteryStore((state) => state.Reload);
     return (
       <TextInput
+        key={reload}
         placeholder={placeholder}
         style={{ backgroundColor: "white" }}
         defaultValue={__.isUndefined(defaultValue) ? "" : defaultValue}

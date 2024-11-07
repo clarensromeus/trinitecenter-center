@@ -16,12 +16,19 @@ interface IPlay {
   Lotto4: IBL[];
   Lotto5: IBL[];
   Mariage: IBL[];
+  MariageAutomatic: string[];
+  MontantAutomatic: string[];
+  Reload: string;
+  addReload: () => void;
+  addMariageAutomatic: (newMa: string[]) => void;
+  addMontantAutomatic: (newMo: string[]) => void;
   addBorlette: (newBorlette: IBL[]) => void;
   addLotto3: (newLotto3: IBL[]) => void;
   addLotto4: (newLotto4: IBL[]) => void;
   addLotto5: (newLotto5: IBL[]) => void;
   addMariage: (newMariage: IBL[]) => void;
   addTirage: (newTirage: string[]) => void;
+  isAuthenticated: boolean;
   mergeBorletteAndLotto: () => void;
   clearBorlette: () => void;
   clearLotto3: () => void;
@@ -29,9 +36,10 @@ interface IPlay {
   clearLotto5: () => void;
   clearTirage: () => void;
   clearMariage: () => void;
+  updateAuth: (isAuth: boolean) => void;
 }
 
-export const useLotteryStore = create<IPlay>()(
+const useLotteryStore = create<IPlay>()(
   persist(
     (set, get) => ({
       Tirage: [],
@@ -40,6 +48,16 @@ export const useLotteryStore = create<IPlay>()(
       Lotto4: [],
       Lotto5: [],
       Mariage: [],
+      MariageAutomatic: [],
+      MontantAutomatic: [],
+      Reload: "",
+      isAuthenticated: false,
+      // Reload key to force re-renders
+      addReload: () => set(() => ({ Reload: Math.random().toString() })),
+      addMariageAutomatic: (newMa: string[]) =>
+        set((state) => ({ MariageAutomatic: [...newMa] })),
+      addMontantAutomatic: (newMo: string[]) =>
+        set((state) => ({ MontantAutomatic: [...newMo] })),
       addBorlette: (newBorlette: IBL[]) =>
         set((state) => ({ Borlette: [...newBorlette] })),
       addLotto3: (newLotto3: IBL[]) =>
@@ -59,6 +77,8 @@ export const useLotteryStore = create<IPlay>()(
       clearLotto5: () => set((state) => ({ Lotto5: [] })),
       clearMariage: () => set((state) => ({ Mariage: [] })),
       clearTirage: () => set((state) => ({ Tirage: [] })),
+      updateAuth: (isAuth: boolean) =>
+        set((state) => ({ isAuthenticated: isAuth })),
     }),
     {
       name: "Lottery-storage", // name of the item in the storage (must be unique)

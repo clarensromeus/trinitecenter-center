@@ -16,11 +16,11 @@ import {
 } from "react-native-alert-notification";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { db } from "@/firebaseConfig";
-// import ThermalPrinterModule from "react-native-thermal-printer";
+import * as Network from "expo-network";
 
 export interface IAppProps {}
 
-export default function LoginScreen(props: IAppProps) {
+export default function LoginScreen() {
   const [info, setInfo] = useState<{
     Pseudoname: string;
     MotDePasse: string;
@@ -34,6 +34,7 @@ export default function LoginScreen(props: IAppProps) {
 
   const [isLoading, setLoading] = React.useState<boolean>(false);
   const [isFinished, setFinish] = React.useState<boolean>(false);
+  const [ipAdd, setIpAdd] = React.useState<string>("");
 
   const router: Router = useRouter();
 
@@ -42,10 +43,11 @@ export default function LoginScreen(props: IAppProps) {
       const q = query(
         collection(db, "Vendeur"),
         where("Pseudoname", "==", info.Pseudoname),
+        where("AndroidId", "==", ipAdd),
         where("MotDePasse", "==", info.MotDePasse)
       );
       setLoading(true);
-      /* setTimeout(() => {}, 2000); */
+
       const querySnapshots = await getDocs(q);
       if (querySnapshots.empty) {
         setLoading(false);
@@ -53,7 +55,7 @@ export default function LoginScreen(props: IAppProps) {
       } else {
         querySnapshots.docs.map((doc) => {
           AsyncStorage.setItem("VENDEUR", JSON.stringify(doc.data()));
-          AsyncStorage.setItem("LOGIN", JSON.stringify({ isConnected: true }));
+          AsyncStorage.setItem("isLoggedIn", "true");
           router.push("/(home)");
           setLoading(false);
         });
@@ -61,24 +63,9 @@ export default function LoginScreen(props: IAppProps) {
     } catch (error) {
       setFinish(true);
       setLoading(false);
-
       throw new Error(`${error}`);
     }
   };
-
-  /* React.useEffect(() => {
-    const showPrinters = async () => {
-      try {
-        const printers = await ThermalPrinterModule.getBluetoothDeviceList();
-        printers.map((devices) => {
-          console.log(devices.deviceName, devices.macAddress);
-        });
-      } catch (error) {
-        throw new Error(`${error}`);
-      }
-    };
-    showPrinters();
-  }, []); */
 
   React.useEffect(() => {
     if (isFinished) {
@@ -90,6 +77,18 @@ export default function LoginScreen(props: IAppProps) {
       setFinish(false);
     }
   }, [isFinished]);
+
+  React.useEffect(() => {
+    const IPAddress = async () => {
+      try {
+        const IP = await Network.getIpAddressAsync();
+        setIpAdd(IP);
+      } catch (error) {
+        throw new Error(`${error}`);
+      }
+    };
+    IPAddress();
+  }, []);
 
   return (
     <AlertNotificationRoot>
@@ -193,6 +192,10 @@ export default function LoginScreen(props: IAppProps) {
             </View>
           </Button>
         </View>
+        <View>
+          <Text variant="labelLarge">Serial :</Text>
+          <Text variant="labelLarge">{ipAdd}</Text>
+        </View>
       </View>
     </AlertNotificationRoot>
   );
@@ -203,6 +206,13 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
+  },
+  Serial: {
+    marginTop: 30,
+    width: "96%",
+    display: "flex",
+    flexDirection: "row",
+    justifyContent: "center",
   },
   form: {
     width: "90%",

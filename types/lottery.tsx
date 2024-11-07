@@ -25,6 +25,7 @@ interface IData {
     amount: string;
   }[];
   baseDetection: string;
+  reload?: string;
 }
 
 interface IrenderItem {

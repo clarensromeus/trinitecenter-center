@@ -20,7 +20,7 @@ export function Rapo({ setVisibleRapo, visibleRapo }: IRapoProps) {
   const closeMenuBorlette = () => setVisibleBorlette(false);
 
   const onChangeDate = (date: any) => {
-    setDate(date);
+    setDate(date)
   };
 
   const closeMenu = () => {
@@ -32,6 +32,14 @@ export function Rapo({ setVisibleRapo, visibleRapo }: IRapoProps) {
   };
 
   const hideDialog = () => setVisibleRapo(false);
+
+  const ImprimerRapport = async () => {
+    try {
+      
+    } catch (error) {
+      throw new Error(`${error}`)
+    }
+  }
 
   return (
     <Portal>

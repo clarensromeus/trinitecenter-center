@@ -15,6 +15,7 @@ import { parseDateTime, toCalendarDate, toTime } from "@internationalized/date";
 import { printData } from "@/components/imprimer/print";
 import EmptyDialog from "@/components/Lottery/emptyDialog";
 import { useRouter } from "expo-router";
+import { adminInfo2 } from "@/components/administrator";
 
 export default function KonfimationScreen() {
   const [fiche, setFiche] = React.useState<IFiche>({} as IFiche);
@@ -30,9 +31,7 @@ export default function KonfimationScreen() {
     mmFeedPaper: 12,
     autoCut: true,
     timeout: 30000,
-    
   };
-
 
   const router = useRouter();
 
@@ -299,9 +298,7 @@ export default function KonfimationScreen() {
                                   const date = parseDateTime(fiche.dateCreated);
                                   const onlyDate =
                                     toCalendarDate(date).toString();
-                                  const boule = __.size(
-                                    fiche.Lottery.map((b) => b.numero)
-                                  );
+
                                   const montant = __.sum(
                                     fiche.Lottery.map((m) => m.montant).map(
                                       Number
@@ -313,8 +310,11 @@ export default function KonfimationScreen() {
                                   const Tirage = fiche.Tirage;
                                   setPrinting(true);
                                   const agent = await getUserData();
-                                  // just print
+                                  const superNumber = await adminInfo2(
+                                    `${agent.Surcussale}`
+                                  );
 
+                                  // just print
                                   await ThermalPrinterModule.printBluetooth({
                                     payload:
                                       "[L]<img>https://github.com/user-attachments/assets/fa44f2b7-8836-4db7-9256-48e572fad49d</img> \n" +
@@ -332,39 +332,19 @@ export default function KonfimationScreen() {
                                       "[L]Bank : " +
                                       agent.Bank +
                                       "\n" +
-                                      "[L]Surcussale : " +
-                                      agent.Surcussale +
+                                      "[L]Tirage : " +
+                                      Tirage +
                                       "\n" +
-                                      "[L]" +
-                                      onlyDate +
-                                      " - " +
-                                      date.hour +
-                                      ":" +
-                                      date.minute +
-                                      "\n" +
-                                      "[L]================================\n" +
-                                      "[L]Vale nimero ou jwe : " +
-                                      boule +
+                                      "[L]Total Investi : " +
+                                      montant +
+                                      " Gdes\n" +
+                                      "[L]Telefone : " +
+                                      superNumber +
                                       "\n" +
                                       "[L]================================\n" +
                                       "[L] Jwet      Nimero  Opt  Montant" +
                                       "[L]--------------------------------\n" +
                                       betNumbers +
-                                      "[L]--------------------------------\n" +
-                                      "[L]Tirage : " +
-                                      Tirage +
-                                      "\n" +
-                                      "[L]--------------------------------\n" +
-                                      "[L]Total Investi : " +
-                                      montant +
-                                      " Gdes\n" +
-                                      "[L]================================\n" +
-                                      "[L]Telefone : " +
-                                      agent.NumeroTelephone +
-                                      "\n" +
-                                      "[L]Adres : " +
-                                      agent.AddresseComplet +
-                                      "\n" +
                                       '[L]" Fiche yo valab pou 90 jou "\n',
                                     autoCut: true,
                                     mmFeedPaper: 12,
