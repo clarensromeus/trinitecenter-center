@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import {
   TextInput,
   Text,
@@ -31,19 +31,32 @@ export default function LoginScreen() {
 
   const [visible, setVisible] = useState<boolean>(false);
   const [check, setCheck] = useState<boolean>(true);
-
   const [isLoading, setLoading] = React.useState<boolean>(false);
   const [isFinished, setFinish] = React.useState<boolean>(false);
   const [ipAdd, setIpAdd] = React.useState<string>("");
 
   const router: Router = useRouter();
 
+  useEffect(() => {
+    checkLoginStatus();
+  }, []);
+
+  const checkLoginStatus = async () => {
+    try {
+      const isLoggedIn = await AsyncStorage.getItem("isLoggedIn");
+      if (isLoggedIn === "true") {
+        router.replace("/(home)");
+      }
+    } catch (error) {
+      console.error("Error checking login status:", error);
+    }
+  };
+
   const connecter = async () => {
     try {
       const q = query(
         collection(db, "Vendeur"),
         where("Pseudoname", "==", info.Pseudoname),
-        where("AndroidId", "==", ipAdd),
         where("MotDePasse", "==", info.MotDePasse)
       );
       setLoading(true);
@@ -54,9 +67,9 @@ export default function LoginScreen() {
         setFinish(true);
       } else {
         querySnapshots.docs.map((doc) => {
-          AsyncStorage.setItem("VENDEUR", JSON.stringify(doc.data()));
+          AsyncStorage.setItem("VENDEUR", JSON.stringify({...doc.data(), id: doc.id}));
           AsyncStorage.setItem("isLoggedIn", "true");
-          router.push("/(home)");
+          router.replace("/(home)");
           setLoading(false);
         });
       }
@@ -93,108 +106,104 @@ export default function LoginScreen() {
   return (
     <AlertNotificationRoot>
       <View style={styles.container}>
-        <View>
+        <View style={styles.logoContainer}>
           <Image
-            source={require("../assets/images/Trinite.png")}
+            source={require("../assets/images/Excellence.png")}
             style={styles.Logo}
           />
         </View>
-        <View>
-          <Text variant="headlineSmall">Connecter</Text>
-        </View>
-        <View style={{ height: 20 }}></View>
-        <View style={styles.form}>
-          <TextInput
-            label="Pseudoname"
-            value={info.Pseudoname}
-            mode="flat"
-            left={<TextInput.Icon icon="account" />}
-            onChangeText={(text) =>
-              setInfo((f) => ({ ...f, Pseudoname: text }))
-            }
-          />
-          <TextInput
-            label="Mot De Passe"
-            secureTextEntry={visible ? true : false}
-            value={info.MotDePasse}
-            mode="flat"
-            left={<TextInput.Icon icon="lock" />}
-            onChangeText={(text) =>
-              setInfo((f) => ({ ...f, MotDePasse: text }))
-            }
-            right={
-              <TextInput.Icon
-                icon={visible ? "eye" : "eye-off"}
-                onPress={() => {
-                  setVisible((old) => !old);
-                }}
-              />
-            }
-          />
-        </View>
-        <View style={styles.remember}>
-          <Checkbox
-            color="#651fff"
-            status={check ? "checked" : "unchecked"}
-            onPress={() => setCheck((old) => !old)}
-          />
-          <Text variant="titleMedium" style={{ color: "#616161" }}>
-            Se souvenir de moi
-          </Text>
-        </View>
-        <View style={styles.submit}>
-          <Button mode="contained" buttonColor="#651fff" onPress={connecter}>
-            {isLoading ? (
-              <ActivityIndicator animating={true} color="white" />
-            ) : (
-              "Connecter"
-            )}
-          </Button>
-        </View>
-        <View style={styles.account}>
-          <Text variant="labelLarge">Oublié votre mot de passe?</Text>
-          <Link style={styles.RegisterTextLink} href={"/"}>
-            Recuperer
-          </Link>
-        </View>
-        <View style={styles.decisionBar}>
-          <View style={styles.leftLine} />
-          <View>
-            <Text variant="labelSmall">oR</Text>
+        <View style={styles.cardContainer}>
+          <View style={styles.titleContainer}>
+            <Text variant="headlineMedium" style={styles.titleText}>Bienvenue 👏!</Text>
+            <Text variant="titleMedium" style={styles.subtitleText}>Connecter et continuer</Text>
           </View>
-          <View style={styles.rightLine} />
-        </View>
-        <View style={styles.Google}>
-          <Button
-            mode="outlined"
-            style={{ borderColor: "rgba(0, 0, 255, 0.4)", borderWidth: 0.6 }}
-          >
-            <View
-              style={{
-                display: "flex",
-                flexDirection: "row",
-                justifyContent: "center",
-                alignItems: "center",
-                gap: 7,
-              }}
-            >
-              <View>
-                <Image
-                  source={require("../assets/images/googleIcon.png")}
-                  style={{ width: 20, height: 20 }}
+          <View style={styles.form}>
+            <TextInput
+              label="Pseudoname"
+              value={info.Pseudoname}
+              mode="outlined"
+              outlineColor="#651fff"
+              activeOutlineColor="#651fff"
+              left={<TextInput.Icon icon="account" color="#651fff" />}
+              onChangeText={(text) =>
+                setInfo((f) => ({ ...f, Pseudoname: text }))
+              }
+              style={styles.input}
+            />
+            <TextInput
+              label="Mot De Passe"
+              secureTextEntry={visible ? true : false}
+              value={info.MotDePasse}
+              mode="outlined"
+              outlineColor="#651fff"
+              activeOutlineColor="#651fff"
+              left={<TextInput.Icon icon="lock" color="#651fff" />}
+              onChangeText={(text) =>
+                setInfo((f) => ({ ...f, MotDePasse: text }))
+              }
+              right={
+                <TextInput.Icon
+                  icon={visible ? "eye" : "eye-off"}
+                  color="#651fff"
+                  onPress={() => {
+                    setVisible((old) => !old);
+                  }}
                 />
-              </View>
-              <View>
-                <Text variant="labelLarge" style={styles.GoogleText}>
-                  Connecter Avec Google
-                </Text>
-              </View>
-            </View>
-          </Button>
-        </View>
-        <View>
-          <Text variant="labelLarge">Serial :</Text>
-          <Text variant="labelLarge">{ipAdd}</Text>
+              }
+              style={styles.input}
+            />
+          </View>
+          <View style={styles.remember}>
+            <Checkbox
+              color="#651fff"
+              status={check ? "checked" : "unchecked"}
+              onPress={() => setCheck((old) => !old)}
+            />
+            <Text variant="titleMedium" style={styles.rememberText}>
+              se souvenir de moi
+            </Text>
+          </View>
+          <View style={styles.submit}>
+            <Button 
+              mode="contained" 
+              buttonColor="#651fff" 
+              onPress={connecter}
+              style={styles.button}
+              contentStyle={styles.buttonContent}
+            >
+              {isLoading ? (
+                <ActivityIndicator animating={true} color="white" />
+              ) : (
+                "Se Connecter"
+              )}
+            </Button>
+          </View>
+          <View style={styles.forgotPassword}>
+            <Text variant="labelLarge" style={styles.forgotText}>Mot De Passe Oublié?</Text>
+            <Link style={styles.RegisterTextLink} href={"/"}>
+              Récuper
+            </Link>
+          </View>
+          <View style={styles.divider}>
+            <View style={styles.leftLine} />
+            <Text variant="labelSmall" style={styles.orText}>OR</Text>
+            <View style={styles.rightLine} />
+          </View>
+          <View style={styles.googleButton}>
+            <Button
+              mode="outlined"
+              style={styles.googleButtonContainer}
+              contentStyle={styles.googleButtonContent}
+            >
+              <Image
+                source={require("../assets/images/googleIcon.png")}
+                style={styles.googleIcon}
+              />
+              <Text variant="labelLarge" style={styles.googleText}>
+                se connecter avec google
+              </Text>
+            </Button>
+          </View>
         </View>
       </View>
     </AlertNotificationRoot>
@@ -206,86 +215,126 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
+    backgroundColor: "#f5f5f5",
+    padding: 20
   },
-  Serial: {
-    marginTop: 30,
-    width: "96%",
-    display: "flex",
-    flexDirection: "row",
-    justifyContent: "center",
-  },
-  form: {
-    width: "90%",
-    display: "flex",
-    flexDirection: "column",
-    gap: 20,
-  },
-  submit: {
-    display: "flex",
-    marginTop: 25,
-    width: "90%",
-  },
-  forgot: {
-    alignSelf: "flex-end",
-    marginRight: 7,
-    paddingBottom: 5,
-    color: "#7e57c2",
-    textDecorationColor: "#7e57c2",
-    textDecorationStyle: "solid",
-    textDecorationLine: "underline",
+  logoContainer: {
+    marginBottom: 30,
+    alignItems: "center"
   },
   Logo: {
-    width: 90,
-    height: 90,
-    resizeMode: "cover",
+    width: 120,
+    height: 120,
+    resizeMode: "cover"
+  },
+  cardContainer: {
+    width: "100%",
+    backgroundColor: "white",
+    borderRadius: 15,
+    padding: 20,
+    shadowColor: "#000",
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.25,
+    shadowRadius: 3.84,
+    elevation: 5
+  },
+  titleContainer: {
+    alignItems: "center",
+    marginBottom: 20
+  },
+  titleText: {
+    color: "#651fff",
+    fontWeight: "bold"
+  },
+  subtitleText: {
+    color: "#666",
+    marginTop: 5
+  },
+  form: {
+    width: "100%",
+    gap: 15
+  },
+  input: {
+    backgroundColor: "white"
   },
   remember: {
-    width: "94%",
-    display: "flex",
     flexDirection: "row",
     alignItems: "center",
-    gap: 1,
+    marginTop: 10
   },
-  account: {
-    alignSelf: "flex-end",
-    marginRight: 26,
-    display: "flex",
-    flexDirection: "row",
-    gap: 2,
-    backgroundColor: "",
-    marginTop: 2,
+  rememberText: {
+    color: "#666",
+    marginLeft: 5
   },
-  decisionBar: {
-    width: "90%",
+  submit: {
     marginTop: 20,
-    display: "flex",
+    width: "100%"
+  },
+  button: {
+    borderRadius: 8,
+    height: 48
+  },
+  buttonContent: {
+    height: 48
+  },
+  forgotPassword: {
     flexDirection: "row",
+    justifyContent: "center",
     alignItems: "center",
-    gap: 2,
+    marginTop: 15,
+    gap: 5
   },
-  leftLine: {
-    borderBottomWidth: 1,
-    borderBottomColor: "rgba(0,0,0,0.3)",
-    flexGrow: 1,
-  },
-  rightLine: {
-    flexGrow: 1,
-    borderBottomWidth: 1,
-    borderBottomColor: "rgba(0,0,0,0.3)",
-  },
-  Google: {
-    marginTop: 22,
-    width: "90%",
-  },
-  GoogleText: {
-    color: "blue",
-    fontWeight: "bold",
+  forgotText: {
+    color: "#666"
   },
   RegisterTextLink: {
     color: "#651fff",
-    textDecorationColor: "#7e57c2",
-    textDecorationStyle: "solid",
-    textDecorationLine: "underline",
-    textTransform: "capitalize",
+    textDecorationLine: "underline"
   },
+  divider: {
+    flexDirection: "row",
+    alignItems: "center",
+    marginVertical: 20
+  },
+  leftLine: {
+    flex: 1,
+    height: 1,
+    backgroundColor: "rgba(0,0,0,0.1)"
+  },
+  rightLine: {
+    flex: 1,
+    height: 1,
+    backgroundColor: "rgba(0,0,0,0.1)"
+  },
+  orText: {
+    marginHorizontal: 10,
+    color: "#666",
+    textTransform: "uppercase"
+  },
+  googleButton: {
+    width: "100%"
+  },
+  googleButtonContainer: {
+    borderColor: "rgba(0, 0, 255, 0.2)",
+    borderWidth: 1,
+    borderRadius: 8
+  },
+  googleButtonContent: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "center",
+    height: 48,
+    gap: 10
+  },
+  googleIcon: {
+    width: 24,
+    height: 24
+  },
+  googleText: {
+    color: "#666",
+    fontWeight: "500",
+  }
 });

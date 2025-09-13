@@ -2,7 +2,12 @@ import * as React from "react";
 import { FlashList } from "@shopify/flash-list";
 import { View, StyleSheet } from "react-native";
 import MemoizedTextInput from "./textInput";
-import { IData, IrenderItem } from "@/types/lottery";
+import { IData, IrenderItem, LotteryInput } from "@/types/lottery";
+import Icon from "react-native-vector-icons/MaterialCommunityIcons";
+
+interface ExtendedLotteryInput extends LotteryInput {
+  hasError?: boolean | undefined;
+}
 import { Text } from "react-native-paper";
 
 const InputsComponent = ({
@@ -11,36 +16,32 @@ const InputsComponent = ({
   defaultValue,
   baseDetection,
   reload,
-}: IData) => {
+}: {
+  data: ExtendedLotteryInput[];
+  handleInputChange: (index: number, key: keyof LotteryInput, value: string) => void;
+  defaultValue: ExtendedLotteryInput[];
+  baseDetection: string;
+  reload?: boolean;
+}) => {
   const renderItem = ({ item, index }: IrenderItem) => (
     <View style={[styles.cardContainer, { marginTop: 15 }]}>
       <View style={{ flexGrow: 1 }}>
         <MemoizedTextInput
           placeholder="Numero"
           value={item.number}
-          defaultValue={`${
-            defaultValue[index]?.number?.length > 0
-              ? defaultValue[index]["number"]
-              : ""
-          }`}
           length={
             baseDetection == "Borlette" ? 2 : baseDetection == "Lotto3" ? 3 : 4
           }
           onChangeText={(text) => handleInputChange(index, "number", text)}
-          // baseDetection={baseDetection == "Mariage" ? "default" : "numeric"}
           baseDetection="numeric"
           affixType="no"
+          hasError={item.hasError}
         />
       </View>
       <View style={{ flexGrow: 1 }}>
         <MemoizedTextInput
           placeholder="Montant"
           value={item.amount}
-          defaultValue={
-            defaultValue[index]?.amount?.length > 0
-              ? defaultValue[index]["amount"]
-              : ""
-          }
           length={10}
           onChangeText={(text) => handleInputChange(index, "amount", text)}
           baseDetection="numeric"

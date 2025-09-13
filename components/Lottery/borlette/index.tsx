@@ -1,60 +1,60 @@
-import React, { memo, useState, useCallback } from "react";
+import React, { memo, useState, useCallback, useEffect } from "react";
 import { View, StyleSheet, useWindowDimensions } from "react-native";
-import { ActivityIndicator, Button, Card, Text } from "react-native-paper";
+import { Card } from "react-native-paper";
 import InputsComponent from "../inputComponent";
 import { IBorlette, LotteryInput } from "@/types/lottery";
+interface ExtendedLotteryInput extends LotteryInput {
+  hasError?: boolean;
+}
 import useLotteryStore from "@/store/ProviderData";
 import ConstraintDialog from "../constraintDialog";
+import { debounce } from "lodash";
 
 function Borlette() {
-  const [inputs, setInputs] = useState<LotteryInput[]>(
-    Array(18).fill({ number: "", amount: "" })
+  const [inputs, setInputs] = useState<ExtendedLotteryInput[]>(
+    Array(18).fill({ number: "", amount: "", hasError: false })
   );
   const [isLoading, setLoading] = React.useState<boolean>(false);
   const [visible, setVisible] = React.useState<boolean>(false);
   const { height } = useWindowDimensions();
-
-  const handleInputChange = useCallback(
-    (index: number, key: keyof LotteryInput, value: string) => {
-      const newValues = [...inputs];
-      newValues[index] = { ...newValues[index], [key]: value };
-      setInputs(newValues);
-    },
-    [inputs]
-  );
 
   const { Borlette, addBorlette } = useLotteryStore((state) => ({
     Borlette: state.Borlette,
     addBorlette: state.addBorlette,
   }));
 
-  const save = async () => {
-    try {
-      setLoading(true);
-      await new Promise((resolve) => setTimeout(resolve, 300));
-      setLoading(false);
-
-      const allNumbers = inputs
+  const updateStore = useCallback(
+    debounce((newInputs: LotteryInput[]) => {
+      const allNumbers = newInputs
         .map((i) => i.number)
         .filter((i) => i.length > 0);
-      const montant = inputs.map((m) => m.amount).filter((m) => m.length > 0);
-      if (allNumbers.length != montant.length) {
-        setVisible(true);
-      } else {
-        const allBorlette = allNumbers.map((num, index) => {
-          return {
-            numero: `${num}`,
-            montant: montant[index],
-            option: "-",
-            borlette: "borlette",
-          };
-        }) as IBorlette[];
-        addBorlette(allBorlette);
-      }
-    } catch (error) {
-      throw new Error(`${error}`);
-    }
-  };
+      const montant = newInputs.map((m) => m.amount).filter((m) => m.length > 0);
+
+      const allBorlette = allNumbers.map((num, index) => ({
+        numero: `${num}`,
+        montant: montant[index] || "",
+        option: "-",
+        borlette: "borlette",
+      })) as IBorlette[];
+      addBorlette(allBorlette);
+    }, 300),
+    [addBorlette]
+  );
+
+  const handleInputChange = useCallback(
+    (index: number, key: keyof LotteryInput, value: string) => {
+      const newValues = [...inputs];
+      const hasError = key === 'number' && value.length === 1;
+      newValues[index] = { ...newValues[index], [key]: value, hasError };
+      setInputs(newValues);
+      updateStore(newValues);
+    },
+    [inputs, updateStore]
+  );
+
+  
+
+
 
   React.useEffect(() => {
     const number = Borlette.map((b) => b.numero);
@@ -70,12 +70,12 @@ function Borlette() {
       }
     });
     setInputs(firstValue);
-  }, []);
+  }, [Borlette]);
 
   return (
     <View>
       <View>
-        <Card style={{ backgroundColor: "white", height: (height + 368) / 2 }}>
+        <Card style={{ backgroundColor: "white", height: (height + 530) / 2 }}>
           <Card.Content>
             <View>
               <InputsComponent
@@ -88,21 +88,7 @@ function Borlette() {
           </Card.Content>
         </Card>
       </View>
-      <View style={styles.buttonContainer}>
-        <Button
-          icon={"content-save-cog"}
-          mode="contained"
-          buttonColor="#651fff"
-          style={styles.Button}
-          onPress={save}
-        >
-          {isLoading ? (
-            <ActivityIndicator animating={true} color="white" />
-          ) : (
-            "Enregistrer"
-          )}
-        </Button>
-      </View>
+
       <ConstraintDialog setVisible={setVisible} isVisible={visible} />
     </View>
   );

@@ -1,6 +1,7 @@
 interface LotteryInput {
   number: string;
   amount: string;
+  hasError?: boolean;
 }
 
 interface IBorlette {
@@ -29,7 +30,7 @@ interface IData {
 }
 
 interface IrenderItem {
-  item: { number: string; amount: string };
+  item: LotteryInput & { hasError?: boolean };
   index: number;
 }
 

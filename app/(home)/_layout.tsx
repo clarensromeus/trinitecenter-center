@@ -4,15 +4,26 @@ import { View, StyleSheet, Pressable, Alert } from "react-native";
 import AntDesign from "@expo/vector-icons/AntDesign";
 import FontAwesome5 from "@expo/vector-icons/FontAwesome5";
 import Fontisto from "@expo/vector-icons/Fontisto";
-import Entypo from "@expo/vector-icons/Entypo";
 import PeyeTike from "@/components/dialog/peyeTike";
 import { Rapo } from "@/components/dialog/rapo";
 import ImprimeTike from "@/components/dialog/imprime";
-import { Menu } from "react-native-paper";
 import { useRouter, Router } from "expo-router";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { AnileTike } from "@/components/dialog/anileTike";
 import useLotteryStore from "@/store/ProviderData";
+import { LottoNumbers } from "@/components/dialog/lottoNumbers";
+import { SearchTicket } from "@/components/dialog/searchTicket";
+import { DeleteTicket } from "@/components/dialog/deleteTike";
+import MyMenu from "@/components/MenuComp";
+
+
+const MemoizedAnileTike = React.memo(AnileTike);
+const MemoizedPeyeTike = React.memo(PeyeTike);
+const MemoizedRapo = React.memo(Rapo);
+const MemoizedImprimeTike = React.memo(ImprimeTike);
+const MemoizedLottoNumbers = React.memo(LottoNumbers);
+const MemoizedSearchTicket = React.memo(SearchTicket);
+const MemoizedDeleteTicket = React.memo(DeleteTicket);
 
 export default function Homelayourt() {
   const [visible, setVisible] = React.useState<boolean>(false);
@@ -20,7 +31,9 @@ export default function Homelayourt() {
   const [visibleRapo, setVisibleRapo] = React.useState<boolean>(false);
   const [visibleImprime, setVisibleImprime] = React.useState<boolean>(false);
   const [isVisible, setMenuVisible] = React.useState<boolean>(false);
-
+  const [visibleLotto, setVisibleLotto] = React.useState<boolean>(false);
+  const [visibleDelete, setVisibleDelete] = React.useState<boolean>(false)
+  const [visibleSearch, setVisibleSearch] = React.useState<boolean>(false);
   const router: Router = useRouter();
   const updateAuth = useLotteryStore((state) => state.updateAuth);
 
@@ -28,27 +41,27 @@ export default function Homelayourt() {
     setVisible(true);
   };
 
-  const showDialogPeye = () => {
-    setVisiblePeye(true);
-  };
-
-  const handleCancel = () => {
-    setVisible(false);
-  };
 
   const openMenu = () => setMenuVisible(true);
 
   const closeMenu = () => setMenuVisible(false);
-
-  const showDialogImprime = () => setVisibleImprime(true);
   const showDialogRapo = () => setVisibleRapo(true);
+  const showLottoNumbers = () => setVisibleLotto(true);
+
+  const menuProps = {
+    isVisible,
+    openMenu,
+    closeMenu,
+    updateAuth
+  }
 
   return (
-    <Stack screenOptions={{}}>
+    <Stack screenOptions={{
+    }}>
       <Stack.Screen
         name="index"
         options={{
-          headerTitle: "Home",
+          headerTitle: "Excellence",
           headerStyle: { backgroundColor: "#651fff" },
           statusBarColor: "#651fff",
           statusBarAnimation: "fade",
@@ -59,72 +72,55 @@ export default function Homelayourt() {
             fontWeight: "bold",
             fontSize: 27,
             color: "white",
+            fontFamily: "monospace",
           },
           headerRight: () => {
             return (
               <View style={styles.container}>
-                <Pressable onPress={showDialog}>
+                <Pressable 
+                  onPress={() => setVisibleDelete(true)}
+                  hitSlop={20}
+                  style={styles.iconButton}
+                >
                   <AntDesign name="closecircleo" size={24} color="white" />
                 </Pressable>
-                <Pressable onPress={showDialogPeye}>
+                <MemoizedDeleteTicket visibleDelete={visibleDelete} setVisibleDelete={setVisibleDelete} />
+                <Pressable 
+                  onPress={() => setVisibleSearch(true)}
+                  hitSlop={20}
+                  style={styles.iconButton}
+                >
                   <FontAwesome5 name="dollar-sign" size={24} color="white" />
                 </Pressable>
-                <Pressable onPress={showDialogImprime}>
+                <MemoizedSearchTicket visible={visibleSearch} setVisible={setVisibleSearch} />
+                {/*  */}
+                <Pressable 
+                  onPress={showLottoNumbers}
+                  hitSlop={20}
+                  style={styles.iconButton}
+                >
                   <Fontisto name="print" size={24} color="white" />
                 </Pressable>
-                <Pressable onPress={showDialogRapo}>
+                <MemoizedLottoNumbers visible={visibleLotto} setVisible={setVisibleLotto} />
+
+                <Pressable 
+                  onPress={showDialogRapo}
+                  hitSlop={20}
+                  style={styles.iconButton}
+                >
                   <AntDesign name="calendar" size={24} color="white" />
                 </Pressable>
-                <Menu
-                  contentStyle={{
-                    paddingHorizontal: 20,
-                    backgroundColor: "white",
-                  }}
-                  visible={isVisible}
-                  onDismiss={closeMenu}
-                  anchor={
-                    <Pressable onPress={openMenu}>
-                      <Entypo
-                        name="dots-three-vertical"
-                        size={30}
-                        color="white"
-                      />
-                    </Pressable>
-                  }
-                >
-                  <Menu.Item
-                    onPress={() => {
-                      router.push("/(home)/(jwe)/confimation");
-                      closeMenu();
-                    }}
-                    titleStyle={{ fontSize: 18 }}
-                    title="Listes des tike"
-                  />
-                  <Menu.Item
-                    onPress={async () => {
-                      try {
-                        updateAuth(false);
-                        closeMenu();
-                        await AsyncStorage.clear();
-                        router.replace("/");
-                      } catch (error) {
-                        throw new Error(`${error}`);
-                      }
-                    }}
-                    titleStyle={{ fontSize: 18 }}
-                    title="Dekonekyon"
-                  />
-                </Menu>
-                <AnileTike visible={visible} setVisible={setVisible} />
-                <PeyeTike
+                <MyMenu {...menuProps}  />
+                <MemoizedAnileTike visible={visible} setVisible={setVisible} />
+                <MemoizedPeyeTike
                   visiblePeye={visiblePeye}
                   setVisiblePeye={setVisiblePeye}
                 />
-                <Rapo
+                <MemoizedRapo
                   visibleRapo={visibleRapo}
                   setVisibleRapo={setVisibleRapo}
                 />
-                <ImprimeTike
+                <MemoizedImprimeTike
                   visibleImprime={visibleImprime}
                   setVisibleImprime={setVisibleImprime}
                 />
@@ -147,6 +143,12 @@ const styles = StyleSheet.create({
   container: {
     display: "flex",
     flexDirection: "row",
-    gap: 40,
+    gap: 20,
+    alignItems: "center",
+  },
+  iconButton: {
+    padding: 8,
+    justifyContent: "center",
+    alignItems: "center",
   },
 });

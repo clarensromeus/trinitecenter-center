@@ -15,12 +15,17 @@ export default function RootLayout() {
     SpaceMono: require("../assets/fonts/SpaceMono-Regular.ttf"),
   });
 
-  const [isLoggedIn, setIsLoggedIn] = useState<any>(null);
+  const [isLoggedIn, setIsLoggedIn] = useState<boolean | null>(null);
 
   useEffect(() => {
     const checkLoginStatus = async () => {
-      const loginStatus = await AsyncStorage.getItem("LOGIN");
-      setIsLoggedIn(loginStatus ? JSON.parse(loginStatus).isConnected : false);
+      try {
+        const loginStatus = await AsyncStorage.getItem("isLoggedIn");
+        setIsLoggedIn(loginStatus === "true");
+      } catch (error) {
+        console.error("Error checking login status:", error);
+        setIsLoggedIn(false);
+      }
     };
 
     checkLoginStatus();
@@ -30,64 +35,27 @@ export default function RootLayout() {
     }
   }, [loaded]);
 
-  if (isLoggedIn === null || !loaded) {
-    return null; // Show a loading screen while checking login status or loading fonts
-  }
-
-  /* if (!loaded) {
+  if (!loaded || isLoggedIn === null) {
     return null;
-  } */
-
-  /* return (
-    <PaperProvider>
-      <Stack screenOptions={{}}>
-        <Stack.Screen
-          name="index"
-          options={{
-            headerTitle: "Trinite Center",
-            headerTitleAlign: "center",
-            headerTitleStyle: {
-              fontWeight: "bold",
-              fontSize: 26,
-            },
-            headerBackVisible: false,
-            statusBarHidden: true,
-          }}
-        />
-        <Stack.Screen
-          name="(home)"
-          options={{
-            headerShown: false,
-          }}
-        />
-        <Stack.Screen name="+not-found" />
-      </Stack>
-    </PaperProvider>
-  ); */
+  }
 
   return (
     <PaperProvider>
-      <Stack screenOptions={{}}>
-        {/* Conditional routing based on login status */}
+      <Stack screenOptions={{headerShown: false}}>
         {isLoggedIn ? (
           <Stack.Screen
             name="(home)"
             options={{
               headerShown: false,
+              title: ""
             }}
           />
         ) : (
           <Stack.Screen
             name="index"
             options={{
-              headerTitle: "Trinite Center",
-              headerTitleAlign: "center",
-              headerTitleStyle: {
-                fontWeight: "bold",
-                fontSize: 26,
-              },
-              headerBackVisible: false,
-              statusBarHidden: true,
+              headerShown: false,
+              title: ""
             }}
           />
         )}

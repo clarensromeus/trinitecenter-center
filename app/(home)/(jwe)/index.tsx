@@ -123,68 +123,31 @@ export default function JweScreen() {
   }, [tirages]);
 
   return (
-    <View style={{ flex: 1, width: "100%" }}>
+    <View style={{ flex: 1, width: "100%", backgroundColor: "#f5f5f5" }}>
       {loading ? (
-        <View
-          style={{
-            flex: 1,
-            justifyContent: "center",
-            alignItems: "center",
-            width: "100%",
-          }}
-        >
-          <ActivityIndicator size={40} animating={true} color="blue" />
+        <View style={styles.loadingContainer}>
+          <ActivityIndicator size={50} animating={true} color="#651fff" />
         </View>
       ) : (
         <View style={styles.container}>
           <View style={styles.firstContent}>
-            {tirages.map((tirage, index) => {
-              return (
-                <Pressable
-                  key={index}
-                  style={{
-                    backgroundColor: tirage.isSelected ? "#651fff" : "white",
-                  }}
-                  onPress={() => {
-                    selectDataChange(tirage.tirage);
-                  }}
-                >
-                  <View
-                    style={[
-                      styles.tirage,
-                      {
-                        backgroundColor: tirage.isSelected
-                          ? "#651fff"
-                          : "white",
-                        paddingVertical: 7,
-                        paddingHorizontal: 10,
-                      },
-                    ]}
-                  >
-                    <Text
-                      style={{
-                        textTransform: "uppercase",
-                        fontSize: 18,
-                        color: tirage.isSelected ? "white" : "#651fff",
-
-                        fontWeight: "bold",
-                      }}
-                    >
-                      Tirage {tirage.tirage}
-                    </Text>
-                    <Text
-                      style={{
-                        textTransform: "uppercase",
-                        fontSize: 18,
-                        color: tirage.isSelected ? "white" : "#651fff",
-                      }}
-                    >
-                      Ouverture: {tirage.midi} | Fermeture {tirage.soir}
-                    </Text>
-                  </View>
-                </Pressable>
-              );
-            })}
+            {tirages.map((tirage, index) => (
+              <Pressable
+                key={index}
+                style={[styles.cardContainer, tirage.isSelected && styles.selectedCard]}
+                onPress={() => selectDataChange(tirage.tirage)}
+                android_ripple={{ color: 'rgba(101, 31, 255, 0.1)' }}
+              >
+                <View style={styles.tirage}>
+                  <Text style={[styles.tirageTitle, tirage.isSelected && styles.selectedText]}>
+                    Tirage {tirage.tirage}
+                  </Text>
+                  <Text style={[styles.tirageInfo, tirage.isSelected && styles.selectedText]}>
+                    Ouverture: {tirage.midi} | Fermeture {tirage.soir}
+                  </Text>
+                </View>
+              </Pressable>
+            ))}
           </View>
           <View style={styles.secondContent}>
             <Button
@@ -193,8 +156,10 @@ export default function JweScreen() {
               onPress={navigateTo}
               uppercase
               buttonColor="#651fff"
+              style={styles.button}
+              labelStyle={styles.buttonLabel}
             >
-              ok
+              Continuer
             </Button>
           </View>
         </View>
@@ -208,23 +173,64 @@ const styles = StyleSheet.create({
     flex: 1,
     width: "100%",
     justifyContent: "space-between",
+    backgroundColor: "#f5f5f5",
   },
-  firstContent: {
-    marginVertical: 15,
-    marginHorizontal: 17,
-    gap: 13,
-  },
-  secondContent: {
-    marginHorizontal: 22,
-    marginBottom: 18,
-  },
-  tirage: {
-    flexDirection: "column",
-  },
-  loadingStyle: {
+  loadingContainer: {
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
     width: "100%",
+    backgroundColor: "#f5f5f5",
+  },
+  firstContent: {
+    padding: 16,
+    gap: 12,
+  },
+  cardContainer: {
+    backgroundColor: "white",
+    borderRadius: 12,
+    elevation: 2,
+    shadowColor: "#000",
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 4,
+    overflow: "hidden",
+  },
+  selectedCard: {
+    backgroundColor: "#651fff",
+    transform: [{ scale: 1.02 }],
+  },
+  tirage: {
+    padding: 16,
+  },
+  tirageTitle: {
+    fontSize: 20,
+    fontWeight: "700",
+    color: "#333",
+    marginBottom: 8,
+    textTransform: "uppercase",
+  },
+  tirageInfo: {
+    fontSize: 16,
+    color: "#666",
+    textTransform: "uppercase",
+  },
+  selectedText: {
+    color: "white",
+  },
+  secondContent: {
+    padding: 16,
+    backgroundColor: "white",
+    borderTopWidth: 1,
+    borderTopColor: "#eee",
+  },
+  button: {
+    borderRadius: 8,
+    height: 48,
+  },
+  buttonLabel: {
+    fontSize: 16,
+    fontWeight: "600",
+    letterSpacing: 1,
   },
 });

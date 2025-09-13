@@ -24,7 +24,9 @@ import {
   orderBy,
   limit,
   serverTimestamp,
+  Timestamp,
 } from "firebase/firestore";
+import moment from "moment-timezone"
 
 interface IBetInfo {
   numero: string;
@@ -38,6 +40,21 @@ interface IBL {
   montant: string;
   option: string;
   borlette: string;
+}
+
+interface TicketData {
+  Agent: string;
+  Code: string;
+  Bank: string;
+  dateCreated: string;
+  Lottery: Array<{
+    borlette: string;
+    montant: string;
+    numero: string;
+    option: string;
+  }>;
+  Tirage: string;
+  Surcussale: string;
 }
 
 const blockageReference = collection(db, "blocageBoule");
@@ -285,9 +302,12 @@ export const accessTirage = async (Tirage: string[]) => {
       state: false,
     };
     const tirages = await getDocs(tirageRef);
+    console.log("first")
     if (tirages.empty) {
       data.state = false;
+      console.log("one test")
     }
+    // console.log("all tirage : ", tirages.docs.map((d) => d.data()))
     tirages.docs.map((t) => {
       if (Tirage.filter((v) => v == t.data().Nom).length > 0) {
         const status =
@@ -336,6 +356,7 @@ export const createFiche = async (
     };
     await addDoc(ficheRef, {
       dateCreated: date,
+      Code: `${Math.floor(1000000 + Math.random() * 9000000)}`,
       Tirage,
       Agent,
       Surcussale,
@@ -367,23 +388,33 @@ export const suprimerFiche = async (code: string) => {
       Now.minute,
       Now.second
     );
-    const data = { message: "", state: false };
-    const fiche = await getDoc(doc(db, "fiches", code));
-    if (!fiche.exists()) {
-      data.message = "sorry, ou antre yon move code";
-      data.state = false;
+    const data = { message: "", state: false, fiche: {} as TicketData };
+    // const fiche = await getDoc(doc(db, "fiches", code));
+    const q =  query(collection(db, "fiches"), where("Code", "==", code), where("isDeleted", "==", false))
+    const fiche = await getDocs(q)
+    
+    if (fiche.empty) {
+      // data.message = "sorry, ou antre yon move code";
+      // data.state = false;
+      return {message: "sorry, pas de ticket trouvé", state: false, fiche: null}
     }
 
-    if (fiche.exists()) {
-      const ficheData = fiche.data() as { dateCreated: string };
+    if (!fiche.empty) {
+      const ficheData = fiche.docs.map((da) => da.data())[0] as TicketData;
       const dateCreated = parseDateTime(ficheData.dateCreated);
       if (dateCreated.add({ minutes: 10 }).compare(currentDateTime) < 0) {
-        data.message = "ou paka siprime fich sa, li gen plis pase 10 minit";
-        data.state = false;
+        // data.message = "ou paka siprime fich sa, li gen plis pase 10 minit";
+        // data.state = false;
+        // data.fiche = 
+        return {message: "ou paka siprime fich sa, li gen plis pase 10 minit", state: false, fiche: null}
       } else {
-        await updateDoc(doc(db, "fiches", code), { isDeleted: true });
-        data.message = "Fich la siprime ak sikse";
-        data.state = true;
+        await updateDoc(fiche.docs[0].ref, {
+          isDeleted: true,
+        })  
+        // data.message = "Fich la siprime ak sikse";
+        // data.state = true;
+        // data.fiche = ficheData
+        return {message: "Fich la siprime ak siksè", state: true, fiche: ficheData}
       }
     }
 
@@ -400,7 +431,6 @@ export const PayFiche = async (code: string) => {
     if (tike.exists()) {
       if (
         tike.data().isDeleted == false &&
-        tike.data().isWinning == true &&
         tike.data().isPaid == false
       ) {
         data.state = true;
@@ -426,15 +456,21 @@ export const PayFiche = async (code: string) => {
 
 export const rechercheFiche = async (code: string) => {
   try {
-    const data = { state: false };
-    const rechercheRef = doc(db, "fiches", code);
-    const fiche = await getDoc(rechercheRef);
-    if (!fiche.exists()) {
-      data.state = false;
+    // const rechercheRef = doc(db, "fiches", code);
+    const rechercheRef2 = query(
+      collection(db, "fiches"),
+      where("Code", "==", `${code}`),
+      where("isDeleted", "==", false)
+    );
+    const fiche = await getDocs(rechercheRef2);
+    console.log("okay : okay ", code)
+    if (!fiche.empty) {
+      const searchedFiche  = fiche.docs.map((f) => f.data())[0];
+      console.log("all searchedFiche : ", searchedFiche)
+      return { state: true, data: searchedFiche as TicketData};
     } else {
-      data.state = true;
+      return { state: false, data:  null};
     }
-    return data;
   } catch (error) {
     throw new Error(`${error}`);
   }
@@ -490,14 +526,27 @@ export const getOneFiche = async (
 
 export const allFicheParAgent = async (
   setFiche: React.Dispatch<React.SetStateAction<IFiche>>,
-  setEmpty: React.Dispatch<React.SetStateAction<boolean>>
+  setEmpty: React.Dispatch<React.SetStateAction<boolean>>,
+  agent: String
 ) => {
+
+
   try {
+    const timezone = 'America/Port-au-Prince';
+    const now = moment.tz(timezone);
+
+     // Get the start and end of the day in HAITI time
+     const start = now.clone().startOf("day").toDate();
+     const end = now.clone().endOf("day").toDate();
+
     const q = query(
       ficheRef,
+      where("timestamp", ">=", Timestamp.fromDate(start)),
+      where("timestamp", "<=", Timestamp.fromDate(end)),
       orderBy("timestamp", "desc"),
+      where("Agent", "==", `${agent.toLowerCase()}`),
+      where("isDeleted", "==", false),
       limit(1),
-      where("isDeleted", "==", false)
     );
     onSnapshot(q, (snapshot) => {
       if (!snapshot.empty) {
@@ -506,6 +555,7 @@ export const allFicheParAgent = async (
             id: fi.id,
             Tirage: fi.data().Tirage,
             Agent: fi.data().Agent,
+            Code: fi.data().Code,
             Lottery: fi.data().Lottery,
             Surcussale: fi.data().Surcussale,
             dateCreated: fi.data().dateCreated,
@@ -531,10 +581,25 @@ const rapportParAgent = async () => {
   }
 }
 
+export const findOneuser = async (id: string) => {
+  try {
+    const user = await getDoc(doc(db, "Vendeur", `${id}`));
+    // const user = await getDocs(query(collection(db, "Vendeur"), where("Pseudoname", "==", `${Pseudoname}`)))
+    console.log("no")
+    if (user.exists()) {
+      
+      return user.data()
+    }
+  } catch (error) {
+    throw new Error(`${error}`);
+  }
+}
+
 export const getUserData = async () => {
   try {
     const jsonValue = await AsyncStorage.getItem("VENDEUR");
     return jsonValue != null ? JSON.parse(jsonValue) : null;
+    
   } catch (e) {
     // error reading value
     throw new Error(`${e}`);

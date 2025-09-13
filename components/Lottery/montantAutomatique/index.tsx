@@ -13,11 +13,18 @@ export default function MontantDialog({
   setVisible,
 }: IDialogMessageProps) {
   const [text, setText] = React.useState("");
-  const { Mariage, addMariage, addReload } = useLotteryStore((state) => ({
-    Mariage: state.Mariage,
-    addMariage: state.addMariage,
-    addReload: state.addReload,
-  }));
+  const addMontantAutomatic = useLotteryStore((state) => state.addMontantAutomatic);
+  const montantAutomatic = useLotteryStore((state) => state.MontantAutomatic);
+
+  const handleAddMontant = React.useCallback(() => {
+    if (!text || isNaN(Number(text))) return;
+    
+    const newMontants = Array(72).fill(text);
+    addMontantAutomatic(newMontants);
+    setVisible(false);
+    setText("");
+  }, [text, montantAutomatic.length, addMontantAutomatic, setVisible]);
+
   return (
     <Dialog.Container visible={isVisible}>
       <Dialog.Input
@@ -25,27 +32,13 @@ export default function MontantDialog({
         keyboardType="numeric"
         placeholder="Montant"
         value={text}
-        onChangeText={(text) => setText(text)}
+        onChangeText={setText}
       />
       <Dialog.Button
         label="Ajoute"
         color="white"
         style={{ backgroundColor: "#651fff" }}
-        onPress={() => {
-          const numero = Mariage.map((m) => m.numero);
-          setVisible(false);
-          const repeatedArray = Array(numero.length).fill(text);
-          const allMariage = numero.map((num, index) => {
-            return {
-              numero: `${num}`,
-              montant: repeatedArray[index],
-              option: "-",
-              borlette: "mariage",
-            };
-          });
-          addMariage(allMariage);
-          addReload();
-        }}
+        onPress={handleAddMontant}
       />
     </Dialog.Container>
   );

@@ -10,6 +10,9 @@ export interface IAnileToutTikeProps {
 }
 
 export function RechercherTike({ visible, setVisible }: IAnileToutTikeProps) {
+
+
+
   const handleCancel = () => {
     setVisible(false);
   };
@@ -18,6 +21,8 @@ export function RechercherTike({ visible, setVisible }: IAnileToutTikeProps) {
     "Silvouple entre kòd tike ou vle chèche a"
   );
   const [loading, setLoading] = React.useState<boolean>(false);
+
+
   const router = useRouter();
 
   const rechecheTike = async () => {

@@ -1,3 +1,5 @@
+import { Timestamp } from "firebase/firestore";
+
 interface IBL {
   numero: string;
   montant: string;
@@ -7,11 +9,14 @@ interface IBL {
 
 interface IFiche {
   id: string;
-  Tirage: string[];
+  Tirage: string;
+  Code?: string;
   Agent: string;
   Lottery: IBL[];
   Surcussale: string;
+  isDeleted?: string;
   dateCreated: string;
+  timestamp?: Timestamp
 }
 
 interface IBorlette {

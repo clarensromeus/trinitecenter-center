@@ -328,7 +328,7 @@ export default function CodeScreen() {
                                 await ThermalPrinterModule.printBluetooth({
                                   payload:
                                     "[L]<img>https://github.com/user-attachments/assets/fa44f2b7-8836-4db7-9256-48e572fad49d</img> \n" +
-                                    "[L]<b>         TRINITE CENTER </b>\n" +
+                                    "[L]<b>         Excellence CENTER </b>\n" +
                                     "[L]Tike : " +
                                     fiche.id +
                                     " \n" +

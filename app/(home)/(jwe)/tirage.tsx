@@ -2,6 +2,7 @@ import { renderSelectedComponent } from "@/components/Lottery/renderComponent";
 import React from "react";
 import { View, StyleSheet, ScrollView, TouchableOpacity } from "react-native";
 import { Text } from "react-native-paper";
+import AsyncStorage from "@react-native-async-storage/async-storage"
 
 export default function BorletteScreen() {
   const [selectedComponent, setSelectedComponent] =

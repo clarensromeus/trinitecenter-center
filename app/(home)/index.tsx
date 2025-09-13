@@ -15,6 +15,7 @@ import {
 import Message from "@/components/dialog/Message";
 import { adminInfo } from "@/components/administrator";
 import useLotteryStore from "@/store/ProviderData";
+import { AllbouleDialog } from "@/components/dialog/AllBoulesDialog";
 
 interface Iuser {
   Pseudoname: string;
@@ -30,6 +31,7 @@ export default function HomeScreen() {
   const [userInfo, setUserInfo] = React.useState<Iuser>({} as Iuser);
   const [visible, setVisible] = React.useState<boolean>(false);
   const [centralNumber, setCentralNumber] = React.useState<string>("");
+  const [visibleBouleDialog, setVisibleBouleDialog] = React.useState<boolean>(false)
 
   const getData = async () => {
     try {
@@ -103,59 +105,65 @@ export default function HomeScreen() {
       <View style={styles.container}>
         <View style={styles.firstContent}>
           <View style={styles.firstContentWrapper}>
-            <Text style={{ fontSize: 20, color: "white" }}>
-              {userInfo.Pseudoname ? userInfo.Pseudoname.split(" ")[0] : ""}
-            </Text>
-            <Text style={{ fontSize: 20, color: "white" }}>
-              {userInfo.Pays}#vendeur
-            </Text>
-            <Text style={{ fontSize: 20, color: "white" }}>
-              {userInfo.AddresseComplet}
-            </Text>
+            <View style={{ flexDirection: 'row', alignItems: 'center', marginBottom: 8 }}>
+              <FontAwesome name="ticket" size={28} color="white" style={{ marginRight: 12 }} />
+              <Text style={{ fontSize: 28, color: "white", fontWeight: "700" }}>
+                {userInfo.Pseudoname ? userInfo.Pseudoname.split(" ")[0] : ""}
+              </Text>
+            </View>
+            <View style={{ flexDirection: 'row', alignItems: 'center', marginBottom: 4 }}>
+              <Ionicons name="location-outline" size={20} color="white" style={{ marginRight: 8, opacity: 0.9 }} />
+              <Text style={{ fontSize: 18, color: "white", opacity: 0.9, fontWeight: '500' }}>
+                {userInfo.Pays} • Agent Lotterie
+              </Text>
+            </View>
+            <View style={{ flexDirection: 'row', alignItems: 'center' }}>
+              <Ionicons name="home-outline" size={18} color="white" style={{ marginRight: 8, opacity: 0.8 }} />
+              <Text style={{ fontSize: 16, color: "white", opacity: 0.8, fontWeight: '400' }}>
+                {userInfo.AddresseComplet}
+              </Text>
+            </View>
           </View>
-          {/* for card */}
           <View style={styles.cardWrapper}>
             <View style={styles.card}>
               <Card>
                 <Card.Content>
                   <View style={styles.cardContent}>
-                    <View style={styles.firstContent}>
-                      <View style={styles.carditems}>
-                        <FontAwesome
-                          name="user-circle"
-                          size={27}
-                          color="black"
-                        />
-                        <View style={styles.cardItemRight}>
-                          <Text variant="headlineSmall">
-                            {userInfo.Pseudoname}
-                          </Text>
-                          <Text>Responsab</Text>
-                        </View>
+                    <View style={styles.carditems}>
+                      <FontAwesome
+                        name="user-circle"
+                        size={32}
+                        color="#651fff"
+                      />
+                      <View style={styles.cardItemRight}>
+                        <Text variant="headlineSmall" style={{ color: "#333", fontWeight: "600" }}>
+                          {userInfo.Pseudoname}
+                        </Text>
+                        <Text style={{ color: "#666" }}>Responsab</Text>
                       </View>
                     </View>
                     <View style={styles.carditems}>
-                      <Foundation name="telephone" size={28} color="black" />
+                      <Foundation name="telephone" size={32} color="#651fff" />
                       <View style={styles.cardItemRight}>
                         <Text
                           variant="headlineSmall"
-                          style={styles.cardItemPhone}
+                          style={[styles.cardItemPhone, { fontWeight: "600" }]}
                         >
                           {userInfo.NumeroTelephone}
                         </Text>
-                        <Text>Téléphone Responsab</Text>
+                        <Text style={{ color: "#666" }}>Téléphone Responsab</Text>
                       </View>
                     </View>
                     <View style={styles.carditems}>
-                      <Foundation name="telephone" size={28} color="black" />
+                      <Foundation name="telephone" size={32} color="#651fff" />
                       <View style={styles.cardItemRight}>
                         <Text
                           variant="headlineSmall"
-                          style={styles.cardItemPhone}
+                          style={[styles.cardItemPhone, { fontWeight: "600" }]}
                         >
                           {centralNumber}
                         </Text>
-                        <Text>Téléphone Central</Text>
+                        <Text style={{ color: "#666" }}>Téléphone Central</Text>
                       </View>
                     </View>
                   </View>
@@ -167,55 +175,55 @@ export default function HomeScreen() {
 
         <View style={styles.secondContentWrapper}>
           <Pressable
-            style={styles.firstButton}
+            style={({ pressed }) => [
+              styles.firstButton,
+              { opacity: pressed ? 0.8 : 1 }
+            ]}
             onPress={() => {
-              clearLotto3();
-              clearLotto4();
-              clearLotto5();
-              clearBorlette();
-              clearMariage();
+               setVisibleBouleDialog(true)
             }}
           >
-            <Ionicons name="copy-outline" size={25} color="#651fff" />
+            <Ionicons name="copy-outline" size={28} color="#651fff" />
             <Text
               variant="headlineSmall"
               style={{
                 textTransform: "uppercase",
                 color: "#651fff",
-                fontSize: 20,
+                fontSize: 18,
+                fontWeight: "600"
               }}
             >
-              Anile Kash{" "}
+              Jwe
             </Text>
           </Pressable>
+          <AllbouleDialog visible={visibleBouleDialog} setVisible={setVisibleBouleDialog} />
           <Pressable
-            style={styles.secondButton}
+            style={({ pressed }) => [
+              styles.secondButton,
+              { opacity: pressed ? 0.8 : 1 }
+            ]}
             onPress={() => {
-              userInfo.block
-                ? setVisible(true)
-                : router.navigate("/(home)/(jwe)");
+              router.push("/(home)/(jwe)");
             }}
           >
-            <AntDesign name="adduser" size={25} color="white" />
+            <AntDesign name="plus" size={28} color="white" />
             <Text
+              variant="headlineSmall"
               style={{
                 textTransform: "uppercase",
                 color: "white",
-                fontSize: 20,
+                fontSize: 18,
+                fontWeight: "600"
               }}
             >
-              jwé !
+              Kreye
             </Text>
           </Pressable>
-          <Message
-            setVisible={setVisible}
-            isVisible={visible}
-            Message={`Agent ${userInfo.Pseudoname} ou pa gen akse pou jwe sou platfom nan`}
-          />
         </View>
+        <Message Message="okay, il se lance avec success" isVisible={visible} setVisible={setVisible} />
       </View>
     </AlertNotificationRoot>
-  );
+);
 }
 
 const styles = StyleSheet.create({
@@ -223,65 +231,124 @@ const styles = StyleSheet.create({
     flex: 1,
     width: "100%",
     justifyContent: "space-between",
+    backgroundColor: "#f8f9fa"
   },
-  firstContent: { width: "100%" },
+  firstContent: { 
+    width: "100%",
+    position: "relative",
+    zIndex: 1
+  },
   firstContentWrapper: {
-    gap: 5,
-    paddingHorizontal: 15,
+    gap: 12,
+    paddingHorizontal: 24,
+    // paddingVertical: 0,
+    paddingTop: 10,
+    paddingBottom: 50,
     backgroundColor: "#651fff",
-    paddingBottom: 12,
+    borderBottomLeftRadius: 35,
+    borderBottomRightRadius: 35,
+    shadowColor: "#000",
+    shadowOffset: {
+      width: 0,
+      height: 3,
+    },
+    shadowOpacity: 0.27,
+    shadowRadius: 4.65,
+    elevation: 6,
   },
   cardWrapper: {
     width: "100%",
-    marginTop: 20,
+    marginTop: -30,
+    paddingHorizontal: 20,
+    position: "relative",
+    zIndex: 2
   },
   card: {
-    marginHorizontal: 15,
+    borderRadius: 20,
+    shadowColor: "#000",
+    shadowOffset: {
+      width: 0,
+      height: 4,
+    },
+    shadowOpacity: 0.23,
+    shadowRadius: 2.62,
+    elevation: 8,
+    backgroundColor: "white",
+    overflow: "hidden"
   },
   cardContent: {
     width: "100%",
-    marginHorizontal: 20,
+    paddingVertical: 20,
+    paddingHorizontal: 15,
     display: "flex",
-    gap: 23,
+    gap: 20,
   },
   carditems: {
     flexDirection: "row",
-    gap: 29,
+    gap: 16,
     alignItems: "center",
+    backgroundColor: "#f8f9fa",
+    padding: 18,
+    borderRadius: 16,
+    borderWidth: 1,
+    borderColor: "#e9ecef"
   },
   cardItemRight: {
-    gap: 0,
+    gap: 6,
   },
   cardItemPhone: {
     textDecorationLine: "underline",
     textDecorationStyle: "solid",
+    color: "#651fff",
+    fontWeight: "600"
   },
   secondContentWrapper: {
     width: "100%",
     flexDirection: "row",
     justifyContent: "center",
-    gap: 7,
+    gap: 16,
+    paddingHorizontal: 16,
+    paddingBottom: 24,
   },
   firstButton: {
-    width: "42%",
-    margin: 8,
+    flex: 1,
+    margin: 4,
     borderColor: "#651fff",
     borderStyle: "solid",
     flexDirection: "row",
-    borderWidth: 1,
+    borderWidth: 2,
     justifyContent: "space-between",
-    paddingHorizontal: 16,
-    paddingVertical: 6,
+    paddingHorizontal: 20,
+    paddingVertical: 16,
     alignItems: "center",
+    borderRadius: 16,
+    backgroundColor: "white",
+    shadowColor: "#651fff",
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.15,
+    shadowRadius: 3.84,
+    elevation: 3,
   },
   secondButton: {
-    paddingHorizontal: 16,
-    paddingVertical: 6,
-    width: "42%",
-    margin: 8,
+    flex: 1,
+    margin: 4,
+    paddingHorizontal: 20,
+    paddingVertical: 16,
     backgroundColor: "#651fff",
     flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "center",
+    borderRadius: 16,
+    shadowColor: "#651fff",
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.25,
+    shadowRadius: 3.84,
+    elevation: 5,
   },
 });

@@ -27,6 +27,7 @@ const ComplexInputComponent = ({
           baseDetection={"numeric"}
           onChangeText={(text) => handleInputChange(index, "number", text)}
           affixType="no"
+          hasError={item.hasError}
         />
       </View>
       <View style={styles.dropDown}>

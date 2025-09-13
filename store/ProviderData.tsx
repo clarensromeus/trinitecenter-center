@@ -18,6 +18,7 @@ interface IPlay {
   Mariage: IBL[];
   MariageAutomatic: string[];
   MontantAutomatic: string[];
+  selectedComponent: string;
   Reload: string;
   addReload: () => void;
   addMariageAutomatic: (newMa: string[]) => void;
@@ -28,6 +29,7 @@ interface IPlay {
   addLotto5: (newLotto5: IBL[]) => void;
   addMariage: (newMariage: IBL[]) => void;
   addTirage: (newTirage: string[]) => void;
+  addSelectedComponent: (selected: string) => void;
   isAuthenticated: boolean;
   mergeBorletteAndLotto: () => void;
   clearBorlette: () => void;
@@ -37,6 +39,7 @@ interface IPlay {
   clearTirage: () => void;
   clearMariage: () => void;
   updateAuth: (isAuth: boolean) => void;
+  generateAutomaticMariage: () => void;
 }
 
 const useLotteryStore = create<IPlay>()(
@@ -51,6 +54,7 @@ const useLotteryStore = create<IPlay>()(
       MariageAutomatic: [],
       MontantAutomatic: [],
       Reload: "",
+      selectedComponent: "",
       isAuthenticated: false,
       // Reload key to force re-renders
       addReload: () => set(() => ({ Reload: Math.random().toString() })),
@@ -77,8 +81,34 @@ const useLotteryStore = create<IPlay>()(
       clearLotto5: () => set((state) => ({ Lotto5: [] })),
       clearMariage: () => set((state) => ({ Mariage: [] })),
       clearTirage: () => set((state) => ({ Tirage: [] })),
+      addSelectedComponent: (selected: string) => set((state) => ({selectedComponent: selected})),
       updateAuth: (isAuth: boolean) =>
         set((state) => ({ isAuthenticated: isAuth })),
+      generateAutomaticMariage: () => {
+        const state = get();
+        if (state.Borlette.length > 0) {
+          const borletteNumbers = state.Borlette.map(b => b.numero);
+          const combinations: IBL[] = [];
+          
+          for (let i = 0; i < borletteNumbers.length; i++) {
+            for (let j = 0; j < borletteNumbers.length; j++) {
+              if (i !== j) {
+                combinations.push({
+                  numero: `${borletteNumbers[i]}${borletteNumbers[j]}`,
+                  montant: "",
+                  option: "-",
+                  borlette: "mariage"
+                });
+              }
+            }
+          }
+          
+          set({ Mariage: combinations });
+        }
+      },
+      addAutomaticNumber: () => {
+        
+      }
     }),
     {
       name: "Lottery-storage", // name of the item in the storage (must be unique)
