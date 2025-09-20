@@ -1,10 +1,11 @@
 import * as React from "react";
-import { View, StyleSheet, Pressable } from "react-native";
+import { View, StyleSheet, Pressable, ScrollView } from "react-native";
 import { ActivityIndicator, Button, Text } from "react-native-paper";
 import { useRouter, Router } from "expo-router";
 import { collection, getDocs, query, where } from "firebase/firestore";
 import { db } from "@/firebaseConfig";
 import useLotteryStore from "@/store/ProviderData";
+import { useSafeAreaInsets } from "react-native-safe-area-context";
 
 interface ITirage {
   id: string;
@@ -19,6 +20,7 @@ export default function JweScreen() {
   const [loading, setLoading] = React.useState<boolean>();
   const [error, setError] = React.useState<boolean>();
   const router: Router = useRouter();
+  const insets = useSafeAreaInsets();
 
   const {
     addTirage,
@@ -48,13 +50,6 @@ export default function JweScreen() {
             : tirage
         )
       );
-      /* const isSelect = tirages.map((tirage) => tirage.isSelected) */
-
-      /* if (isSelect.includes(true)) {
-        setDisable(false);
-      } else {
-        setDisable(true);
-      } */
     } else if (filteredData && !filteredData.isSelected) {
       setTirage(
         tirages.map((tirage) =>
@@ -85,6 +80,7 @@ export default function JweScreen() {
             isSelected: false,
           } as ITirage;
         });
+        
         setLoading(false);
         setTirage(dta);
       } catch (error) {
@@ -129,26 +125,42 @@ export default function JweScreen() {
           <ActivityIndicator size={50} animating={true} color="#651fff" />
         </View>
       ) : (
-        <View style={styles.container}>
-          <View style={styles.firstContent}>
+        <View style={[styles.container, { paddingBottom: insets.bottom }]}>
+          {/* Scrollable content */}
+          <ScrollView contentContainerStyle={styles.firstContent}>
             {tirages.map((tirage, index) => (
               <Pressable
                 key={index}
-                style={[styles.cardContainer, tirage.isSelected && styles.selectedCard]}
+                style={[
+                  styles.cardContainer,
+                  tirage.isSelected && styles.selectedCard,
+                ]}
                 onPress={() => selectDataChange(tirage.tirage)}
-                android_ripple={{ color: 'rgba(101, 31, 255, 0.1)' }}
+                android_ripple={{ color: "rgba(101, 31, 255, 0.1)" }}
               >
                 <View style={styles.tirage}>
-                  <Text style={[styles.tirageTitle, tirage.isSelected && styles.selectedText]}>
+                  <Text
+                    style={[
+                      styles.tirageTitle,
+                      tirage.isSelected && styles.selectedText,
+                    ]}
+                  >
                     Tirage {tirage.tirage}
                   </Text>
-                  <Text style={[styles.tirageInfo, tirage.isSelected && styles.selectedText]}>
+                  <Text
+                    style={[
+                      styles.tirageInfo,
+                      tirage.isSelected && styles.selectedText,
+                    ]}
+                  >
                     Ouverture: {tirage.midi} | Fermeture {tirage.soir}
                   </Text>
                 </View>
               </Pressable>
             ))}
-          </View>
+          </ScrollView>
+
+          {/* Fixed button at the bottom */}
           <View style={styles.secondContent}>
             <Button
               disabled={isDisabled}
@@ -185,6 +197,7 @@ const styles = StyleSheet.create({
   firstContent: {
     padding: 16,
     gap: 12,
+    paddingBottom: 24,
   },
   cardContainer: {
     backgroundColor: "white",
